@@ -1,3 +1,13 @@
-requests>=2.20.0
-gitpython>=2.1.11
-twine>=1.12.1
+black==22.1.0
+certifi==2021.10.8
+charset-normalizer==2.0.12
+click==8.0.4
+idna==3.3
+mypy-extensions==0.4.3
+pathspec==0.9.0
+platformdirs==2.5.1
+pymed==0.8.9
+requests==2.27.1
+tomli==2.0.1
+typing-extensions==4.1.1
+urllib3==1.26.9
