@@ -4,7 +4,7 @@ import json
 import argparse
 import sys
 import pathlib
-import os
+import glob
 
 
 def get_argparser():
@@ -41,7 +41,9 @@ if __name__ == "__main__":
 
     for n, article_id in enumerate(article_ids):
         # skip article id if it already exists
-        if os.path.exists(f"{curdir}/{article_id}.json"):
+        glob_file = glob.glob(f"*/{article_id}.json")
+        if glob_file:
+            print(f"Duplicate article, skipped. {glob_file}")
             continue
         response = requests.get(url.format(article_id))
         if response.status_code == 200:
