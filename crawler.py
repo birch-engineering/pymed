@@ -4,6 +4,7 @@ import json
 import argparse
 import sys
 import pathlib
+import glob
 
 
 def get_argparser():
@@ -28,18 +29,22 @@ if __name__ == "__main__":
     query = f"(Free full text[Filter]) AND ({mesh_term}[mesh])"
 
     print(f"query str: {query} ")
+    # set this number to 1000000 to get almost every article from the db
+    article_ids = pubmed._getArticleIds(query=query, max_results=1000000)
 
-    article_ids = pubmed._getArticleIds(query=query, max_results=500000)
-
-    url = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC{}/unicode"
+    url = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC{}/ascii"
 
     print(f"total retreived articles: {len(article_ids)}")
     if article_ids:
         curdir = "_".join(mesh_term.split())
-        pathlib.Path(f"./{curdir}").mkdir()
+        pathlib.Path(f"./{curdir}").mkdir(exist_ok=True)
 
     for n, article_id in enumerate(article_ids):
-
+        # skip article id if it already exists
+        glob_file = glob.glob(f"*/{article_id}.json")
+        if glob_file:
+            print(f"Duplicate article, skipped. {glob_file}")
+            continue
         response = requests.get(url.format(article_id))
         if response.status_code == 200:
             with open(f"{curdir}/{article_id}.json", "w") as output_file:
@@ -47,4 +52,3 @@ if __name__ == "__main__":
             print(f"Sucssefully retrieved {n} article {article_id}")
         else:
             print(f"Not Found {n} article {article_id}")
-        
