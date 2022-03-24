@@ -38,17 +38,19 @@ if __name__ == "__main__":
     if article_ids:
         curdir = "_".join(mesh_term.split())
         pathlib.Path(f"./{curdir}").mkdir(exist_ok=True)
-
+    num_success, num_not_found, num_skipped = 0, 0, 0
     for n, article_id in enumerate(article_ids):
         # skip article id if it already exists
         glob_file = glob.glob(f"*/{article_id}.json")
         if glob_file:
-            print(f"Duplicate article, skipped. {glob_file}")
+            num_skipped += 1
+            print(f"Duplicate article, {num_skipped}-{n} skipped. {glob_file}")
             continue
         response = requests.get(url.format(article_id))
         if response.status_code == 200:
             with open(f"{curdir}/{article_id}.json", "w") as output_file:
                 json.dump(response.json(), output_file, indent=2)
-            print(f"Sucssefully retrieved {n} article {article_id}")
+            num_success += 1
+            print(f"Sucssefully retrieved {num_success}-{n} article {article_id}")
         else:
-            print(f"Not Found {n} article {article_id}")
+            print(f"Not Found {num_not_found}-{n} article {article_id}")
