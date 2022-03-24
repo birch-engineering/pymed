@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # Create a PubMed object that GraphQL can use to query
     # Note that the parameters are not required but kindly requested by PubMed Central
     # https://www.ncbi.nlm.nih.gov/pmc/tools/developers/
-    pubmed = PubMed(tool="MyTool", email="my@email.address")
+    pubmed = PubMed(tool="birch", email="ziyuan@birch.ai")
 
     # Create a GraphQL query in plain text
     query = f"(Free full text[Filter]) AND ({mesh_term}[mesh])"
