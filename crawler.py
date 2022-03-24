@@ -29,10 +29,10 @@ if __name__ == "__main__":
     query = f"(Free full text[Filter]) AND ({mesh_term}[mesh])"
 
     print(f"query str: {query} ")
+    # set this number to 1000000 to get almost every article from the db
+    article_ids = pubmed._getArticleIds(query=query, max_results=1000000)
 
-    article_ids = pubmed._getArticleIds(query=query, max_results=5000000)
-
-    url = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC{}/unicode"
+    url = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC{}/ascii"
 
     print(f"total retreived articles: {len(article_ids)}")
     if article_ids:
