@@ -4,7 +4,7 @@ import json
 import argparse
 import sys
 import pathlib
-
+import os
 
 def get_argparser():
     argparser = argparse.ArgumentParser()
@@ -36,10 +36,12 @@ if __name__ == "__main__":
     print(f"total retreived articles: {len(article_ids)}")
     if article_ids:
         curdir = "_".join(mesh_term.split())
-        pathlib.Path(f"./{curdir}").mkdir()
+        pathlib.Path(f"./{curdir}").mkdir(exist_ok=True)
 
     for n, article_id in enumerate(article_ids):
-
+        # skip article id if it already exists
+        if os.path.exists(f"{curdir}/{article_id}.json"):
+            continue
         response = requests.get(url.format(article_id))
         if response.status_code == 200:
             with open(f"{curdir}/{article_id}.json", "w") as output_file:
