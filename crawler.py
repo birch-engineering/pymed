@@ -6,6 +6,7 @@ import sys
 import pathlib
 import os
 
+
 def get_argparser():
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--mesh-term", action="store", type=str, required=True)
@@ -29,7 +30,7 @@ if __name__ == "__main__":
 
     print(f"query str: {query} ")
 
-    article_ids = pubmed._getArticleIds(query=query, max_results=500000)
+    article_ids = pubmed._getArticleIds(query=query, max_results=5000000)
 
     url = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC{}/unicode"
 
