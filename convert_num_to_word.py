@@ -40,7 +40,14 @@ def convert_num_to_word(line):
             letter = ""
             for w in word:
                 if w.isdigit():
-                    letter += " " + num2words(w).upper() + " "
+                    try:
+                        letter += " " + num2words(w).upper() + " "
+                    except ValueError:
+                        print(f"Error in converting digits {digits}")
+                    except decimal.InvalidOperation:
+                        print(f"Error in converting digits {digits}")
+                    except ArithmeticError:
+                        print(f"Error in converting digits {digits}")
                 elif w == ".":
                     letter += " POINT "
                 else:
