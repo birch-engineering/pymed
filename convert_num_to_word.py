@@ -7,7 +7,7 @@ def convert_num_to_word(line):
     words = line.strip().split()
 
     for word in words:
-        is_float, is_number = False, False
+        is_float, single_point = False, True
         new_word = ""
         digits = ""
         if word == "000000":
@@ -29,19 +29,18 @@ def convert_num_to_word(line):
             while idx < len(word):
                 if word[idx].isdigit():
                     digits += word[idx]
-                    is_number = True
                 elif word[idx] == ".":
 
                     digits += word[idx]
                     if not is_float:
                         is_float = True
                     else:
-                        is_number = False
+                        single_number = False
 
                 elif word[idx] != ",":
-                    new_word = convert_digits(new_word, digits, is_float, is_number)
+                    new_word = convert_digits(new_word, digits, is_float, single_point)
                     digits = ""
-                    if is_number :
+                    if single_point :
                         if word[idx] == '/':
                             new_word += "OVER"
                             idx +=1
@@ -55,14 +54,14 @@ def convert_num_to_word(line):
 
                 idx += 1
 
-        new_word = convert_digits(new_word, digits, is_float, is_number)
+        new_word = convert_digits(new_word, digits, is_float, single_point)
         digits = ""
         new_line.append(new_word)
     return " ".join(new_line)
 
 
-def convert_digits(new_word, digits, is_float, is_number):
-    if is_number and len(digits) > 0:
+def convert_digits(new_word, digits, is_float, single_point):
+    if single_point and len(digits) > 0:
         try:
             if (
                 not is_float
