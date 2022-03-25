@@ -35,7 +35,7 @@ def convert_num_to_word(line):
                     if not is_float:
                         is_float = True
                     else:
-                        single_number = False
+                        single_point = False
 
                 elif word[idx] != ",":
                     new_word = convert_digits(new_word, digits, is_float, single_point)
