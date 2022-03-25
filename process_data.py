@@ -6,6 +6,7 @@ import multiprocessing
 from joblib import cpu_count
 import tqdm
 from convert_num_to_word import convert_num_to_word
+import pathlib
 
 
 def is_text(part_type: str):
@@ -46,7 +47,7 @@ def process_batch(batch_id: int, files: list):
                             convert_num_to_word(" ".join(filtered_sent)) + "\n"
                         )
 
-        with open(f"{articles_dir}_{batch_id}.txt", "a") as wf:
+        with open(f"{articles_dir}_processed/{batch_id}.txt", "a") as wf:
             wf.writelines(sentences)
 
 
@@ -67,6 +68,6 @@ if __name__ == "__main__":
     num_cpu = cpu_count()
     filename_in_batches = create_batches(filenames, num_cpu)
     jobs = [(batch_id, filename_in_batches[batch_id]) for batch_id in range(num_cpu)]
-
+    pathlib.Path(f"{articles_dir}_processed").mkdir(exist_ok=True)
     with multiprocessing.Pool(cpu_count()) as pool:
         results = list(tqdm.tqdm(pool.starmap(process_batch, jobs), total=len(jobs)))
