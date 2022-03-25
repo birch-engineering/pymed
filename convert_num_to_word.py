@@ -1,4 +1,5 @@
 from num2words import num2words
+import decimal
 
 
 def convert_num_to_word(line):
@@ -86,20 +87,29 @@ def convert_num_to_word(line):
 
 def convert_digits(new_word, digits, is_float, is_number):
     if is_number and len(digits) > 0:
-        if not is_float and str(int(digits)) == digits and 1900 < int(digits) < 2100:
-            new_word += (
-                " "
-                + num2words(digits, to="year")
-                .replace("-", " ")
-                .replace(",", "")
-                .upper()
-                + " "
-            )
-        else:
-            if is_float and len(digits) > 1 or not is_float:
+        try:
+            if (
+                not is_float
+                and str(int(digits)) == digits
+                and 1900 < int(digits) < 2100
+            ):
                 new_word += (
                     " "
-                    + num2words(digits).replace("-", " ").replace(",", "").upper()
+                    + num2words(digits, to="year")
+                    .replace("-", " ")
+                    .replace(",", "")
+                    .upper()
                     + " "
                 )
+            else:
+                if is_float and len(digits) > 1 or not is_float:
+                    new_word += (
+                        " "
+                        + num2words(digits).replace("-", " ").replace(",", "").upper()
+                        + " "
+                    )
+        except ValueError:
+            print(f"Error in converting digits {digits}")
+        except decimal.InvalidOperation:
+            print(f"Error in converting digits {digits}")
     return new_word
