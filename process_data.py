@@ -27,11 +27,13 @@ def get_argparser():
 
 def process_batch(batch_id: int, files: list):
     nlp = spacy.load("en_core_web_sm")
+    equation_syms = set(["=", "±", "+", "−"])
     for f in files:
         print(f"batch {batch_id}-{f}")
         with open(os.path.join(articles_dir, f)) as f:
             article = json.load(f)
         sentences = []
+        
         for doc in article["documents"]:
             for p in doc["passages"]:
                 if is_text(p["infons"]["type"]):
@@ -40,9 +42,12 @@ def process_batch(batch_id: int, files: list):
                         filtered_sent = [
                             token.text.upper()
                             for token in sent
-                            if not any([token.is_punct, token.is_space])
+                            if not any([token.is_punct, token.is_space] or token.text == '%' or token.text =='/')
                         ]
-
+                        
+                        if set(filtered_sent).intersection(equation_syms):
+                            continue
+                            
                         len(filtered_sent) > 3 and sentences.append(
                             convert_num_to_word(" ".join(filtered_sent)) + "\n"
                         )
