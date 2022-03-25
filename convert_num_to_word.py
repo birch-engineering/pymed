@@ -7,6 +7,9 @@ def convert_num_to_word(line):
     words = line.strip().split()
 
     for word in words:
+        is_float, is_number = False, False
+        new_word = ""
+        digits = ""
         if word == "000000":
             new_word = "MILLION"
         elif word == "000":
@@ -22,13 +25,8 @@ def convert_num_to_word(line):
         elif word == '/':
             new_word = 'OR'
         else:
-            new_word = ""
-            digits = ""
             idx = 0
-            is_float, is_number = False, False
-            
             while idx < len(word):
-
                 if word[idx].isdigit():
                     digits += word[idx]
                     is_number = True
