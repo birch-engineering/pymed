@@ -112,4 +112,6 @@ def convert_digits(new_word, digits, is_float, is_number):
             print(f"Error in converting digits {digits}")
         except decimal.InvalidOperation:
             print(f"Error in converting digits {digits}")
+        except ArithmeticError:
+            print(f"Error in converting digits {digits}")
     return new_word
