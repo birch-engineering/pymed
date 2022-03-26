@@ -12,6 +12,8 @@ if __name__ == "__main__":
         for line in f:
             for w in line.split():
                 word_cnt[w] += 1
+    
+    print(f"vocab size for {corpus_file}: {len(word_cnt)}")
     with (Path.cwd() / word_cnt_file).open() as f:
         line = f.readlines()[0]
     
@@ -28,7 +30,7 @@ if __name__ == "__main__":
         start = m.end()
         m = cnt_start.search(line, start)
     
-        if term:
+        if term and cnt > 200 and term.isalpha():
             if term in word_cnt:
                 matched_terms[term] = cnt
             else:
