@@ -1,6 +1,6 @@
 import json
 import argparse
-import os
+import os, sys
 import spacy
 import multiprocessing
 from joblib import cpu_count
@@ -105,8 +105,13 @@ if __name__ == "__main__":
     articles_dir = args.articles_dir
     is_raw_input = args.raw_input
     output_part_size = args.output_part_size
+    num_jobs = args.num_jobs
+
     _, _, filenames = next(os.walk(articles_dir), (None, None, []))
-    num_batches = min(cpu_count(), len(filenames))
+    if not filenames:
+        print(f"{articles_dir} doesn't contain any file to process!")
+        sys.exit(1)
+    num_batches = num_jobs or min(cpu_count(), len(filenames))
     filename_in_batches = create_batches(filenames, num_batches)
     jobs = [(batch_id, filename_in_batches[batch_id]) for batch_id in range(num_batches)]
     Path(f"{articles_dir}_processed").mkdir(exist_ok=True)

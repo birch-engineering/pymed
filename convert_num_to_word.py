@@ -15,9 +15,7 @@ def escape_token(tok: str):
     if tok in punct:
         return True
 
-
     # don't read URL
-
     if tok.startswith('http:') or tok.startswith('https:/') or tok.startswith('www.'):
         return True
 
@@ -32,12 +30,13 @@ def convert_sent_to_word(sent: str, nlp: Language):
     for token in nlp(sent):
         
         text = token.text
-        if escape_token(text):
+        if escape_token(text, nlp):
             continue
         if text == '>' and filtered_sent and filtered_sent[-1] == 'EQUAL TO':
             filtered_sent[-1] = 'TO'
             continue
-        if text[0] == '\'':
+
+        if text[0] == '\'' and filtered_sent:
             filtered_sent[-1] += text.upper()
             continue
 
