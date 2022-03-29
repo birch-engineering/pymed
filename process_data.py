@@ -28,10 +28,14 @@ def get_argparser():
 def process_batch(batch_id: int, files: list):
     nlp = spacy.load("en_core_web_sm")
     equation_syms = set(["=", "±", "+", "−"])
-    for f in files:
-        print(f"batch {batch_id}-{f}")
-        with open(os.path.join(articles_dir, f)) as f:
-            article = json.load(f)
+    for file_name in files:
+        print(f"batch {batch_id}-{file_name}")
+        try:
+            with open(os.path.join(articles_dir, file_name)) as f:
+                article = json.load(f)
+        except ValueError:
+            print(f"Error reading file {file_name}, skipping")
+
         sentences = []
         
         for doc in article["documents"]:
