@@ -5,7 +5,7 @@ import spacy
 import multiprocessing
 from joblib import cpu_count
 import tqdm
-from convert_num_to_word import convert_num_spacy
+from convert_num_to_word import convert_sent_to_word
 import re
 import string
 from pathlib import Path
@@ -22,9 +22,10 @@ def is_text(part_type: str):
 
 def get_argparser():
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("--articles-dir", action="store", type=str, required=True)
-    argparser.add_argument("--raw-input", action="store_true")
-    argparser.add_argument("--output-part-size", action="store", type=int, default=1000000)
+    argparser.add_argument("--articles-dir", action="store", type=str, required=True, help="the names of the dir that contains the origianl input files.")
+    argparser.add_argument("--raw-input", action="store_true", help="if the input is in raw(plain text with numbers and punctuations). defaulted to bioC format(json)")
+    argparser.add_argument("--output-part-size", action="store", type=int, default=100000, help="size of the output file in the number of lines")
+    argparser.add_argument("--num-jobs", action="store", type=int, default=0, help="default to the min(number of cpu, the number of files to process)")
     return argparser
 
 
@@ -46,7 +47,7 @@ def process_batch(batch_id: int, files: list):
                 if is_text(p["infons"]["type"]):
                     text_doc = nlp(p["text"])
                     for sent in text_doc.sents:
-                        filtered_sent = convert_num_spacy(sent, nlp)
+                        filtered_sent = convert_sent_to_word(sent, nlp)
                         
                         if set(filtered_sent).intersection(equation_syms):
                             continue
@@ -71,7 +72,7 @@ def process_raw_batch(output_part_size: int, batch_id: int, files: list):
                 line = line.strip()
                 if not line:
                     continue
-                filtered_sent = convert_num_spacy(line, nlp)
+                filtered_sent = convert_sent_to_word(line, nlp)
 
                 len(filtered_sent) > 3 and sentences.append(
                     " ".join(filtered_sent) + "\n"

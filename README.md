@@ -1,5 +1,37 @@
-# PyMed with changes made by Ziyuan
-for crawl clinical data and nlp langauge model usage, on top of PyMed lib
+# PyMed with changes made by Ziyuan 
+
+
+## user the crawler 
+
+scrape clinical data using pymed from pubmed.  
+1. choose search term based on [mesh](https://www.ncbi.nlm.nih.gov/mesh), for instance, Radiology
+2. for other possible search options, see [build advanced search](https://pubmed.ncbi.nlm.nih.gov/advanced/)
+3. crawler first use pymed to query for the list of articles for that search term
+4. carwler then uses [BioC API](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PubMed/) to download each article and store them to another directory.
+
+
+```bash
+nohup python pymed/crawler.py --mesh-term="Radiology" &>>LOGS/Radiology.log& 
+```
+
+the output is in [BioC json format](http://bioc.sourceforge.net/#:~:text=BioC%20is%20a%20simple%20format,and%20perform%20some%20sample%20processing.)
+
+outputs will be stored to `Radiology` directory, which is created by the script
+
+## process the data
+
+process the scraped data into capitalized plain text format, numbers and signs converted to spoken words. 
+
+see `test/test_convert_num.py` for examples of such conversions
+
+
+```bash
+nohup python pymed/process_data.py --articles-dir=Radiology &>>PLOGS/Radiology.log& 
+
+```
+
+outputs will be stored to `Radiology_processed` directory, which is crated by the script
+
 
 # PyMed - PubMed Access through Python
 PyMed is a Python library that provides access to PubMed through the PubMed API.

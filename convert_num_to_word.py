@@ -1,24 +1,44 @@
 from num2words import num2words
 import decimal
-from spacy import Language
 import string
 import re
+from spacy import Language
 
 
-def convert_num_spacy(sent: str, nlp: Language):
-    doc = nlp(sent)
-    signs = set(['/', '%', '=', '>', '<', '+', '+-', '≤', '≥', '*'])
+def escape_token(tok: str):
+    if not tok:
+        return True
     punct = set(['!', '"', '#', '$', '&', '\'', '(', ')', ',', '-', '.', ':', ';', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~', '/', '\\'])
+    if not tok.isascii():
+        return True
+
+    if tok in punct:
+        return True
+
+
+    # don't read URL
+
+    if tok.startswith('http:') or tok.startswith('https:/') or tok.startswith('www.'):
+        return True
+
+
+def convert_sent_to_word(sent: str, nlp: Language):
+    
+    signs = set(['/', '%', '=', '>', '<', '+', '+-', '≤', '≥', '*'])
     filtered_sent = []
     time_re = re.compile(r'^([01]\d|2[0-4]):([0-5]\d):?([0-5]\d)?$')
     num_re = re.compile(r'[0-9]+')
-    
-    for token in doc:
+
+    for token in nlp(sent):
+        
         text = token.text
-        if not token.is_ascii or text in punct or token.like_url:
+        if escape_token(text):
             continue
         if text == '>' and filtered_sent and filtered_sent[-1] == 'EQUAL TO':
             filtered_sent[-1] = 'TO'
+            continue
+        if text[0] == '\'':
+            filtered_sent[-1] += text.upper()
             continue
 
         m = time_re.match(text)
@@ -35,8 +55,6 @@ def convert_num_spacy(sent: str, nlp: Language):
         if num_re.search(text):
             filtered_sent.append(convert_num_tok_to_word(text))
             continue
-
-
         filtered_sent.append(text.strip(string.punctuation + ' +- ').upper()) 
     return filtered_sent
 
@@ -61,10 +79,11 @@ def convert_signs_tok_to_word(word:str) -> str:
     if word == '*':
         return 'MULTIPLIED BY'
 
+    return ""
+
 def convert_num_tok_to_word(word:str) -> str:
 
     # special case:
-    
     if word == "000000":
         return "MILLION"
     if word == "000":
@@ -72,8 +91,6 @@ def convert_num_tok_to_word(word:str) -> str:
     if word == "00":
         return "Hundred"
 
-
-    
     is_float, single_point = False, True
     idx = 0
     new_word = ""
@@ -93,20 +110,17 @@ def convert_num_tok_to_word(word:str) -> str:
             new_word = convert_digits(new_word, digits, is_float, single_point)
             digits = ""
             if single_point :
-                if word[idx] == '/':
-                    new_word += "OVER"
+                sign_word = "OVER" if word[idx] =='/' else convert_signs_tok_to_word(word[idx])
+
+                if sign_word:
+                    new_word += f"{sign_word}"
                     idx +=1
                     continue
-                elif word[idx] == '%':
-                    new_word += "PERCENT"
-                    idx +=1
-                    continue
-            if word[idx] == '*':
-                new_word += "MULTIPLIED BY "
+            if escape_token(word[idx]):
+                new_word += ' '
                 idx +=1
                 continue
             new_word += word[idx].upper()
-
         idx += 1
     new_word = convert_digits(new_word, digits, is_float, single_point)
     return new_word.strip()
