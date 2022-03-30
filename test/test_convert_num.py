@@ -54,4 +54,4 @@ def test_convert_sent_to_word():
     for sent, ref in zip(sentences, references):
         filtered_sent = convert_sent_to_word(sent, nlp)
         assert ' '.join(filtered_sent) == ref
-
+ 
