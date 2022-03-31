@@ -6,81 +6,110 @@ from spacy import Language
 
 
 def escape_token(tok: str):
+
     if not tok:
         return True
-    punct = set(['!', '"', '#', '$', '&', '\'', '(', ')', ',', '-', '.', ':', ';', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~', '/', '\\'])
+    punct = set(
+        [
+            "!",
+            '"',
+            "#",
+            "$",
+            "&",
+            "'",
+            "(",
+            ")",
+            ",",
+            "-",
+            ".",
+            ":",
+            ";",
+            "?",
+            "@",
+            "[",
+            "]",
+            "^",
+            "_",
+            "`",
+            "{",
+            "|",
+            "}",
+            "~",
+            "/",
+            "\\",
+        ]
+    )
     if not tok.isascii():
         return True
 
     if tok in punct:
         return True
 
-    # don't read URL
-    if tok.startswith('http:') or tok.startswith('https:/') or tok.startswith('www.'):
-        return True
-
 
 def convert_sent_to_word(sent: str, nlp: Language):
-    
-    signs = set(['/', '%', '=', '>', '<', '+', '+-', '≤', '≥', '*'])
+
+    signs = set(["/", "%", "=", ">", "<", "+", "+-", "≤", "≥", "*"])
     filtered_sent = []
-    time_re = re.compile(r'^([01]\d|2[0-4]):([0-5]\d):?([0-5]\d)?$')
-    num_re = re.compile(r'[0-9]+')
+    time_re = re.compile(r"^([01]\d|2[0-4]):([0-5]\d):?([0-5]\d)?$")
+    num_re = re.compile(r"[0-9]+")
 
     for token in nlp(sent):
-        
+
         text = token.text
-        if escape_token(text, nlp):
+        if escape_token(text) or token.like_url:
             continue
-        if text == '>' and filtered_sent and filtered_sent[-1] == 'EQUAL TO':
-            filtered_sent[-1] = 'TO'
+        if text == ">" and filtered_sent and filtered_sent[-1] == "EQUAL TO":
+            filtered_sent[-1] = "TO"
             continue
 
-        if text[0] == '\'' and filtered_sent:
+        if text[0] == "'" and filtered_sent:
             filtered_sent[-1] += text.upper()
             continue
 
         m = time_re.match(text)
         if m:
-            time_str = f"{num2words(m.group(1))} O\'CLOCK {num2words(m.group(2))} MINUTES"
+            time_str = (
+                f"{num2words(m.group(1))} O'CLOCK {num2words(m.group(2))} MINUTES"
+            )
             if m.group(3):
                 time_str += f" {num2words(m.group(3))} SECONDS"
             filtered_sent.append(time_str.upper())
             continue
-            
+
         if text in signs:
             filtered_sent.append(convert_signs_tok_to_word(text))
             continue
         if num_re.search(text):
             filtered_sent.append(convert_num_tok_to_word(text))
             continue
-        filtered_sent.append(text.strip(string.punctuation + ' +- ').upper()) 
+        filtered_sent.append(text.strip(string.punctuation + " +- ").upper())
     return filtered_sent
 
 
-def convert_signs_tok_to_word(word:str) -> str:
+def convert_signs_tok_to_word(word: str) -> str:
     if word == ">":
         return "GREATER THAN"
     if word == "<":
         return "LESS THAN"
     if word == "%":
         return "PERCENT"
-    if word == '=':
-        return 'EQUAL TO'
-    if word == '≤':
-        return 'LESS THAN OR EQUAL TO'
-    if word == '≥':
-        return 'GREATER THAN OR EQUAL TO'
-    if word == '+':
-        return 'PLUS'
-    if word == '+-':
-        return 'PLUS MINUS'
-    if word == '*':
-        return 'MULTIPLIED BY'
+    if word == "=":
+        return "EQUAL TO"
+    if word == "≤":
+        return "LESS THAN OR EQUAL TO"
+    if word == "≥":
+        return "GREATER THAN OR EQUAL TO"
+    if word == "+":
+        return "PLUS"
+    if word == "+-":
+        return "PLUS MINUS"
+    if word == "*":
+        return "MULTIPLIED BY"
 
     return ""
 
-def convert_num_tok_to_word(word:str) -> str:
+
+def convert_num_tok_to_word(word: str) -> str:
 
     # special case:
     if word == "000000":
@@ -108,23 +137,26 @@ def convert_num_tok_to_word(word:str) -> str:
         elif word[idx] != ",":
             new_word = convert_digits(new_word, digits, is_float, single_point)
             digits = ""
-            if single_point :
-                sign_word = "OVER" if word[idx] =='/' else convert_signs_tok_to_word(word[idx])
+            if single_point:
+                sign_word = (
+                    "OVER" if word[idx] == "/" else convert_signs_tok_to_word(word[idx])
+                )
 
                 if sign_word:
                     new_word += f"{sign_word}"
-                    idx +=1
+                    idx += 1
                     continue
             if escape_token(word[idx]):
-                new_word += ' '
-                idx +=1
+                new_word += " "
+                idx += 1
                 continue
             new_word += word[idx].upper()
         idx += 1
     new_word = convert_digits(new_word, digits, is_float, single_point)
     return new_word.strip()
 
-def convert_num_to_word(line:str) -> str:
+
+def convert_num_to_word(line: str) -> str:
     return " ".join(convert_num_tok_to_word(word) for word in line.strip().split())
 
 
