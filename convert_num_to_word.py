@@ -138,6 +138,7 @@ def convert_num_tok_to_word(word: str) -> str:
     idx = 0
     new_word = ""
     digits = ""
+
     while idx < len(word):
         if word[idx].isdigit():
             digits += word[idx]
@@ -171,6 +172,8 @@ def convert_num_tok_to_word(word: str) -> str:
             new_word += word[idx].upper()
         idx += 1
     new_word = convert_digits(new_word, digits, is_float, single_point)
+    if word[0] == '$':
+        new_word += "Dollars"
     return new_word.strip()
 
 

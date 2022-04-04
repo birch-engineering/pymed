@@ -39,7 +39,8 @@ def test_convert_sent_to_word():
         "Additional information is also available at: http://clinicaltrials.gov/ct2/show/NCT01521546?term=eplerenone&recr=Open&rank=15.",
         "He's there, I'm here.",
         "WIFE AND DAUGHTER IN TO VISIT AND WILL CALL IN A.M",
-        "he said  ‘i enjoyed it very much’"
+        "he said  ‘i enjoyed it very much’",
+        "So it seems what we can take away from that is that the district spent something less than the $300,000 it got for Lafayette. "
     ]
     references = [
         "FORCE PRODUCTION AT THE LEVEL OF THE SKELETAL MYOCYTE DEPENDS ON THE PROPER HANDLING OF CA TWO PLUS BETWEEN THE SARCOPLASMIC RETICULUM AND THE CYTOSOL",
@@ -54,7 +55,8 @@ def test_convert_sent_to_word():
         "ADDITIONAL INFORMATION IS ALSO AVAILABLE AT",
         "HE'S THERE I'M HERE",
         "WIFE AND DAUGHTER IN TO VISIT AND WILL CALL IN AM",
-        "HE SAID I ENJOYED IT VERY MUCH"
+        "HE SAID I ENJOYED IT VERY MUCH",
+        "SO IT SEEMS WHAT WE CAN TAKE AWAY FROM THAT IS THAT THE DISTRICT SPENT SOMETHING LESS THAN THE THREE HUNDRED THOUSAND DOLLARS IT GOT FOR LAFAYETTE"
     ]
 
     # for sent, ref in zip(sentences, references):
