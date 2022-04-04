@@ -155,7 +155,7 @@ def convert_num_tok_to_word(word: str) -> str:
             digits = ""
             if single_point:
                 sign_word = (
-                    "OVER" if word[idx] == "/" and word[idx+1].isdigit() else convert_signs_tok_to_word(word[idx])
+                    "OVER" if word[idx] == "/" and idx+1 < len(word) and word[idx+1].isdigit() else convert_signs_tok_to_word(word[idx])
                 )
 
                 if sign_word:
