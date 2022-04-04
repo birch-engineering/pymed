@@ -23,9 +23,9 @@ def is_text(part_type: str):
 def get_argparser():
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--articles-dir", action="store", type=str, help="the names of the dir that contains the origianl input files.")
-    argparser.add_argument("--input-file", action="store", type=str, help="name of the input file, to use only one single input.")
+    argparser.add_argument("--input-file", action="store", type=str, help="name of the input file, it only takes one big input")
     argparser.add_argument("--raw-input", action="store_true", help="if the input is in raw(plain text with numbers and punctuations). defaulted to bioC format(json)")
-    argparser.add_argument("--output-part-size", action="store", type=int, default=100000, help="size of the output file in the number of lines")
+    argparser.add_argument("--output-part-size", action="store", type=int, default=100000, help="size of the output file in the number of lines, defaulted to 10K")
     argparser.add_argument("--num-jobs", action="store", type=int, default=0, help="default to the min(number of cpu, the number of files to process)")
     return argparser
 
@@ -48,7 +48,7 @@ def process_batch(batch_id: int, files: list):
                 if is_text(p["infons"]["type"]):
                     text_doc = nlp(p["text"])
                     for sent in text_doc.sents:
-                        filtered_sent = convert_sent_to_word(sent, nlp)
+                        filtered_sent = convert_sent_to_word(sent)
                         
                         if set(filtered_sent).intersection(equation_syms):
                             continue

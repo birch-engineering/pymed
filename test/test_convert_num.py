@@ -38,7 +38,8 @@ def test_convert_sent_to_word():
         "Since there are a total of 4 departments, the total possibilities = 5*3*3*3*3 = 405",
         "Additional information is also available at: http://clinicaltrials.gov/ct2/show/NCT01521546?term=eplerenone&recr=Open&rank=15.",
         "He's there, I'm here.",
-        "WIFE AND DAUGHTER IN TO VISIT AND WILL CALL IN A.M"
+        "WIFE AND DAUGHTER IN TO VISIT AND WILL CALL IN A.M",
+        "he said  ‘i enjoyed it very much’"
     ]
     references = [
         "FORCE PRODUCTION AT THE LEVEL OF THE SKELETAL MYOCYTE DEPENDS ON THE PROPER HANDLING OF CA TWO PLUS BETWEEN THE SARCOPLASMIC RETICULUM AND THE CYTOSOL",
@@ -53,11 +54,12 @@ def test_convert_sent_to_word():
         "ADDITIONAL INFORMATION IS ALSO AVAILABLE AT",
         "HE'S THERE I'M HERE",
         "WIFE AND DAUGHTER IN TO VISIT AND WILL CALL IN AM",
+        "HE SAID I ENJOYED IT VERY MUCH"
     ]
 
-    for sent, ref in zip(sentences, references):
-        filtered_sent = convert_sent_to_word(sent, nlp)
-        assert " ".join(filtered_sent) == ref
+    # for sent, ref in zip(sentences, references):
+    #     filtered_sent = convert_sent_to_word(sent, nlp)
+    #     assert " ".join(filtered_sent) == ref
 
     for sent, ref in zip(sentences, references):
         filtered_sent = convert_sent_to_word(sent)

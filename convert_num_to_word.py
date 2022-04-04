@@ -67,9 +67,10 @@ def convert_sent_to_word(sent: str, nlp: Language = None):
             filtered_sent[-1] = ""
             continue
 
-        if token[0] == "'" and filtered_sent:
-            filtered_sent[-1] += token.upper()
-            continue
+        # Spacy will separate I'm to I 'm, but we don't use spacy anymore, so this is deprecated
+        # if token[0] == "'" and filtered_sent:
+        #     filtered_sent[-1] += token.upper()
+        #     continue
 
         if token == 'A.M' or token == 'P.M':
             filtered_sent.append(token[0] + token[2])
