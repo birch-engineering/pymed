@@ -22,7 +22,8 @@ def is_text(part_type: str):
 
 def get_argparser():
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("--articles-dir", action="store", type=str, required=True, help="the names of the dir that contains the origianl input files.")
+    argparser.add_argument("--articles-dir", action="store", type=str, help="the names of the dir that contains the origianl input files.")
+    argparser.add_argument("--input-file", action="store", type=str, help="name of the input file, to use only one single input.")
     argparser.add_argument("--raw-input", action="store_true", help="if the input is in raw(plain text with numbers and punctuations). defaulted to bioC format(json)")
     argparser.add_argument("--output-part-size", action="store", type=int, default=100000, help="size of the output file in the number of lines")
     argparser.add_argument("--num-jobs", action="store", type=int, default=0, help="default to the min(number of cpu, the number of files to process)")
@@ -60,7 +61,6 @@ def process_batch(batch_id: int, files: list):
             wf.writelines(sentences)
 
 def process_raw_batch(output_part_size: int, batch_id: int, files: list):
-    nlp = spacy.load("en_core_web_sm")
     sentences = []
     part_id = 0
 
@@ -72,7 +72,7 @@ def process_raw_batch(output_part_size: int, batch_id: int, files: list):
                 line = line.strip()
                 if not line:
                     continue
-                filtered_sent = convert_sent_to_word(line, nlp)
+                filtered_sent = convert_sent_to_word(line)
 
                 len(filtered_sent) > 3 and sentences.append(
                     " ".join(filtered_sent) + "\n"
@@ -88,15 +88,40 @@ def process_raw_batch(output_part_size: int, batch_id: int, files: list):
         of.writelines(sentences)
 
 
+def process_lines(output_part_sie: int, batch_id: int, lines):
+    print(f"batch {batch_id} ...")
+    sentences = []
+    part_id = 0
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        filtered_sent = convert_sent_to_word(line)
+        len(filtered_sent) > 3 and sentences.append(
+                    " ".join(filtered_sent) + "\n")
+
+        if len(sentences) == output_part_size :
+            with Path(f"{input_file}_processed/{batch_id}_part{part_id}.txt").open("w") as of:
+                of.writelines(sentences)
+            sentences = []
+            part_id +=1
+
+    with Path(f"{input_file}_processed/{batch_id}_part{part_id}.txt").open("w") as of:
+        of.writelines(sentences)
+
+
+
 
 def create_batches(input_list: list, num_batches: int) -> list:
     per_batch, rest = divmod(len(input_list), num_batches)
-    result = [
-        input_list[i * per_batch : (i + 1) * per_batch] for i in range(num_batches)
-    ]
 
-    rest and result[-1].extend(input_list[-rest:])
-    return result
+    def batch_gen(start, end):
+        i = start
+        while i < end and i < len(input_list):
+            yield input_list[i]
+            i += 1
+
+    return [batch_gen(i * per_batch, (i + 1)*per_batch) for i in range(num_batches)]
 
 
 if __name__ == "__main__":
@@ -106,17 +131,38 @@ if __name__ == "__main__":
     is_raw_input = args.raw_input
     output_part_size = args.output_part_size
     num_jobs = args.num_jobs
+    num_batches = num_jobs or cpu_count()
 
-    _, _, filenames = next(os.walk(articles_dir), (None, None, []))
-    if not filenames:
-        print(f"{articles_dir} doesn't contain any file to process!")
-        sys.exit(1)
-    num_batches = num_jobs or min(cpu_count(), len(filenames))
-    filename_in_batches = create_batches(filenames, num_batches)
-    jobs = [(batch_id, filename_in_batches[batch_id]) for batch_id in range(num_batches)]
-    Path(f"{articles_dir}_processed").mkdir(exist_ok=True)
-    with multiprocessing.Pool(num_batches) as pool:
-        if is_raw_input:
-            results = list(tqdm.tqdm(pool.starmap(partial(process_raw_batch, output_part_size),jobs), total=num_batches))       
-        else:        
-            results = list(tqdm.tqdm(pool.starmap(process_batch, jobs), total=num_batches))
+    if args.articles_dir:
+        articles_dir = args.articles_dir
+        _, _, filenames = next(os.walk(articles_dir), (None, None, []))
+        if not filenames:
+            print(f"{articles_dir} doesn't contain any file to process!")
+            sys.exit(1)
+
+
+        filename_in_batches = create_batches(filenames, num_batches)
+        jobs = [(batch_id, list(filename_in_batches[batch_id])) for batch_id in range(num_batches)]
+        Path(f"{articles_dir}_processed").mkdir(exist_ok=True)
+        with multiprocessing.Pool(num_batches) as pool:
+            if is_raw_input:
+                results = list(tqdm.tqdm(pool.starmap(partial(process_raw_batch, output_part_size),jobs), total=num_batches))       
+            else:        
+                results = list(tqdm.tqdm(pool.starmap(process_batch, jobs), total=num_batches))
+    elif args.input_file:
+        input_file = args.input_file
+        all_lines = []
+
+        with open(input_file) as fh:
+            all_lines = [line.strip() for line in fh]
+        
+        
+        lines_in_batches = create_batches(all_lines, num_batches)
+
+        Path(f"{input_file}_processed").mkdir(exist_ok=True)
+        jobs = [(batch_id, list(lines_in_batches[batch_id])) for batch_id in range(num_batches)]
+        
+        with multiprocessing.Pool(num_batches) as pool:
+            results = list(tqdm.tqdm(pool.starmap(partial(process_lines, output_part_size), jobs), total=num_batches))
+    else:
+        print("Please specify either the input file(raw format) or the input file directory.")

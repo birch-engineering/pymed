@@ -5,10 +5,8 @@ import re
 from spacy import Language
 
 
-def escape_token(tok: str):
 
-    if not tok:
-        return True
+def escape_punct(tok: str):
     punct = set(
         [
             "!",
@@ -39,34 +37,45 @@ def escape_token(tok: str):
             "\\",
         ]
     )
-    if not tok.isascii():
-        return True
-
     if tok in punct:
         return True
 
+def escape_token(tok: str):
 
-def convert_sent_to_word(sent: str, nlp: Language):
+    tok = ''.join(filter(lambda x: x.isascii(), tok))
+    if not tok:
+        return True
 
+    if escape_punct(tok):
+        return True
+
+    url_re = re.compile(r"HTTPS:|HTTP:|WWW\.")
+    if url_re.match(tok.upper()):
+        return True
+
+def convert_sent_to_word(sent: str, nlp: Language = None):
     signs = set(["/", "%", "=", ">", "<", "+", "+-", "≤", "≥", "*"])
     filtered_sent = []
     time_re = re.compile(r"^([01]\d|2[0-4]):([0-5]\d):?([0-5]\d)?$")
     num_re = re.compile(r"[0-9]+")
 
-    for token in nlp(sent):
-
-        text = token.text
-        if escape_token(text) or token.like_url:
+    tokenized_str = [tok.text for tok in nlp(sent)] if nlp else sent.split()
+    for token in tokenized_str:
+        if escape_token(token):
             continue
-        if text == ">" and filtered_sent and filtered_sent[-1] == "EQUAL TO":
-            filtered_sent[-1] = "TO"
-            continue
-
-        if text[0] == "'" and filtered_sent:
-            filtered_sent[-1] += text.upper()
+        if token == ">" and filtered_sent and filtered_sent[-1] == "EQUAL TO":
+            filtered_sent[-1] = ""
             continue
 
-        m = time_re.match(text)
+        if token[0] == "'" and filtered_sent:
+            filtered_sent[-1] += token.upper()
+            continue
+
+        if token == 'A.M' or token == 'P.M':
+            filtered_sent.append(token[0] + token[2])
+            continue
+
+        m = time_re.match(token)
         if m:
             time_str = (
                 f"{num2words(m.group(1))} O'CLOCK {num2words(m.group(2))} MINUTES"
@@ -76,13 +85,18 @@ def convert_sent_to_word(sent: str, nlp: Language):
             filtered_sent.append(time_str.upper())
             continue
 
-        if text in signs:
-            filtered_sent.append(convert_signs_tok_to_word(text))
+        if token in signs:
+            filtered_sent.append(convert_signs_tok_to_word(token))
             continue
-        if num_re.search(text):
-            filtered_sent.append(convert_num_tok_to_word(text))
-            continue
-        filtered_sent.append(text.strip(string.punctuation + " +- ").upper())
+
+        if num_re.search(token):
+            token = convert_num_tok_to_word(token)
+
+
+        special_re = re.compile(r"[^A-Z ']+")
+        filtered_sent.append(special_re.sub(' ', token.upper()).strip())
+
+        
     return filtered_sent
 
 
@@ -105,7 +119,7 @@ def convert_signs_tok_to_word(word: str) -> str:
         return "PLUS MINUS"
     if word == "*":
         return "MULTIPLIED BY"
-
+    
     return ""
 
 
@@ -139,15 +153,18 @@ def convert_num_tok_to_word(word: str) -> str:
             digits = ""
             if single_point:
                 sign_word = (
-                    "OVER" if word[idx] == "/" else convert_signs_tok_to_word(word[idx])
+                    "OVER" if word[idx] == "/" and word[idx+1].isdigit() else convert_signs_tok_to_word(word[idx])
                 )
 
                 if sign_word:
+                    if new_word and new_word[-1] != ' ':
+                        new_word = new_word + ' '
                     new_word += f"{sign_word}"
                     idx += 1
                     continue
-            if escape_token(word[idx]):
-                new_word += " "
+            if escape_punct(word[idx]):
+                if new_word and new_word[-1] != ' ':
+                    new_word = new_word + ' '
                 idx += 1
                 continue
             new_word += word[idx].upper()
