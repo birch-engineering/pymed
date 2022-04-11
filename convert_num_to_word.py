@@ -79,7 +79,7 @@ def convert_sent_to_word(sent: str, nlp: Language = None):
         m = time_re.match(token)
         if m:
             time_str = (
-                f"{num2words(m.group(1))} O'CLOCK {num2words(m.group(2))} MINUTES"
+                f"{num2words(m.group(1)).replace('-', ' ')} O'CLOCK {num2words(m.group(2)).replace('-', ' ')} MINUTES"
             )
             if m.group(3):
                 time_str += f" {num2words(m.group(3))} SECONDS"
