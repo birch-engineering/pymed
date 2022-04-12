@@ -1,0 +1,3253 @@
+{
+  "source": "PMC",
+  "date": "20201214",
+  "key": "pmc.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "1064116",
+      "infons": {
+        "license": "NO-CC CODE"
+      },
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "article-id_doi": "10.1186/bcr970",
+            "article-id_pmc": "1064116",
+            "article-id_pmid": "15642178",
+            "article-id_publisher-id": "bcr970",
+            "fpage": "21",
+            "issue": "1",
+            "journal-title": "Breast Cancer Research",
+            "kwd": "breast cancer genetics interaction radiation",
+            "lpage": "32",
+            "name_0": "surname:Ronckers;given-names:Cecile M",
+            "name_1": "surname:Erdmann;given-names:Christine A",
+            "name_2": "surname:Land;given-names:Charles E",
+            "section_type": "TITLE",
+            "type": "front",
+            "volume": "7",
+            "year": "2004"
+          },
+          "text": "Radiation and breast cancer: a review of current evidence",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "This paper summarizes current knowledge on ionizing radiation-associated breast cancer in the context of established breast cancer risk factors, the radiation dose-response relationship, and modifiers of dose response, taking into account epidemiological studies and animal experiments. Available epidemiological data support a linear dose-response relationship down to doses as low as about 100 mSv. However, the magnitude of risk per unit dose depends strongly on when radiation exposure occurs: exposure before the age of 20 years carries the greatest risk. Other characteristics that may influence the magnitude of dose-specific risk include attained age (that is, age at observation for risk), age at first full-term birth, parity, and possibly a history of benign breast disease, exposure to radiation while pregnant, and genetic factors.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 907,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Introduction",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 920,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The mammary gland is very sensitive to radiation-associated carcinogenesis, especially after exposures at young ages. Many aspects of the association between radiation and breast cancer have been elucidated in the past decades. This review is intended to summarize widely recognized features of radiation-associated breast cancer and to add a more detailed overview of relevant recent findings, especially focusing on factors that modify the radiation-related risk.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1386,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Epidemiology of breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1416,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "In 2000, breast cancer was the most common malignant disease in women worldwide, with an estimated 1.05 million cases. Owing to high levels of screening in developed countries and the relatively favorable prognosis of early-stage disease, it is also the most prevalent malignancy in women, with almost 4 million women alive who have had breast cancer in the past 5 years. In the USA, it is estimated that about 216,000 women will be diagnosed with breast cancer in 2004 and that 40,000 will die from the disease. Male breast cancer is a rare disease, with an incidence about 1/100 of that for female breast cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2031,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Breast cancer is very rare before age 30 years, after which incidence rises steeply with advancing age up to about age 50 years. Thereafter, incidence still increases with age, but more slowly. The strong dependence on age, as seen for many other adult-type cancers, is probably related to accumulating genetic damage that occurs during a human lifespan. The apparent change in slope of the age-incidence curve at about age 50 years is unique for breast cancer, and this is presumably related to hormonal changes associated with menopause, which is accompanied by a decrease in circulating estrogen levels. Estrogens and other hormones are thought to affect the progression of initiated mammary gland cells in the path to malignancy. This has been shown clearly in early rodent studies, where chemical-associated or radiation-associated mammary tumors were most abundant after additional hormonal stimulation. Post-menopausal women might therefore experience less tumor progression than premenopausal women. This concept of hormonal carcinogenesis is also consistent with epidemiological observations that late menarche and early menopause have a protective effect against breast cancer. Women who have a late menarche and/or early menopause have a smaller number of menstrual cycles and therefore shorter exposure to ovarian hormones during the reproductive years than women who have early menarche and/or late menopause.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3456,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Parity and an early first full-term pregnancy (FFTP) both have been shown to decrease the long-term breast cancer risk. Before pregnancy, mammary gland cells are in a vulnerable undifferentiated state but differentiate to functioning milk-producing structures during pregnancy. It is thought that pregnancies, and FFTP in particular, consecutively decrease the pool of vulnerable breast cells. Interestingly, young women are at increased risk for breast cancer in the 5 years post-partum, possibly related to the promoting effects of the hormonal milieu of pregnancy. The short-term increased risk for breast cancer was highest for women delivering a first child at older ages, who might have accumulated more premalignant conditions than younger women. This dual-effect phenomenon, namely the short-term increasing, but long-term reducing, effects of pregnancy on breast cancer risk, has been shown not only for a first pregnancy but also for subsequent pregnancies. In addition, the breast cancer risk for women with FFTP in the age range 30-34 years approaches that of nulliparous women, whereas those delivering their firstborn after age 35 years are at higher risk than nulliparous women.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4652,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The postulated role of hormones in mammary carcinogenesis was corroborated by studies showing dose-dependent increasing risks associated with increasing levels of endogenous sex hormone levels in blood. Exogenous hormones such as oral contraceptives and post-menopausal hormone replacement therapy also have been linked to increased breast cancer risk. An international pooled analysis showed that breast cancer risk was increased, by 20%, for women who used oral contraceptives up to breast cancer diagnosis, but not for women who stopped using oral contraceptives more than 10 years before cancer diagnosis. Other risk factors for breast cancer include a history of certain types of benign breast disease (BBD), mammographically dense tissue, high body mass index among post-menopausal women, height, and alcohol use. Also implicated are exposures in utero and during childhood to estrogens and other hormones, as well as insulin, insulin-like growth factor-I, and other indicators of energy balance and growth. However, the mechanistic details remain to be elucidated.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5724,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Family history of breast cancer has long been recognized as another breast cancer risk factor and has been evaluated by meta-analysis of published data and analysis of pooled individual-level data. Breast cancer risk increases with the number of affected first-degree relatives. Risk also seems to be greater for women with a first-degree relative diagnosed with breast cancer at a young age (usually defined as less than 50 years). Highly penetrant mutations in the heritable breast cancer susceptibility genes, BRCA1 and BRCA2, account for some of the relationship between family history and breast cancer risk, whereas other inherited genetic traits, habits, and shared environment are also likely contributors. Using a database of almost 45,000 twins, Lichtenstein and colleagues estimated that 27% of all breast cancer can be explained by genetic factors or their interaction with environmental factors, although inherited susceptibility mutations in BCRA1 and BRCA2 seem to account for less than 10% of all breast cancer cases (irrespective of family history). BRCA1 mutations have been suggested to account for about 45% of breast cancer cases with a family history of breast cancer. BRCA1 mutations, which seem to be more prevalent than BRCA2 mutations, probably account for a greater share of breast cancer cases. Although the roles of these genes remain to be elucidated, loss of function in both alleles seems to be necessary for the characteristic increased risk of early-onset breast cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7229,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Radiation exposure as a breast cancer risk factor",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7279,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The accumulated knowledge about radiation-related breast cancer risk in women derives mainly from epidemiological studies of patients exposed to diagnostic or therapeutic medical radiation and of the Japanese atomic bomb survivors. Table 1 provides selected examples of studies, many of which include estimated radiation doses to the breast tissue. More detailed summaries can be found in Annex I of the most recent UNSCEAR expert report on effects of ionizing radiation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7751,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Medically exposed populations include (1) patients with scoliosis or tuberculosis monitored by X-ray or fluoroscopic examination for treatment efficacy and disease progress, (2) patients given radiotherapy for benign disorders as infants or children, (3) women of childbearing age treated with X-rays for BBD and acute post-partum mastitis, (4) childhood cancer survivors, exposed to often high-dose chest radiation at early ages, and (5) survivors of adult cancers treated with radiotherapy. The average estimated radiation dose to the breast tissue varied considerably across these populations, ranging from 0.02 Sv to more than 20 Sv. (The gray [Gy] is the unit of absorbed radiation dose. The sievert [Sv] is a weighted sum of doses [dose equivalent] used for different types of radiation such as the mixed gamma and neutron radiation from the atomic bombings. In terms of biological effectiveness, 1 Sv of mixed radiation is assumed to be equivalent to 1 Gy of gamma rays or X-rays. For most X-rays or gamma rays that are used for medical purposes, dose in Gy and dose equivalent in Sv are numerically the same, and in the present report the dose in Gy will be treated interchangeably with the dose equivalent in Sv.) In contrast to most other studies, the overall risk of breast cancer was not clearly elevated in the tinea capitis cohort, which had the lowest average breast dose. It has been noted that increased breast cancer risk in a few subgroups of that cohort seemed to be related to unusually low risk in the control group. Survivors of childhood and adolescent cancer who had had radiotherapy involving the chest are on the high end of the dose spectrum.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9422,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Finally, the Life Span Study (LSS) of Japanese atomic bomb survivors, including 70,165 women, provides detailed risk estimates on radiation-associated breast cancer risk and covers a wide range of mixed gamma and neutron radiation levels, with neutron-weighted doses (neutron weight = 10) ranging from 0 to more than 5 Sv and a natural distribution of exposure ages.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9789,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Quantitative dose-response relationship",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9831,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Currently available epidemiological data are consistent with a so-called 'linear, no-threshold model' in which the excess risk of breast cancer is proportional to radiation dose. Studies on cellular radiosensitivity have shown that cells will be killed at high radiation doses and therefore cannot develop into a tumor. In a pooled analysis of eight studies among female populations exposed to diagnostic or therapeutic radiation for benign conditions, or exposed to the atomic bombs in Japan, there was suggestive evidence of this cell-killing effect in the form of a flattening of the linear dose-response relationship at the highest doses. However, a recent large study among survivors of Hodgkin lymphoma (HL) did not show clear evidence of such flattening, although these patients generally are exposed to very high chest doses. A minimal latency period of 10-12 years is generally accepted.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10732,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The association is often expressed as excess relative risk (ERR) per unit of radiation dose in Sv, corresponding to the mathematical model in which risk = ss0(1 + ss1 x dose), where ss0 breast represents the underlying population risk for cancer and ss1 represents ERR per unit dose. The dose-specific ERR is the relative risk minus 1, or, equivalently, the excess rate divided by the baseline rate. For breast cancer, estimated ERR per Sv varies widely. The risk also can be expressed in terms of excess absolute risk (EAR), expressed in incident cases per 104 woman-year-Sv, or the annual number of breast cancers attributable to a radiation exposure of 1 Sv among 10,000 radiation-exposed women. In a pooled analysis of data from different exposed populations, estimated EAR was consistent between Japanese atomic bomb survivors and US populations exposed to diagnostic radiation during lung collapse therapy for tuberculosis, or to X-ray therapy for enlarged thymus (pooled estimate 9.9, 95% confidence interval 7.1-14). However, EAR was substantially higher for Swedish (32, 21-47) and US (15, 7.7-24) women given radiation therapy for BBD and substantially lower for two populations of Swedish women treated as infants with X-rays and radium plaques for hemangioma (pooled estimate 5.1, 1.3-11, for exposure at 6 months of age). The authors noted that BBD is a poorly defined entity, possibly affecting baseline breast cancer risk.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12179,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "In addition, dose-specific EAR was similar between atomic bomb survivors with a single, acute exposure and Massachusetts tuberculosis fluoroscopy patients with highly fractionated exposures, but acute exposures in infancy for treatment of thymic enlargement yielded risks sixfold higher than those for Swedish patients treated in infancy with protracted exposures yielding cumulative doses of 0.02-0.1 Gy to the site of future breast development. The implications of these findings for modification of dose-specific breast cancer risk by fractionation and protraction of dose are unclear, and the results could reflect effects of yet unrecognized confounding factors. There therefore seems to be no simple way to describe the association between radiation dose and breast cancer incidence, which varies considerably for different populations. The variation may be due in part to differences in several factors that can modify the radiation-related risk (or dose response), as discussed below.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13174,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Modification of dose response",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13204,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Age at radiation exposure",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13230,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Women younger than age 20 years at exposure are at higher risk of radiation-associated breast cancer than those exposed at older ages. Women more than 50 years of age old at exposure have no measurably increased risk of breast cancer. Biologically, age is a surrogate of various stages in breast tissue development as well as a marker of cumulative endogenous hormone exposures, both of which vary considerably across a woman's lifespan. In terms of tissue development, the normal breast is different from many other organs in that it is not fully differentiated in newborns, despite rapid proliferation and development in utero. After a relatively quiet quiescent period in childhood, rapid proliferation and growth again take place during puberty followed by terminal endbud differentiation during a FFTP when the breast is prepared for lactation. Periods of enhanced cell proliferation, namely in utero, puberty and pregnancy, have been proposed to represent windows of increased susceptibility for mammary carcinogenesis. Proliferation is associated with increased levels of DNA synthesis, which in turn provides opportunities for DNA damage by mammary carcinogens and an increased probability of reproduction of unrepaired or misrepaired DNA damage to the progeny of the damaged cell.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14520,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_3"
+          },
+          "text": "Fetal exposure",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14535,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Of the three periods during which rapid changes occur in breast tissue, there are few epidemiological data on the risk associated with fetal radiation exposure. So far, one fatal breast cancer has been reported among 1668 females who were in utero during the atomic bomb explosions in 1945.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14826,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_3"
+          },
+          "text": "Childhood and puberty",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14848,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "With regard to puberty, earlier epidemiological studies with short follow-up, or studies with partial coverage of potential age-windows of exposure, have repeatedly found the second decade of life to represent the most sensitive window in terms of susceptibility to radiation-associated breast cancer. More recent epidemiological data suggest that exposures occurring well before puberty might confer equally elevated risks for radiation-associated breast cancer, as detailed below.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15331,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Childhood cancer survivors provide useful data on radiation-associated breast cancer (Table 1), in particular female HL patients who received high-dose radiotherapy to the chest. Until recently, there was little opportunity to compare the effects on breast cancer risk of radiation exposures that took place during the first versus the second decade of life for two reasons. First, long-term follow-up studies are needed before the youngest HL patients reach the ages at which breast cancers are normally observed with any frequency. Second, HL is rare in young children; the annual incidence in 5-9-year-olds is only 10% of that in 15-19-year-olds. Only a few childhood cancer survivor cohort studies reported on second cancers among subjects younger than 10 years at diagnosis. Among patients treated at the youngest ages, breast cancer cases occurred in the Late Effects Study Group and Childhood Cancer Survivor Study cohorts. Most recent analyses from these cohorts used appropriate statistical methods to take into account the underlying increasing risk with increasing age and showed no statistically significant difference in breast cancer risk between those diagnosed with HL in childhood or during puberty or early adolescence. Many other reports on HL survivors showed very high risks of breast cancer among patients diagnosed before age 15 years.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16694,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Two other recent epidemiological studies provide evidence that there is an increased risk of breast cancer for all women exposed to radiation before age 20 years, namely the atomic bomb survivor studies and the Canadian Fluoroscopy cohort study. Early LSS analyses for risk of breast cancer among atomic bomb survivors were not informative with regard to risk among women exposed as children because this subgroup had not been observed at ages of increasing breast cancer incidence owing to insufficient follow-up, as recognized by the authors. From the early 1980s onwards, increased breast cancer risk among those younger than 10 years of age at exposure was found in all reports, the most recent of which showed the following ERR/Sv by age at exposure: 0-4 years, 3.94; 5-14 years, 2.77; 15-19 years, 2.65; 20-39 years, 1.33.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17531,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_3"
+          },
+          "text": "Pregnancy",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17541,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Pregnancy represents a third window of rapid changes in the female breast tissue. In contrast to the period in utero and during puberty, age cannot be used as a surrogate measure to define this potentially susceptible period. Human data on breast cancer risk after irradiation of pregnant women are sparse. A small study suggests a high risk of radiation-associated breast cancer (six cases) among 37 HL patients who had radiotherapy while pregnant. An earlier study of 1764 female tuberculosis patients showed that, among all patients exposed to radiation, the highest rate of breast cancer incidence per unit radiation dose occurred among 20 pregnant tuberculosis patients, among whom there were two breast cancers. Although these results are suggestive of an effect, the numbers of cases are too small to provide convincing evidence.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18378,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_3"
+          },
+          "text": "Animal studies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18393,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Animal models, in particular rats, have been used to address the potential effects of exposure age or breast tissue age on chemical-associated or radiation-associated carcinogenesis, because their lifespan (100-150 weeks) is relatively short and because they develop mammary tumors. However, the tendency to develop natural or radiation-related fibroadenoma and/or adenocarcinoma varies greatly by strain. After exposure to radiation, rats were treated with tumor-promoting hormones (diethylstilbestrol or estrogen) to shorten the latency and increase the quantity of tumors available for study. In contrast to humans, it has been reported that parous rats develop more breast cancer than nulliparous rats. Holtzman and colleagues showed no differences in mammary adenocarcinoma risk in a 10-month period after exposure in virgin, pregnant, lactating and postlactating Sprague-Dawley rats. A similar-sized experiment but involving lifetime follow-up found comparably increased risk of radiation-associated mammary cancer for WAG/Rij rats exposed between ages 8 and 36 weeks, although none for rats exposed at the 'postmenopausal' age of 64 weeks.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19544,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Inano and colleagues included animals exposed in utero as well and found that, after 1 year of follow-up, pregnant and lactating Wistar-MS rats were more susceptible to radiation-associated mammary fibroadenoma and adenocarcinoma (compared with age-matched non-exposed animals) than virgin or unborn rats. However, because the youngest at exposure were followed up until a much younger adult age, it is possible that they developed more breast tumors after the study cut-off date. Because studies of cancers induced by chemical agents showed that young virgin rats were more susceptible than older rats, the authors proposed that the carcinogenic impact of chemicals and radiation in rats might involve different types of mammary stem cell. Russo and Russo also proposed that the types and behaviors of mammary neoplasms induced by different carcinogens depend strongly on the particular structure that is directly affected by the carcinogen. This is based on observations that malignant tumors usually arise from undifferentiated structures whereas benign lesions arise mostly from more differentiated parts of the mammary gland.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20675,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Another model of mammary gland carcinogenesis has been proposed by Nandi's group, in which the key determinant is not the status of the breast cells, but rather the hormonal milieu at the time of carcinogen exposure. Shimada and colleagues proposed that prepubertal rats are more sensitive to radiation-associated cell killing than older animals because of a relative lack of DNA repair before puberty. In contrast, one of the only studies that included rats (Sprague-Daley) exposed before puberty showed less adenocarcinoma than those exposed at later ages (42-225 days).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21252,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Dogs are prone to mammary tumors but have not been studied as much as rodents because of their longer lifespan. One large experiment, involving lifelong follow-up of 672 female beagles exposed to various radiation doses at different times in the prenatal, perinatal and postnatal periods showed no overall excess of lifetime breast cancer mortality although there was increased risk of non-fatal breast cancer in the subgroup exposed to radiation in the perinatal period.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21724,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "In summary we have abundant evidence from human studies to support the assertion that females exposed before age 10 years are at high risk of radiation-associated breast cancer, and thus there are other factors beside proliferative activity in the breast at the time of exposure that determine susceptibility to radiation-associated malignancies. Data on pregnancy-related exposures (for both the female fetus and the mother) are too sparse for meaningful conclusions. Some, but not all, animal studies show variation in susceptibility to radiation-associated mammary tumors by exposure age, breast tissue status, and hormonal factors. Unfortunately, owing to interspecies and intraspecies variability and the obvious complexity of mammary carcinogenesis these data do not provide a unified model to explain variation in human susceptibility to radiation-associated mammary cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22606,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Attained age (age at risk)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22633,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "In epidemiological follow-up studies, attained age, or age at observation for risk, is used to describe the period in the life of a subject starting with radiation exposure and ending with cancer occurrence, death, or the end of an epidemiological follow-up study. In other words, the life of each subject in a radiation-exposed cohort can be represented by a timeline expressed in attained age, with tick marks at the age of cancer diagnosis, age at death, or age at the end of the follow-up for the study (for example 31 December 2003). This information can then be used to calculate the risk of radiation-associated cancer at a certain age or to adjust for attained age in the cohort. Recently published analyses of radiation-related risk of all solid cancers as a group show convincingly that the ERR declines with increasing attained age. However, the effect of attained age on radiation-related breast cancer risk is difficult to separate from that of age at exposure, even in a population such as the atomic bomb survivors for which exposure was to a general population of all ages and follow-up has been of long duration. For example, the correlation between age at exposure and age at diagnosis was 0.7 for breast cancers diagnosed in the LSS population between 1950 and 1990. Interestingly, in the LSS, it turned out that the only significant effect of attained age was explained by a high risk of early-onset (before age 35 years) breast cancer in a subgroup of women, whereas the relative risk remained fairly constant for women older than 35 years at follow-up (see also the subsection 'Genetic factors' below). This effect was independent of the strong modification of the dose response by exposure age. In a pooled analysis the EAR increased with advancing attained age, which is consistent with the strong increase in background risk of breast cancer with increasing age.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24521,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Reproductive history",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24542,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Aside from the effects of age at exposure and attained age as readily available surrogates for biological processes, the effect of known reproductive risk factors has also been studied more directly. Unfortunately, only a few epidemiological studies collected the necessary information and were large enough to address these questions with sufficient statistical power. The most comprehensive analysis so far is based on a nested case-control study of 196 breast cancer patients and 566 matched controls among Japanese atomic bomb survivors. As expected, early first birth, multiple births and long cumulative lactation history had a protective effect not only against baseline breast cancer but also against radiation-associated breast cancer in this population, in the sense that the dose-specific excess rate was reduced at least as much as the baseline rate. The protective effect of early age at first birth held for women who were parous at the time of exposure and for women who completed a first pregnancy after radiation exposure, suggesting that an early first pregnancy may protect against the carcinogenic effects of radiation exposure on the breast regardless of whether the exposure occurred before or after the pregnancy. This finding is supported by results from an experimental rat model system for radiation-associated mammary carcinogenesis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25903,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Boice and Stone, in a hypothesis-generating report based on small numbers, reported higher radiation-related breast cancer risks in nulliparous versus parous tuberculosis patients, all exposed to multiple fluoroscopies. The Rochester post-partum mastitis study showed no evidence of deviation from the additive interaction model for age at FFTP and radiation dose; the role of parity in itself could not be evaluated because all women were parous and lactating by definition. A study of breast cancer risk among more than 17,000 female infants treated with various types of radiotherapy for skin hemangioma (67% in head, neck, or thorax) also found no effect modification by parity or age at first birth. Despite the long period between date of treatment and date at the end of the study (45 years average, up to 76 years) this study had a high rate of completeness for breast cancer ascertainment because of linkage with the nationwide cancer registries in Sweden and a good number of breast cancer cases available for analysis (n = 245).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26943,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Recently, two partly overlapping studies evaluated dose response and its modifiers in a nested case-control study of second breast cancer among HL survivors exposed to very high radiation doses. A strong reduction in risk of radiation-associated breast cancer was seen for women who had premature menopause due to chemotherapy or ovarian radiation exposure, as had been suggested previously. In summary, reproductive factors seem to be important in determining the risk of radiation-related breast cancer, with suggestive evidence for a reduced risk among multiparous women, or women who had an early FFTP or very early menopause.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27574,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Benign breast disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27596,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Motivated by earlier work, two recent reports addressed the role of BBD. A pooled analysis of eight radiation-exposed cohorts showed that women with BBD had the highest excess rates of breast cancer after radiation therapy for those disorders; this effect was most pronounced among young women with BBD. This observation might be partly related to heightened radiosensitivity in young women with BBD but might also be due to the underlying association of BBD and breast cancer. Although post-partum mastitis, an inflammation of the breast after pregnancy belongs, strictly speaking, to a different class of breast disorders, women who were irradiated to treat post-partum mastitis also showed a different pattern of radiation-associated risk than was observed in the other, non-BBD radiation-exposed cohorts of women. Others reported increased breast cancer risk in a case-control study of young women (less than 40 years) exposed to diagnostic radiation before age 20 years, but the risk was observed only among women who also reported a history of BBD. However, these results are based on self-reported X-ray exposures rather than on medically verified exposures and/or reconstructed estimates of the radiation dose that was absorbed in the breast.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28847,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Family history",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28862,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The variable 'family history of breast and/or ovarian cancer' did not act as an effect modifier in the mastitis series. The question could not be evaluated in atomic bomb survivors because of suspected poor knowledge and/or reporting of this information. In a case-control study among young women, medical radiation exposures before age 20 years were associated with a slightly increased risk of breast cancer regardless of family history of breast or ovarian cancer, whereas increased risk after adult exposures was observed only among those with a positive family history. However, only self-reported information on X-ray exposures and family history of disease was available. It should be kept in mind that 'family history' is only a very crude measure of possible genetic effects in that it represents a mixture of background risk of breast cancer (which is high in Western countries), shared environmental influences, genetic factors, and combinations of environmental and genetic factors.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29857,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_2"
+          },
+          "text": "Genetic factors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29873,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The occurrence of early-onset breast cancer is another surrogate measure for possible genetic and other factors. Both the atomic bomb survivor data and a Dutch cohort study of HL survivors showed a highly increased risk of early-onset breast cancer among women who were exposed to radiation in childhood or adolescence. These findings were later replicated in an international collaborative study of 14,000 female HL survivors, including the original Dutch cohort. When the survivors were classified by age at HL diagnosis and attained age, the highest risk was seen for early-onset breast cancer (diagnosed before age 40 years) among the group of women treated for HL before age 20 years (relative risk 33.2). Despite speculation about a genetically susceptible subgroup, responsible genes have not been identified.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30690,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "There are, however, several potential candidates. Genes affecting DNA repair processes have been implicated in particular because DNA is a direct target for ionizing radiation in the cell. Various types of damage caused by ionizing radiation include, for example, damage to single bases, single-strand breaks, double-strand breaks (DSBs) and multiply-damaged sites. Single-base and single-strand damage are not specific to radiation and can be repaired rapidly and with high fidelity, by using the non-affected strand as template to fill the gaps with complementary bases. In contrast, DSBs are caused by few other carcinogens. It has been hypothesized that the linear dose-response relationship for relatively low radiation doses, as found for breast cancer, reflects the linear association between radiation dose and DSBs. If left unrepaired, DSBs will in most cases lead to cell death through either apoptosis or mitotic cell death due to loss of genetic material. Alternatively, effective DNA repair will solve the problem. Recent cell culture studies found that DNA repair mechanisms are not activated in the presence of DSBs induced at very low radiation doses (about 1 mSv). This may be a protective mechanism, avoiding possible misrepair. However, if repaired incorrectly, DSBs can lead to carcinogenesis through translocations, inversions, or deletions of genetic material.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32075,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The principal mechanisms for repair of DSBs in mammalian cells are homologous recombination and non-homologous end joining (NHEJ). Homologous recombination is an accurate process in which the unaffected chromatid is used as template; homologous recombination, however, is less frequently used than NHEJ, an error-prone process of illegitimately linking the broken pieces back together without reference to the accurate base pairing. The resulting chromosomes are probably a major contributor to the first step in the carcinogenic path of ionizing radiation. Each repair process involves damage recognition, a pause in the cell cycle to permit repair before the cell divides, and actual repair. The efficacy of DNA damage repair may be influenced by genes encoding proteins involved in cell-cycle control, as well as genes encoding proteins explicitly involved in repair activities. As the full complexity of the processes involved in DSBs is unfolding it is becoming clear that these are not entirely distinct processes because some proteins, for example those encoded by the genes ataxia telangiectasia mutated (ATM), BRCA1, and BRCA2, might have a role in both homologous recombination and NHEJ.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33273,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Research on the interplay of genes and radiation in the etiology of breast cancer has focused on several different aspects including (1) patients with very rare heritable syndromes, characterized by radiosensitivity and high cancer risk, (2) carriers of mutations in known breast cancer susceptibility genes, and (3) genetic polymorphisms, that is, increased occurrence of so-called 'rare variants' in the population in genes that have a role in DNA repair. Each will be discussed briefly below.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33769,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Ataxia-telangiectasia (AT) is a very rare condition caused by mutations in the ATM gene, which is involved in cell cycle control and DNA damage recognition, in particular DSBs. Patients with AT, who have two defective copies of the gene, are at highly increased risk of lymphohematopoietic malignancies and other disorders at young ages. Although cells of these patients are highly radiosensitive, the risk of breast cancer in AT patients is not clear because these patients often die young, before reaching the ages at which most breast cancers in the general population usually arise. Because AT is a recessive disorder, a substantially larger proportion (1.4%) of the population comprises so-called heterozygous carriers of an ATM mutation in only one of the two copies of the gene.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34557,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The risk of breast cancer after radiation exposure in ATM heterozygotes is unclear and has been subject to fierce debate. Early population-based studies found no ATM mutations in breast cancer patients. In contrast, female family members of AT patients, in particular mothers (who by definition have a defective copy of the ATM gene), did have increased breast cancer risk. Also, cells of heterozygous carriers were reported to have intermediate radiosensitivity between AT patients and wild-type homozygotes, that is, subjects who have two normal copies. Because many different types of ATM mutations have been identified so far, and more probably remain to be discovered, it has been suggested that ATM mutations involved with increased risk of breast cancer among ATM heterozygotes might be of a different type from the ATM mutations found in most (although not all) AT patients. Recently, Dutch investigators used a highly selective group of breast cancer patients with early-onset disease (less than 45 years of age) and a high prevalence of bilateral disease, which are both characteristics of possible genetic susceptibility and found a high prevalence (9%) of ATM mutations, including several different types. A much larger series that included 511 patients with bilateral disease in the USA did not confirm these results.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35888,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Although there is some evidence that the ATM gene has a role in breast cancer susceptibility and in radiosensitivity, there as yet is no direct evidence for an increased risk of radiation-associated breast cancer among ATM heterozygotes. However, sensitivity to radiation-associated mammary ductal dysplasia (a precursor for tumors) has been confirmed in mice heterozygous for AT mutations. Like AT, Nijmegen breakage syndrome is a rare recessive genetic disorder characterized by increased radiosensitivity and predisposition for lymphohematopoietic malignancies at young age. Currently there is no evidence that heterozygotes are at increased risk of breast cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36556,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Several other human genetic disorders are characterized by high risks of cancer and potential defects in DNA repair capacity, genomic maintenance, and cell-cycle control (for example xeroderma pigmentosum, Bloom syndrome, Fanconi anemia, retinoblastoma, Li-Fraumeni syndrome). Retinoblastoma is a rare cancer of the retina that arises in young children and can be either sporadic or hereditary. Patients with the hereditary form of the disease are born with one mutated retinoblastoma (RB) gene. Evidence regarding breast cancer risk is scarce; three available cohort studies reported on a total of 12 cases of breast cancer only. Further follow-up of these relatively young cohorts might elucidate the risk of breast cancer and the possible role of radiotherapy.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37322,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Metachronous second cancers of the colon and lung have been reported in the radiotherapy field in a patient with Li-Fraumeni syndrome who had radiotherapy for breast cancer. A recent Childhood Cancer Survivor Study analysis showed that a family history of sarcoma (which is, with breast cancer, one of the hallmarks of Li-Fraumeni syndrome) was an independent risk factor for the occurrence of a secondary breast cancer among survivors of childhood cancer. However, there was no evidence that a family history of sarcoma enhanced the already increased risk of a secondary breast cancer after chest radiotherapy for a childhood cancer. A systematic evaluation of radiation-related breast cancer in Li-Fraumeni syndrome has not yet been possible.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38073,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "An expert committee of the International Committee on Radiological Protection concluded that the role of family cancer syndromes on population risk estimates was probably very small, with the possible exception of affected children and young adults exposed to therapeutic radiation, among whom dose-reduction in high-dose radiotherapy should be considered, within the limits of therapeutic needs. Importantly, the committee recognized the relative paucity of data upon which to base their conclusions, in particular the knowledge on the identity, prevalence, and impact of weakly expressed mutations that do not manifest as familial cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38714,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The risk of breast cancer after radiation exposure among carriers of mutations in the BRCA1 and BRCA2 genes also is unclear. Although tumors deficient in BRCA1 and BRCA2 show marked sensitivity to ionizing radiation and drugs that produce DSBs, several cell-based studies of BRCA1 and BRCA2 mutation carriers failed to show increased radiosensitivity. The low frequency of all aforementioned mutations in the population makes it challenging to study radiation-associated breast cancer risk among carriers, and so far no epidemiological data are available.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39270,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "In contrast with these very rare, gene-specific mutations, more common variations in genes (polymorphisms) might cause more subtle variations in DNA repair capacity at the population level, in particular when multiple genes from one pathway are studied. Although low-penetrance DNA repair genes represent an area of active research, currently available studies typically report main effects of the DNA repair gene polymorphisms. It is challenging to study the combined role of genes and radiation in the etiology of breast cancer in humans because one needs a large population exposed to a range of radiation doses to ensure statistical power to detect such a gene-radiation interaction, accurate estimates of radiation dose to the breast, availability of blood samples or other biospecimen types to perform genotyping on extracted DNA, and an appropriate comparison group. Also, the genetic mutation or polymorphism of interest is typically very rare, further complicating matters. Thus, so far, few studies have fulfilled all of these criteria. Efforts are underway, for example, to assess the roles of polymorphisms in DNA repair genes and low-dose chronic radiation exposure among women enrolled in the US Radiologic Technologist Cohort and the roles of both polymorphic variation in ATM and radiotherapy for the risk of contralateral breast cancer among breast cancer survivors in the Women's Environmental Cancer and Radiation Epidemiology (WECARE) study.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40734,
+          "infons": {
+            "section_type": "CONCL",
+            "type": "title_1"
+          },
+          "text": "Conclusions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40746,
+          "infons": {
+            "section_type": "CONCL",
+            "type": "paragraph"
+          },
+          "text": "Ionizing radiation is an established breast cancer risk factor, and the risk increases linearly with dose. Age at exposure is a consistent modifier of the radiation-related breast cancer risk, with the highest risk seen for girls exposed before age 20 years and zero to minimal risk detected for women exposed after the menopausal ages. Sparse data suggest a high radiation risk among women exposed while pregnant. A small number of studies showed evidence that other etiologic factors for breast cancer, namely age at first birth (before or after radiation exposure), parity, and a history of benign breast disease, influence the risk of a radiation-related breast cancer as well. Although the role of genetic factors in radiation-related breast cancer is of great interest, it is very challenging to study; except for a likely role of the ATM gene, so far few other genetic risk factors have been established.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41658,
+          "infons": {
+            "section_type": "ABBR",
+            "type": "title_1"
+          },
+          "text": "Abbreviations",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41672,
+          "infons": {
+            "section_type": "ABBR",
+            "type": "paragraph"
+          },
+          "text": "AT = ataxia-telangiectasia; ATM = ataxia telangiectasia mutated; BBD = benign breast disease; DSB = double-strand break; EAR = excess absolute risk; ERR = excess relative risk; FFTP = first full-term pregnancy; HL = Hodgkin lymphoma; LSS = Life Span Study; NHEJ = non-homologous end joining.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41964,
+          "infons": {
+            "section_type": "COMP_INT",
+            "type": "title_1"
+          },
+          "text": "Competing interests",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41984,
+          "infons": {
+            "section_type": "COMP_INT",
+            "type": "paragraph"
+          },
+          "text": "The author(s) declare that they have no competing interests.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42045,
+          "infons": {
+            "fpage": "533",
+            "lpage": "543",
+            "name_0": "surname:Parkin;given-names:DM",
+            "pub-id_doi": "10.1016/S1470-2045(01)00486-7",
+            "pub-id_pmid": "11905707",
+            "section_type": "REF",
+            "source": "Lancet Oncol",
+            "type": "ref",
+            "volume": "2",
+            "year": "2001"
+          },
+          "text": "Global cancer statistics in the year 2000",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42087,
+          "infons": {
+            "fpage": "8",
+            "lpage": "29",
+            "name_0": "surname:Jemal;given-names:A",
+            "name_1": "surname:Tiwari;given-names:RC",
+            "name_2": "surname:Murray;given-names:T",
+            "name_3": "surname:Ghafoor;given-names:A",
+            "name_4": "surname:Samuels;given-names:A",
+            "name_5": "surname:Ward;given-names:E",
+            "name_6": "surname:Feuer;given-names:EJ",
+            "name_7": "surname:Thun;given-names:MJ",
+            "pub-id_pmid": "14974761",
+            "section_type": "REF",
+            "source": "CA Cancer J Clin",
+            "type": "ref",
+            "volume": "54",
+            "year": "2004"
+          },
+          "text": "Cancer statistics, 2004",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42111,
+          "infons": {
+            "fpage": "767",
+            "lpage": "770",
+            "name_0": "surname:Pike;given-names:MC",
+            "name_1": "surname:Krailo;given-names:MD",
+            "name_2": "surname:Henderson;given-names:BE",
+            "name_3": "surname:Casagrande;given-names:JT",
+            "name_4": "surname:Hoel;given-names:DG",
+            "pub-id_doi": "10.1038/303767a0",
+            "pub-id_pmid": "6866078",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "303",
+            "year": "1983"
+          },
+          "text": "Hormonal risk factors, breast tissue age and the age-incidence of breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42191,
+          "infons": {
+            "fpage": "938",
+            "lpage": "967",
+            "name_0": "surname:Russo;given-names:IH",
+            "name_1": "surname:Russo;given-names:J",
+            "pub-id_pmid": "8899375",
+            "section_type": "REF",
+            "source": "Environ Health Perspect",
+            "type": "ref",
+            "volume": "104",
+            "year": "1996"
+          },
+          "text": "Mammary gland neoplasia in long-term rodent studies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42243,
+          "infons": {
+            "fpage": "209",
+            "lpage": "221",
+            "name_0": "surname:MacMahon;given-names:B",
+            "name_1": "surname:Cole;given-names:P",
+            "name_2": "surname:Lin;given-names:TM",
+            "name_3": "surname:Lowe;given-names:CR",
+            "name_4": "surname:Mirra;given-names:AP",
+            "name_5": "surname:Ravnihar;given-names:B",
+            "name_6": "surname:Salber;given-names:EJ",
+            "name_7": "surname:Valaoras;given-names:VG",
+            "name_8": "surname:Yuasa;given-names:S",
+            "section_type": "REF",
+            "source": "Bull Wld Hlth Org",
+            "type": "ref",
+            "volume": "43",
+            "year": "1970"
+          },
+          "text": "Age at first birth and breast cancer risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42285,
+          "infons": {
+            "fpage": "3232",
+            "lpage": "3239",
+            "name_0": "surname:Henderson;given-names:BE",
+            "name_1": "surname:Ross;given-names:RK",
+            "name_2": "surname:Pike;given-names:MC",
+            "name_3": "surname:Casagrande;given-names:JT",
+            "pub-id_pmid": "7046921",
+            "section_type": "REF",
+            "source": "Cancer Res",
+            "type": "ref",
+            "volume": "42",
+            "year": "1982"
+          },
+          "text": "Endogenous hormones as a major factor in human cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42339,
+          "infons": {
+            "fpage": "485",
+            "lpage": "487",
+            "name_0": "surname:Clifton;given-names:KH",
+            "name_1": "surname:Sridharan;given-names:BN",
+            "name_2": "surname:Douple;given-names:EB",
+            "pub-id_pmid": "1159830",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "55",
+            "year": "1975"
+          },
+          "text": "Mammary carcinogenesis-enhancing effect of adrenalectomy in irradiated rats with pituitary tumor MtT-F4",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42443,
+          "infons": {
+            "fpage": "295",
+            "lpage": "298",
+            "name_0": "surname:Pathak;given-names:DR",
+            "pub-id_doi": "10.1023/A:1015282916368",
+            "pub-id_pmid": "12074498",
+            "section_type": "REF",
+            "source": "Cancer Causes Control",
+            "type": "ref",
+            "volume": "13",
+            "year": "2002"
+          },
+          "text": "Dual effect of first full term pregnancy on breast cancer risk: empirical evidence and postulated underlying biology [Editorial]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42572,
+          "infons": {
+            "fpage": "299",
+            "lpage": "305",
+            "name_0": "surname:Liu;given-names:Q",
+            "name_1": "surname:Wuu;given-names:J",
+            "name_2": "surname:Lambe;given-names:M",
+            "name_3": "surname:Hsieh;given-names:S-H",
+            "name_4": "surname:Ekbom;given-names:A",
+            "name_5": "surname:Hsieh;given-names:C-C",
+            "pub-id_doi": "10.1023/A:1015287208222",
+            "pub-id_pmid": "12074499",
+            "section_type": "REF",
+            "source": "Cancer Causes Control",
+            "type": "ref",
+            "volume": "13",
+            "year": "2002"
+          },
+          "text": "Transient increase in breast cancer risk after giving birth: postpartum period with the highest risk (Sweden)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42682,
+          "infons": {
+            "fpage": "606",
+            "lpage": "616",
+            "pub-id_pmid": "11959894",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "94",
+            "year": "2002"
+          },
+          "text": "Endogenous sex hormones and breast cancer in postmenopausal women: reanalysis of nine prospective studies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42788,
+          "infons": {
+            "fpage": "1713",
+            "lpage": "1727",
+            "pub-id_doi": "10.1016/S0140-6736(96)90806-5",
+            "pub-id_pmid": "8656904",
+            "section_type": "REF",
+            "source": "Lancet",
+            "type": "ref",
+            "volume": "347",
+            "year": "1996"
+          },
+          "text": "Breast cancer and hormonal contraceptives: collaborative reanalysis of individual data on 53,297 women with breast cancer and 100,239 women without breast cancer from 54 epidemiological studies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42982,
+          "infons": {
+            "fpage": "872",
+            "lpage": "881",
+            "name_0": "surname:Nelson;given-names:HD",
+            "name_1": "surname:Humphrey;given-names:LL",
+            "name_2": "surname:Nygren;given-names:P",
+            "name_3": "surname:Teutsch;given-names:SM",
+            "name_4": "surname:Allan;given-names:JD",
+            "pub-id_doi": "10.1001/jama.288.7.872",
+            "pub-id_pmid": "12186605",
+            "section_type": "REF",
+            "source": "JAMA",
+            "type": "ref",
+            "volume": "288",
+            "year": "2002"
+          },
+          "text": "Post-menopausal hormone replacement therapy: scientific review",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43045,
+          "infons": {
+            "fpage": "93",
+            "lpage": "97",
+            "name_0": "surname:Page;given-names:DP",
+            "name_1": "surname:Dupont;given-names:WD",
+            "pub-id_pmid": "1600526",
+            "section_type": "REF",
+            "source": "Cancer Detect Prev",
+            "type": "ref",
+            "volume": "16",
+            "year": "1992"
+          },
+          "text": "Benign breast disease: indicators of increased breast cancer risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43111,
+          "infons": {
+            "fpage": "1133",
+            "lpage": "1144",
+            "name_0": "surname:Boyd;given-names:NF",
+            "name_1": "surname:Lockwood;given-names:GA",
+            "name_2": "surname:Byng;given-names:JW",
+            "name_3": "surname:Tritchler;given-names:DL",
+            "name_4": "surname:Yaffe;given-names:MJ",
+            "pub-id_pmid": "9865433",
+            "section_type": "REF",
+            "source": "Cancer Epidemiol Biomarkers Prev",
+            "type": "ref",
+            "volume": "7",
+            "year": "1998"
+          },
+          "text": "Mammographic densities and breast cancer risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43157,
+          "infons": {
+            "fpage": "546",
+            "lpage": "562",
+            "name_0": "surname:Sasco;given-names:AJ",
+            "name_1": "surname:Kaaks;given-names:R",
+            "name_2": "surname:Little;given-names:RE",
+            "section_type": "REF",
+            "source": "Expert Rev Anticancer Ther",
+            "type": "ref",
+            "volume": "4",
+            "year": "2003"
+          },
+          "text": "Breast cancer: occurrence, risk factors and hormone metabolism",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43220,
+          "infons": {
+            "fpage": "42",
+            "lpage": "44",
+            "name_0": "surname:Trichopoulos;given-names:D",
+            "pub-id_doi": "10.1186/bcr555",
+            "pub-id_pmid": "12559045",
+            "section_type": "REF",
+            "source": "Breast Cancer Res",
+            "type": "ref",
+            "volume": "5",
+            "year": "2003"
+          },
+          "text": "Intrauterine environment, mammary gland mass and breast cancer risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43288,
+          "infons": {
+            "fpage": "539",
+            "lpage": "456",
+            "name_0": "surname:Elias;given-names:SG",
+            "name_1": "surname:Peeters;given-names:PH",
+            "name_2": "surname:Grobbee;given-names:DE",
+            "name_3": "surname:van Noord;given-names:PA",
+            "pub-id_pmid": "15069116",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "96",
+            "year": "2004"
+          },
+          "text": "Breast cancer risk after caloric restriction during the 1944-1945 Dutch famine",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43369,
+          "infons": {
+            "fpage": "674",
+            "lpage": "682",
+            "name_0": "surname:De Stavola;given-names:BL",
+            "name_1": "surname:dos Santos Silva;given-names:I",
+            "name_2": "surname:McCormack;given-names:V",
+            "name_3": "surname:Hardy;given-names:RJ",
+            "name_4": "surname:Kuh;given-names:DJ",
+            "name_5": "surname:Wadsworth;given-names:MEJ",
+            "pub-id_doi": "10.1093/aje/kwh097",
+            "section_type": "REF",
+            "source": "Am J Epidemiol",
+            "type": "ref",
+            "volume": "159",
+            "year": "2004"
+          },
+          "text": "Childhood growth and breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43404,
+          "infons": {
+            "fpage": "800",
+            "lpage": "809",
+            "name_0": "surname:Pharoah;given-names:PDP",
+            "name_1": "surname:Day;given-names:NE",
+            "name_2": "surname:Duffy;given-names:S",
+            "name_3": "surname:Easton;given-names:DF",
+            "name_4": "surname:Ponder;given-names:BAJ",
+            "pub-id_pmid": "9180149",
+            "section_type": "REF",
+            "source": "Int J Cancer",
+            "type": "ref",
+            "volume": "71",
+            "year": "1997"
+          },
+          "text": "Family history and the risk of breast cancer: a systematic review and meta-analysis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43488,
+          "infons": {
+            "fpage": "1389",
+            "lpage": "1399",
+            "pub-id_doi": "10.1016/S0140-6736(01)06524-2",
+            "pub-id_pmid": "11705483",
+            "section_type": "REF",
+            "source": "Lancet",
+            "type": "ref",
+            "volume": "358",
+            "year": "2001"
+          },
+          "text": "Familial breast cancer: collaborative reanalysis of individual data from 52 epidemiological studies including 58,209 women with breast cancer and 101,986 women without the disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43668,
+          "infons": {
+            "fpage": "78",
+            "lpage": "85",
+            "name_0": "surname:Lichtenstein;given-names:P",
+            "name_1": "surname:Holm;given-names:NV",
+            "name_2": "surname:Verkasalo;given-names:PK",
+            "name_3": "surname:Iliadou;given-names:A",
+            "name_4": "surname:Kaprio;given-names:J",
+            "name_5": "surname:Koskenvuo;given-names:M",
+            "name_6": "surname:Pukkala;given-names:E",
+            "name_7": "surname:Skytthe;given-names:A",
+            "name_8": "surname:Hemminki;given-names:K",
+            "pub-id_doi": "10.1056/NEJM200007133430201",
+            "pub-id_pmid": "10891514",
+            "section_type": "REF",
+            "source": "N Engl J Med",
+            "type": "ref",
+            "volume": "343",
+            "year": "2000"
+          },
+          "text": "Environmental and heritable factors in the causation of cancer - analyses of cohorts of twins from Sweden, Denmark, and Finland",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43798,
+          "infons": {
+            "fpage": "915",
+            "lpage": "921",
+            "name_0": "surname:Newman;given-names:B",
+            "name_1": "surname:Mu;given-names:H",
+            "name_2": "surname:Butler;given-names:LM",
+            "name_3": "surname:Millikan;given-names:RC",
+            "name_4": "surname:Moorman;given-names:PG",
+            "name_5": "surname:King;given-names:MC",
+            "pub-id_doi": "10.1001/jama.279.12.915",
+            "pub-id_pmid": "9544765",
+            "section_type": "REF",
+            "source": "JAMA",
+            "type": "ref",
+            "volume": "279",
+            "year": "1998"
+          },
+          "text": "Frequency of breast cancer attributable to BCRA1 in a population-based series of American women",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43894,
+          "infons": {
+            "fpage": "54",
+            "lpage": "65",
+            "name_0": "surname:Greene;given-names:MH",
+            "pub-id_pmid": "9005288",
+            "section_type": "REF",
+            "source": "Mayo Clin Proc",
+            "type": "ref",
+            "volume": "72",
+            "year": "1997"
+          },
+          "text": "Genetics of breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43920,
+          "infons": {
+            "name_0": "surname:DeMichele;given-names:A",
+            "name_1": "surname:Weber;given-names:B",
+            "name_2": "surname:Harris JR, Lippman ME, Morrow M, Osborne CK",
+            "section_type": "REF",
+            "source": "In Disease of the Breast",
+            "type": "ref",
+            "year": "2000"
+          },
+          "text": "Inherited genetic factors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43946,
+          "infons": {
+            "fpage": "1262",
+            "lpage": "1263",
+            "name_0": "surname:Powell;given-names:SN",
+            "name_1": "surname:Willers;given-names:H",
+            "name_2": "surname:Xia;given-names:F",
+            "pub-id_doi": "10.1016/S1097-2765(02)00789-X",
+            "pub-id_pmid": "12504001",
+            "section_type": "REF",
+            "source": "Mol Cell",
+            "type": "ref",
+            "volume": "10",
+            "year": "2002"
+          },
+          "text": "BCRA2 keeps Rad51 in line: high-fidelity homologous recombination prevents breast and ovarian cancer?",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44048,
+          "infons": {
+            "section_type": "REF",
+            "source": "2000 Report to the General Assembly, with Annexes Ionizing radiation: Sources and Biological Effects",
+            "type": "ref",
+            "year": "2000"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44049,
+          "infons": {
+            "fpage": "694",
+            "lpage": "707",
+            "name_0": "surname:Howe;given-names:GR",
+            "name_1": "surname:McLaughlin;given-names:J",
+            "pub-id_pmid": "8643829",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "145",
+            "year": "1996"
+          },
+          "text": "Breast cancer mortality between 1950 and 1987 after exposure to fractionated moderate-dose-rate ionizing radiation in the Canadian fluoroscopy cohort study and a comparison with breast cancer mortality in the atomic bomb survivor study",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44285,
+          "infons": {
+            "fpage": "215",
+            "lpage": "222",
+            "name_0": "surname:Boice;given-names:JD",
+            "name_1": "surname:Preston;given-names:D",
+            "name_2": "surname:Davis;given-names:FG",
+            "name_3": "surname:Monson;given-names:RR",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "125",
+            "year": "1991"
+          },
+          "text": "Frequent chest X-ray fluoroscopy and breast cancer incidence among tuberculosis patients in Massachusetts",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44391,
+          "infons": {
+            "fpage": "2052",
+            "lpage": "2063",
+            "name_0": "surname:Doody;given-names:MM",
+            "name_1": "surname:Lonstein;given-names:JE",
+            "name_2": "surname:Stovall;given-names:M",
+            "name_3": "surname:Hacker;given-names:DG",
+            "name_4": "surname:Luckyanov;given-names:N",
+            "name_5": "surname:Land;given-names:CE",
+            "pub-id_doi": "10.1097/00007632-200008150-00009",
+            "pub-id_pmid": "10954636",
+            "section_type": "REF",
+            "source": "Spine",
+            "type": "ref",
+            "volume": "25",
+            "year": "2000"
+          },
+          "text": "Breast cancer mortality after diagnostic radiography",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44444,
+          "infons": {
+            "fpage": "1281",
+            "lpage": "1284",
+            "name_0": "surname:Hildreth;given-names:NG",
+            "name_1": "surname:Shore;given-names:RE",
+            "name_2": "surname:Dvoretsky;given-names:PM",
+            "pub-id_pmid": "2797100",
+            "section_type": "REF",
+            "source": "N Engl J Med",
+            "type": "ref",
+            "volume": "321",
+            "year": "1989"
+          },
+          "text": "The risk of breast cancer after irradiation of the thymus in infancy",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44513,
+          "infons": {
+            "fpage": "626",
+            "lpage": "632",
+            "name_0": "surname:Lundell;given-names:M",
+            "name_1": "surname:Mattsson;given-names:A",
+            "name_2": "surname:Karlsson;given-names:P",
+            "name_3": "surname:Holmberg;given-names:E",
+            "name_4": "surname:Gustafsson;given-names:A",
+            "name_5": "surname:Holm;given-names:L-E",
+            "pub-id_pmid": "10319736",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "151",
+            "year": "1999"
+          },
+          "text": "Breast cancer risk after radiotherapy in infancy: a pooled analysis of two Swedish cohorts of 17,202 infants",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44622,
+          "infons": {
+            "fpage": "629",
+            "lpage": "631",
+            "name_0": "surname:Modan;given-names:B",
+            "name_1": "surname:Chetrit;given-names:A",
+            "name_2": "surname:Aldandary;given-names:E",
+            "name_3": "surname:Katz;given-names:L",
+            "pub-id_doi": "10.1016/S0140-6736(89)92140-5",
+            "section_type": "REF",
+            "source": "Lancet",
+            "type": "ref",
+            "volume": "8639",
+            "year": "1989"
+          },
+          "text": "Increased risk of breast cancer after low-dose irradiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44681,
+          "infons": {
+            "fpage": "1679",
+            "lpage": "1685",
+            "name_0": "surname:Mattsson;given-names:A",
+            "name_1": "surname:Ruden;given-names:B-I",
+            "name_2": "surname:Hall;given-names:P",
+            "name_3": "surname:Wilking;given-names:N",
+            "name_4": "surname:Rutqvist;given-names:LE",
+            "pub-id_pmid": "8411245",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "85",
+            "year": "1993"
+          },
+          "text": "Radiation-induced breast cancer: long-term follow-up of radiation therapy for benign breast disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44781,
+          "infons": {
+            "fpage": "689",
+            "lpage": "696",
+            "name_0": "surname:Shore;given-names:RE",
+            "name_1": "surname:Hildreth;given-names:N",
+            "name_2": "surname:Woodard;given-names:E",
+            "name_3": "surname:Dvoretsky;given-names:P",
+            "name_4": "surname:Hempelmann;given-names:L",
+            "name_5": "surname:Pasternack;given-names:B",
+            "pub-id_pmid": "3462410",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "77",
+            "year": "1986"
+          },
+          "text": "Breast cancer among women given x-ray therapy for acute postpartum mastitis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44857,
+          "infons": {
+            "fpage": "4386",
+            "lpage": "4394",
+            "name_0": "surname:Bhatia;given-names:S",
+            "name_1": "surname:Yasui;given-names:Y",
+            "name_10": "surname:Reaman;given-names:G",
+            "name_11": "surname:Ruymann;given-names:FB",
+            "name_12": "surname:Tersak;given-names:J",
+            "name_13": "surname:Meadows;given-names:AT",
+            "name_2": "surname:Robison;given-names:LL",
+            "name_3": "surname:Birch;given-names:JM",
+            "name_4": "surname:Bogue;given-names:MK",
+            "name_5": "surname:Diller;given-names:L",
+            "name_6": "surname:DeLaat;given-names:C",
+            "name_7": "surname:Fossati-Bellani;given-names:F",
+            "name_8": "surname:Morgan;given-names:E",
+            "name_9": "surname:Oberlin;given-names:O",
+            "pub-id_doi": "10.1200/JCO.2003.11.059",
+            "pub-id_pmid": "14645429",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "21",
+            "year": "2003"
+          },
+          "text": "High risk of subsequent neoplasms continues with extended follow-up of childhood Hodgkin's disease: report from the Late Effects Study Group",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44998,
+          "infons": {
+            "fpage": "590",
+            "lpage": "597",
+            "name_0": "surname:Kenney;given-names:LB",
+            "name_1": "surname:Yasui;given-names:Y",
+            "name_2": "surname:Inskip;given-names:PD",
+            "name_3": "surname:Hammond;given-names:S",
+            "name_4": "surname:Neglia;given-names:JP",
+            "name_5": "surname:Mertens;given-names:AC",
+            "name_6": "surname:Meadows;given-names:AT",
+            "name_7": "surname:Friedman;given-names:D",
+            "name_8": "surname:Robison;given-names:LL",
+            "name_9": "surname:Diller;given-names:L",
+            "pub-id_pmid": "15492338",
+            "section_type": "REF",
+            "source": "Ann Intern Med",
+            "type": "ref",
+            "volume": "141",
+            "year": "2004"
+          },
+          "text": "Breast cancer after childhood cancer: a report from the Childhood Cancer Survivor Study",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45086,
+          "infons": {
+            "fpage": "2435",
+            "lpage": "2443",
+            "name_0": "surname:Metayer;given-names:C",
+            "name_1": "surname:Lynch;given-names:CF",
+            "name_2": "surname:Clarke;given-names:A",
+            "name_3": "surname:Glimelius;given-names:B",
+            "name_4": "surname:Storm;given-names:H",
+            "name_5": "surname:Pukkala;given-names:E",
+            "name_6": "surname:Joensuu;given-names:T",
+            "name_7": "surname:van Leeuwen;given-names:FE",
+            "name_8": "surname:van 't Veer;given-names:MB",
+            "name_9": "surname:Curtis;given-names:RE",
+            "pub-id_pmid": "10856104",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "18",
+            "year": "2000"
+          },
+          "text": "Second cancers among long-term survivors of Hodgkin's disease diagnosed in childhood and adolescence",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45187,
+          "infons": {
+            "fpage": "498",
+            "lpage": "509",
+            "name_0": "surname:Swerdlow;given-names:AJ",
+            "name_1": "surname:Barber;given-names:JA",
+            "name_2": "surname:Hudson;given-names:GV",
+            "name_3": "surname:Cunningham;given-names:D",
+            "name_4": "surname:Gupta;given-names:RK",
+            "name_5": "surname:Hancock;given-names:BW",
+            "name_6": "surname:Horwich;given-names:A",
+            "name_7": "surname:Lister;given-names:TA",
+            "name_8": "surname:Linch;given-names:DC",
+            "pub-id_pmid": "10653865",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "18",
+            "year": "2000"
+          },
+          "text": "Risk of second malignancy after Hodgkin's disease in a collaborative British cohort: the relation to age at treatment",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45305,
+          "infons": {
+            "fpage": "1245",
+            "lpage": "1250",
+            "name_0": "surname:Storm;given-names:HH",
+            "name_1": "surname:Andersson;given-names:M",
+            "name_2": "surname:Boice;given-names:JD;suffix:Jr",
+            "name_3": "surname:Blettner;given-names:M",
+            "name_4": "surname:Stovall;given-names:M",
+            "name_5": "surname:Mouridsen;given-names:HT",
+            "name_6": "surname:Dombernowsky;given-names:P",
+            "name_7": "surname:Rose;given-names:C",
+            "name_8": "surname:Jacobsen;given-names:A",
+            "name_9": "surname:Pedersen;given-names:M",
+            "pub-id_pmid": "1640483",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "84",
+            "year": "1992"
+          },
+          "text": "Adjuvant radiotherapy and risk of contralateral breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45367,
+          "infons": {
+            "fpage": "781",
+            "lpage": "785",
+            "name_0": "surname:Boice;given-names:JD;suffix:Jr",
+            "name_1": "surname:Harvey;given-names:EB",
+            "name_2": "surname:Blettner;given-names:M",
+            "name_3": "surname:Stovall;given-names:M",
+            "name_4": "surname:Flannery;given-names:JT",
+            "pub-id_pmid": "1538720",
+            "section_type": "REF",
+            "source": "N Engl J Med",
+            "type": "ref",
+            "volume": "326",
+            "year": "1992"
+          },
+          "text": "Cancer in the contralateral breast after radiotherapy for breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45439,
+          "infons": {
+            "fpage": "971",
+            "lpage": "980",
+            "name_0": "surname:van Leeuwen;given-names:FE",
+            "name_1": "surname:Klokman;given-names:WJ",
+            "name_2": "surname:Stovall;given-names:M",
+            "name_3": "surname:Dahler;given-names:EC",
+            "name_4": "surname:van 't Veer;given-names:MB",
+            "name_5": "surname:Noordijk;given-names:EM",
+            "name_6": "surname:Crommelin;given-names:MA",
+            "name_7": "surname:Aleman;given-names:BMP",
+            "name_8": "surname:Broeks;given-names:A",
+            "name_9": "surname:Gospodarowics;given-names:M",
+            "pub-id_pmid": "12837833",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "95",
+            "year": "2003"
+          },
+          "text": "Roles of radiation dose, chemotherapy, and hormonal factors in breast cancer following Hodgkin's Disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45544,
+          "infons": {
+            "section_type": "REF",
+            "source": "Sources, Effects, and Risks of Ionizing Radiation: 1994 Report to the General Assembly with Scientific Annexes",
+            "type": "ref",
+            "year": "1994"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45545,
+          "infons": {
+            "fpage": "707",
+            "lpage": "717",
+            "name_0": "surname:Land;given-names:CE",
+            "name_1": "surname:Tokunaga;given-names:M",
+            "name_2": "surname:Koyama;given-names:K",
+            "name_3": "surname:Soda;given-names:M",
+            "name_4": "surname:Preston;given-names:DL",
+            "name_5": "surname:Nishimori;given-names:I",
+            "name_6": "surname:Tokuoka;given-names:S",
+            "pub-id_pmid": "14640793",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "160",
+            "year": "2003"
+          },
+          "text": "Incidence of female breast cancer among atomic bomb survivors, Hiroshima and Nagasaki, 1950-1990",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45644,
+          "infons": {
+            "fpage": "136",
+            "lpage": "145",
+            "section_type": "REF",
+            "source": "The Effects on Populations of Exposure to Low Levels of Ionizing Radiation Report of the Advisory Committee on the Biological Effects of Ionizing Radiations (BEIR)",
+            "type": "ref",
+            "year": "1980"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45645,
+          "infons": {
+            "fpage": "220",
+            "lpage": "235",
+            "name_0": "surname:Preston;given-names:DL",
+            "name_1": "surname:Mattson;given-names:AM",
+            "name_2": "surname:Holmberg;given-names:E",
+            "name_3": "surname:Shore;given-names:R",
+            "name_4": "surname:Hildreth;given-names:N",
+            "name_5": "surname:Boice;given-names:JD;suffix:Jr",
+            "pub-id_pmid": "12105993",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "158",
+            "year": "2002"
+          },
+          "text": "Radiation effects on breast cancer risk: a pooled analysis of eight cohorts",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45721,
+          "infons": {
+            "fpage": "465",
+            "lpage": "475",
+            "name_0": "surname:Travis;given-names:LB",
+            "name_1": "surname:Hill;given-names:DA",
+            "name_2": "surname:Dores;given-names:GM",
+            "name_3": "surname:Gospodarowicz;given-names:M",
+            "name_4": "surname:van Leeuwen;given-names:FE",
+            "name_5": "surname:Holowaty;given-names:E",
+            "name_6": "surname:Glimelius;given-names:B",
+            "name_7": "surname:Andersson;given-names:M",
+            "name_8": "surname:Wiklund;given-names:T",
+            "name_9": "surname:Lynch;given-names:CF",
+            "pub-id_doi": "10.1001/jama.290.4.465",
+            "pub-id_pmid": "12876089",
+            "section_type": "REF",
+            "source": "JAMA",
+            "type": "ref",
+            "volume": "290",
+            "year": "2003"
+          },
+          "text": "Breast cancer following radiotherapy and chemotherapy among young women with Hodgkin disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45814,
+          "infons": {
+            "fpage": "119",
+            "lpage": "137",
+            "name_0": "surname:Howard;given-names:BA",
+            "name_1": "surname:Gusterson;given-names:BA",
+            "pub-id_doi": "10.1023/A:1026487120779",
+            "section_type": "REF",
+            "source": "J Mamm Gland Biol Neoplasia",
+            "type": "ref",
+            "volume": "5",
+            "year": "2002"
+          },
+          "text": "Human breast development",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45839,
+          "infons": {
+            "fpage": "1",
+            "lpage": "16",
+            "name_0": "surname:Russo;given-names:J",
+            "name_1": "surname:Russo;given-names:IH",
+            "pub-id_pmid": "9108586",
+            "section_type": "REF",
+            "source": "Prog Clin Biol Res",
+            "type": "ref",
+            "volume": "396",
+            "year": "1997"
+          },
+          "text": "Toward a unified concept of mammary carcinogenesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45890,
+          "infons": {
+            "fpage": "559",
+            "lpage": "569",
+            "name_0": "surname:Moolkavgar;given-names:SH",
+            "name_1": "surname:Day;given-names:NE",
+            "name_2": "surname:Stevens;given-names:RG",
+            "pub-id_pmid": "6931935",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "65",
+            "year": "1980"
+          },
+          "text": "Two-stage model for carcinogenesis: epidemiology of breast cancer in females",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45967,
+          "infons": {
+            "fpage": "385",
+            "lpage": "395",
+            "name_0": "surname:Delongchamp;given-names:RR",
+            "name_1": "surname:Mabuchi;given-names:K",
+            "name_2": "surname:Yoshimoto;given-names:Y",
+            "name_3": "surname:Preston;given-names:DL",
+            "pub-id_pmid": "9052687",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "147",
+            "year": "1997"
+          },
+          "text": "Cancer mortality among atomic bomb survivors exposed in utero or as young children, October 1950-May 1992",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46075,
+          "infons": {
+            "fpage": "1442",
+            "lpage": "1446",
+            "name_0": "surname:Sankila;given-names:R",
+            "name_1": "surname:Garwicz;given-names:S",
+            "name_2": "surname:Olsen;given-names:JH",
+            "name_3": "surname:Dollner;given-names:H",
+            "name_4": "surname:Hertz;given-names:H",
+            "name_5": "surname:Kreuger;given-names:A",
+            "name_6": "surname:Langmark;given-names:F",
+            "name_7": "surname:Lanning;given-names:M",
+            "name_8": "surname:Moller;given-names:T",
+            "name_9": "surname:Tulinius;given-names:H",
+            "pub-id_pmid": "8622057",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "14",
+            "year": "1996"
+          },
+          "text": "Risk of subsequent malignant neoplasms among 1,641 Hodgkin's disease patients diagnosed in childhood and adolescence: a population-based cohort study in the five Nordic countries. Association of the Nordic Cancer Registries and the Nordic Society of Pediatric Hematology and Oncology",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46359,
+          "infons": {
+            "fpage": "745",
+            "lpage": "751",
+            "name_0": "surname:Bhatia;given-names:S",
+            "name_1": "surname:Robison;given-names:LL",
+            "name_2": "surname:Oberlin;given-names:O",
+            "name_3": "surname:Greenberg;given-names:M",
+            "name_4": "surname:Bunin;given-names:G",
+            "name_5": "surname:Fossati-Bellani;given-names:F",
+            "name_6": "surname:Meadows;given-names:AT",
+            "pub-id_doi": "10.1056/NEJM199603213341201",
+            "pub-id_pmid": "8592547",
+            "section_type": "REF",
+            "source": "N Engl J Med",
+            "type": "ref",
+            "volume": "334",
+            "year": "1996"
+          },
+          "text": "Breast cancer and other second neoplasms after childhood Hodgkin's disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46434,
+          "infons": {
+            "fpage": "36",
+            "lpage": "42",
+            "name_0": "surname:Percy;given-names:CL",
+            "name_1": "surname:Smith;given-names:MA",
+            "name_2": "surname:Linet;given-names:M",
+            "name_3": "surname:Gloeckler Ries;given-names:LA",
+            "name_4": "surname:Friedman;given-names:DL",
+            "name_5": "surname:Ries LAG, Smith MA, Gurney JG, Linet M, Tamra T, Young JL",
+            "section_type": "REF",
+            "source": "In Cancer incidence and survival among children and adolescents: United States SEER program 1975-1995 NIH Pub No 99-4649",
+            "type": "ref",
+            "year": "1999"
+          },
+          "text": "Lymphomas and reticuloendothelial neoplasms",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46478,
+          "infons": {
+            "fpage": "618",
+            "lpage": "629",
+            "name_0": "surname:Neglia;given-names:JP",
+            "name_1": "surname:Friedman;given-names:DL",
+            "name_2": "surname:Yasui;given-names:Y",
+            "name_3": "surname:Mertens;given-names:AC",
+            "name_4": "surname:Hammond;given-names:S",
+            "name_5": "surname:Stovall;given-names:M",
+            "name_6": "surname:Donaldson;given-names:SS",
+            "name_7": "surname:Meadows;given-names:AT",
+            "name_8": "surname:Robison;given-names:LL",
+            "pub-id_doi": "10.1093/jnci/93.8.618",
+            "pub-id_pmid": "11309438",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "93",
+            "year": "2001"
+          },
+          "text": "Second malignant neoplasms in five-year survivors of childhood cancer: Childhood Cancer Survivor Study",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46581,
+          "infons": {
+            "fpage": "1108",
+            "lpage": "1113",
+            "name_0": "surname:Yasui;given-names:Y",
+            "name_1": "surname:Liu;given-names:Y",
+            "name_2": "surname:Neglia;given-names:JP",
+            "name_3": "surname:Friedman;given-names:DL",
+            "name_4": "surname:Bhatia;given-names:S",
+            "name_5": "surname:Meadows;given-names:AT",
+            "name_6": "surname:Diller;given-names:LR",
+            "name_7": "surname:Mertens;given-names:AC",
+            "name_8": "surname:Whitton;given-names:J",
+            "name_9": "surname:Robison;given-names:LL",
+            "pub-id_doi": "10.1093/aje/kwg278",
+            "pub-id_pmid": "14630607",
+            "section_type": "REF",
+            "source": "Am J Epidemiol",
+            "type": "ref",
+            "volume": "158",
+            "year": "2003"
+          },
+          "text": "A methodological issue in the analysis of second-primary cancer incidence in long-term survivors of childhood cancers",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46699,
+          "infons": {
+            "fpage": "25",
+            "lpage": "31",
+            "name_0": "surname:Hancock;given-names:SL",
+            "name_1": "surname:Tucker;given-names:MA",
+            "name_2": "surname:Hoppe;given-names:RT",
+            "pub-id_pmid": "8416252",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "85",
+            "year": "1993"
+          },
+          "text": "Breast cancer after treatment of Hodgkin's disease",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46750,
+          "infons": {
+            "fpage": "1989",
+            "lpage": "1996",
+            "name_0": "surname:Ng;given-names:AK",
+            "name_1": "surname:Bernardo;given-names:MV",
+            "name_2": "surname:Weller;given-names:E",
+            "name_3": "surname:Backstrand;given-names:K",
+            "name_4": "surname:Silver;given-names:B",
+            "name_5": "surname:Marcus;given-names:KC",
+            "name_6": "surname:Tarbell;given-names:NJ",
+            "name_7": "surname:Stevenson;given-names:MA",
+            "name_8": "surname:Friedberg;given-names:JW",
+            "name_9": "surname:Mauch;given-names:PM",
+            "pub-id_doi": "10.1182/blood-2002-02-0634",
+            "pub-id_pmid": "12200357",
+            "section_type": "REF",
+            "source": "Blood",
+            "type": "ref",
+            "volume": "100",
+            "year": "2002"
+          },
+          "text": "Second malignancy after Hodgkin disease treated with radiation therapy with or without chemotherapy: long-term risks and risk factors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46884,
+          "infons": {
+            "fpage": "1786",
+            "lpage": "1791",
+            "name_0": "surname:Abrahamsen;given-names:AF",
+            "name_1": "surname:Andersen;given-names:A",
+            "name_2": "surname:Nome;given-names:O",
+            "name_3": "surname:Jacobsen;given-names:AB",
+            "name_4": "surname:Holte;given-names:H",
+            "name_5": "surname:Abrahamsen;given-names:F",
+            "name_6": "surname:Kvaloy;given-names:S",
+            "pub-id_doi": "10.1093/annonc/mdf289",
+            "pub-id_pmid": "12419752",
+            "section_type": "REF",
+            "source": "Ann Oncol",
+            "type": "ref",
+            "volume": "13",
+            "year": "2002"
+          },
+          "text": "Long-term risk of second malignancy after treatment of Hodgkin's disease: the influence of treatment, age and follow-up time",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47009,
+          "infons": {
+            "fpage": "708",
+            "lpage": "715",
+            "name_0": "surname:Wahner-Roedler;given-names:DL",
+            "name_1": "surname:Nelson;given-names:DF",
+            "name_2": "surname:Croghan;given-names:IT",
+            "name_3": "surname:Achenbach;given-names:SJ",
+            "name_4": "surname:Crowson;given-names:CS",
+            "name_5": "surname:Hartmann;given-names:LC",
+            "name_6": "surname:O'Fallon;given-names:WM",
+            "pub-id_pmid": "12934780",
+            "section_type": "REF",
+            "source": "Mayo Clin Proc",
+            "type": "ref",
+            "volume": "78",
+            "year": "2003"
+          },
+          "text": "Risk of breast cancer and breast cancer characteristics in women treated with supradiaphragmatic radiation for Hodgkin lymphoma: Mayo Clinic experience",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47161,
+          "infons": {
+            "fpage": "799",
+            "lpage": "811",
+            "name_0": "surname:McGregor;given-names:DH",
+            "name_1": "surname:Land;given-names:CE",
+            "name_2": "surname:Choi;given-names:K",
+            "name_3": "surname:Tokuoka;given-names:S",
+            "name_4": "surname:Wakabayashi;given-names:T",
+            "name_5": "surname:Beebe;given-names:GW",
+            "pub-id_pmid": "894745",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "59",
+            "year": "1977"
+          },
+          "text": "Breast cancer incidence among atomic bomb survivors, Hiroshima and Nagasaki, 1950-69",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47248,
+          "infons": {
+            "fpage": "1347",
+            "lpage": "1359",
+            "name_0": "surname:Tokunaga;given-names:M",
+            "name_1": "surname:Norman;given-names:JE;suffix:Jr",
+            "name_2": "surname:Asano;given-names:M",
+            "name_3": "surname:Tokuoka;given-names:S",
+            "name_4": "surname:Ezaki;given-names:H",
+            "name_5": "surname:Nishimori;given-names:I",
+            "name_6": "surname:Tsuji;given-names:Y",
+            "pub-id_pmid": "286106",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "62",
+            "year": "1979"
+          },
+          "text": "Malignant breast tumors among atomic bomb survivors, Hiroshima and Nagasaki, 1950-74",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47335,
+          "infons": {
+            "fpage": "243",
+            "lpage": "272",
+            "name_0": "surname:Tokunaga;given-names:M",
+            "name_1": "surname:Land;given-names:CE",
+            "name_2": "surname:Yamamoto;given-names:T",
+            "name_3": "surname:Asano;given-names:M",
+            "name_4": "surname:Tokuoka;given-names:S",
+            "name_5": "surname:Ezaki;given-names:H",
+            "name_6": "surname:Nishimori;given-names:I",
+            "pub-id_pmid": "3685255",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "112",
+            "year": "1987"
+          },
+          "text": "Incidence of female breast cancer among atomic bomb survivors, Hiroshima and Nagasaki, 1950-1980",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47434,
+          "infons": {
+            "fpage": "209",
+            "lpage": "223",
+            "name_0": "surname:Tokunaga;given-names:M",
+            "name_1": "surname:Land;given-names:CE",
+            "name_2": "surname:Tokuoka;given-names:S",
+            "name_3": "surname:Nishimori;given-names:I",
+            "name_4": "surname:Soda;given-names:M",
+            "name_5": "surname:Akiba;given-names:S",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "1338",
+            "year": "1994"
+          },
+          "text": "Incidence of female breast cancer among atomic bomb survivors, 1950-1985",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47509,
+          "infons": {
+            "fpage": "1474",
+            "lpage": "1479",
+            "name_0": "surname:Chen;given-names:J",
+            "name_1": "surname:Lee;given-names:J",
+            "name_2": "surname:Tsodikov;given-names:A",
+            "name_3": "surname:Smith;given-names:L",
+            "name_4": "surname:Gaffney;given-names:DK",
+            "pub-id_doi": "10.1016/j.ijrobp.2003.09.018",
+            "section_type": "REF",
+            "source": "Int J Radiation Oncology Biol Phys",
+            "type": "ref",
+            "volume": "58",
+            "year": "2004"
+          },
+          "text": "Does radiotherapy around the time of pregnancy for Hodgkin's disease modify the risk of breast cancer?",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47612,
+          "infons": {
+            "comment": "13-17 March 1978",
+            "fpage": "231",
+            "lpage": "249",
+            "name_0": "surname:Boice;given-names:JD",
+            "name_1": "surname:Stone;given-names:BJ",
+            "section_type": "REF",
+            "source": "In Proceedings of the Symposium on Late Biological Effects of Ionizing Radiation: Vienna, Austria",
+            "type": "ref",
+            "volume": "1",
+            "year": "1978"
+          },
+          "text": "Interaction between radiation and other breast cancer factors. In: Late biological effects of ionizing radiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47725,
+          "infons": {
+            "fpage": "217",
+            "lpage": "220",
+            "name_0": "surname:van Bekkum;given-names:DW",
+            "name_1": "surname:Broerse;given-names:JJ",
+            "pub-id_pmid": "1924709",
+            "section_type": "REF",
+            "source": "Radiat Environ Biophys",
+            "type": "ref",
+            "volume": "30",
+            "year": "1991"
+          },
+          "text": "Induction of mammary tumors by ionising radiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47775,
+          "infons": {
+            "fpage": "31",
+            "lpage": "43",
+            "name_0": "surname:Shellabarger;given-names:CJ",
+            "name_1": "surname:Yuhas J, Tennant RW, Regan JR",
+            "section_type": "REF",
+            "source": "In Biology of Radiation Carcinogenesis",
+            "type": "ref",
+            "year": "1976"
+          },
+          "text": "Modifying factors in rat mammary gland carcinogenesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47829,
+          "infons": {
+            "fpage": "50",
+            "lpage": "53",
+            "name_0": "surname:Holtzman;given-names:S",
+            "name_1": "surname:Stone;given-names:JP",
+            "name_2": "surname:Shellabarger;given-names:CJ",
+            "pub-id_pmid": "7053866",
+            "section_type": "REF",
+            "source": "Cancer Res",
+            "type": "ref",
+            "volume": "42",
+            "year": "1982"
+          },
+          "text": "Radiation-induced mammary carcinogenesis in virgin, pregnant, lactating and post-lactating rats",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47925,
+          "infons": {
+            "fpage": "442",
+            "lpage": "450",
+            "name_0": "surname:Bartstra;given-names:RW",
+            "name_1": "surname:Bentvelzen;given-names:PA",
+            "name_2": "surname:Zoetelief;given-names:J",
+            "name_3": "surname:Mulder;given-names:AH",
+            "name_4": "surname:Broerse;given-names:JJ",
+            "name_5": "surname:van Bekkum;given-names:DW",
+            "pub-id_pmid": "9768859",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "150",
+            "year": "1998"
+          },
+          "text": "Induction of mammary tumors in rats by single-dose gamma irradiation at different ages",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48012,
+          "infons": {
+            "fpage": "708",
+            "lpage": "713",
+            "name_0": "surname:Inano;given-names:H",
+            "name_1": "surname:Suzuki;given-names:K",
+            "name_2": "surname:Ononda;given-names:M",
+            "name_3": "surname:Yamanouchi;given-names:H",
+            "pub-id_pmid": "8643830",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "145",
+            "year": "1996"
+          },
+          "text": "Susceptibility of fetal, virgin, pregnant, and lactating rats for the induction of mammary tumors by gamma rays",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48124,
+          "infons": {
+            "fpage": "3650",
+            "lpage": "3657",
+            "name_0": "surname:Nandi;given-names:S",
+            "name_1": "surname:Guzman;given-names:RC",
+            "name_2": "surname:Yang;given-names:J",
+            "pub-id_pmid": "7731959",
+            "section_type": "REF",
+            "source": "Proc Natl Acad Sci USA",
+            "type": "ref",
+            "volume": "92",
+            "year": "1995"
+          },
+          "text": "Hormones and mammary carcinogenesis in mice, rats, and humans: a unifying hypothesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48209,
+          "infons": {
+            "fpage": "118",
+            "lpage": "123",
+            "name_0": "surname:Shimada;given-names:Y",
+            "name_1": "surname:Yasukawa-Barnes;given-names:J",
+            "name_2": "surname:Kim;given-names:RY",
+            "name_3": "surname:Gould;given-names:MN",
+            "name_4": "surname:Clifton;given-names:KH",
+            "pub-id_pmid": "8265781",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "137",
+            "year": "1994"
+          },
+          "text": "Age and radiation sensitivity of rat mammary clonogenic cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48271,
+          "infons": {
+            "fpage": "103",
+            "name_0": "surname:Shellabarger;given-names:CJ",
+            "section_type": "REF",
+            "source": "In Abstracts of papers presented at the 5th International Congress of Radiation Research",
+            "type": "ref",
+            "year": "1974"
+          },
+          "text": "A comparison of rat mammary carcinogenesis following total-body irradiation at different ages",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48365,
+          "infons": {
+            "fpage": "149",
+            "lpage": "159",
+            "name_0": "surname:Albert;given-names:RE",
+            "name_1": "surname:Benjamin;given-names:SA",
+            "name_2": "surname:Shukla;given-names:R",
+            "pub-id_doi": "10.1016/0047-6374(94)90086-8",
+            "pub-id_pmid": "7934212",
+            "section_type": "REF",
+            "source": "Mech Aging Dev",
+            "type": "ref",
+            "volume": "74",
+            "year": "1994"
+          },
+          "text": "Life span and cancer mortality in the Beagle dog and humans",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48425,
+          "infons": {
+            "fpage": "330",
+            "lpage": "348",
+            "name_0": "surname:Benjamin;given-names:SA",
+            "name_1": "surname:Lee;given-names:AC",
+            "name_2": "surname:Angleton;given-names:GM",
+            "name_3": "surname:Saunders;given-names:WJ",
+            "name_4": "surname:Keefe;given-names:TJ",
+            "name_5": "surname:Mallinckrodt;given-names:CH",
+            "pub-id_pmid": "9728662",
+            "section_type": "REF",
+            "source": "Radiat Res",
+            "type": "ref",
+            "volume": "150",
+            "year": "1998"
+          },
+          "text": "Mortality in beagles irradiated during prenatal and postnatal development. II. Contribution of benign and malignant neoplasia",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48551,
+          "infons": {
+            "fpage": "43",
+            "lpage": "46",
+            "name_0": "surname:Preston;given-names:DL",
+            "name_1": "surname:Pierce;given-names:DA",
+            "name_2": "surname:Shimizu;given-names:Y",
+            "name_3": "surname:Ron;given-names:E",
+            "name_4": "surname:Mabuchi;given-names:K",
+            "pub-id_doi": "10.1097/00004032-200307000-00010",
+            "pub-id_pmid": "12852470",
+            "section_type": "REF",
+            "source": "Health Phys",
+            "type": "ref",
+            "volume": "85",
+            "year": "2003"
+          },
+          "text": "Dose response and temporal patterns of radiation-associated solid cancer risks",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48630,
+          "infons": {
+            "fpage": "167",
+            "lpage": "176",
+            "name_0": "surname:Land;given-names:CE",
+            "name_1": "surname:Hayakawa;given-names:N",
+            "name_2": "surname:Machado;given-names:SG",
+            "name_3": "surname:Yamada;given-names:Y",
+            "name_4": "surname:Pike;given-names:MC",
+            "name_5": "surname:Akiba;given-names:S",
+            "name_6": "surname:Tokunaga;given-names:M",
+            "pub-id_pmid": "8167264",
+            "section_type": "REF",
+            "source": "Cancer Causes Control",
+            "type": "ref",
+            "volume": "5",
+            "year": "1994"
+          },
+          "text": "A case-control interview study among Japanese A-bomb survivors. II. Interactions with radiation dose",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48731,
+          "infons": {
+            "fpage": "815",
+            "lpage": "820",
+            "name_0": "surname:Shore;given-names:RE",
+            "name_1": "surname:Woodard;given-names:ED",
+            "name_2": "surname:Hempelmann;given-names:LH",
+            "name_3": "surname:Pasternack;given-names:BS",
+            "pub-id_doi": "10.1016/0091-7435(80)90024-9",
+            "pub-id_pmid": "7454704",
+            "section_type": "REF",
+            "source": "Prev Med",
+            "type": "ref",
+            "volume": "9",
+            "year": "1980"
+          },
+          "text": "Synergism between radiation and other risk factors for breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48800,
+          "infons": {
+            "fpage": "362",
+            "lpage": "366",
+            "name_0": "surname:Holmberg;given-names:E",
+            "name_1": "surname:Holm;given-names:LE",
+            "name_2": "surname:Lundell;given-names:M",
+            "name_3": "surname:Mattsson;given-names:A",
+            "name_4": "surname:Wallgren;given-names:A",
+            "name_5": "surname:Karlsson;given-names:P",
+            "pub-id_doi": "10.1054/bjoc.2001.1868",
+            "pub-id_pmid": "11487266",
+            "section_type": "REF",
+            "source": "Br J Cancer",
+            "type": "ref",
+            "volume": "85",
+            "year": "2001"
+          },
+          "text": "Excess breast cancer risk and the role of parity, age at first childbirth and exposure to radiation in infancy",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48911,
+          "infons": {
+            "fpage": "487",
+            "lpage": "497",
+            "name_0": "surname:van Leeuwen;given-names:FE",
+            "name_1": "surname:Klokman;given-names:WJ",
+            "name_2": "surname:Veer;given-names:MB",
+            "name_3": "surname:Hagenbeek;given-names:A",
+            "name_4": "surname:Krol;given-names:AD",
+            "name_5": "surname:Vetter;given-names:UA",
+            "name_6": "surname:Schaapveld;given-names:M",
+            "name_7": "surname:van Heerde;given-names:P",
+            "name_8": "surname:Burgers;given-names:JM",
+            "name_9": "surname:Somers;given-names:R",
+            "pub-id_pmid": "10653864",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "18",
+            "year": "2000"
+          },
+          "text": "Long-term risk of second malignancy in survivors of Hodgkin's disease treated during adolescence or young adulthood",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49027,
+          "infons": {
+            "fpage": "711",
+            "lpage": "718",
+            "name_0": "surname:Hill;given-names:DA",
+            "name_1": "surname:Preston-Martin;given-names:S",
+            "name_2": "surname:Ross;given-names:RK",
+            "name_3": "surname:Bernstein;given-names:L",
+            "pub-id_doi": "10.1023/A:1020201106117",
+            "pub-id_pmid": "12420949",
+            "section_type": "REF",
+            "source": "Cancer Causes Control",
+            "type": "ref",
+            "volume": "13",
+            "year": "2002"
+          },
+          "text": "Medical radiation, family history of breast cancer, and benign breast disease in relation to breast cancer risk in young women",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49154,
+          "infons": {
+            "fpage": "1114",
+            "lpage": "1115",
+            "name_0": "surname:Petersen;given-names:GM",
+            "pub-id_doi": "10.1093/jnci/92.14.1114",
+            "pub-id_pmid": "10904078",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "92",
+            "year": "2000"
+          },
+          "text": "Familial aggregation: sorting susceptibility from shared environment",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49223,
+          "infons": {
+            "fpage": "3484",
+            "lpage": "3494",
+            "name_0": "surname:Dores;given-names:GM",
+            "name_1": "surname:Metayer;given-names:C",
+            "name_2": "surname:Curtis;given-names:RE",
+            "name_3": "surname:Lynch;given-names:CF",
+            "name_4": "surname:Clarke;given-names:EA",
+            "name_5": "surname:Glimelius;given-names:B",
+            "name_6": "surname:Storm;given-names:H",
+            "name_7": "surname:Pukkala;given-names:E",
+            "name_8": "surname:van Leeuwen;given-names:FE",
+            "name_9": "surname:Holowaty;given-names:EJ",
+            "pub-id_doi": "10.1200/JCO.2002.09.038",
+            "pub-id_pmid": "12177110",
+            "section_type": "REF",
+            "source": "J Clin Oncol",
+            "type": "ref",
+            "volume": "20",
+            "year": "2002"
+          },
+          "text": "Second malignant neoplasms among long-term survivors of Hodgkin's disease: a population-based evaluation over 25 years",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49342,
+          "infons": {
+            "fpage": "237",
+            "name_0": "surname:Land;given-names:CE",
+            "name_1": "surname:Tokunaga;given-names:M",
+            "name_2": "surname:Tokuoka;given-names:S",
+            "name_3": "surname:Nakamura;given-names:N",
+            "pub-id_doi": "10.1016/0140-6736(93)92324-M",
+            "pub-id_pmid": "8100952",
+            "section_type": "REF",
+            "source": "Lancet",
+            "type": "ref",
+            "volume": "342",
+            "year": "1993"
+          },
+          "text": "Early-onset breast cancer in A-bomb survivors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49388,
+          "infons": {
+            "fpage": "125",
+            "lpage": "135",
+            "name_0": "surname:Preston;given-names:RJ",
+            "section_type": "REF",
+            "source": "Adv Radiat Biol",
+            "type": "ref",
+            "volume": "16",
+            "year": "1992"
+          },
+          "text": "A consideration of the mechanisms of induction of mutations in mammalian cells by low doses and dose rates of ionizing radiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49517,
+          "infons": {
+            "fpage": "5706",
+            "lpage": "5715",
+            "name_0": "surname:Rothkamm;given-names:K",
+            "name_1": "surname:Kruger;given-names:I",
+            "name_2": "surname:Thompson;given-names:LH",
+            "name_3": "surname:Lobrich;given-names:M",
+            "pub-id_doi": "10.1128/MCB.23.16.5706-5715.2003",
+            "pub-id_pmid": "12897142",
+            "section_type": "REF",
+            "source": "Mol Cell Biol",
+            "type": "ref",
+            "volume": "23",
+            "year": "2003"
+          },
+          "text": "Pathways of DNA double strand repair during the mammalian cell cycle",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49586,
+          "infons": {
+            "fpage": "5057",
+            "lpage": "5062",
+            "name_0": "surname:Rothkamm;given-names:K",
+            "name_1": "surname:Lobrich;given-names:M",
+            "pub-id_doi": "10.1073/pnas.0830918100",
+            "pub-id_pmid": "12679524",
+            "section_type": "REF",
+            "source": "Proc Natl Acad Sci USA",
+            "type": "ref",
+            "volume": "100",
+            "year": "2003"
+          },
+          "text": "Evidence for a lack of DNA double-strand break repair in human cells exposed to very low x-ray doses",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49687,
+          "infons": {
+            "fpage": "93",
+            "lpage": "125",
+            "name_0": "surname:Mohrenweiser;given-names:HW",
+            "name_1": "surname:Wilson;given-names:DM",
+            "name_2": "surname:Jones;given-names:IM",
+            "pub-id_pmid": "12714187",
+            "section_type": "REF",
+            "source": "Mutat Res",
+            "type": "ref",
+            "volume": "526",
+            "year": "2003"
+          },
+          "text": "Challenges and complexities in estimating both the functional impact and the disease risk associated with the extensive genetic variation in human DNA repair genes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49851,
+          "infons": {
+            "fpage": "1297",
+            "lpage": "1301",
+            "name_0": "surname:Willers;given-names:H",
+            "name_1": "surname:Dahm-Dapil;given-names:J",
+            "name_2": "surname:Powell;given-names:SN",
+            "pub-id_doi": "10.1038/sj.bjc.6601729",
+            "pub-id_pmid": "15054444",
+            "section_type": "REF",
+            "source": "Br J Cancer",
+            "type": "ref",
+            "volume": "90",
+            "year": "2004"
+          },
+          "text": "Repair of radiation damage to DNA",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49885,
+          "infons": {
+            "fpage": "143",
+            "lpage": "149",
+            "name_0": "surname:Bennett;given-names:LM",
+            "pub-id_doi": "10.1002/(SICI)1098-2744(199911)26:3<143::AID-MC2>3.0.CO;2-S",
+            "section_type": "REF",
+            "source": "Mol Carcinogen",
+            "type": "ref",
+            "volume": "26",
+            "year": "1999"
+          },
+          "text": "Breast cancer: Genetic predisposition and exposure to radiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49949,
+          "infons": {
+            "fpage": "795",
+            "lpage": "802",
+            "name_0": "surname:Khanna;given-names:KK",
+            "pub-id_doi": "10.1093/jnci/92.10.795",
+            "pub-id_pmid": "10814674",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "92",
+            "year": "2000"
+          },
+          "text": "Cancer risk and the ATM gene: a continuing debate",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49999,
+          "infons": {
+            "fpage": "89",
+            "lpage": "90",
+            "name_0": "surname:Concannon;given-names:P",
+            "pub-id_doi": "10.1038/ng0902-89",
+            "pub-id_pmid": "12205473",
+            "section_type": "REF",
+            "source": "Nat Genet",
+            "type": "ref",
+            "volume": "32",
+            "year": "2002"
+          },
+          "text": "ATM heterozygosity and cancer risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50034,
+          "infons": {
+            "fpage": "121",
+            "lpage": "127",
+            "name_0": "surname:Olsen;given-names:JH",
+            "name_1": "surname:Hahnemann;given-names:JM",
+            "name_2": "surname:Borresen-Dale;given-names:AL",
+            "name_3": "surname:Brondum-Nielsen;given-names:K",
+            "name_4": "surname:Hammarstrom;given-names:L",
+            "name_5": "surname:Kleinerman;given-names:R",
+            "name_6": "surname:Kaariainen;given-names:H",
+            "name_7": "surname:Lonnqvist;given-names:T",
+            "name_8": "surname:Sankila;given-names:R",
+            "name_9": "surname:Seersholm;given-names:N",
+            "pub-id_doi": "10.1093/jnci/93.2.121",
+            "pub-id_pmid": "11208881",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "93",
+            "year": "2001"
+          },
+          "text": "Cancer in patients with ataxia-telangiectasia and in their relatives in the nordic countries",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50127,
+          "infons": {
+            "fpage": "494",
+            "lpage": "500",
+            "name_0": "surname:Broeks;given-names:A",
+            "name_1": "surname:Urbanus;given-names:JH",
+            "name_2": "surname:Floore;given-names:AN",
+            "name_3": "surname:Dahler;given-names:EC",
+            "name_4": "surname:Klijn;given-names:JG",
+            "name_5": "surname:Rutgers;given-names:EJ",
+            "name_6": "surname:Devilee;given-names:P",
+            "name_7": "surname:Russell;given-names:NS",
+            "name_8": "surname:van Leeuwen;given-names:FE",
+            "name_9": "surname:van 't Veer;given-names:LJ",
+            "pub-id_doi": "10.1086/302746",
+            "pub-id_pmid": "10677309",
+            "section_type": "REF",
+            "source": "Am J Hum Genet",
+            "type": "ref",
+            "volume": "66",
+            "year": "2000"
+          },
+          "text": "ATM-heterozygous germline mutations contribute to breast cancer-susceptibility",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50206,
+          "infons": {
+            "fpage": "1513",
+            "lpage": "1516",
+            "name_0": "surname:Bernstein;given-names:JL",
+            "name_1": "surname:Bernstein;given-names:L",
+            "name_2": "surname:Thompson;given-names:WD",
+            "name_3": "surname:Lynch;given-names:CF",
+            "name_4": "surname:Malone;given-names:KE",
+            "name_5": "surname:Teitelbaum;given-names:SL",
+            "name_6": "surname:Olsen;given-names:JH",
+            "name_7": "surname:Anton-Culver;given-names:H",
+            "name_8": "surname:Boice;given-names:JD",
+            "name_9": "surname:Rosenstein;given-names:BS",
+            "pub-id_doi": "10.1038/sj.bjc.6601289",
+            "pub-id_pmid": "14562025",
+            "section_type": "REF",
+            "source": "Br J Cancer",
+            "type": "ref",
+            "volume": "89",
+            "year": "2003"
+          },
+          "text": "ATM variants 7271T>G and IVS10-6T>G among women with unilateral and bilateral breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50298,
+          "infons": {
+            "fpage": "R199",
+            "lpage": "R214",
+            "name_0": "surname:Bernstein;given-names:JL",
+            "name_1": "surname:Langholz;given-names:B",
+            "name_2": "surname:Haile;given-names:RW",
+            "name_3": "surname:Bernstein;given-names:L",
+            "name_4": "surname:Thomas;given-names:DC",
+            "name_5": "surname:Stovall;given-names:M",
+            "name_6": "surname:Malone;given-names:KE",
+            "name_7": "surname:Lynch;given-names:CF",
+            "name_8": "surname:Olsen;given-names:JH",
+            "name_9": "surname:Anton-Culver;given-names:H",
+            "pub-id_doi": "10.1186/bcr771",
+            "pub-id_pmid": "15084244",
+            "section_type": "REF",
+            "source": "Breast Cancer Res",
+            "type": "ref",
+            "volume": "6",
+            "year": "2004"
+          },
+          "text": "Study design: evaluating gene-environment interactions in the etiology of breast cancer - the WECARE study",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50409,
+          "infons": {
+            "fpage": "4409",
+            "lpage": "4411",
+            "name_0": "surname:Weil;given-names:MM",
+            "name_1": "surname:Kittrel;given-names:FS",
+            "name_2": "surname:Yu;given-names:Y",
+            "name_3": "surname:McCarthy;given-names:M",
+            "name_4": "surname:Zabriskie;given-names:RC",
+            "name_5": "surname:Ullrich;given-names:RL",
+            "pub-id_doi": "10.1038/sj.onc.1204589",
+            "pub-id_pmid": "11466622",
+            "section_type": "REF",
+            "source": "Oncogene",
+            "type": "ref",
+            "volume": "20",
+            "year": "2001"
+          },
+          "text": "Radiation induces genomic instability and mammary ductal dysplasia in Atm heterozygous mice",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50501,
+          "infons": {
+            "fpage": "393",
+            "lpage": "395",
+            "name_0": "surname:Carlomagno;given-names:F",
+            "name_1": "surname:Chang-Claude;given-names:J",
+            "name_2": "surname:Dunning;given-names:AM",
+            "name_3": "surname:Ponder;given-names:BA",
+            "pub-id_doi": "10.1002/(SICI)1098-2264(199908)25:4<393::AID-GCC12>3.0.CO;2-8",
+            "pub-id_pmid": "10398434",
+            "section_type": "REF",
+            "source": "Genes Chromosomes Cancer",
+            "type": "ref",
+            "volume": "25",
+            "year": "1999"
+          },
+          "text": "Determination of the frequency of the common 657Del5 Nijmegen breakage syndrome mutation in the German population: no association with risk of breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50658,
+          "infons": {
+            "fpage": "400",
+            "lpage": "406",
+            "pub-id_doi": "10.1136/adc.82.5.400",
+            "pub-id_pmid": "10799436",
+            "section_type": "REF",
+            "source": "Arch Dis Child",
+            "type": "ref",
+            "volume": "82",
+            "year": "2000"
+          },
+          "text": "Nijmegen breakage syndrome",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50685,
+          "infons": {
+            "name_0": "surname:Valentin J",
+            "section_type": "REF",
+            "source": "Genetic Susceptibility to Cancer ICRP publication 79",
+            "type": "ref",
+            "year": "1998"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50686,
+          "infons": {
+            "fpage": "357",
+            "lpage": "363",
+            "name_0": "surname:Fletcher;given-names:O",
+            "name_1": "surname:Easton;given-names:D",
+            "name_2": "surname:Anderson;given-names:K",
+            "name_3": "surname:Gilham;given-names:C",
+            "name_4": "surname:Jay;given-names:M",
+            "name_5": "surname:Peto;given-names:J",
+            "pub-id_pmid": "14996857",
+            "section_type": "REF",
+            "source": "J Natl Cancer Inst",
+            "type": "ref",
+            "volume": "96",
+            "year": "2004"
+          },
+          "text": "Lifetime risks of common cancers among retinoblastoma survivors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50750,
+          "infons": {
+            "fpage": "1262",
+            "lpage": "1267",
+            "name_0": "surname:Wong;given-names:FL",
+            "name_1": "surname:Boice;given-names:JD;suffix:Jr",
+            "name_2": "surname:Abramson;given-names:DH",
+            "name_3": "surname:Tarone;given-names:RE",
+            "name_4": "surname:Kleinerman;given-names:RA",
+            "name_5": "surname:Stovall;given-names:M",
+            "name_6": "surname:Goldman;given-names:MB",
+            "name_7": "surname:Seddon;given-names:JM",
+            "name_8": "surname:Tarbell;given-names:N",
+            "name_9": "surname:Fraumeni;given-names:JF;suffix:Jr",
+            "pub-id_doi": "10.1001/jama.278.15.1262",
+            "pub-id_pmid": "9333268",
+            "section_type": "REF",
+            "source": "JAMA",
+            "type": "ref",
+            "volume": "278",
+            "year": "1997"
+          },
+          "text": "Cancer incidence after retinoblastoma. Radiation dose and sarcoma risk",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50821,
+          "infons": {
+            "fpage": "1109",
+            "lpage": "1114",
+            "name_0": "surname:Moll;given-names:AC",
+            "name_1": "surname:Imhof;given-names:SM",
+            "name_2": "surname:Schouten-van Meeteren;given-names:AYN",
+            "name_3": "surname:Kuik;given-names:DJ",
+            "name_4": "surname:Hofman;given-names:P",
+            "name_5": "surname:Boers;given-names:M",
+            "pub-id_doi": "10.1016/S0161-6420(01)00562-0",
+            "section_type": "REF",
+            "source": "Opthalmology",
+            "type": "ref",
+            "volume": "108",
+            "year": "2001"
+          },
+          "text": "Second primary tumors in hereditary retinoblastoma: a register-based study, 1945-1997",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50909,
+          "infons": {
+            "fpage": "238",
+            "lpage": "242",
+            "name_0": "surname:Limacher;given-names:J-M",
+            "name_1": "surname:Frebourg;given-names:T",
+            "name_2": "surname:Natarajan-Ame;given-names:S",
+            "name_3": "surname:Bergerat;given-names:JP",
+            "section_type": "REF",
+            "source": "Int J Cancer Radiat Oncol Invest",
+            "type": "ref",
+            "volume": "96",
+            "year": "2001"
+          },
+          "text": "Two metachronous tumors in the radiotherapy fields of a patient with Li-Fraumeni Syndrome",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51001,
+          "infons": {
+            "fpage": "296",
+            "lpage": "304",
+            "name_0": "surname:Xia;given-names:F",
+            "name_1": "surname:Powell;given-names:SN",
+            "pub-id_doi": "10.1053/srao.2002.35250",
+            "pub-id_pmid": "12382188",
+            "section_type": "REF",
+            "source": "Semin Radiat Oncol",
+            "type": "ref",
+            "volume": "12",
+            "year": "2002"
+          },
+          "text": "The molecular basis of radiosensitivity and chemosensitivity in the treatment of breast cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51096,
+          "infons": {
+            "fpage": "285",
+            "lpage": "295",
+            "name_0": "surname:Nieuwenhuis;given-names:B",
+            "name_1": "surname:Van Assen-Bolt;given-names:AJ",
+            "name_2": "surname:Van Waarde-Verhagen;given-names:MA",
+            "name_3": "surname:Sijmons;given-names:RH",
+            "name_4": "surname:Van der Hout;given-names:AH",
+            "name_5": "surname:Bauch;given-names:T",
+            "name_6": "surname:Streffer;given-names:C",
+            "name_7": "surname:Kampinga;given-names:HH",
+            "pub-id_doi": "10.1080/09553000110097974",
+            "pub-id_pmid": "12020440",
+            "section_type": "REF",
+            "source": "Int J Radiat Biol",
+            "type": "ref",
+            "volume": "78",
+            "year": "2002"
+          },
+          "text": "BRCA1 and BRCA2 heterozygosity and repair of X-ray-induced DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51166,
+          "infons": {
+            "fpage": "959",
+            "lpage": "965",
+            "name_0": "surname:Leong;given-names:T",
+            "name_1": "surname:Whitty;given-names:J",
+            "name_2": "surname:Keilar;given-names:M",
+            "name_3": "surname:Mifsud;given-names:S",
+            "name_4": "surname:Ramsay;given-names:J",
+            "name_5": "surname:Birrell;given-names:G",
+            "name_6": "surname:Venter;given-names:D",
+            "name_7": "surname:Southey;given-names:M",
+            "name_8": "surname:McKay;given-names:M",
+            "pub-id_doi": "10.1016/S0360-3016(00)00728-8",
+            "pub-id_pmid": "11072151",
+            "section_type": "REF",
+            "source": "Int J Radiat Oncol Biol Phys",
+            "type": "ref",
+            "volume": "48",
+            "year": "2000"
+          },
+          "text": "Mutation analysis of BRCA1 and BRCA2 cancer predisposition genes in radiation hypersensitive cancer patients",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51275,
+          "infons": {
+            "fpage": "539",
+            "lpage": "546",
+            "name_0": "surname:Gaffney;given-names:DK",
+            "name_1": "surname:Hemmersmeier;given-names:J",
+            "name_2": "surname:Holden;given-names:J",
+            "name_3": "surname:Marshall;given-names:J",
+            "name_4": "surname:Smith;given-names:LM",
+            "name_5": "surname:Avizonis;given-names:V",
+            "name_6": "surname:Tran;given-names:T",
+            "name_7": "surname:Neuhausen;given-names:SL",
+            "pub-id_doi": "10.1016/S0360-3016(00)01481-4",
+            "pub-id_pmid": "11173152",
+            "section_type": "REF",
+            "source": "Int J Radiat Oncol Biol Phys",
+            "type": "ref",
+            "volume": "49",
+            "year": "2001"
+          },
+          "text": "cancer after mantle irradiation for Hodgkin's disease: correlation of clinical, pathologic, and molecular features including loss of heterozygosity at BRCA1 and BRCA2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51442,
+          "infons": {
+            "fpage": "1399",
+            "lpage": "1407",
+            "name_0": "surname:Kuschel;given-names:B",
+            "name_1": "surname:Auranen;given-names:A",
+            "name_2": "surname:McBride;given-names:S",
+            "name_3": "surname:Novik;given-names:KL",
+            "name_4": "surname:Antoniou;given-names:A",
+            "name_5": "surname:Lipscombe;given-names:JM",
+            "name_6": "surname:Day;given-names:NE",
+            "name_7": "surname:Easton;given-names:DF",
+            "name_8": "surname:Ponder;given-names:BAJ",
+            "name_9": "surname:Pharoah;given-names:PDP",
+            "pub-id_doi": "10.1093/hmg/11.12.1399",
+            "pub-id_pmid": "12023982",
+            "section_type": "REF",
+            "source": "Hum Mol Genet",
+            "type": "ref",
+            "volume": "11",
+            "year": "2002"
+          },
+          "text": "Variants in DNA double-strand break repair genes and breast cancer susceptibility",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51524,
+          "infons": {
+            "fpage": "3080",
+            "lpage": "3089",
+            "name_0": "surname:Sigurdson;given-names:AJ",
+            "name_1": "surname:Doody;given-names:MM",
+            "name_2": "surname:Rao;given-names:RS",
+            "name_3": "surname:Freedman;given-names:DM",
+            "name_4": "surname:Alexander;given-names:BH",
+            "name_5": "surname:Hauptmann;given-names:M",
+            "name_6": "surname:Mohan;given-names:AK",
+            "name_7": "surname:Yoshinaga;given-names:S",
+            "name_8": "surname:Hill;given-names:DA",
+            "name_9": "surname:Tarone;given-names:R",
+            "pub-id_doi": "10.1002/cncr.11444",
+            "pub-id_pmid": "12784345",
+            "section_type": "REF",
+            "source": "Cancer",
+            "type": "ref",
+            "volume": "97",
+            "year": "2003"
+          },
+          "text": "Cancer incidence in the US radiologic technologists health study, 1983-1998",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51602,
+          "infons": {
+            "fpage": "9",
+            "name_0": "surname:Sigurdson;given-names:AJ",
+            "name_1": "surname:Hauptmann;given-names:M",
+            "name_2": "surname:Chatterjee;given-names:N",
+            "name_3": "surname:Alexander;given-names:BH",
+            "name_4": "surname:Doody;given-names:MM",
+            "name_5": "surname:Rutter;given-names:JL",
+            "name_6": "surname:Struewing;given-names:JP",
+            "pub-id_doi": "10.1186/1471-2407-4-9",
+            "pub-id_pmid": "15113441",
+            "section_type": "REF",
+            "source": "BMC Cancer",
+            "type": "ref",
+            "volume": "4",
+            "year": "2004"
+          },
+          "text": "Kin-cohort estimates for familial breast cancer risk in relation to variants in DNA base excision repair, BRCA1 interacting and growth factor genes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51750,
+          "infons": {
+            "section_type": "FIG",
+            "type": "title_1"
+          },
+          "text": "Figures and Tables",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51769,
+          "infons": {
+            "file": "T1.xml",
+            "id": "T1",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "A selection of epidemiological studies on populations of women exposed to radiation from the atomic bombings or for medical purposes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51902,
+          "infons": {
+            "file": "T1.xml",
+            "id": "T1",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><td/><td align=\"center\" colspan=\"2\">No. of women</td><td align=\"center\" colspan=\"2\">No. of breast cancers</td><td/><td/><td/></tr><tr><td/><td colspan=\"2\"><hr/></td><td colspan=\"2\"><hr/></td><td/><td/><td/></tr><tr><td align=\"left\">Cohort</td><td align=\"center\">Exposed</td><td align=\"center\">Non-exposed</td><td align=\"center\">Exposed</td><td align=\"center\">Non- exposed</td><td align=\"center\">Breast dose (Sv)<sup>b</sup></td><td align=\"center\">Exposure age (years)<sup>b</sup></td><td align=\"center\">ERR at 1 Sv<sup>g</sup></td></tr></thead><tbody><tr><td align=\"left\"><italic>Atomic bombings</italic></td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td align=\"left\"> Life Span Study, Japan [43]</td><td align=\"center\">70,165</td><td align=\"center\">c</td><td align=\"center\">1059</td><td align=\"center\">-</td><td align=\"center\">0.28</td><td align=\"center\">27</td><td align=\"center\">1.74</td></tr><tr><td align=\"left\"><italic>Diagnostic radiation</italic></td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td align=\"left\"> Tuberculosis fluoroscopy, Canada [27]<sup>a</sup></td><td align=\"center\">31,917</td><td align=\"center\">c</td><td align=\"center\">319</td><td align=\"center\">332</td><td align=\"center\">0.89</td><td align=\"center\">26</td><td align=\"center\">0.90</td></tr><tr><td align=\"left\"> Tuberculosis fluoroscopy, USA [28]</td><td align=\"center\">2573</td><td align=\"center\">2367</td><td align=\"center\">147</td><td align=\"center\">87</td><td align=\"center\">0.79</td><td align=\"center\">26</td><td align=\"center\">0.40</td></tr><tr><td align=\"left\"> Scoliosis, USA [29]<sup>a</sup></td><td align=\"center\">4929</td><td align=\"center\">644</td><td align=\"center\">70</td><td align=\"center\">7</td><td align=\"center\">0.11</td><td align=\"center\">10</td><td align=\"center\">5.4</td></tr><tr><td align=\"left\"><italic>Radiotherapy for benign disorders</italic></td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td align=\"left\"> Enlarged thymus, USA [30]</td><td align=\"center\">1201</td><td align=\"center\">2469</td><td align=\"center\">22</td><td align=\"center\">12</td><td align=\"center\">0.69</td><td align=\"center\">&lt;1</td><td align=\"center\">2.39</td></tr><tr><td align=\"left\"> Skin hemangioma, Sweden [31]</td><td align=\"center\">17,202</td><td align=\"center\">c</td><td align=\"center\">245</td><td align=\"center\">-</td><td align=\"center\">0.29</td><td align=\"center\">0.5</td><td align=\"center\">0.35</td></tr><tr><td align=\"left\"> Tinea Capitis, Israel [32]</td><td align=\"center\">5400</td><td align=\"center\">8100</td><td align=\"center\">25</td><td align=\"center\">27</td><td align=\"center\">0.02</td><td align=\"center\">7</td><td align=\"center\">-</td></tr><tr><td align=\"left\"> Benign breast disease, Sweden [33]</td><td align=\"center\">1216</td><td align=\"center\">1874</td><td align=\"center\">198</td><td align=\"center\">101</td><td align=\"center\">5.8</td><td align=\"center\">40</td><td align=\"center\">0.35</td></tr><tr><td align=\"left\"> Post-partum mastitis, USA [34]</td><td align=\"center\">601</td><td align=\"center\">1239</td><td align=\"center\">56</td><td align=\"center\">59</td><td align=\"center\">3.8</td><td align=\"center\">28</td><td align=\"center\">0.43</td></tr><tr><td/></tr><tr><td/><td align=\"center\" colspan=\"2\">No. of cancer survivors</td><td align=\"center\">Observed</td><td align=\"center\">Expected</td><td/><td/><td align=\"center\">RR/OE</td></tr><tr><td align=\"left\"><italic>Cancer survivors</italic></td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td align=\"left\"> Pediatric HL (age &lt; 16) LESG, USA [35]<sup>d</sup></td><td align=\"center\">480</td><td/><td align=\"center\">29</td><td align=\"center\">0.7</td><td align=\"center\">f</td><td align=\"center\">11.7</td><td align=\"center\">55.5</td></tr><tr><td align=\"left\"> Childhood cancer, CCSS, USA [36]<sup>d</sup></td><td align=\"center\">6304</td><td/><td align=\"center\">60</td><td align=\"center\">3.7</td><td align=\"center\">f</td><td align=\"center\">7.8</td><td align=\"center\">24.7<sup>h</sup></td></tr><tr><td align=\"left\"> Pediatric HL international [37]</td><td align=\"center\">2737</td><td/><td align=\"center\">52</td><td align=\"center\">3.7</td><td align=\"center\">f</td><td align=\"center\">16</td><td align=\"center\">14.1</td></tr><tr><td align=\"left\"> HL, UK [38]<sup>d</sup></td><td align=\"center\">2085</td><td/><td align=\"center\">19</td><td align=\"center\">13.5</td><td align=\"center\">f</td><td align=\"center\">-</td><td align=\"center\">2.5<sup>h</sup></td></tr><tr><td align=\"left\"> Breast cancer, Denmark [39]<sup>e</sup></td><td align=\"center\">56,540</td><td/><td align=\"center\">529<sup>e</sup></td><td align=\"center\">-</td><td align=\"center\">2.5</td><td align=\"center\">51</td><td align=\"center\">1.04</td></tr><tr><td align=\"left\"> Breast cancer, USA [40]<sup>e</sup></td><td align=\"center\">41,109</td><td/><td align=\"center\">655<sup>e</sup></td><td align=\"center\">-</td><td align=\"center\">2.8</td><td align=\"center\">52</td><td align=\"center\">1.33</td></tr></tbody></table>\n"
+          },
+          "text": "\tNo. of women\tNo. of breast cancers\t\t\t\t \t\t\t\t\t\t\t \tCohort\tExposed\tNon-exposed\tExposed\tNon- exposed\tBreast dose (Sv)b\tExposure age (years)b\tERR at 1 Svg\t \tAtomic bombings\t\t\t\t\t\t\t\t \t Life Span Study, Japan [43]\t70,165\tc\t1059\t-\t0.28\t27\t1.74\t \tDiagnostic radiation\t\t\t\t\t\t\t\t \t Tuberculosis fluoroscopy, Canada [27]a\t31,917\tc\t319\t332\t0.89\t26\t0.90\t \t Tuberculosis fluoroscopy, USA [28]\t2573\t2367\t147\t87\t0.79\t26\t0.40\t \t Scoliosis, USA [29]a\t4929\t644\t70\t7\t0.11\t10\t5.4\t \tRadiotherapy for benign disorders\t\t\t\t\t\t\t\t \t Enlarged thymus, USA [30]\t1201\t2469\t22\t12\t0.69\t<1\t2.39\t \t Skin hemangioma, Sweden [31]\t17,202\tc\t245\t-\t0.29\t0.5\t0.35\t \t Tinea Capitis, Israel [32]\t5400\t8100\t25\t27\t0.02\t7\t-\t \t Benign breast disease, Sweden [33]\t1216\t1874\t198\t101\t5.8\t40\t0.35\t \t Post-partum mastitis, USA [34]\t601\t1239\t56\t59\t3.8\t28\t0.43\t \t\t \t\tNo. of cancer survivors\tObserved\tExpected\t\t\tRR/OE\t \tCancer survivors\t\t\t\t\t\t\t\t \t Pediatric HL (age < 16) LESG, USA [35]d\t480\t\t29\t0.7\tf\t11.7\t55.5\t \t Childhood cancer, CCSS, USA [36]d\t6304\t\t60\t3.7\tf\t7.8\t24.7h\t \t Pediatric HL international [37]\t2737\t\t52\t3.7\tf\t16\t14.1\t \t HL, UK [38]d\t2085\t\t19\t13.5\tf\t-\t2.5h\t \t Breast cancer, Denmark [39]e\t56,540\t\t529e\t-\t2.5\t51\t1.04\t \t Breast cancer, USA [40]e\t41,109\t\t655e\t-\t2.8\t52\t1.33\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 53158,
+          "infons": {
+            "file": "T1.xml",
+            "id": "T1",
+            "section_type": "TABLE",
+            "type": "table_foot"
+          },
+          "text": "CCSS, Childhood Cancer Survivor Study; ERR, excess relative risk; expected, expected number of cases; HL, Hodgkin lymphoma; LESG, Late Effects Study Group; observed, observed number of cases; OE, observed/expected ratio; RR, relative risk. aOutcome breast cancer mortality. bAverage. cIncluded in the exposed group. dIn the total cohorts 70-90% of patients were treated with radiotherapy. eNested case-control studies among patients with a first breast cancer and matched controls. fSpecific dose estimates were not reported in these studies, but HL patients can be exposed to doses of 40 Gy or more [41]. gSource: UNSCEAR 2000 report [26], which also has more detailed descriptions of the individual studies. hFor the subgroup of patients treated with chest radiotherapy.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

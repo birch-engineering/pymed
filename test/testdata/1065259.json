@@ -1,0 +1,1762 @@
+{
+  "source": "PMC",
+  "date": "20201214",
+  "key": "pmc.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "1065259",
+      "infons": {
+        "license": "NO-CC CODE"
+      },
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "article-id_doi": "10.1093/nar/gki301",
+            "article-id_pmc": "1065259",
+            "article-id_pmid": "15767284",
+            "fpage": "1593",
+            "issue": "5",
+            "journal-title": "Nucleic Acids Research",
+            "license": "The online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial re-use, please contact journals.permissions@oupjournals.org",
+            "lpage": "1603",
+            "name_0": "surname:Zhang;given-names:Qibin",
+            "name_1": "surname:Wang;given-names:Yinsheng",
+            "section_type": "TITLE",
+            "type": "front",
+            "volume": "33",
+            "year": "2005"
+          },
+          "text": "Generation of 5-(2'-deoxycytidyl)methyl radical and the formation of intrastrand cross-link lesions in oligodeoxyribonucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 131,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "Hydroxyl radical is one of the major reactive oxygen species (ROS) formed from gamma-radiolysis of water or Fenton reaction, and it can abstract one hydrogen atom from the methyl carbon atom of thymine and 5-methylcytosine to give the 5-methyl radical of the pyrimidine bases. The latter radical can also be induced from Type-I photo-oxidation process. Here, we examined the reactivity of the independently generated 5-(2'-deoxycytidyl)methyl radical (I) in single- and double-stranded oligodeoxyribonucleotides (ODNs). It was found that an intrastrand cross-link lesion, in which the methyl carbon atom of 5-methylcytosine and the C8 carbon atom of guanine are covalently bonded, could be formed from the independently generated radical at both GmC and mCG sites, with the yield being much higher at the former site. We also showed by LC-MS/MS that the same cross-link lesions were formed in mC-containing duplex ODNs upon gamma irradiation under both aerobic and anaerobic conditions, and the yield was ~10-fold higher under the latter conditions. The independently generated radical allows for the availability of pure, sufficient and well-characterized intrastrand cross-link lesion-bearing ODN substrates for future biochemical and biophysical characterizations. This was also the first demonstration that the coupling of radical I with its 5' neighboring guanine can occur in the presence of molecular oxygen, suggesting that the formation of this and other types of intrastrand cross-link lesions might have important implications in the cytotoxic effects of ROS.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1702,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "INTRODUCTION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1715,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Cytosine in DNA can be methylated at the C5 carbon atom, and methylation occurs frequently at CpG sites in mammalian cells. The methylated CpGs are mutational hotspots in p53 tumor suppressor gene, and the most common mutations are mC T transitions. In addition, recent work by Lee et al. showed that oxidative DNA damage induced by copper and hydrogen peroxide can promote unusual mCG TT tandem double mutations in nucleotide excision repair-deficient human XPA cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2189,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "DNA damage induced by reactive oxygen species (ROS) plays an important role in a number of human pathological conditions. In this regard, hydroxyl radical is the major ROS formed from Fenton reaction or gamma-radiolysis of water. It is well documented that hydroxyl radical can react with thymine and 5-methylcytosine by either adding to the C5 = C6 double bond or abstracting a hydrogen atom from the methyl group. The hydrogen abstraction from the methyl group, which gives rise to the methyl radical of the pyrimidine bases (Scheme 1, I), accounts for ~10% of the secondary radical products of the pyrimidine bases formed from gamma irradiation. Quantification of various thymidine oxidation products originating from the gamma irradiation of isolated or cellular DNA, however, indicated that, in the duplex DNA environment, the  OH may attack the methyl carbon atom more frequently than the C5, C6 carbon atoms. Other than the  OH attack, one-electron photo-oxidation of pyrimidine nucleosides leads to the formation of the cation radical of the nucleosides, which, upon deprotonation, can also give rise to radical I (Scheme 1). The methyl radical formed from those oxidation processes may react with the neighboring nucleobase to form intrastrand cross-link lesions (Scheme 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3473,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The independent generation of reactive intermediates of nucleosides, especially those from their photolabile precursors, facilitates the investigation of the roles of these reactive intermediates in DNA damage. This approach offers a distinctive advantage over the use of ionizing radiation, Fenton reaction or other oxidative DNA damage agents, in which multiple reactive intermediates are formed. A number of radical intermediates, such as the 5,6-dihydrothymid-5-yl radical, the 5,6-dihydrourid-6-yl radical, the 5-hydroxy-5,6-dihydrothymid-6-yl radical, the 5-(pyrimidyl)methyl radical and radicals on C1', C3' and C4', have been synthesized and their reactivities have been examined. Recently, we reported the efficient generation of the 5-methyl radical of mC from the 254 nm irradiation of 5-phenylthiomethyl-2'-deoxycytidine. We also showed that the independently generated I in dinucleoside monophosphates can result in the facile formation of two intrastrand cross-link lesions (mC  G and G  mC), in which the methyl carbon atom of 5-methylcytosine and the C8 carbon atom of its adjacent guanine are covalently bonded (Scheme 1). Moreover, we demonstrated that the cross-link lesion can be induced from gamma irradiation of d(mCG) under anaerobic conditions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4751,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Here, we extended our investigation into the reactivity of the independently generated radical I (Scheme 1) in both single- and double-stranded oligodeoxyribonucleotides (ODNs). In addition, we examined the formation of mC  G and G  mC from the gamma irradiation of mC-containing duplex ODNs under both aerobic and anaerobic conditions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5089,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_1"
+          },
+          "text": "MATERIALS AND METHODS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5111,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Synthesis and purification of radical precursor-containing ODNs",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5175,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The radical precursor-containing phosphoramidite was synthesized as described previously. The compound was dissolved in anhydrous acetonitrile at a concentration of 60 mg/ml, and ODN synthesis was carried out on a Beckman Oligo 1000S DNA synthesizer (Fullerton, CA) at 1 mumol scale. Conventional phosphoramidite building blocks (Glen Research Inc., Sterling, VA) were employed and the factory-installed ODN assembly protocol was used without any modification. After synthesis, the products were cleaved from the controlled-pore glass support with 29% NH4OH and deprotected with the same ammonia solution at room temperature for 48 h. The solution was dried in a Speed-vac (Thermo Savant Inc., Holbrook, NY) and subjected to high-performance liquid chromatography (HPLC) purification. The purified ODNs were further desalted by HPLC before UV-C irradiation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6033,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "UV-C irradiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6050,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "An aqueous solution, which contained radical precursor-bearing single-stranded ODNs at an absorbance of 0.4-0.6 (260 nm) and was dispersed in a quartz tube, was degassed with three cycles of freeze-pump-thaw. The resulting solution was irradiated with 254 nm ultraviolet (UV) light from a TLC lamp (UVP Inc., Upland, CA) at room temperature for 20 min (the percent transmittance of light at this wavelength was estimated to be 25-40%), dried in a Speed-vac, redissolved in water and separated by HPLC.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6556,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The radical precursor-containing duplex ODNs were formed by annealing the two complementary strands in a buffer containing 50 mM NaCl and 10 mM phosphate (pH 7.0), and the annealing was carried out by heating to 90 C and cooling slowly to room temperature. The ODN solution was then irradiated following the same procedures as described above for the single-stranded ODN. Irradiation was also carried out under aerobic conditions, in which no freeze-pump-thaw procedure was employed and the solution was exposed to air during irradiation. Moreover, we also irradiated the duplex ODN sample under saturated oxygen conditions, where the solution was bubbled with oxygen for 30 min before irradiation and the oxygen bubbling was continued during the whole irradiation process. The resulting photolysate was desalted by HPLC, and the desalted solution was dried and dissolved in 200 mul H2O.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7445,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The above desalted ODN or the gamma-irradiated ODN (vide infra) was digested by nuclease P1, calf intestinal phosphatase (CIP) and phosphodiesterases I and II. In this respect, the ODN (10 nmol) was treated with 2 U of nuclease P1 (US Biological Inc., Swampscott, MA) and 0.03 U of phosphodiesterase II (Sigma-Aldrich, St Louis, MO) in a 100 mul solution containing 50 mM sodium acetate (NaOAc), 30 mM NaCl and 1.0 mM ZnSO4 (pH 5.0). After being incubated at 37 C for 12 h, the solution was kept at room temperature for another 12 h. The digestion mixture was dried and dissolved in 50 mul water, to the resulting solution were then added 5 mul Tris-HCl (500 mM, pH 8.5), 4 mul CIP solution (10 U/mul, New England Biolabs Inc., Beverly, MA) and 1 mul solution of phosphodiesterase I (0.1 U/mul; Sigma-Aldrich). The mixture was incubated at 37 C for 12 h, and at room temperature for another 12 h. The digestion mixture was dried, redissolved in water (100 mul) and extracted with an equal volume of chloroform; the aqueous layer was again dried and redissolved in water for LC-MS and MS/MS analyses. As shown in the Results, some digestions were also performed with nuclease P1 and CIP only, and the experimental conditions were the same as described above, except that no phosphodiesterase and no buffer solution were added.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8776,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "gamma irradiation of mC-containing duplex ODN",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8822,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "A self-complementary ODN [(mCG)7: d(mCGmCGmCGmCGmCGmCGmCG)] (30 nmol) was annealed under similar conditions as described above, and the ODN solution was diluted to 1.5 ml with a buffer containing 50 mM NaCl and 10 mM phosphate (pH 7.0). The resulting solution was dispersed in a Pyrex tube and degassed by three cycles of freeze-pump-thaw. The tube with the ODN solution was then filled with high-purity argon and exposed to a Mark I 137Cs Irradiator (JL Shepherd and Associates, San Fernando, CA) at a dose rate of 2.0 Gy/min for 3 h (total dose: 360 Gy). The resulting solution was dried by the Speed-vac, desalted and digested with enzymes as described above for the UV-irradiation mixture. Experiments under aerobic conditions were carried out in a similar fashion, except that no freeze-pump-thaw procedure was applied. On the other hand, the solution was bubbled with oxygen for 30 min before irradiation for experiments under saturated oxygen conditions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9784,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "HPLC",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9789,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Off-line HPLC separations were performed on a system composed of a Hitachi L-6200A pump (Hitachi Ltd, Tokyo, Japan), a HP-1050 UV detector (Agilent Technologies, Palo Alto, CA) and a Peak Simple Chromatography Data System (SRI Instruments Inc., Las Vegas, NV). A 4.6 x 250 mm Apollo C18 column (5 mum in particle size and 300 A in pore size; Alltech Associates Inc., Deerfield, IL) was used for the separation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10203,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "A solution of 50 mM TEAA (solution A) and a 50 mM TEAA/acetonitrile mixture (70/30, v/v, solution B) were used as the mobile phases, and the flow rate was 1.0 ml/min. We used a gradient of 0-20% B (0-5 min) and 20-45% B (5-50 min) for the purification of radical precursor-containing ODNs. Appropriate fractions were evaporated to dryness and redissolved in doubly distilled water for desalting by HPLC. The desalting was carried out by using a reverse-phase C18 column (10 x 250 mm, 5 mum in particle size and 300 A in pore size; Varian, Walnut Creek, CA). After the sample was loaded, the column was washed with water for 25 min and the sample was eluted from the column by 50% methanol in water.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10913,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "A gradient (0-5 min, 0-20% B; 5-40 min, 20-40% B) was used for the separation of the UV-C irradiation products of single-stranded radical precursor-containing ODNs. The enzymatic digestion products of the UV-C irradiation mixture of radical precursor-containing ODN were separated by employing the same buffer solutions and the gradient was 0-40 min, 0-30% B; 40-50 min, 30-60% B. The flow rate was 1.0 ml/min, and the effluents were monitored by UV detection at 260 nm.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11400,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Mass spectrometry",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11418,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Electrospray ionization mass spectrometry (ESI-MS) and MS/MS experiments were carried out on an LCQ Deca XP ion-trap mass spectrometer (ThermoFinnigan, San Jose, CA). An equal-volume solvent mixture of acetonitrile and water was used as the solvent for electrospray, and a 2 mul aliquot of ~5 muM sample solution was injected in each run. The spray voltages were 4.0 and 3.4 kV for experiments in the positive- and negative-ion modes, respectively. The capillary temperature was maintained at 150 C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11921,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "LC-MS/MS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11930,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The separation was carried out by using a 0.50 x 150 mm Zorbax SB-C18 column with a particle size of 5 mum (Agilent Technologies), and an Agilent 1100 capillary HPLC pump was employed. The flow rate was 6.0 mul/min, and a 120 min gradient of 0-60% acetonitrile in 20 mM ammonium acetate was used. The flow from capillary LC column was directed to the LCQ Deca XP ion-trap mass spectrometer. The mass spectrometer was set up to monitor the fragmentation of the [M+H]+ ions of the cross-link lesion (m/z 569) or other ions as indicated in Results.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12479,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_1"
+          },
+          "text": "RESULTS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12487,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Synthesis and purification of ODNs bearing a photolabile precursor of radical I",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12567,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The phosphoramidite building block of 4-(1,2,4-triazol-1-yl)-5-(phenylthiomethyl)-2'-deoxyuridine was prepared following the recently published procedures. By employing this building block and traditional solid-phase phosphoramidite chemistry, we synthesized d(ACGTGYCGTGAT), d(ACGTGCYGTGAT) and d(CCGYCGGC) (Y represents 5-phenylthiomethyl-2'-deoxycytidine, Scheme 1). There is no apparent difference in coupling efficiency between radical precursor-containing phosphoramidite building block and conventional phosphoramidites that were used in the solid-phase synthesis. The molecular masses of the above three ODNs were measured by ESI-MS to be 3784.0, 3784.0 and 2494.0 Da, respectively, which are in accord with the corresponding calculated average masses of 3783.6, 3783.6 and 2493.8 Da. Moreover, the sequences of the ODNs were confirmed by the product-ion spectra (MS/MS) of the [M-3H]3- ions of these oligomers [data shown in Supplementary Figures S2, S3 and S10, nomenclature for fragment ions follows that of McLuckey et al. ].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13613,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "UV-C irradiation of single-stranded radical precursor-containing ODNs",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13683,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Our previous studies showed that a major product emanating from the 254 nm irradiation of d(GY) and d(YG) is an intrastrand cross-link lesion, in which the methyl carbon atom of 5-methylcytosine and the C8 carbon atom of the neighboring guanine are covalently bonded. To examine whether the cross-link lesion can also be generated in ODNs, we irradiated radical precursor-containing ODNs under anaerobic conditions and separated the resulting products by HPLC. (The HPLC traces for the separations of d(ACGTGYCGTGAT) before and after UV irradiation are shown in Figure 1a and b, respectively.)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14277,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Several lines of evidence show that the fraction eluting at 22.8 min is a 12mer ODN containing a cross-link lesion at GmC site. First, ESI-MS result (Supplementary Figure S1b) showed that this lesion has a deconvoluted mass of 3673.2 Da, which is consistent with the calculated average mass of the expected G  mC cross-link-bearing ODN (3673.4 Da). Second, the site of cross-link can be established from the product-ion spectrum of the [M-3H]3- ion (m/z 1223.5) of the ODN without ambiguity. Upon collisional activation in a mass spectrometer, an ODN undergoes cleavages at the N-glycosidic bond and the 3' C-O bond of the same nucleotide to yield [an-base] and wn ions. The cleavage was proposed to be initiated from a proton transfer process. Because of the low proton affinity of thymine, chain cleavage at the 3' side of thymidine is less commonly observed. The production of two complementary pairs of ions, i.e. [a5-G]-/[w7 + G]2- and  (Figure 2a), demonstrates that the guanine at the fifth position is covalently linked with 5-methylcytosine at the sixth position because a6 and [w7 + G] ions can only be produced when the two nucleobases are cross-linked (Figure 2b). Similar types of characteristic fragment ions have been observed previously in the product-ion spectra of deprotonated ions of ODNs containing a GC cross-link or a dimeric DNA photoproduct.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15660,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "To establish whether this is the same G  mC cross-link lesion as what was identified previously, we digested the lesion-containing 12mer (the 22.8 min fraction as shown in Figure 1b) with nuclease P1 and CIP and subjected the resulting digestion mixture to HPLC analysis. We determined that the fraction eluting at 36.8 min (Figure 3a) is the d(G  mC) cross-link lesion that we identified previously because this fraction not only co-elutes with the d(G  mC) standard (Figure 3b) but also exhibits the same MS and MS/MS as the standard d(G  mC) (data not shown). It is worth noting that, under this enzymic digestion condition, the phosphodiester bond on the 3' side of the G  mC cross-link appears to be completely cleaved (vide infra).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16410,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "We further determined the yield for the formation of the G  mC lesion by LC-MS/MS. In this respect, two types of external standards were employed: one is the enzymic digestion product of d(ACGTG  mCCGTGAT), which gave a yield of 11%; the other is d(G  mC) formed from the 254 nm irradiation of d(GY), offering a yield of 8.6% [Table 1, LC-MS/MS results for the analysis of standard d(mC  G) and d(G  mC) are shown in Figure 4, and calibration curves are shown in Supplementary Figures S4 and S5]. We expect that the yield coming from the analysis with the ODN as standard is more accurate than that with the d(G  mC) as standard because identical experimental procedures (enzymic digestion, chloroform extraction, etc.) were employed for the sample and the ODN standard. In addition, we assumed that the extinction coefficient of the cross-linked nucleobase portion is the sum of those of the unmodified dC and dG, which may introduce more error in determining the concentration for the d(G  mC) than for the ODN, d(ACGTG  mCCGTGAT), by UV absorbance measurement.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17490,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Bearing in mind that radical I can also couple readily with molecular oxygen and that the resulting peroxyl radical can be transformed to give single-nucleobase lesions, i.e. 5-formylcytosine and 5-(hydroxymethyl)cytosine (Scheme 2), we next examined whether radical I can also result in the formation of the G  mC under aerobic conditions. LC-MS/MS quantification showed that the 254 nm irradiation of d(ACGTGYCGTGAT) can indeed give rise to the formation of G  mC, though the yield is markedly reduced comparing with that under anaerobic conditions. [Table 1, the yield decreased from 11 to 0.68% while the enzymic digestion mixture of d(ACGTG  mCCGTGAT) was used as external standard for quantification.]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18204,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The other two HPLC fractions (20.9 and 21.8 min) (Figure 1b) have the same molecular weight as the cross-link lesion-containing ODN discussed above (22.8 min fraction). The identities of these two products remain unclear, though ESI-MS/MS results indicate that they might be intrastrand cross-link lesions where the mC is covalently linked to guanine at a distal site (ESI-MS and MS/MS results are shown in Supplementary Figures S6 and S7).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18645,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Similar irradiation of radical precursor-containing d(CCGYCGGC) again gave rise to a G  mC cross-link lesion (data shown in Supplementary Figures S8, S9b and S11). We also detected the d(mC  G) from the enzymic digestion mixture (with four enzymes as stated in the Materials and Methods) of the UV-C irradiation products of d(ACGTGCYGTGAT). The d(mC  G) induced, however, was slightly above the detection threshold of the LC-MS/MS method, which is a few femtomoles for d(mC  G) and d(G  mC) (data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19164,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The above results illustrate that the independent generation of reactive intermediate I allows for the facile generation of sufficient ODN substrates for future thermodynamic, replication, and repair studies of the G  mC cross-link lesion. In addition, we showed that the formation of cross-link lesion between 5-methylcytosine and guanine is strongly sequence-dependent, with the GmC site being much more favorable than the mCG site. This observation is consistent with previous studies for cross-link lesions formed between the C5 carbon atom of cytosine and the C8 carbon atom of the neighboring guanine or between the methyl carbon atom of thymine and the C8 carbon atom of the vicinal purine bases. In this respect, the formation of cross-link lesions is much more facile at 5'-purine-pyrimidine-3' site than at 5'-pyrimidine-purine-3' site, which is attributed to that the distance between the relevant carbon atoms involved in coupling the two nucleobases is shorter at the former site than at the latter site.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20192,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "UV-C irradiation of radical precursor-containing double-stranded ODNs",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20262,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "To better mimic the effect of ionizing radiation on DNA damage, it is important to examine whether the independently generated radical I can also result in the formation of mC  G and G  mC in duplex DNA. To this end, we carried out the UV-C irradiation of a duplex d(ACGTGYCGTGAT)/d(ATCACGGCACGT) under anaerobic conditions. We tried to resolve the components in the UV-C irradiation mixture of the duplex DNA by HPLC; the lesion-bearing strand, however, co-migrates with the complementary strand on the HPLC column, preventing us from obtaining pure single-stranded ODNs for further characterizations. To circumvent this, we digested the duplex irradiation mixture with enzymes (i.e. nuclease P1, CIP and two phosphodiesterases) and subjected the resulting digestion mixtures to LC-MS/MS analysis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21065,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The LC-MS/MS results clearly showed that the G  mC cross-link lesion can be induced from the independently generated radical in a duplex environment. In this respect, the selected-ion chromatogram (SIC), which monitors the m/z 569 275 transition, for the analysis of enzymic digestion products of the UV-C irradiation mixture showed a peak at similar retention time as the peak observed in the corresponding SIC for the analysis of authentic d(G  mC) (data not shown). Furthermore, we quantified the G  mC cross-link lesion from the peak areas in SIC, and it turned out that the yields for the formation of the G  mC cross-link lesion are 2.0 and 0.44% under anaerobic and aerobic conditions, respectively (Table 1). The yield is again higher under anaerobic than under aerobic conditions. Moreover, we carried out a similar irradiation where the solution is constantly bubbled with molecular oxygen during irradiation, and we determined that the yield for the formation of the G  mC lesion is 0.13% under this condition (Table 1; LC-MS/MS results are shown in Supplementary Figure S12).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22165,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The LC-MS/MS result shows that, under anaerobic conditions, the formation of the G  mC cross-link lesion from the independently generated I is less efficient in double- than in single-stranded ODNs. This observation is in drastic contrast with the formation of cross-link lesion from the Pyrex-filtered UV light irradiation of 5-bromocytosine-containing duplex ODN, in which the formation of cross-link lesion in double-stranded DNA is much more efficient. The exact reason for this is not clear. One possibility is that the bulky phenylthio moiety, which is present in the major groove of duplex DNA, may compromise the local base stacking. Therefore, the 5-phenylthiomethyl group may predispose the radical I in a position that is not ideal for coupling with the C8 carbon atom of the neighboring guanine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22975,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Formation of cross-link lesion from gamma irradiation of mC-containing duplex ODN under aerobic and anaerobic conditions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23096,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Prompted by that several other intrastrand cross-link lesions have been found in the gamma irradiation mixture of duplex DNA and that the mC  G cross-link can be induced from the gamma irradiation of d(mCG), we first exploited whether gamma irradiation can result in the formation of the mC  G and G  mC cross-link lesions in duplex ODNs. To this end, we irradiated a self-complementary ODN, d(mCG)7, under either aerobic or anaerobic conditions. We then digested the irradiation mixture with four enzymes (i.e. nuclease P1, CIP and two phosphodiesterases) or with only two enzymes (nuclease P1 and CIP) and subjected the resulting products to LC-MS/MS analysis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23759,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "We chose those four enzymes because they have been used by Bellon et al. for the release of the structurally related intrastrand cross-link lesions from duplex DNA. In addition, previous studies showed that nuclease P1 cannot cleave the phosphodiester bonds 3' to both photomodified nucleobases in ODNs containing a dimeric DNA photoproduct. Along this line, thymine glycol was shown to block the cleavage of its 3' side phosphodiester bond. The failure in cleavages of the phosphodiester bonds was attributed to that the bulky photoproduct or thymine glycol cannot be fit into the active site of nuclease P1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24373,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Considering that either or both of the two phosphodiester bonds on the 3' side of the two modified nucleobases (i.e. mC and G) are not susceptible to nuclease P1 cleavage and that CIP removes the 5'-terminal phosphate group(s), we expect that nuclease P1 and CIP treatment will give four possible products for a mC  G- or G  mC-containing ODN (Scheme 3). Here, we examined rigorously whether the two phosphodiester bonds are susceptible to cleavage under the two- or four-enzyme digestion conditions by monitoring all eight possible digestion products with LC-MS/MS [Scheme 3 and Supplementary Figures S13-S15; note that d(G  mC) and d(mC  G) have the same m/z values for their protonated ions, so are the d(G  mC) + 2H2O-H3PO4 and d(mC  G) + 2H2O - H3PO4].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25151,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The LC-MS/MS results showed that among the eight potential digestion products that we monitored, d(G  mC) (1, Scheme 3, m/z 569) is the major product resulting from the digestion with all four enzymes. We can also detect a small quantity of the dinucleoside product (2, Scheme 3, m/z 507), whereas neither the trinucleoside diphosphate (3, Scheme 3, m/z 898) nor the trinucleoside monophosphate (4, Scheme 3, m/z 836) is detectable under this digestion condition (Supplementary Figure S15). Likewise, we were not able to detect trinucleoside diphosphate or trinucleoside monophosphate for the lesions formed at mC  G site (5, m/z 872 and 6, m/z 810, Scheme 3). This result demonstrates that G  mC can be induced from gamma irradiation under anaerobic conditions. Moreover, the phosphodiester bond on the 3' side of the lesion is completely hydrolyzed while all four enzymes are employed. In addition, the presence of a peak in the SIC for the m/z 507 275 transition indicates that a small portion of the internal phosphodiester bond (<5%) might also be hydrolyzed under this enzymic digestion condition, though we cannot exclude the possibility that the dinucleoside product is formed from an interstrand crosslink.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26374,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Leaving out phosphodiesterases I and II, however, results in incomplete digestion of the phosphodiester bond on the 3' side of the mC  G lesion, which give rise to the formation of the trinucleoside diphosphate 5 and trinucleoside monphosphate 6 (Scheme 3). This is represented by the presence of peaks in the SICs for the m/z 872 747 and m/z 810 685 transitions (both pathways correspond to the loss of a 5-methylcytosine, Supplementary Figure S13); the identities of compounds 5 and 6 are supported by the product-ion spectra of the ions of m/z 872 and 810 (Supplementary Figure S14). From these results, all quantitative measurements reported in this paper were carried out by employing all four enzymes for the digestion.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27108,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Moreover, we determined that, at a dose of 360 Gy, the yields for the formation of G  mC are 470 and 47 lesions per 106 GmC sites under anaerobic and aerobic conditions, respectively [Table 1: SICs for the m/z 569 275 transitions for the analyses of the enzymic digestion products of d(mCG)7 under different irradiation conditions are shown in Figure 5]. With the same dose of irradiation, the yields for the production of mC  G, on the other hand, were determined to be 36 and 1 lesions per 106 mCG sites under anaerobic and aerobic conditions, respectively (Table 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27684,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "It should be cautioned that external standards were employed for the above quantitative measurements, and more accurate results for the absolute yields should be determined by LC-MS/MS method with isotope-labeled internal standards. Nevertheless, the relative yields for the formation of the G  mC cross-link lesion under various irradiation conditions should be reasonably accurate.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28070,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "To establish the relative contributions of radical I in the two pathways outlined in Scheme 3 (i.e. coupling with O2 or its neighboring guanine base), it is important to compare the amounts of intrastrand cross-link and single-base lesions initiated from radical I under aerobic conditions. In this respect, we attempted to carry out such measurements by LC-MS/MS. Unfortunately, 5-hydroxymethyl-2'-deoxycytidine is poorly resolved on two types of reverse-phase columns that we tested. In addition, the 5-formyl-2'-deoxycytidine coelutes with some unknown compound(s). Without authentic stable isotope-labeled single-base lesions, the LC-MS/MS method is not reliable for the determination of the amounts of the two single-base lesions formed from gamma irradiation. We are now in the process of synthesizing such labeled compounds, and the results from those studies will be reported in due course.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28970,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The sequence-selective formation of the cross-link lesions can again be explained from that the distance between the methyl carbon atom of mC and the C8 carbon of its neighboring guanine is shorter in GmC sequence than in mCG sequence. The lower yield for the formation of the cross-link lesion under aerobic conditions is not surprising again because the methyl radical of 5-methylcytosine can also couple with molecular oxygen to form a peroxyl radical (Scheme 2, II). The formation of the cross-link lesion under aerobic conditions shows that the coupling of reactive intermediate I to its neighboring 5' guanine base is in competition with its coupling to molecular oxygen (Scheme 2). In support of this argument, we showed that the yield for the formation of G  mC is apparently lower while the ODN solution is saturated with molecular oxygen before gamma irradiation (Table 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29855,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Owing to the limitation of the 137Cs source, we were not able to bubble the irradiation solution with air or molecular oxygen. It is reasonable to expect that the molecular oxygen is partially consumed during the gamma irradiation process. We, however, believe that it is very unlikely for the solution to be completely depleted of oxygen during the course of irradiation. Moreover, our above results for the UV irradiation under constant O2 bubbling conditions demonstrate conclusively that the G  mC lesion can be formed under saturated O2 conditions (vide supra).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30422,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_1"
+          },
+          "text": "DISCUSSION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30433,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "We synthesized ODNs containing a site-specifically incorporated 5-phenylthiomethyl-2'-deoxycytidine, which, upon UV-C irradiation, releases the 5-(2'-deoxycytidyl)methyl radical in these ODNs. We also examined the reactivities of the independently generated radical through product analysis. Our results showed that the G  mC cross-link lesion was formed more efficiently in single-stranded ODN than in duplex ODN upon UV-C irradiation. Furthermore, the efficiency for cross-linking is highly sequence-dependent. The G  mC lesion can be formed at a much higher yield than the mC  G lesion. Previous work by Bellon et al. showed that the analogous intrastrand cross-link lesion can be generated in d(GTG) and d(ATA) sequences from the UV-C irradiation of the corresponding precursor of 5-(2'-deoxyuridyl)-5-methyl radical. The results presented in this paper, however, demonstrated for the first time that the phenylthiolate-bearing nucleoside can facilitate the generation of pure, sufficient and well-characterized lesion-containing ODN substrates that can be readily used for examining the thermodynamic, replication and repair studies of the G  mC lesion.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31606,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "We also found that the same G  mC cross-link lesion can be induced from the gamma irradiation of GmC-containing duplex ODN under both aerobic and anaerobic conditions; the yield for the formation of cross-link lesion in anoxic solution is ~10 times higher than that in oxygenated solution. The respective mC  G cross-link lesion is formed with a yield that is >10-fold lower than the G  mC lesion under anaerobic conditions. To our knowledge, the formation of intrastrand oxidative cross-link lesion under aerobic conditions has never been shown previously. This result demonstrated that the coupling of reactive intermediate I with the neighboring guanine base can compete with its coupling to molecular oxygen, suggesting that this kind of lesion might be induced in cellular DNA by endogenous and/or exogenous ROS. Therefore, this kind of cross-link lesion may contribute significantly to the cytotoxic effect of ROS.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32532,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "This study, together with previous investigations by Box, Cadet and us, demonstrates clearly that a single pyrimidine base radical is sufficient for inducing the formation of intrastrand cross-link lesions. This type of chemistry has been shown for all three types of secondary radicals formed from hydroxyl radical attack on pyridimine bases, i.e. the 5-hydroxy-5,6-dihydropyrimid-6-yl, the 6-hydroxy-5,6-dihydropyrimid-5-yl and the 5-(pyrimidyl)methyl radicals. In this respect, the methyl radical of thymine or 5-methylcytosine can couple with its neighboring purine bases to give intrastrand cross-link lesions. In addition, Box and co-workers identified a CG cross-link lesion from the gamma irradiation of d(CGTA) under anaerobic conditions, and the lesion was proposed to be initiated from the dehydration of the coupling product between 6-hydroxy-5,6-dihydrocytosin-5-yl radical and guanine. We showed recently that gamma irradiation of duplex DNA can induce the formation of this kind of lesion at 5'-GC-3', but not at 5'-CG-3' site. Moreover, we showed recently that both the 5S and 5R diastereomers of the 5-hydroxy-5,6-dihydrothymidin-6-yl radical can couple with the C8 carbon atom of its 3' neighboring guanine to give cross-link lesions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33789,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The demonstration of the formation of the mC  G cross-link lesion in duplex DNA suggests that the lesion may contribute to the mCG TT tandem double mutation observed recently. In addition, among the six major mutational hotspots in human p53 gene (codons 175, 213, 245, 248, 273 and 282, which all contain methylated CpGs), cytosines in two of those codons, i.e. codons 175 (CGC) and 273 (CGT), have a 5' flanking guanine (the last base in codon 272 is a guanine). Therefore, the G  mC lesion, which forms at a much higher yield than the mC  G lesion, may also contribute to CpG mutagenesis. It is worth noting that, because of the absence of the methyl group, radical I cannot be generated on an unmethylated cytosine, underscoring the potential importance of cytosine methylation in intrastrand cross-link lesion formation and high mutation frequency observed at CpG sites. To further explore this possibility, we will need to demonstrate the formation of this lesion in vivo and to examine the mutagenic properties of this lesion. In this respect, the availability of the authentic G  mC lesion in both dinucleoside monophosphate and ODNs facilitates these studies.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34970,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "title_1"
+          },
+          "text": "SUPPLEMENTARY MATERIAL",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34993,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "paragraph"
+          },
+          "text": "Supplementary Material is available at NAR Online.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35044,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "title_1"
+          },
+          "text": "Supplementary Material",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35067,
+          "infons": {
+            "section_type": "REF",
+            "type": "title"
+          },
+          "text": "REFERENCES",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35078,
+          "infons": {
+            "fpage": "155",
+            "lpage": "166",
+            "name_0": "surname:Pfeifer;given-names:G.P.",
+            "pub-id_pmid": "10838140",
+            "section_type": "REF",
+            "source": "Mutat. Res.",
+            "type": "ref",
+            "volume": "450",
+            "year": "2000"
+          },
+          "text": "p53 mutational spectra and the role of methylated CpG sequences",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35142,
+          "infons": {
+            "fpage": "3566",
+            "lpage": "3573",
+            "name_0": "surname:Lee;given-names:D.-H.",
+            "name_1": "surname:O'Connor;given-names:T.R.",
+            "name_2": "surname:Pfeifer;given-names:G.P.",
+            "pub-id_pmid": "12177298",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "30",
+            "year": "2002"
+          },
+          "text": "Oxidative DNA damage induced by copper and hydrogen peroxide promotes CG TT tandem mutations at methylated CpG dinucleotides in nucleotide excision repair-deficient cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35313,
+          "infons": {
+            "fpage": "239",
+            "lpage": "247",
+            "name_0": "surname:Finkel;given-names:T.",
+            "name_1": "surname:Holbrook;given-names:N.J.",
+            "pub-id_pmid": "11089981",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "408",
+            "year": "2000"
+          },
+          "text": "Oxidants, oxidative stress and the biology of ageing",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35366,
+          "infons": {
+            "fpage": "417",
+            "lpage": "424",
+            "name_0": "surname:Rolig;given-names:R.L.",
+            "name_1": "surname:McKinnon;given-names:P.J.",
+            "pub-id_pmid": "10941191",
+            "section_type": "REF",
+            "source": "Trends Neurosci.",
+            "type": "ref",
+            "volume": "23",
+            "year": "2000"
+          },
+          "text": "Linking DNA damage and neurodegeneration",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35407,
+          "infons": {
+            "fpage": "108",
+            "lpage": "112",
+            "name_0": "surname:Halliwell;given-names:B.",
+            "name_1": "surname:Gutteridge;given-names:J.M.C.",
+            "pub-id_pmid": "1322323",
+            "section_type": "REF",
+            "source": "FEBS Lett.",
+            "type": "ref",
+            "volume": "307",
+            "year": "1992"
+          },
+          "text": "Biologically relevant metal ion-dependent hydroxyl radical generation. An update",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35488,
+          "infons": {
+            "name_0": "surname:von Sonntag;given-names:C.",
+            "section_type": "REF",
+            "source": "The Chemical Basis of Radiation Biology",
+            "type": "ref",
+            "year": "1987"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35489,
+          "infons": {
+            "fpage": "1002",
+            "lpage": "1010",
+            "name_0": "surname:Frelon;given-names:S.",
+            "name_1": "surname:Douki;given-names:T.",
+            "name_2": "surname:Ravanat;given-names:J.L.",
+            "name_3": "surname:Pouget;given-names:J.P.",
+            "name_4": "surname:Tornabene;given-names:C.",
+            "name_5": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "11080049",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "13",
+            "year": "2000"
+          },
+          "text": "High-performance liquid chromatography-tandem mass spectrometry measurement of radiation-induced base damage to isolated and cellular DNA",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35629,
+          "infons": {
+            "fpage": "502",
+            "lpage": "511",
+            "name_0": "surname:Wagner;given-names:J.R.",
+            "name_1": "surname:van Lier;given-names:J.E.",
+            "name_2": "surname:Decarroz;given-names:C.",
+            "name_3": "surname:Berger;given-names:M.",
+            "name_4": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "2233316",
+            "section_type": "REF",
+            "source": "Methods Enzymol.",
+            "type": "ref",
+            "volume": "186",
+            "year": "1990"
+          },
+          "text": "Photodynamic methods for oxy radical-induced DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35685,
+          "infons": {
+            "fpage": "11406",
+            "lpage": "11411",
+            "name_0": "surname:Bienvenu;given-names:C.",
+            "name_1": "surname:Wagner;given-names:J.R.",
+            "name_2": "surname:Cadet;given-names:J.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "118",
+            "year": "1996"
+          },
+          "text": "Photosensitized oxidation of 5-methyl-2'-deoxycytidine by 2-methyl-1,4-naphthoquinone",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35773,
+          "infons": {
+            "fpage": "191",
+            "lpage": "198",
+            "name_0": "surname:Delatour;given-names:T.",
+            "name_1": "surname:Douki;given-names:T.",
+            "name_2": "surname:D'Ham;given-names:C.",
+            "name_3": "surname:Cadet;given-names:J.",
+            "section_type": "REF",
+            "source": "J. Photochem. Photobiol. B, Biol.",
+            "type": "ref",
+            "volume": "44",
+            "year": "1998"
+          },
+          "text": "Photosensitization of thymine nucleobase by benzophenone through energy transfer, hydrogen abstraction and one-electron oxidation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35903,
+          "infons": {
+            "fpage": "9",
+            "lpage": "21",
+            "name_0": "surname:Cadet;given-names:J.",
+            "name_1": "surname:Delatour;given-names:T.",
+            "name_2": "surname:Douki;given-names:T.",
+            "name_3": "surname:Gasparutto;given-names:D.",
+            "name_4": "surname:Pouget;given-names:E.-P.",
+            "name_5": "surname:Ravanat;given-names:J.-L.",
+            "name_6": "surname:Sauvaigo;given-names:S.",
+            "pub-id_pmid": "10064846",
+            "section_type": "REF",
+            "source": "Mutat. Res.",
+            "type": "ref",
+            "volume": "424",
+            "year": "1999"
+          },
+          "text": "Hydroxyl radicals and DNA base damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35941,
+          "infons": {
+            "fpage": "598",
+            "lpage": "606",
+            "name_0": "surname:Bellon;given-names:S.",
+            "name_1": "surname:Ravanat;given-names:J.-L.",
+            "name_2": "surname:Gasparutto;given-names:D.",
+            "name_3": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "11952347",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "15",
+            "year": "2002"
+          },
+          "text": "Cross-linked thymine-purine base tandem lesions: synthesis, characterization, and measurement in gamma-irradiated isolated DNA",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36068,
+          "infons": {
+            "fpage": "1085",
+            "lpage": "1088",
+            "name_0": "surname:Romieu;given-names:A.",
+            "name_1": "surname:Bellon;given-names:S.",
+            "name_2": "surname:Gasparutto;given-names:D.",
+            "name_3": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "10804560",
+            "section_type": "REF",
+            "source": "Org. Lett.",
+            "type": "ref",
+            "volume": "2",
+            "year": "2000"
+          },
+          "text": "Synthesis and UV photolysis of oligodeoxynucleotides that contain 5-(phenylthiomethyl)-2'-deoxyuridine: a specific photolabile precursor of 5-(2'-deoxyuridilyl)methyl radical",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36247,
+          "infons": {
+            "fpage": "12795",
+            "lpage": "12802",
+            "name_0": "surname:Zhang;given-names:Q.",
+            "name_1": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "14558827",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "125",
+            "year": "2003"
+          },
+          "text": "Independent generation of 5-(2'-deoxycytidinyl)methyl radical and the formation of a novel cross-link lesion between 5-methylcytosine and guanine",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36395,
+          "infons": {
+            "fpage": "1235",
+            "lpage": "1248",
+            "name_0": "surname:Greenberg;given-names:M.M.",
+            "pub-id_pmid": "9815182",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "11",
+            "year": "1998"
+          },
+          "text": "Investigating nucleic acid damage processes via independent generation of reactive intermediates",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36492,
+          "infons": {
+            "fpage": "8291",
+            "lpage": "8292",
+            "name_0": "surname:Barvian;given-names:M.R.",
+            "name_1": "surname:Greenberg;given-names:M.M.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1995"
+          },
+          "text": "Independent generation of 5,6-dihydrothymid-5-yl in single-stranded polythymidylate. O2 is necessary for strand scission",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36613,
+          "infons": {
+            "fpage": "1828",
+            "lpage": "1839",
+            "name_0": "surname:Greenberg;given-names:M.M.",
+            "name_1": "surname:Barvian;given-names:M.R.",
+            "name_2": "surname:Cook;given-names:G.P.",
+            "name_3": "surname:Goodman;given-names:B.K.",
+            "name_4": "surname:Matray;given-names:T.J.",
+            "name_5": "surname:Tronche;given-names:C.",
+            "name_6": "surname:Venkatesan;given-names:H.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "119",
+            "year": "1997"
+          },
+          "text": "DNA damage induced via 5,6-dihydrothymid-5-yl in single-stranded oligonucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36695,
+          "infons": {
+            "fpage": "5181",
+            "lpage": "5187",
+            "name_0": "surname:Tallman;given-names:K.A.",
+            "name_1": "surname:Greenberg;given-names:M.M.",
+            "pub-id_pmid": "11457379",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "123",
+            "year": "2001"
+          },
+          "text": "Oxygen-dependent DNA damage amplification involving 5,6-dihydrothymidin-5-yl in a structurally minimal system",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36805,
+          "infons": {
+            "fpage": "13376",
+            "lpage": "13378",
+            "name_0": "surname:Carter;given-names:K.N.",
+            "name_1": "surname:Greenberg;given-names:M.M.",
+            "pub-id_pmid": "14583031",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "125",
+            "year": "2003"
+          },
+          "text": "Tandem lesions are the major products resulting from a pyrimidine nucleobase radical",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36890,
+          "infons": {
+            "fpage": "4275",
+            "lpage": "4280",
+            "name_0": "surname:Carter;given-names:K.N.",
+            "name_1": "surname:Greenberg;given-names:M.M.",
+            "pub-id_pmid": "12762726",
+            "section_type": "REF",
+            "source": "J. Org. Chem.",
+            "type": "ref",
+            "volume": "68",
+            "year": "2003"
+          },
+          "text": "Independent generation and study of 5,6-dihydro-2'-deoxyuridin-6-yl, a member of the major family of reactive intermediates formed in DNA from the effects of gamma-radiolysis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37067,
+          "infons": {
+            "fpage": "4894",
+            "lpage": "4904",
+            "name_0": "surname:Barvian;given-names:M.R.",
+            "name_1": "surname:Barkley;given-names:R.M.",
+            "name_2": "surname:Greenberg;given-names:M.M.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1995"
+          },
+          "text": "Reactivity of 5,6-dihydro-5-hydroxythymid-6-yl generated via photoinduced single electron transfer and the role of cyclohexa-1,4-diene in the photodeoxygenation process",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37236,
+          "infons": {
+            "fpage": "13287",
+            "lpage": "13297",
+            "name_0": "surname:Zhang;given-names:Q.",
+            "name_1": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "15479083",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "126",
+            "year": "2004"
+          },
+          "text": "Independent generation of the 5-hydroxy-5,6-dihydrothymidin-6-yl radical and its reactivity in dinucleoside monophosphates",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37359,
+          "infons": {
+            "fpage": "4648",
+            "lpage": "4654",
+            "name_0": "surname:Anderson;given-names:A.S.",
+            "name_1": "surname:Hwang;given-names:J.-T.",
+            "name_2": "surname:Greenberg;given-names:M.M.",
+            "pub-id_pmid": "10959870",
+            "section_type": "REF",
+            "source": "J. Org. Chem.",
+            "type": "ref",
+            "volume": "65",
+            "year": "2000"
+          },
+          "text": "Independent generation and reactivity of 2'-deoxy-5-methyleneuridin-5-yl, a significant reactive intermediate produced from thymidine as a result of oxidative stress",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37527,
+          "infons": {
+            "fpage": "263",
+            "lpage": "271",
+            "name_0": "surname:Tronche;given-names:C.",
+            "name_1": "surname:Goodman;given-names:B.K.",
+            "name_2": "surname:Greenberg;given-names:M.M.",
+            "section_type": "REF",
+            "source": "Chem. Biol.",
+            "type": "ref",
+            "volume": "5",
+            "year": "1998"
+          },
+          "text": "DNA damage induced via independent generation of the radical resulting from formal hydrogen atom abstraction from the C1'-position of a nucleotide",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37676,
+          "infons": {
+            "fpage": "1249",
+            "lpage": "1250",
+            "name_0": "surname:Chatgilialoglu;given-names:C.",
+            "name_1": "surname:Gimisis;given-names:T.",
+            "section_type": "REF",
+            "source": "Chem. Commun.",
+            "type": "ref",
+            "year": "1998"
+          },
+          "text": "Fate of the C-1' peroxyl radical in the 2'-deoxyuridine system",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37743,
+          "infons": {
+            "fpage": "1559",
+            "lpage": "1564",
+            "name_0": "surname:Koerner;given-names:S.",
+            "name_1": "surname:Bryant-Friedrich;given-names:A.",
+            "name_2": "surname:Giese;given-names:B.",
+            "pub-id_pmid": "11674219",
+            "section_type": "REF",
+            "source": "J. Org. Chem.",
+            "type": "ref",
+            "volume": "64",
+            "year": "1999"
+          },
+          "text": "C-3'-branched thymidines as precursors for the selective generation of C-3'-nucleoside radicals",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37843,
+          "infons": {
+            "fpage": "367",
+            "lpage": "375",
+            "name_0": "surname:Giese;given-names:B.",
+            "name_1": "surname:Beyrich-Graf;given-names:X.",
+            "name_2": "surname:Erdmann;given-names:P.",
+            "name_3": "surname:Petretta;given-names:M.",
+            "name_4": "surname:Schwitter;given-names:U.",
+            "pub-id_pmid": "9383438",
+            "section_type": "REF",
+            "source": "Chem. Biol.",
+            "type": "ref",
+            "volume": "2",
+            "year": "1995"
+          },
+          "text": "The chemistry of single-stranded 4'-DNA radicals: influence of the radical precursor on anaerobic and aerobic strand cleavage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37971,
+          "infons": {
+            "fpage": "6146",
+            "lpage": "6147",
+            "name_0": "surname:Giese;given-names:B.",
+            "name_1": "surname:Beyrich-Graf;given-names:X.",
+            "name_2": "surname:Erdmann;given-names:P.",
+            "name_3": "surname:Giraud;given-names:L.",
+            "name_4": "surname:Imwinkelried;given-names:P.",
+            "name_5": "surname:Mueller;given-names:S.N.",
+            "name_6": "surname:Schwitter;given-names:U.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1995"
+          },
+          "text": "Cleavage of single-stranded 4'-oligonucleotide radicals in the presence of O2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38051,
+          "infons": {
+            "fpage": "1",
+            "lpage": "217",
+            "name_0": "surname:Gait;given-names:M.J.",
+            "section_type": "REF",
+            "source": "Oligonucleotide Synthesis: A Practical Approach",
+            "type": "ref",
+            "year": "1984"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38052,
+          "infons": {
+            "fpage": "60",
+            "lpage": "70",
+            "name_0": "surname:McLuckey;given-names:S.A.",
+            "name_1": "surname:Van Berkel;given-names:G.J.",
+            "name_2": "surname:Glish;given-names:G.L.",
+            "section_type": "REF",
+            "source": "J. Am. Soc. Mass Spectrom.",
+            "type": "ref",
+            "volume": "3",
+            "year": "1992"
+          },
+          "text": "Tandem mass spectrometry of small, multiply charged oligonucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38121,
+          "infons": {
+            "fpage": "683",
+            "lpage": "691",
+            "name_0": "surname:Wang;given-names:Z.",
+            "name_1": "surname:Wan;given-names:K.X.",
+            "name_2": "surname:Ramanathan;given-names:R.",
+            "name_3": "surname:Taylor;given-names:J.S.",
+            "name_4": "surname:Gross;given-names:M.L.",
+            "pub-id_pmid": "9879378",
+            "section_type": "REF",
+            "source": "J. Am. Soc. Mass Spectrom.",
+            "type": "ref",
+            "volume": "9",
+            "year": "1998"
+          },
+          "text": "Structure and fragmentation mechanisms of isomeric T-rich oligodeoxynucleotides: a comparison of four tandem mass spectrometric methods",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38257,
+          "infons": {
+            "fpage": "329",
+            "lpage": "338",
+            "name_0": "surname:Wang;given-names:Y.",
+            "name_1": "surname:Taylor;given-names:J.S.",
+            "name_2": "surname:Gross;given-names:M.L.",
+            "pub-id_pmid": "10197353",
+            "section_type": "REF",
+            "source": "J. Am. Soc. Mass Spectrom.",
+            "type": "ref",
+            "volume": "10",
+            "year": "1999"
+          },
+          "text": "Differentiation of isomeric photomodified oligodeoxynucleotides by fragmentation of ions produced by matrix-assisted laser desorption ionization and electrospray ionization",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38430,
+          "infons": {
+            "fpage": "738",
+            "lpage": "745",
+            "name_0": "surname:Wang;given-names:Y.",
+            "name_1": "surname:Taylor;given-names:J.S.",
+            "name_2": "surname:Gross;given-names:M.L.",
+            "pub-id_pmid": "11409945",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2001"
+          },
+          "text": "Isolation and mass spectrometric characterization of dimeric adenine photoproducts in oligodeoxynucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38538,
+          "infons": {
+            "fpage": "6552",
+            "lpage": "6553",
+            "name_0": "surname:Zeng;given-names:Y.",
+            "name_1": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "15161273",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "126",
+            "year": "2004"
+          },
+          "text": "Facile formation of an intrastrand cross-link lesion between cytosine and guanine upon pyrex-filtered UV light irradiation of d(BrCG) and duplex DNA containing 5-bromocytosine",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38714,
+          "infons": {
+            "fpage": "6745",
+            "lpage": "6750",
+            "name_0": "surname:Gu;given-names:C.",
+            "name_1": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "15157108",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "43",
+            "year": "2004"
+          },
+          "text": "LC-MS/MS identification and yeast polymerase eta bypass of a novel gamma-irradiation-induced intrastrand cross-link lesion G[8-5]C",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38847,
+          "infons": {
+            "fpage": "598",
+            "lpage": "606",
+            "name_0": "surname:Bellon;given-names:S.",
+            "name_1": "surname:Ravanat;given-names:J.L.",
+            "name_2": "surname:Gasparutto;given-names:D.",
+            "name_3": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "11952347",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "15",
+            "year": "2002"
+          },
+          "text": "Cross-linked thymine-purine base tandem lesions: synthesis, characterization, and measurement in gamma-irradiated isolated DNA",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38974,
+          "infons": {
+            "fpage": "1077",
+            "lpage": "1082",
+            "name_0": "surname:Wang;given-names:Y.",
+            "name_1": "surname:Taylor;given-names:J.S.",
+            "name_2": "surname:Gross;given-names:M.L.",
+            "pub-id_pmid": "10563833",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "12",
+            "year": "1999"
+          },
+          "text": "Nuclease P1 digestion combined with tandem mass spectrometry for the structure determination of DNA photoproducts",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39088,
+          "infons": {
+            "fpage": "671",
+            "lpage": "676",
+            "name_0": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "12018988",
+            "section_type": "REF",
+            "source": "Chem. Res. Toxicol.",
+            "type": "ref",
+            "volume": "15",
+            "year": "2002"
+          },
+          "text": "HPLC isolation and mass spectrometric characterization of two isomers of thymine glycols in oligodeoxynucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39202,
+          "infons": {
+            "fpage": "1021",
+            "lpage": "1030",
+            "name_0": "surname:Box;given-names:H.C.",
+            "name_1": "surname:Budzinski;given-names:E.E.",
+            "name_2": "surname:Dawidzik;given-names:J.B.",
+            "name_3": "surname:Gobey;given-names:J.S.",
+            "name_4": "surname:Freund;given-names:H.G.",
+            "pub-id_pmid": "9358245",
+            "section_type": "REF",
+            "source": "Free Radic. Biol. Med.",
+            "type": "ref",
+            "volume": "23",
+            "year": "1997"
+          },
+          "text": "Free radical-induced tandem base damage in DNA oligomers",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39259,
+          "infons": {
+            "fpage": "433",
+            "lpage": "439",
+            "name_0": "surname:Box;given-names:H.C.",
+            "name_1": "surname:Budzinski;given-names:E.E.",
+            "name_2": "surname:Dawidzik;given-names:J.B.",
+            "name_3": "surname:Wallace;given-names:J.C.",
+            "name_4": "surname:Iijima;given-names:H.",
+            "pub-id_pmid": "9588353",
+            "section_type": "REF",
+            "source": "Radiat. Res.",
+            "type": "ref",
+            "volume": "149",
+            "year": "1998"
+          },
+          "text": "Tandem lesions and other products in X-irradiated DNA oligomers",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39323,
+          "infons": {
+            "fpage": "641",
+            "lpage": "643",
+            "name_0": "surname:Box;given-names:H.C.",
+            "name_1": "surname:Budzinski;given-names:E.E.",
+            "name_2": "surname:Dawidzik;given-names:J.D.",
+            "name_3": "surname:Wallace;given-names:J.C.",
+            "name_4": "surname:Evans;given-names:M.S.",
+            "name_5": "surname:Gobey;given-names:J.S.",
+            "pub-id_pmid": "8619032",
+            "section_type": "REF",
+            "source": "Radiat. Res.",
+            "type": "ref",
+            "volume": "145",
+            "year": "1996"
+          },
+          "text": "Radiation-induced formation of a crosslink between base moieties of deoxyguanosine and thymidine in deoxygenated solutions of d(CpGpTpA)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39460,
+          "infons": {
+            "fpage": "327",
+            "lpage": "336",
+            "name_0": "surname:Budzinski;given-names:E.E.",
+            "name_1": "surname:Dawidzik;given-names:J.B.",
+            "name_2": "surname:Rajecki;given-names:M.J.",
+            "name_3": "surname:Wallace;given-names:J.C.",
+            "name_4": "surname:Schroder;given-names:E.A.",
+            "name_5": "surname:Box;given-names:H.C.",
+            "pub-id_pmid": "9134023",
+            "section_type": "REF",
+            "source": "Int. J. Radiat. Biol.",
+            "type": "ref",
+            "volume": "71",
+            "year": "1997"
+          },
+          "text": "Isolation and characterization of the products of anoxic irradiation of d(CpGpTpA)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39543,
+          "infons": {
+            "fpage": "5413",
+            "lpage": "5424",
+            "name_0": "surname:Liu;given-names:Z.",
+            "name_1": "surname:Gao;given-names:Y.",
+            "name_2": "surname:Wang;given-names:Y.",
+            "pub-id_pmid": "12954778",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "31",
+            "year": "2003"
+          },
+          "text": "Identification and characterization of a novel cross-link lesion in d(CpC) upon 365-nm irradiation in the presence of 2-methyl-1,4-naphthoquinone",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39689,
+          "infons": {
+            "fpage": "967",
+            "lpage": "971",
+            "name_0": "surname:Bellon;given-names:S.",
+            "name_1": "surname:Gasparutto;given-names:D.",
+            "name_2": "surname:Romieu;given-names:A.",
+            "name_3": "surname:Cadet;given-names:J.",
+            "pub-id_pmid": "11563156",
+            "section_type": "REF",
+            "source": "Nucleosides Nucleotides Nucleic Acids",
+            "type": "ref",
+            "volume": "20",
+            "year": "2001"
+          },
+          "text": "5-(phenylthiomethyl)-2'-deoxyuridine as an efficient photoreactive precursor to generate single and multiple lesions within DNA fragments",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39829,
+          "infons": {
+            "section_type": "FIG",
+            "type": "title_1"
+          },
+          "text": "Figures and Tables",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39848,
+          "infons": {
+            "file": "gki301s1.jpg",
+            "id": "sch1",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Formation of radical I and its coupling with neighboring guanine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39914,
+          "infons": {
+            "file": "gki301f1.jpg",
+            "id": "fig1",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "HPLC traces for the separations of single-stranded d(ACGTGYCGTGAT), where Y is the radical precursor, before (a) and after (b) 254 nm irradiation under anaerobic conditions. 'XL' (the 22.8 min fraction) represents d(ACGTG  mCCGTGAT).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40154,
+          "infons": {
+            "file": "gki301f2.jpg",
+            "id": "fig2",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Product-ion spectrum of the electrospray-produced [M-3H]3- ion (m/z 1223.5) of d(ACGTG  mCCGTGAT) (the 22.8 min fraction in Figure 1b).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40296,
+          "infons": {
+            "file": "gki301f3.jpg",
+            "id": "fig3",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "HPLC traces for the separation of nuclease P1 and alkaline phosphatase digestion mixture of d(ACGTG  mCCGTGAT) (the 22.8 min fraction in Figure 1b): (a) injection of the digestion mixture; (b) co-injection of digestion mixture and 4.5 nmol d(G  mC) standard.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40559,
+          "infons": {
+            "file": "gki301f4.jpg",
+            "id": "fig4",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "LC-MS/MS results for the injection of d(mC  G) and d(G  mC) (400 fmol each). Shown are SICs for the m/z 569 275 (a) and m/z 569 471 transitions (b); product-ion spectra of the ions of m/z 569 for the fractions eluting at 20.2 min [(c), corresponding to d(mC  G)] and 30.3 min [(d), corresponding to d(G  mC)].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40881,
+          "infons": {
+            "file": "gki301s2.jpg",
+            "id": "sch2",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Radical I can couple with both molecular oxygen and adjacent guanine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40951,
+          "infons": {
+            "file": "gki301s3.jpg",
+            "id": "sch3",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Possible enzymic digestion products and the m/z values of their [M + H]+ ions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41030,
+          "infons": {
+            "file": "gki301f5.jpg",
+            "id": "fig5",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "LC-MS/MS for the detection of cross-link lesion from the gamma irradiation of self-complementary duplex ODN d(mCG)7. The irradiation mixture was digested by nuclease P1, CIP, and phosphodiesterases I and II before LC-MS analysis, and the mass spectrometer was set to monitor the fragmentation of the ion of m/z 569, which is the [M+H]+ ions of the cross-link lesion d(G  mC) and d(mC  G). Plotted are the SICs for the m/z 569 275 transition with the injections of the digestion mixtures of (a) 1 nmol ODN irradiated with gamma-rays in the presence of saturated O2; (b) 1 nmol ODN irradiated with gamma-rays in the presence of air; and (c) 0.5 nmol ODN irradiated with gamma-rays under anaerobic conditions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41737,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "Yields for the formation of mC  G and G  mC lesion under UV and gamma irradiation conditions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41831,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th align=\"left\" colspan=\"1\" rowspan=\"1\">Substrates</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Anaerobic</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Yield (%) Aerobic</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Saturated O<sub>2</sub></th></tr></thead><tbody><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">GY-12<xref ref-type=\"table-fn\" rid=\"tf1-1\">a</xref>, single-stranded, UV<xref ref-type=\"table-fn\" rid=\"tf1-2\">b</xref>, G<sup> </sup> mC</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">11 (8.6)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.68 (0.52)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">N/A<xref ref-type=\"table-fn\" rid=\"tf1-3\">c</xref></td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">GY-12, double-stranded, UV, G<sup> </sup> mC</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">2.0 (1.5)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.44 (0.34)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.13</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">(mCG)<sub>7</sub>, gamma, G<sup> </sup> mC</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.047 (0.036)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.0047 (0.0030)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">0.0029 (0.0015)</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">(mCG)<sub>7</sub>, gamma, mC<sup> </sup> G</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">(0.0036)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">(0.00011)</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">N/A</td></tr></tbody></table>\n"
+          },
+          "text": "Substrates\tAnaerobic\tYield (%) Aerobic\tSaturated O2\t \tGY-12a, single-stranded, UVb, G  mC\t11 (8.6)\t0.68 (0.52)\tN/Ac\t \tGY-12, double-stranded, UV, G  mC\t2.0 (1.5)\t0.44 (0.34)\t0.13\t \t(mCG)7, gamma, G  mC\t0.047 (0.036)\t0.0047 (0.0030)\t0.0029 (0.0015)\t \t(mCG)7, gamma, mC  G\t(0.0036)\t(0.00011)\tN/A\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42130,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_footnote"
+          },
+          "text": "The numbers in the parentheses show the yields that are obtained by employing dinucleoside monophosphate as external standards, whereas the numbers on the left of the parentheses are yields determined by using d(ACGTG  mCCGTGAT) as external standards. The total dose for gamma irradiation was 360 Gy. All four enzymes were employed for the digestion of each sample. The % yields refer to the percent damage per GmC or mCG site in the parent ODN, and they are average values obtained from duplicate LC-MS/MS measurements.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42651,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_footnote"
+          },
+          "text": "a'GY-12' refers to d(ACGTGYCGTGAT), where Y is the photolabile precursor for radical I.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42743,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_footnote"
+          },
+          "text": "b'UV' and 'gamma' refer to 254 nm UV irradiation and gamma irradiation, respectively.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42831,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_footnote"
+          },
+          "text": "cNot available.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,1223 @@
+{
+  "source": "PMC",
+  "date": "20201214",
+  "key": "pmc.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "103662",
+      "infons": {
+        "license": "NO-CC CODE"
+      },
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "article-id_pmc": "103662",
+            "article-id_pmid": "11943070",
+            "article-id_publisher-id": "1472-6793-2-5",
+            "fpage": "5",
+            "journal-title": "BMC Physiology",
+            "lpage": "5",
+            "name_0": "surname:Krebs;given-names:Richard A",
+            "name_1": "surname:Alexiev;given-names:Ulrike",
+            "name_2": "surname:Partha;given-names:Ranga",
+            "name_3": "surname:DeVita;given-names:Anne Marie",
+            "name_4": "surname:Braiman;given-names:Mark S",
+            "section_type": "TITLE",
+            "type": "front",
+            "volume": "2",
+            "year": "2002"
+          },
+          "text": "Detection of fast light-activated H+ release and M intermediate formation from proteorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 96,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract_title_1"
+          },
+          "text": "Background",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 107,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "Proteorhodopsin (pR) is a light-activated proton pump homologous to bacteriorhodopsin and recently discovered in oceanic gamma-proteobacteria. One perplexing difference between these two proteins is the absence in pR of homologues of bR residues Glu-194 and Glu-204. These two residues, along with Arg-82, have been implicated in light-activated fast H+ release to the extracellular medium in bR. It is therefore uncertain that pR carries out its physiological activity using a mechanism that is completely homologous to that of bR.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 640,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract_title_1"
+          },
+          "text": "Results",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 648,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "A pR purification procedure is described that utilizes Phenylsepharose  and hydroxylapatite columns and yields 85% (w/w) purity. Through SDS-PAGE of the pure protein, the molecular weight of E.-coli-produced pR was determined to be 36,000, approximately 9,000 more than the 27,000 predicted by the DNA sequence. Post-translational modification of one or more of the cysteine residues accounts for 5 kDa of the weight difference as measured on a cys-less pR mutant. At pH 9.5 and in the presence of octylglucoside and diheptanoylphosphotidylcholine, flash photolysis results in fast H+ release and a 400-nm absorbing (M-like) photoproduct. Both of these occur with a similar rise time (4-10 mus) as reported for monomeric bR in detergent.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1390,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract_title_1"
+          },
+          "text": "Conclusions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1402,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "The presence of fast H+ release in pR indicates that either different groups are responsible for fast H+ release in pR and bR (i.e. that the H+ release group is not highly conserved); or, that the H+ release group is conserved and is therefore likely Arg-94 itself in pR (and Arg-82 in bR, correspondingly).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1710,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "Background",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1721,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Proteorhodopsin is a 249-amino acid membrane protein native to several uncultured species of gamma-proteobacteria, which are a component of marine plankton. Addition of retinal to E. coli expressing pR was shown to cause a reddish coloration of the bacteria with an absorption maximum near 520 nm. The pR contained in the bacterial membranes was shown to act as a light-activated proton pump, but only when retinal is present. Time-resolved UV/vis studies at pH 8 also revealed that the protein undergoes a photocycle, similar to that of wild type bacteriorhodopsin, but with a predominance of the O intermediate instead of M.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2348,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "The bR photocycle has been characterized by spectroscopic methods as having six principal photointermediates: bR, K, L, M, N and O. Each intermediate has a distinct absorbance maximum; the most studied are bR (570 nm), M (412 nm), and O (640 nm) since these are the ones that can be produced in the highest concentration at physiological pH values. Monitoring of the absorbance at individual wavelengths after photoexcitation is used to determine the relative concentrations and decay times of each of these photointermediates. The L   M transition in bR is characterized by the deprotonation of the Schiff base to Asp-85, producing the distinctive 412 nm absorbance maximum of M, and by so-called fast proton release, the ejection of a proton from a different (unknown) residue into the external medium on the ~10-100 mus time scale, depending on pH. Reprotonation of the Schiff base from Asp-96 occurs during the M   N transition with an absorbance maximum of 560 nm. The N   O transition involves the reprotonation of the Asp-96 from the cytoplasmic space.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3416,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Like bR, pR consists of seven transmembrane alpha-helices that include in the membrane interior all of the residues conserved among archaeal rhodopsin proton pumps. In particular, analogues of Asp-85, Asp96, Arg-82, and Lys-216 of bR are present in pR. Conspicuously absent are analogues for Glu-194 and Glu-204 of bR. The latter, as well as Arg-82, have been implicated in fast proton release. In particular, mutagenesis of Glu-194 or Glu-204 in bR results in loss of fast proton release. The absence of homologs for these residues in pR leaves open the question of whether it carries out fast H+ release.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4023,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Experiments described here demonstrate that pR does indeed undergo fast H+ release, at least under elevated pH conditions that resemble somewhat those of the gamma-proteobacteria's native open ocean environment. We also demonstrate that there is a post-translational modification of at least one of the three native cysteines when pR is expressed in E. coli. Both of these discoveries were made possible through purification methods for pR described herein.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4481,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_1"
+          },
+          "text": "Results",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4489,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Purification",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4502,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "PR was obtained in 85% purity, assuming that values of epsilon280 and epsilon546 for pR are the same as for bR solubilized in DMPC/cholate/SDS mixtures at pH 8 (epsilon280= 7.85 x 104 cm-1 M-1 and epsilon551 = 4.8 x 104 cm-1 M-1). This assumption is actually expected to underestimate the purity of pR produced, by up to ~20%, since the pR we expressed has 10 tryptophan and 14 tyrosine residues, as compared to 8 tryptophans and 11 tyrosines in bR from H. salinarum. The absorbance of contaminant proteins was assumed to be 1.1 for a 1 mg/mL solution. By using these assumptions, the relative concentrations of pR and other proteins can be determined from the absorbance spectra of the various fractions (fig. 1). The resulting purity values correlate well with those Coomasie-stained SDS-PAGE gels (see below). The OG extract of cholate-washed membrane pellets starts out at a pR content of 7% total protein (w/w). The Phenylsepharose column increases the purity level to 24%, with approximately 5% loss. The final purification step by hydroxylapatite column chromatography produces pR with ~85% purity and a further loss of ~60%, i.e. the overall yield of the two column procedure was ~30%.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5696,
+          "infons": {
+            "file": "1472-6793-2-5-1.jpg",
+            "id": "F1",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "UV/visible absorption spectra of pR in octylglucoside solution (1-3%) at three stages of purification. All three spectra were measured in the presence of octylglucoside at pH 8, and are normalized to the 280-nm protein peak. Spectrum A, the OG extract of cholate-washed E. coli membranes; spectrum B, pooled 546-nm absorbing fractions from Phenylsepharose column; spectrum C, same material after hydroxylapatite column.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6118,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Polyacrylamide gel electrophoresis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6153,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Relative to protein standards, the apparent molecular weight of bR is 25,000 while the apparent molecular weights of pR-wt and pR-TCM are 36,000 and 31,000, respectively (fig. 2, lanes E and C, respectively). SDS-PAGE (fig. 2) also confirms the estimates of purity level based on the assumed epsilon280/epsilon546 ratio identical with that of detergent solubilized bR. Interestingly, the pR appears to be a doublet band whose relative concentrations remain almost unchanged during purification. This doublet is also present in the less-purified sample of pR-TCM, with both bands shifted down by approximately the same amount (fig. 2, lane C).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6796,
+          "infons": {
+            "file": "1472-6793-2-5-2.jpg",
+            "id": "F2",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "SDS-PAGE of pR (wild type and pR-triple cysteine mutant). Lane A contains bacteriorhodopsin (bR). Lanes B and F contain BioRad protein molecular weight markers including labeled bands at 21.5 (trypsin inhibitor), 31 (bovine carbonic anhydrase), and 45 (ovalbumin) kDa. Lane C is of the pR triple cysteine mutant (TCM). Lane D contains the Phenylsepharose -purified pR wild type protein, corresponding to spectrum B of fig. 1. Lane E contains the hydroxylapatite-purified pR wild type protein, corresponding to spectrum C in fig. 1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7330,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Subsequent SDS-PAGE analysis of pR samples that had been stored for periods of time up to several months indicate that after sitting for several weeks in octylglucoside solution at 4 C, the largest post-translational modification on wild-type pR is eliminated - presumably hydrolysed off of the cysteine(s) - leaving only a 31,000-MW band indistinguishable from that seen for pR-TCM (data not shown). Furthermore, after boiling for several min in gel loading solution, this cleaved wild-type protein, as well as the TCM, both give an extra artifactual band near 36,000 dalton. The latter band, a singlet, is coincidentally at almost the same apparent MW as the doublet from the uncleaved post-translationally-modified wild type pR (fig. 2, lane E). These potential artifacts should be taken into consideration in any attempt to reproduce the results in Fig. 2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8196,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Photocycle kinetics and flash-induced proton concentration changes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8263,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Photocycle kinetics were measured at 400, 500. and 580 nm in the presence of the short-chain lipid DHPC. This lipid does not support the formation of closed bilayer vesicles, but rather forms micelles like a detergent. The time-resolved measurements showed no positive 400-nm absorbance signals at pH 8.0 or lower (Fig. 3). This is somewhat in disagreement with Beja et al, who detected small 400-nm transient absorbance increases upon photolysis at pH 8.0. However, we observed a transient 400-nm absorbance increase at an elevated pH of 9.5 (fig. 3).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8818,
+          "infons": {
+            "file": "1472-6793-2-5-3.jpg",
+            "id": "F3",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Dependence on pH of the M-like intermediate of pR. Time courses of flash-induced absorbance changes measured at 400 nm and 22 C for pR in 1% DHPC/100 mM NaCl solution at pH 6.5, 8.0 and 9.5. A positive differential absorbance at 400 nm is indicative of the presence of the M intermediate. The logarithmic time scale ranges from 100-107 mus after photolysis by a 10-ns laser pulse at 500 nm, with an energy of 3-6 mJ.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9240,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "At pH 9.5 in the presence of DHPC, and observing transient changes at 500 nm (fig. 4), pR undergoes a 2-phase decay after the initial unresolved absorbance decrease. Multiexponential fits show that the first decay phase has a time constant of 4 mus, in good agreement with the 4-mus rise time of the 400 nm signal (Fig. 4). The amplitude of this decay represents about 80% of the initial absorbance depletion. The second phase of the 500 nm absorbance decay occurs with a substantially slower time constant of 0.5 s, returning the remaining 20% of initial absorbance change. The slowest decay components of the positive 400-nm signal and the negative 500-nm signal follow similar kinetics, although the amplitudes of these components differ by a factor of 3. At pH 9.5, the 580 nm trace has no significant positive values indicative of an O-like intermediate, although, in agreement with earlier measurements, at lower pH values a red-shifted transient is the predominant positive absorbance signal (data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10257,
+          "infons": {
+            "file": "1472-6793-2-5-4.jpg",
+            "id": "F4",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Photocycle kinetics of pR at selected wavelengths at pH 9.5. Time traces were measured at 400, 500, and 580 nm. The 400-nm trace shows the kinetics of the M intermediate, i.e. the deprotonated Schiff base, as in Fig. 3. The 500-nm trace shows the depletion signal of pR at the earliest times, and then the time course of the N intermediate as well as return of the pR resting state. The 580-nm trace is indicative of an O-like intermediate. The conditions are 1% DHPC, 100 mM NaCl, pH9.5 at 22 C. The laser excitation is as in fig. 3.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10793,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Figure 5 shows a different type of time-resolved measurement, probing not the pR chromophore, but rather pH changes in the protein environment. Proton concentration changes in the aqueous bulk phase were measured with the pH sensitive dye cresol red, which has a pKa of 8.2-8.5. The bottom trace in Figure 5 shows the absorbance change of the indicator during the pR photocycle. The negative signal is indicative of a pH decrease, corresponding to transient H+ release from the protein into the solution. The best-fit time constant for the release phase is 6 mus. The positive 400 nm trace in fig. 5 (reproduced from fig. 3) shows that the proton release and uptake follow kinetics very similar to the apparent formation and decay of M, as is typically seen in bR near neutral pH. However, no proton release signal could be observed for pR at pH 6 or 8 (data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11666,
+          "infons": {
+            "file": "1472-6793-2-5-5.jpg",
+            "id": "F5",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Comparison of the kinetics of M formation and decay with kinetics of ET release and uptake. The time trace of the M-like intermediate was measured at 400 nm (upper panel). Time-resolved H+ concentration changes (lower panel) were measured with the pH indicator dye Cresol Red. A negative Cresol Red absorbance change at 580 nm is indicative of a transient decrease in the pH of the solution, i.e. of H+ release by pR. Solid lines represent multiexponential fits, with the main rise and decay times indicated for the M intermediate. The H+ release and uptake time constants obtained from the fit are marked with arrows pointing down for release and pointing up for uptake. Sample and excitation conditions are as in fig. 4.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12389,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_1"
+          },
+          "text": "Discussion",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12400,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Purification of pR",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12419,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Meaningful comparison of intrinsic physiological properties of pR and bR depends on the purification of pR. The E. coli expression system can easily be used to prepare pR at 85% purity with similar or less effort and time than required for bR (purple membrane) production from S9 H. salinarum.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12713,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The initial purity level of the OG-solubilized cholate-extracted membrane is about 7% pR by weight. Phenylsepharose  column chromatography separates proteins on the basis of hydrophobicity, and has been used previously in hR purification. As an initial purification step, the Phenylsepharose  column achieved a substantial increase in protein purity to 25%, along with removal of most of the lipid. The final purification step, utilizing a hydroxylapatite column, has been previously used with rhodopsin. This column proved to be more efficient as a final step in the purification than as a preliminary one, because large amounts of contaminant protein tended to slow the flow rate drastically. This step of the purification yielded an increase in protein purity to >85%. The overall yield of pR from membrane through the column purifications is ~30%. Most of this loss, ~65%, occurs during the hydroxylapatite column.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13636,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Molecular weight differences",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13665,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Beja et al. reported a molecular weight for wild type pR of 27 kDa based on the predicted amino acid sequence of the protein. Its 249 amino acids barely exceed the 248 of mature bR, which has a molecular weight of 26,000. However, we observed a significantly higher apparent molecular weight (~36,000) for wild type pR on SDS-PAGE gels (Fig. 2, lanes D and E). Post-translational modification of pR must almost certainly account for some of the observed molecular weight difference between pR and bR. Lipids or sugars covalently bound to the protein surface would not be removed during the purification procedure and could cause a higher apparent molecular weight. Cysteines are frequently a site of lipid association with membrane proteins, (e.g. mammalian rhodopsin, which has two palmitoyl molecules attached to cysteine residues). Therefore we compared the SDS-PAGE gel mobility of wild-type pR to that of a cys-less mutant (pR-TCM). The elimination of the three possible sulfhydryl attachment sites lowers the apparent molecular weight of the pR-TCM by 5,000 (Fig. 2, lane C). From this, we conclude that at least one of the three cysteines in pR is probably modified post-translationally.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14862,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "However, this by itself does not account fully for the anomalous mobility of pR on SDS-PAGE gels, because pR-TCM is still approximately 5,000 higher in molecular weight than bR according to SDS-PAGE (fig. 2, lanes A & C). Only ~2,600 of this can be accounted for by the V5 eiptope and poly-histidine tail that are appended to the C-terminus of pR by the pBAD-TOPO expression vector that we used. There is undoubtedly a further post-translational modification of unknown nature.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15340,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Spectral comparisons",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15361,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Beja et al. reported an absorbance maximum for pR of 520 nm in E. coli membranes, using a difference bleaching technique to remove interfering absorbance bands from other membrane components in the impure pR sample. We confirmed this result using crude E. coli membranes without detergent present (data not shown). However, we observed an absorbance maximum of 546 +- 5 nm for pR in OG at pH 7 at all stages of purification (Fig. 1). Small blue shifts were observed for pR samples in OG when measured at pH 8 and 9.5 (8 and 16 nm, respectively; data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15925,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "For the pR samples reconstituted in DHPC, which were used for flash photolysis experiments, the absorbance maxima were similar to those measured in OG (spectra not shown). A chromophore absorption maximum near 540 nm was also obtained by using difference spectroscopy of pR in crude E. coli membranes solubilized in OG (spectrum not shown). However, for pR measured directly in crude E. coli membranes, i.e. not solubilized in OG, we obtained the same value (520 nm) as reported previously.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16416,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Solubilization in detergent presumably leads to structural distortions of the native protein conformation, and therefore a change in the absorbance properties of the chromophore. However, the direction that lambdamax for pR would have to shift upon solubilization in OG is inconsistent with the pattern for bR, whose lambdamax decreases when it is solubilized in OG. Furthermore, pR in OG showed resonance Raman spectra (D. Dunmire, R. A. Krebs and M. S. Braiman, unpublished data) indicative of a chromophore structure very close to native light-adapted (i.e. all-trans) bR in purple membrane. However, there is one major difference: pR in OG exhibits an upshifted, doublet C=N Schiff base band consisting of two components of nearly-equal intensity. These appear to correspond to the presence of two distinct subpopulations of pR, at least when expressed in E. coli and solubilized in OG micelles. The different values of lambdamax for pR in membrane state and OG solution might be related to the presence of these multiple subpopulations, but this connection remains unclear.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17495,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Principal photointermediates of pR",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17530,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Of the six principal photointermediates present in bR, four can be discerned from the time-dependent visible absorbance traces from pR in fig. 4, along with previously published time traces at 600 nm: the resting state (pR), M, N and O. The resting state, with an absorbance maximum of 546 nm (see above), provides the baseline spectrum for the difference time courses reported. The M intermediate of bR has an unprotonated Schiff base group, giving rise to a blue-shifted lambdamax (400 nm). Likewise in pR, an increase in the 400 nm absorbance should indicate formation of a deprotonated Schiff base, and therefore the presence of an M-like intermediate.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18187,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Interpretation of the 500 nm time course trace is more complicated. As in bR, it likely involves decay of M to N, as well as from N back to bR. The absorbance maximum of the N intermediate in bR is 560 nm, corresponding to a protonated Schiff base. This is not very different from lambdamax for the resting state of pR (546 nm). The likely spectral overlap between pR and its own postulated N photoproduct complicates the determination of amounts of each that are present. The slow (~500 ms) decay observed in both the 400 nm and 500 nm time courses indicates an equilibrium between the M and N intermediates that remains until pR returns to its initial resting state.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18856,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Beja et al. reported a strong positive 580-nm transient absorbance increase in suspensions of membranes prepared from E. coli expressing pR. This positive absorbance difference is indicative of O intermediate formation. We looked for its presence in partially-purified samples reconstituted in DHPC in the pH range 6-11. (Data are shown only at pH 9.5; see Fig. 4). Our observations at pH 9.5 do not show any evidence of O intermediate formation (Fig. 4). Only at lower pH values was a clear positive 580-nm absorption change observed (data not shown). This is in agreement with results on bR, for which O formation is also enhanced at lower pH values, and becomes small or nearly unobservable in the alkaline range.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19577,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Dependence of the M intermediate on pH",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19616,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Deprotonation of the Schiff base linkage of the retinal and Lys-216 is dependent on its pKa which changes between photointermediate states. The Schiff base readily undergoes deprotonation in the M intermediate. However, no M intermediate formation occurs below a pH of ~9 (figure 3); instead the O intermediate predominates. Predominance of O at lower pH values is also observed in bR. However, in bR the M intermediate is detectable at low and high pHs, but has a longer lifetime at higher pH due to a long-lived equilibrium between M and another intermediate, N. It seems likely that an N intermediate of pR is similarly in equilibrium with its M intermediate, based on the fact that the transient positive (400 nm) absorbance increase is smaller than the negative 500 nm bleach, and the time course at 500 nm shows a partial return to baseline on a timescale of ~50 mus.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20490,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The difference in pH dependence between the pR and bR photocycles can likely be attributed to differences in the microenvironment of the Schiff base, and is perhaps related to absence of Glu194/204 in pR. These adaptive differences presumably optimize the proteins to operate at maximum efficiency in the niches that their respective organisms occupy. In the case of the lambda-proteobacteria, which in the open ocean (pH 7.8-8.0) occupy a signficantly more alkaline environment than halobacteria, perhaps the proton-release group is simply not under any evolutionary pressure to be capable of deprotonating in the M state at neutral pH. In this view, the principal role of E194 and E204 in bR may to modulate the pKa of the H+-release group in the M state to a value lower than the pH of the organism's external environment.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21316,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_2"
+          },
+          "text": "Fast proton release in pR",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21342,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Under the same conditions where M is observed (pH 9.5 and in 1% DHPC), pR undergoes fast proton release during its photocycle (Fig. 5). The pH indicator dye Cresol Red was used to detect pH changes in the bulk aqueous phase. These turn out to be similar to those observed for bR in the pH range 5.5-10. After photoexcitation, pR (like bR, presumably) ejects a H+ from a residue near its extracellular surface decreasing the pH of the solution. When the N   O transition takes place in bR, H+ is taken up from the medium, raising the pH once again. The H+ signals from pR measured with Cresol Red occur on a time scale similar to that assignable to M and N decay, returning to baseline about 1 s after photolysis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22059,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "There is a clear kinetic correlation between M (and/or N) intermediate formation and fast H+ release in pR. The linkage between these two phenomena is further supported by the observation that neither a transient 400-nm absorbance increase, nor fast H+ release, is shown to occur at pH 8.0 and below. Nor is either observed in the absence of a reconstituting lipid (DHPC in these experiments).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22453,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "In bR, the ejected proton is thought to originate from a triad of amino acids, R82-E194-E204. However, in pR a homolog of only one of these three residues (the arginine) is present. This raises doubts about previous conclusions regarding the specific roles of these 3 residues in fast H+ proton release, in both pR and bR. In particular, the apparently obligatory roles of E204 and E194 in fast H+ release in bR are not matched in pR. Therefore, even in bR it is less likely that these groups themselves change protonation state between bR and M to provide the H+ released to the bulk medium. Instead, it now seems more likely that E204 and E194 merely help to lower the pKa of the H+ release group from above 8, the apparent value for pR, into the vicinity of 6 for bR. It also seems very unlikely that the specific structural configuration of 2 carboxylic acid groups and arginine in bR could be conserved in pR, even if, as suggested previously, other surface carboxylic acids in pR could substitute in some ways for the roles of E194 and E204 in bR.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23507,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The only way that the H+ release mechanism can be strongly conserved between bR and pR is if arginine itself serves as the principal donor group for fast H+ release in both, with nearby residues (such as E194 and E204) merely modulating the pKa of the arginine in the M intermediate. However, it remains unclear how the pKa of Arg-82 in bR could be made sufficiently low in its M intermediate to serve as the H+ release group at pH values down to 6.0.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23959,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Alternatively, it is possible that the fast H+ release we observe from pR at pH 9.5 may differ from that in bR. One possibility is that in pR, the released proton could come directly from the chromophore counterion, Asp-97. This would be consistent with a proposed mechanism for fast H+ release that has been observed above pH 10 in the bR mutant E194Q. In this mutant, Asp-85 was detected by low-temperature infrared difference spectroscopy to be deprotonated only in the N intermediate, and not in M. It is not clear yet whether Asp-85 deprotonation in an N-like state could account for the proton-release kinetics of pR (Fig. 5), or whether the M intermediate itself might have a partially-deprotonated Asp-85.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24673,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The reason for the requirement of DHPC in M intermediate formation and fast proton release is unclear. Delipidated bR in octylglucoside is fully capable of M formation and presumably proton release, although with altered kinetics. The requirement for pR to be in lipid to show fast H+ release and M formation stems either from a protein/lipid interaction needed to establish a stable, active tertiary structure, or from the need for the phosphate group in DHPC to act as a proton release group. The latter seems unlikely due to the DHPC molecule being zwitterionic at pH 9.5, with no proton on the trimethyl-modified nitrogen of the choline. Hence, the DHPC most likely interacts with the protein to effect minor structural changes needed to place the active site residues in their functional configuration.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25481,
+          "infons": {
+            "section_type": "CONCL",
+            "type": "title_1"
+          },
+          "text": "Conclusions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25493,
+          "infons": {
+            "section_type": "CONCL",
+            "type": "paragraph"
+          },
+          "text": "A comparison of the primary sequences of pR and bR at first glance seems as to preclude fast H+ release as part of the proton-pumping mechanism of pR due to the absence of residues analogous to Glu194 and Glu 204 of bR. However, fast H+ release is indeed observed in pR under conditions where an M intermediate is formed. Glu194 and Glu 204 in bR play a role in fast H+ release that is apparently not required for the mechanism of the bR family of proton transporters. It is therefore necessary to conclude that either the H+-release groups in pR and bR are non-homologous surface carboxylic acid residues (as suggested previously), or else that a conserved non-carboxylic acid residue, i.e. Arg82/94 or Asp85/97, is the H+-release group in pR. The higher pH requirement for the M intermediate of pR presumably corresponds with adaptation to the more alkaline oceanic environment in which the gamma-proteobacteria are found.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26418,
+          "infons": {
+            "section_type": "CONCL",
+            "type": "paragraph"
+          },
+          "text": "The necessity of reconstituting pR with some lipid before it is capable of photocycling shows that the presence of lipids facilitates pR in assuming its fully active structure. E.-coli-expressed pR has post-translational modifications, including ~4000 daltons of substituents at one or more of its three cysteines. Such post-translational modifications might also play a role in explaining the different physiological properties of pR and bR.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26861,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_1"
+          },
+          "text": "Materials & methods",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26881,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Protein expression and detergent extraction",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26925,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Proteorhodopsin was expressed by E. coli strain UT5600 containing an additional plasmid encoding for the first-reported pR gene (accession #AF279106, obtained from the uncultured proteobacterium EBAC31A08 clone BAC) with an Ara promoter and ampicillin resistance (kindly provided by O. Beja). Single colonies were selected and grown overnight in LB/amp media (200 ml, 37 C, 300 rpm). This culture was then diluted 10x into several 500-ml cultures. After a further 2 h incubation in the shaker bath, a stock solution of 20% L-arabinose was added, to give a final concentration of 0.2% L-arabinose. This culture was then incubated for 4 h (37 C, 300 rpm). The cells (~20 ml wet volume) were then collected by centrifugation (6000 rpm x 30 min) and washed 3x with 100 mM HEPES, pH 7.1 (buffer A). The cells were then resuspended in buffer A and incubated at 4 C with 50 mug all-trans-retinal (added as a concentrated ethanol solution) for 3 h. The cells were collected by centrifugation (6000 rpm x 30 min), then resuspended in 60 mL buffer A containing 0.3 mg/mL lysozyme, and stirred for 4 h at room temperature. The cells were again collected by centrifugation (6000 rpm x 30 min), then lysed with 20 ml of 20% sodium cholate, pH 7.1 (30 min., 4 C). The cells were centrifuged again (6000 rpm x 30 min), and the supernatants collected. After extracting 3x more with the same cholate solution, the pooled supernatants were diluted 10x with buffer A and centrifuged at 180,000 g for 45 min to collect the membrane pellet. This cholate-washed membrane pellet was then further extracted 3x with 3.0% beta-octyl-D-glucoside (OG) in buffer A (30 min, with stirring, 4 C). The pooled supernatants, containing OG-solubilized pR (~15 mg), were then diluted 6x with buffer A.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28706,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Column purification",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28726,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The diluted OG-solubilized membrane extract (10 mg in 300 mL total volume of 0.5% OG) was loaded on a 25 x 1 cm column containing Phenylsepharose  (6 fast flow high sub; Amersham Pharmacia Biotech). The column was eluted with a 0.5%-2.0% OG gradient in buffer A (300 mL total volume, 0.5 mL flow rate). The pR eluted at an OG concentration of 1.5-2.0%. Fractions having an A280/A546 ratio of 4.0 or lower were pooled (9.5 mg pR recovered in all) and concentrated using Vivaspin  20 concentrators having a 5000 MW cutoff (Vivascience, Westford, MA). A portion of the Phenylsepharose -purified pR (1.5 mg) was diluted to an OG concentration of 0.5% with 0.5 M KCl, 100 mM acetate. It was then loaded on a 10 cm x 1 cm hydroxylapatite (BioGel HTP, BioRad) column and eluted under pressure with a 0-600 mM phosphate gradient (200 mL total volume, flow rate 0.5 ml/min). Fractions with an A280/A546 ratio of 2.5 or lower were pooled and concentrated for subsequent experiments (0.5 mg).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29720,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Mutagenesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29732,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Methodology for the site-directed mutagenesis of pR is discussed in detail elsewhere (R. Parthasarathy, T. Caterino, R.A. Krebs, M.S. Braiman, manuscript in preparation). The triple cysteine mutant (pR-TCM) has all three of its native cysteines (Cys-107, Cys-156, and Cys-175) replaced with serines, and was prepared using the same E. coli expression system and purification methods as the wild type.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30133,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Polyacrylamide gel electrophoresis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30168,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "A 12% discontinuous SDS/polyacrylamide gel was used for molecular weight and purity analysis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30262,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Flash photolysis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30279,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Time-resolved UV/vis spectroscopy methods were as described previously. A Phenylsepharose -purified pR sample was reconstituted into mixed micelles containing 1,2-diheptanoyl-SN-glycero-3-phosphocholine (DHPC), by adding a 1% solution of the short-chain lipid and then removing most of the detergent on a Sephadex G-25 column equilibrated with 1% DHPC in 100 mM NaCl. Proton release and uptake in the aqueous bulk medium were detected from the pR-containing micelles suspended in 1% DHPC, 100 mM NaCl, with 45 muM Cresol Red pH indicator dye. Flash-induced absorbance changes at 580 nm of samples with and without the Cresol Red were subtracted to determine the transient signals due to proton concentration changes. Photoexcitations were performed with 10-ns laser pulses of 3-6 mJ at 500 nm. The time courses in Figs. 3,4 are an average of 40 cycles with the exception of the Cresol Red experiments averaging 100 cycles (Fig. 5, bottom trace).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31229,
+          "infons": {
+            "section_type": "ABBR",
+            "type": "title_1"
+          },
+          "text": "Abbreviations",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31243,
+          "infons": {
+            "section_type": "ABBR",
+            "type": "paragraph"
+          },
+          "text": "pR, proteorhodopsin; bR, bacteriorhodopsin; OG, beta-octyl-D-glucoside; SDS, sodium dodecylsulfate; PAGE, polyacrylamide gel electrophoresis; pR-TCM, pR triple cysteine mutant [C(107,156,175)S]; DHPC, 1,2-diheptanoyl-SN-glycero-3-phosphocholine; DMPC, dimyristoylphosphatidylcholine; HEPES, N-2-hydroxyethylpiperazine-N'-2-ethanesulfonic acid",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31586,
+          "infons": {
+            "fpage": "1902",
+            "lpage": "1906",
+            "name_0": "surname:Beja;given-names:O",
+            "name_1": "surname:Aravind;given-names:L",
+            "name_10": "surname:Spudich;given-names:EN",
+            "name_11": "surname:DeLong;given-names:EF",
+            "name_2": "surname:Koonin;given-names:EV",
+            "name_3": "surname:Suzuki;given-names:MT",
+            "name_4": "surname:Hadd;given-names:A",
+            "name_5": "surname:Nguyen;given-names:LP",
+            "name_6": "surname:Jovanovich;given-names:SB",
+            "name_7": "surname:Gates;given-names:CM",
+            "name_8": "surname:Feldman;given-names:RA",
+            "name_9": "surname:Spudich;given-names:JL",
+            "pub-id_pmid": "10988064",
+            "section_type": "REF",
+            "source": "Science",
+            "type": "ref",
+            "volume": "289",
+            "year": "2000"
+          },
+          "text": "Bacterial rhodopsin: Evidence for a new type of phototrophy in the sea.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31658,
+          "infons": {
+            "fpage": "5855",
+            "lpage": "5863",
+            "name_0": "surname:Kouyama;given-names:T",
+            "name_1": "surname:Nasuda-Kouyama;given-names:A",
+            "name_2": "surname:Ikegami;given-names:A",
+            "name_3": "surname:Mathew;given-names:MK",
+            "name_4": "surname:Stoeckenius;given-names:W",
+            "pub-id_pmid": "3191097",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "27",
+            "year": "1988"
+          },
+          "text": "Bacteriorhodopsin photoreaction: identification of a long-lived intermediate N (P,R350) at high pH and its M-like photoproduct.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31786,
+          "infons": {
+            "fpage": "8671",
+            "lpage": "8676",
+            "name_0": "surname:Balashov;given-names:SP",
+            "name_1": "surname:Imasheva;given-names:E",
+            "name_2": "surname:Ebrey;given-names:TG",
+            "name_3": "surname:Chen;given-names:N",
+            "name_4": "surname:Menick;given-names:DR",
+            "name_5": "surname:Crouch;given-names:RK",
+            "pub-id_pmid": "9289012",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "36",
+            "year": "1997"
+          },
+          "text": "Glutamate-194 to cysteine mutation inhibits fast light-induced-proton release in bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31886,
+          "infons": {
+            "fpage": "27122",
+            "lpage": "27126",
+            "name_0": "surname:Brown;given-names:LS",
+            "name_1": "surname:Sasaki;given-names:J",
+            "name_2": "surname:Kandori;given-names:H",
+            "name_3": "surname:Maeda;given-names:A",
+            "name_4": "surname:Needleman;given-names:R",
+            "name_5": "surname:Lanyi;given-names:JK",
+            "pub-id_pmid": "7592966",
+            "section_type": "REF",
+            "source": "J Biol Chem",
+            "type": "ref",
+            "volume": "270",
+            "year": "1995"
+          },
+          "text": "Glutamic acid 204 is the terminal proton release group at the extracellular surface of bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31992,
+          "infons": {
+            "fpage": "7003",
+            "lpage": "7011",
+            "name_0": "surname:London;given-names:E",
+            "name_1": "surname:Khorana;given-names:HG",
+            "pub-id_pmid": "7085614",
+            "section_type": "REF",
+            "source": "J Biol Chem",
+            "type": "ref",
+            "volume": "257",
+            "year": "1982"
+          },
+          "text": "Denaturation and renaturation of bacteriorhodopsin in detergents and lipid-detergent mixtures.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32087,
+          "infons": {
+            "fpage": "238",
+            "lpage": "248",
+            "name_0": "surname:Sherman;given-names:WV",
+            "name_1": "surname:Slifkin;given-names:MA",
+            "name_2": "surname:Caplan;given-names:SR",
+            "pub-id_pmid": "1247609",
+            "section_type": "REF",
+            "source": "Biochim Biophys Acta",
+            "type": "ref",
+            "volume": "423",
+            "year": "1976"
+          },
+          "text": "Kinetic studies of phototransients in bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32144,
+          "infons": {
+            "fpage": "337",
+            "lpage": "341",
+            "name_0": "surname:Grzesiek;given-names:S",
+            "name_1": "surname:Dencher;given-names:NA",
+            "section_type": "REF",
+            "source": "FEBS Lett",
+            "type": "ref",
+            "volume": "208",
+            "year": "1986"
+          },
+          "text": "Time-course and stoichiometry of light-induced proton release and uptake during the photocycle of bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32261,
+          "infons": {
+            "fpage": "1379",
+            "lpage": "1385",
+            "name_0": "surname:Steiner;given-names:M",
+            "name_1": "surname:Oesterhelt;given-names:D",
+            "pub-id_pmid": "10872334",
+            "section_type": "REF",
+            "source": "EMBO J",
+            "type": "ref",
+            "volume": "2",
+            "year": "1983"
+          },
+          "text": "Isolation and properties of the native chromoprotein halorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32329,
+          "infons": {
+            "fpage": "17016",
+            "lpage": "17022",
+            "name_0": "surname:Duschl;given-names:A",
+            "name_1": "surname:McCloskey;given-names:MA",
+            "name_2": "surname:Lanyi;given-names:JK",
+            "pub-id_pmid": "3182829",
+            "section_type": "REF",
+            "source": "J Biol Chem",
+            "type": "ref",
+            "volume": "263",
+            "year": "1988"
+          },
+          "text": "Functional reconstitution of halorhodopsin. Properties of halorhodopsin-containing proteoliposomes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32429,
+          "infons": {
+            "fpage": "1724",
+            "lpage": "1733",
+            "name_0": "surname:Walter;given-names:TJ",
+            "name_1": "surname:Braiman;given-names:MS",
+            "pub-id_pmid": "8110775",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "33",
+            "year": "1994"
+          },
+          "text": "Anion-protein interactions during halorhodopsin pumping: halide binding at the protonated Schiff base.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32532,
+          "infons": {
+            "fpage": "144",
+            "lpage": "150",
+            "name_0": "surname:Hong;given-names:K",
+            "name_1": "surname:Knudsen;given-names:PJ",
+            "name_2": "surname:Hubbell;given-names:WL",
+            "pub-id_pmid": "6285125",
+            "section_type": "REF",
+            "source": "Methods Enzymol",
+            "type": "ref",
+            "volume": "81",
+            "year": "1982"
+          },
+          "text": "Purification of rhodopsin on hydroxyapatite columns, detergent exchange, and recombination with phospholipids.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32643,
+          "infons": {
+            "fpage": "322",
+            "lpage": "325",
+            "name_0": "surname:Dencher;given-names:NA",
+            "name_1": "surname:Heyn;given-names:MP",
+            "pub-id_pmid": "32075",
+            "section_type": "REF",
+            "source": "FEBS Lett",
+            "type": "ref",
+            "volume": "96",
+            "year": "1978"
+          },
+          "text": "Formation and properties of bacteriorhodopsin monomers in the non-ionic detergents octyl-beta-D-glucoside and triton X-100.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32767,
+          "infons": {
+            "fpage": "6858",
+            "lpage": "6865",
+            "name_0": "surname:Varo;given-names:G",
+            "name_1": "surname:Lanyi;given-names:JK",
+            "pub-id_pmid": "2168743",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "29",
+            "year": "1990"
+          },
+          "text": "Protonation and deprotonation of the M, N, and O intermediates during the bacteriorhodopsin photocycle.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32871,
+          "infons": {
+            "fpage": "400",
+            "lpage": "406",
+            "name_0": "surname:Koyama;given-names:K",
+            "name_1": "surname:Miyasaka;given-names:T",
+            "name_2": "surname:Needleman;given-names:R",
+            "name_3": "surname:Lanyi;given-names:JK",
+            "section_type": "REF",
+            "source": "Photochem Photobiol",
+            "type": "ref",
+            "volume": "68",
+            "year": "1998"
+          },
+          "text": "Photoelectrical verification of proton-releasing groups in bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32949,
+          "infons": {
+            "fpage": "2022",
+            "lpage": "2030",
+            "name_0": "surname:Lazarova;given-names:T",
+            "name_1": "surname:Sanz;given-names:C",
+            "name_2": "surname:Querol;given-names:E",
+            "name_3": "surname:Padros;given-names:E",
+            "pub-id_pmid": "10733980",
+            "section_type": "REF",
+            "source": "Biophys J",
+            "type": "ref",
+            "volume": "78",
+            "year": "2000"
+          },
+          "text": "Fourier Transform Infrared Evidence for Early Deprotonation of Asp85 at Alkaline pH in the Photocycle of Bacteriorhodopsin Mutants Containing E194Q.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33098,
+          "infons": {
+            "fpage": "307",
+            "lpage": "310",
+            "name_0": "surname:Dencher;given-names:NA",
+            "name_1": "surname:Heyn;given-names:MP",
+            "pub-id_pmid": "42560",
+            "section_type": "REF",
+            "source": "FEBS lett",
+            "type": "ref",
+            "volume": "108",
+            "year": "1979"
+          },
+          "text": "Bacteriorhodopsin monomers pump protons.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33139,
+          "infons": {
+            "fpage": "680",
+            "lpage": "685",
+            "name_0": "surname:Laemmli;given-names:UK",
+            "pub-id_pmid": "5432063",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "227",
+            "year": "1970"
+          },
+          "text": "Cleavage of structural proteins during the assembly of the head of bacteriophage T4.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33224,
+          "infons": {
+            "fpage": "9228",
+            "lpage": "9232",
+            "name_0": "surname:Otto;given-names:H",
+            "name_1": "surname:Marti;given-names:T",
+            "name_2": "surname:Holz;given-names:T",
+            "name_3": "surname:Mogi;given-names:T",
+            "name_4": "surname:Lindau;given-names:M",
+            "name_5": "surname:Khorana;given-names:HG",
+            "name_6": "surname:Heyn;given-names:MP",
+            "pub-id_pmid": "2556706",
+            "section_type": "REF",
+            "source": "Proc Natl Acad Sci USA",
+            "type": "ref",
+            "volume": "86",
+            "year": "1989"
+          },
+          "text": "Aspartic acid-96 is the internal proton donor in the reprotonation of the Schiff base of bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33332,
+          "infons": {
+            "fpage": "372",
+            "lpage": "376",
+            "name_0": "surname:Alexiev;given-names:U",
+            "name_1": "surname:Mollaaghababa;given-names:R",
+            "name_2": "surname:Scherrer;given-names:P",
+            "name_3": "surname:Khorana;given-names:HG",
+            "name_4": "surname:Heyn;given-names:MP",
+            "pub-id_pmid": "7831293",
+            "section_type": "REF",
+            "source": "Proc Natl Acad Sci USA",
+            "type": "ref",
+            "volume": "92",
+            "year": "1995"
+          },
+          "text": "Rapid long-range proton diffusion along the surface of the purple membrane and delayed proton transfer into the bulk.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33450,
+          "infons": {
+            "fpage": "13431",
+            "lpage": "13440",
+            "name_0": "surname:Alexiev;given-names:U",
+            "name_1": "surname:Mollaaghababa;given-names:R",
+            "name_2": "surname:Khorana;given-names:HG",
+            "name_3": "surname:Heyn;given-names:MP",
+            "pub-id_pmid": "10788455",
+            "section_type": "REF",
+            "source": "J Biol Chem",
+            "type": "ref",
+            "volume": "275",
+            "year": "2000"
+          },
+          "text": "Evidence for long range allosteric interactions between the extracellular and cytoplasmic parts of bacteriorhodopsin from the mutant R82A and its second site revertant R82A/G231C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33630,
+          "infons": {
+            "fpage": "401",
+            "lpage": "414",
+            "name_0": "surname:Moltke;given-names:S",
+            "name_1": "surname:Alexiev;given-names:U",
+            "name_2": "surname:Heyn;given-names:MP",
+            "section_type": "REF",
+            "source": "Isr J Chem",
+            "type": "ref",
+            "volume": "35",
+            "year": "1995"
+          },
+          "text": "Kinetics of light-induced intramolecular charge transfer and proton release in bacteriorhodopsin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,1594 @@
+{
+  "source": "PMC",
+  "date": "20201214",
+  "key": "pmc.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "1065254",
+      "infons": {
+        "license": "NO-CC CODE"
+      },
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "article-id_doi": "10.1093/nar/gki293",
+            "article-id_pmc": "1065254",
+            "article-id_pmid": "15767278",
+            "fpage": "1532",
+            "issue": "5",
+            "journal-title": "Nucleic Acids Research",
+            "license": "The online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial re-use, please contact journals.permissions@oupjournals.org",
+            "lpage": "1543",
+            "name_0": "surname:Crey-Desbiolles;given-names:Caroline",
+            "name_1": "surname:Berthet;given-names:Nathalie",
+            "name_2": "surname:Kotera;given-names:Mitsuharu",
+            "name_3": "surname:Dumy;given-names:Pascal",
+            "section_type": "TITLE",
+            "type": "front",
+            "volume": "33",
+            "year": "2005"
+          },
+          "text": "Hybridization properties and enzymatic replication of oligonucleotides containing the photocleavable 7-nitroindole base analog",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 127,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "Universal DNA base analogs having photocleavable properties would be of great interest for development of new nucleic acid fragmentation tools. The photocleavable 7-nitroindole 2'-deoxyribonucleoside d(7-Ni) was previously shown to furnish a highly efficient approach to photochemically trigger DNA backbone cleavage at preselected position when inserted in a DNA fragment. In the present report, we examine its potential use as universal DNA nucleoside, by analogy with the 5-nitroindole analog that is generally considered as universal base. The d(7-Ni) phosphoramidite was incorporated into oligonucleotides. Hybridization properties of resulting 11mer duplexes indicated a behavior close to that of the 5-nitroindole analog. Enzymatic recognition by Klenow fragment exonuclease-free using 40mers containing the unnatural bases as templates indicated notably a decrease of the polymerase activity with preferential incorporation of dAMP opposite both the 7-Ni and 5-Ni bases. Incorporation of the d(7-Ni) triphosphate was also studied indicating absence of significant differences between the incorporation kinetics opposite each natural base in the template. All the hybridization and enzymatic data indicate that 7-nitroindole can be considered as a cleavable base analog, although not strictly fulfilling, like the 5-nitro isomer, all properties required for a universal base.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1512,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "INTRODUCTION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1525,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Design of modified nucleosides or triphosphates able to substitute for natural nucleic acids components and possessing photochemically cleavable properties is of high interest in the development of new nucleic acids fragmentation tools. DNA fragmentation is frequently required for nucleic acids analysis (sequencing, structural analysis) and a number of cleavage techniques exist, each presenting limitations. Restriction enzymes have been used quite frequently in many applications, however their size and sequence do not allow systematic use. Artificial compounds able to cleave DNA have been developed. These chemical nucleases including notably metallic complexes or photoactive derivatives necessitate addition of reagents and consequently removal of byproducts. Direct DNA fragmentation via photochemical processes is an attractive approach allowing both spatial and temporal control and offering the advantage of being fully reagent-free, permitting DNA fragmentation in cell or during PCR reactions. However, only a limited number of photocleavable DNA 'building blocs' have been developed. Most consist of nucleoside analogs chemically inserted in DNA fragments and are based on the photochemical properties of the o-nitrobenzyl group.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2775,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "We reported the synthesis, structure and photochemical properties of the 7-nitroindole nucleoside d(7-Ni). Illumination of oligonucleotides containing d(7-Ni) triggers a radical process in which the excited nitro group induces an intramolecular H-1' abstraction leading quantitatively to the highly labile deoxyribonolactone moiety accompanied with loss of the 7-nitrosoindole fragment. Subsequent mild basic or thermal treatment leads to cleavage of the DNA strand (Figure 1). The reaction is total, rapid and sequence independent. This photoactive 7-nitroindole heterocycle is indeed an analog of the 4-, 5- and 6-nitroindoles which have been investigated as 'universal' bases in oligonucleotides, among which the authors concluded that the 5-nitro isomer was superior giving highest duplex stability and behaving indiscriminately towards each of the four natural bases in duplex melting experiments. 'Universal base analogs' have indeed attracted much attention in recent years due to their intrinsic fundamental interest and to their potential applications as biochemical tools (use as primers for PCR and sequencing or as substrates for enzymes as triphosphates). Apart from the afore-mentioned 5-nitroindole considered as being among the best base analogs such compounds as nitropyrroles, 8-aza-7-deazapurine-2,6-diamine or hydrophobic structures containing notably the isocarbostyryl ring have been developed. It was thus of interest to investigate the photocleavable 7-nitroindole as a potential 'universal' base and compare it to its 5-nitroindole isomer (Figure 2). This compound could thus possess the two complementary properties of being universal and photocleavable, an approach that has been elegantly pioneered by Pirrung in developing the DNA base analog nitropiperonyl 2'-deoxyriboside. In the present paper, we report on the base-pairing properties of d(7-Ni) in oligonucleotide duplexes and compare it to the 5-nitroindole isomer. We also describe enzymatic experiments to study the recognition of this unnatural nucleoside incorporated in oligonucleotides by the DNA polymerase Klenow fragment exonuclease-free as well as the synthesis and incorporation of the d(7-Ni) triphosphate by the polymerase.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5013,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_1"
+          },
+          "text": "MATERIALS AND METHODS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5035,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Materials",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5045,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "All reagents were of the highest quality and commercially available. Oligonucleotides were labeled using [gamma-32P]ATP (specific activity 3000 Ci/mmol) (NEM  Life Science) and T4 polynucleotide kinase purchased from MBI fermentas. The Klenow fragment of Escherichia coli DNA polymerase I deficient in 3' 5' proofreading exonuclease activity (KF exo-) was obtained from MBI fermentas. Nucleotide triphosphates (dNTPs) were purchased from Pharmacia Biotech. Reagents used for automated synthesis were obtained from PE Biosystems.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5581,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Oligonucleotide synthesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5607,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Conventional or modified [d(7-Ni) or d(5-Ni)] oligonucleotides were synthesized using standard solid-phase beta-cyanoethylphosphoramidite method on a Expedite DNA synthesizer (Perseptive Biosystem 8900). The nitroindole nucleoside phosphoramidite [d(7-Ni)] was prepared as previously reported. The 40 nt long oligonucleotides were used as template in enzymatic reactions. Melting experiments and CD were conducted on shorter oligonucleotides (11mer). During the automated synthesis, the standard cycles for 1 mumol DNA synthesis were modified since double amounts of phosphoramidites were used for coupling and after this step also double amount of capping reagent was added. For incorporation of the nitroindole nucleosides [d(7-Ni) or d(5-Ni)], standard coupling time was prolonged by 10 min and quantity of capping reagent multiplied by 5. After automated synthesis, the oligomers for CD and melting experiments keeping the DMT group in 5' terminal were cleaved from the support by concentrated aqueous ammonia for 1 h, deprotected by heating at 55 C for 24 h. Finally, oligomers were purified by high-performance liquid chromatography (HPLC) on a reversed-phase nucleosil C-18 column (Macherey-Nagel 10 x 250 mm) with a linear gradient of acetonitrile (5-35% in 20 min) in 20 mM ammonium acetate solution (pH 7). Oligomers for enzymatic reaction were detritylated on column, cleaved from support then deprotected as described previously. These oligomers were purified by electrophoresis on a 20% polyacrylamide gel in the presence of 7 M urea. The concentration of oligodeoxynucleotides was determined by UV. Oligonucleotide sequences used for experiments have been reported in Table 1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7302,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Melting temperature experiments",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7334,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Experiments were performed on 11 bp DNA duplexes containing d(7-Ni) or d(5-Ni) paired with dG, dC, dA or dT (Figure 3). Equimolar solutions (3 muM) of unmodified or d(7-Ni) modified oligonucleotides were mixed with their complementary strands in buffer consisting of 10 mM sodium phosphate/1 mM EDTA/100 mM NaCl adjusted to pH 7. UV absorption spectra (at 260 nm) and melting experiments were recorded using a CARY 400 Scan UV-Visible spectrophotometer (Varian) equipped with a Peltier thermoelectric Cary temperature controller (Varian). Before each melting experiment, samples were heated at 80 C for 5 min and cooled down slowly to ensure that the oligonucleotides were in the duplex state. The absorbance was monitored at 260 nm from 5 to 80 C at a heating rate of 0.3 C per min. Data were recorded every 1 min. Melting temperatures were determined from the derivative method using the 'Cary Win UV-bio' (version 2) application software. Error in the determination of Tm has been estimated as +-0.6 C (average of three independent measurements).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8392,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Synthesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8402,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "1-[3'-O-Acetyl-2'-deoxy-beta-D-erythro-pentofuranosyl]-7-nitroindole (3)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8477,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "To a solution of the compound 2 (650 mg, 1.12 mmol) in 4 ml of pyridine, acetic anhydride (230 mul, 2.24 mmol) was added (see Figure 4). The mixture was stirred at room temperature overnight. The solvents were removed under reduced pressure. The crude intermediate product was purified by chromatography on silica gel (elution with AcOEt/cyclohexane 40/60 to 50/50). The resulting product was then dissolved in 4.5 ml of aqueous acetic acid (80%) and stirred for 90 min at room temperature. After evaporation of solvents under reduced pressure, the residual oil was purified on silica gel (elution with AcOEt/cyclohexane 40/60 to 60/40) to afford 3 (yellow oil, 222 mg, 62%). Rf = 0.14 (AcOEt/cyclohexane 40/60). 1H NMR (300 MHz, CDCl3): delta = 7.84 (d, J = 7.8 Hz, 1 H), 7.81 (d, 1 H, J = 7.9 Hz), 7.59 (d, J = 3.6 Hz, 1 H), 7.15 (t, J = 7.9 Hz, 1 H), 6.68 (d, J = 3.4 Hz, 1 H), 6.36 (t, J = 6.4 Hz, 1 H), 5.29 (m, 1 H), 4.04 (m, 1 H), 3.72 (m, 2 H), 2.66 (m, 2 H), 2.16 (br. s, 1 H), 2.11 (s, 3 H). 13C NMR (75 MHz, CDCl3): delta = 171.0, 137.2, 133.6, 127.3 (2C), 126.6, 120.3, 119.5, 104.6, 87.0, 84.4, 74.2, 62.6, 38.7, 21.1. MS (DCI, NH3/isobutane): 337.7 [M+NH3]+. Anal. Calcd for C15H16N2O6 (320.3): C 55.47, H 5.12, N 8.62. Found: C 55.69, H 5.21, N 8.44.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9743,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "5'-Triphosphate of 1-[2'-deoxy-beta-D-erythro-pentofuranosyl]-7-nitroindole (1)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9825,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The 3'-acetyl nucleoside 2 (50 mg, 150 mumol) was dehydrated by coevaporation with dry pyridine (twice) and then dissolved under argon in dry pyridine (150 mul) and dry dioxane (450 mul). To this solution, 2-chloro-4H-1,3,2-benzodioxaphosphorin-4-one (200 mul of 1 M solution freshly prepared in dry dioxane, 200 mumol) was added and stirred at room temperature under argon for 20 min. Then tributylammonium pyrophosphate (480 mul of 0.5 M solution in dry DMF, 240 mumol) and tributylamine (195 mul, 0.8 mmol) were added simultaneously and stirred for 30 min. The reaction mixture was then treated with iodine (3 ml of 1% solution in aqueous pyridine solution: pyridine/water = 98/2 v/v, 240 mumol) for 20 min and then the excess of iodine was decomposed by addition of sodium hydrogen sulfite aqueous solution (5%, 1.8 ml). After stirring for 10 min, solvents were removed in vacuo, then the residue was dissolved in 15 ml of water and 30 ml of concentrate ammoniac aqueous solution. The solution was stirred for 1 h at room temperature. The aqueous solution was washed three times with dichloromethane (50 ml) and concentrated in vacuo. The crude product was purified by reverse-phase silica gel chromatography (LiChroprep RP 18 silica gel, 40-63 mum, elution with 0-100% MeOH/H2O) to afford 15 mg (20%) of 1. Rf = 0.62 (propan-1-ol/H2O/NH3 11/2/7). 1H NMR (300 MHz, D2O): delta = 8.01 (d, J = 7.8 Hz, 1 H), 7.89 (d, J = 8.0 Hz, 1 H), 7.76 (d, J = 3.6 Hz, 1 H), 7.24 (t, J = 7.9 Hz, 1 H), 6.85 (d, J = 3.4 Hz, 1 H), 6.44 (t, J = 6.5 Hz, 1 H), 4.68 (m, 1 H), 4.13 (m, 1 H), 4.05 (m, 2 H), 2.70 (m, 2 H). 31P NMR (121 MHz, D2O/10 mM EDTA, pH = 8): delta = -21.69 (t, Pbeta), -10.97 (d, Palpha), -6.86 (d, Pgamma). MS (ESI): 516.9 [M-H]-. UV [380 muM in H2O]: lambdamax = 370 nm (1842).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11611,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Polymerization assays with KF exo-",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11648,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "General preparation of primer/templates duplexes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11697,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "5'-32P-labeled primer were annealed to template oligonucleotides (2 equivalents) in 50 mM Tris (pH 7.5), 10 mM MgCl2, 5 mM 2-mercaptoethanol by heating at 70 C for 5 min then cooling to room temperature >2 h.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11909,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "Primer extension by KF exo- opposite d(7-Ni) or d(5-Ni) present in template",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11987,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Reactions were conducted on modified (X) [X = d(7-Ni), sequence 1; X = d(5-Ni), sequence 2] or unmodified (X = T, sequence 4) template (100 nM) hybridized to 5' end-labeled primer (sequence 3, 50 nM). Primer extension reaction catalyzed by KF exo- (0.01 U/mul) were carried out in buffer hybridization in the presence of single dNTP (20 muM) or all four dNTPs (20 muM each) for 20 min at 30 C in a final volume of 10 mul. Reactions were quenched in formamide loading buffer (30 mul) (95% formamide, 20 mM EDTA pH 8, 0.1% bromophenol blue, 0.1% xylene cyanol) heating at 70 C for 5 min. Aliquots (2 mul) were loaded on a 20% denaturing PAGE.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12634,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "Insertion kinetics by Klenow exo- opposite d(7-Ni) or natural base",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12703,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "The 5' end-labeled 18mer (sequence 12, 50 nM) was annealed to modified template containing either d(7-Ni) or d(5-Ni) (sequences 10 or 11, 0.1 muM) or unmodified template (sequences 13-16, 0.1 muM). Duplexes were incubated with various amounts of dNTP (10-1000 muM) and KF exo- (0.005-1 U per sample depending on the template and dNTP) in a final volume of 10 mul for 2 min at 30 C in order to obtain <20% elongation of primer. The reactions were quenched by adding 20 mul formamide dye mixture and heating at 70 C for 5 min. The reaction mixtures were resolved by 20% denaturing PAGE and the radioactivity was quantified by means of an Imager (Typhoon 9400) and the ImageQuant program. A plot of the initial velocity versus [dNTP] was fit to a Michaelis-Menten equation using the program Kaleida-graph (Synergy Software). The data presented are averages of three independent determinations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13608,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_3"
+          },
+          "text": "d(7-Ni) triphosphate incorporation opposite d(7-Ni) or normal base in template followed by full-length primer extension",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13728,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Reactions were conducted on d(7-Ni) modified template (sequences 1 or 11-13, 100 nM) or unmodified template (sequences 4-10, 100 nM) annealed to 5' end-labeled primer (sequence 3, 50 nM). The first step relating to d(7-Ni)MP addition to the 3' primer terminus was carried out using KF exo- (0.0625 U/mul) in presence of d(7-Ni)TP (1 mM) yielding a total reaction volume of 10 mul, for 5 min at 30 C. Reaction was stopped by heating at 70 C for 5 min. The second step of reaction consisting in adding one more monophosphate complementary to the base in 5' position of the d(7-Ni) in the template or in full-length primer extension was catalyzed by KF exo- (0.0125 U/mul) in presence of either one dNTP (500 muM) or the four dNTPs (500 muM each) in a final volume of 20 mul. Reactions were incubated at 30 C for 20 min, then quenched with formamide loading buffer (30 mul) and analyzed by 20% denaturing PAGE.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14653,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_1"
+          },
+          "text": "RESULTS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14661,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Preparation of the 7-nitroindole nucleoside triphosphate 1",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14720,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The 7-nitroindole nucleoside triphosphate 1 was prepared using the Ludwig-Eckstein method, which allows one-pot triphosphate formation starting from 3'-protected nucleosides (see Figure 4). Thus the 5'-trityl nucleoside 2 was first converted to 3'-protected derivative 3, which was then treated successively (i) with 2-chloro-4H-1,3,2-benzodioxaphosphorin-4-one, (ii) with tributylammonium pyrophosphate, (iii) with iodine-aqueous pyridine and (iv) with aqueous ammoniac solution. Purification of crude mixture was carried out by reverse-phase chromatography. The triphosphate 1 was obtained with 20% overall yield and characterized by 1H and 31P NMR and by ES-MS spectrometry.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15408,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Hybridization properties",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15433,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "UV thermal melting studies were performed in order to assess the effects of d(7-Ni) on duplex stability relative to the natural base pairs. Studies were performed on a series of 11mer duplexes containing the modified d(7-Ni) nucleoside in the middle of the sequence in one strand (sequence 1) with the complementary strand containing successively the four natural bases facing the 7-Ni base (sequences 3-6). For comparison, we also determined the behavior of duplexes containing the d(5-Ni) nucleoside analog inserted in the same sequence context (sequence 2). The unnatural self-pair 7-Ni:7-Ni containing duplex was also examined (sequence 1:sequence 9). The sigmoidal curves alpha = f(T) obtained from the standard UV melting curves for the different duplexes exhibited melting cooperativity and were analyzed to derive the Tm values and the Van't Hoff transition enthalpy DeltaH, entropy DeltaS and free energy DeltaG . The thermodynamics of melting were determined with the base pairs as indicated in the boxed region (Figure 3). The resulting data are listed in Table 2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16509,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "A first observation is that the two modified nucleosides induce strong destabilization of the duplexes as compared to duplexes containing the natural bases, the d(7-Ni) nucleoside being slightly more destabilizing than the d(5-Ni) analog. Decrease of the melting temperatures DeltaTm = 13 and 15 C were measured when natural base pairs A:T (sequence 7:sequence 6) and G:C (sequence 8:sequence 4) were replaced by the unnatural pairs 7-Ni:T (sequence 1:sequence 6) and 7-Ni:C (sequence 1:sequence 4), corresponding to loss in free energy of 5 and 6 kcal/mol, respectively. By comparison, 5-Ni present in the same sequence context led to Tm decrease of 10 and 11 C corresponding to loss of free energy of 3 and 4 kcal/mol, respectively. The destabilization caused by the unnatural bases is of the same order of magnitude as that caused by a mismatch [see for example, the 46 C value determined for the duplex containing one A:C mismatch in the same sequence context (sequence 7:sequence 4)]. However, when present in each of the complementary strands in opposite positions, the Tm value for the duplex containing the 7-Ni:7-Ni pair (sequence 1:sequence 9) exhibits Tm value = 51 C, i.e. in the same range as measured for the natural duplex.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17749,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Second observation relates to discrimination of 7-Ni and 5-Ni for the different natural bases. The two bases have comparable behavior although 7-Ni shows more discrimination than 5-Ni. Tm values are in the range 46-51 C for duplexes containing 7-Ni and all four natural bases in opposite position in complementary strand. Values vary in the range 49-52 C for the analogous duplexes containing 5-Ni.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18154,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Circular dichroism (CD) spectra were also measured (data in Supplementary Material). The CD-spectra obtained for the various unnatural base pair containing duplexes showed similarities to that of the natural parent duplex, indicating a right-handed. Thus, the unnatural base pair does not appear to induce major structural distortions of the B-form duplex.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18511,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Replication:enzymatic recognition of the unnatural bases 5-Ni and 7-Ni by KF exo-",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18597,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "In general, enzyme efficiency is defined by the ability to base-pair synthesis (e.g. incorporation of a triphosphate opposite a natural or unnatural base in the template), and second, by the aptitude to extend a natural or unnatural base pair (synthesis of the next base pair). The efficiency and the selectivity of unnatural DNA synthesis involving the d(7-Ni) nucleoside by KF exo- were examined both in the context of base-pair synthesis and base-pair extension.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19065,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Insertion of dNMP opposite d(7-Ni) and d(5-Ni)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19112,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Duplexes containing the 7-Ni nucleobase and for comparison 5-Ni were evaluated as substrates for the exonuclease-deficient Klenow fragment of E.coli DNA polymerase I (KF exo-). Studies were investigated using templates containing in the middle of the sequence one of the unnatural bases 7-Ni (sequence 10) or 5-Ni (sequence 11) hybridized to the 18mer primer (sequence 12). For comparison, a template containing the natural base T (sequence 13) hybridized to the same 18mer primer was also examined. The resulting duplexes were subjected to primer extension in the presence of one single dNTP (see Figure 5). DNA synthesis on template containing the natural base (sequence 13) led to the expected incorporation of dAMP opposite T (data not shown). When using the 7-Ni containing strand as template (sequence 10) dAMP, dGMP and dTMP were incorporated opposite the unnatural base, however, with quite different efficiencies (Figure 5, lanes 1, 3 and 4), while insertion of dCMP could not be detected (Figure 5, lane 2). The same experiment conducted with the template containing 5-Ni indicated that dAMP was incorporated opposite the unnatural base (Figure 5, lane 5).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20281,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Kinetic parameters for insertion of dNMP opposite the modified sites were determined. The initial velocities were measured and plotted versus [dNTP] and fitted to the Michaelis-Menten equation to determine the Km and kcat constants. To allow comparison of the kinetic parameters for all substrates, the specificity constants kcat/Km were calculated. The steady-state kinetic constants for single nucleotide incorporation are reported in Table 3.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20729,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "With template containing d(7-Ni) (sequence 10), dAMP was preferentially inserted opposite the modified site. The kcat/Km value for dAMP incorporation was respectively 11 times, 13 times and 777 times higher than measured for dGMP, dTMP and dCMP incorporation. In addition, the d(7-Ni) nucleoside was incorporated with almost the same frequency as dAMP. Thus, the efficiency for nucleotide insertion opposite d(7-Ni) follows the order dAMP ~ d(7-Ni)MP >> dGMP ~ dTMP > dCMP.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21207,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The same experiments performed with the template containing d(5-Ni) (sequence 11) also showed a preference for dAMP incorporation opposite the modified base, and the incorporation frequency opposite d(5-Ni) followed the same order as determined for d(7-Ni). However, kcat/Km for dAMP incorporation was only three times higher than for dGMP and 27 times higher than for dTMP and dCMP.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21591,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Effect of the downstream template base on dNMP incorporation opposite d(7-Ni)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21669,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The primer-templates used in these experiments were designed in order to examine the effect of changing the template base at the 5' side of d(7-Ni) on the initiation of the extension of the primer. The 18mer primer (sequence 12) was hybridized successively to 40mer templates differing by the nature of the base N = T, A, C, G at the 5' side of d(7-Ni) (sequences 10, 17, 18 and 19, respectively) (Figure 6). Extension of the primer in the four duplexes was conducted in the presence successively of each of the natural dNTPs. For each duplex, dAMP (Figure 6, lanes 2, 6, 10 and 14), dGMP (Figure 6, lanes 4, 8, 12 and 16) and dTMP (Figure 6, lanes 5, 9, 13 and 17) were incorporated opposite d(7Ni). Only dCMP was not inserted by the enzyme (lanes 3, 7, 11 and 15) even when guanosine was present at the 5' side of d(7-Ni) (Figure 6, lane 15). It thus appears that changing a single downstream template base does not modify nucleotide incorporation opposite the unnatural 7-Ni base.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22659,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Full-length primer extension on DNA templates containing d(7-Ni) or d(5-Ni)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22735,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Modified templates containing one unnatural base 7-Ni (sequence 10) or 5-Ni (sequence 11) were annealed to the 18mer primer (sequence 12) and subjected to extension in the presence of the four dNTPs. For comparison, measurements were also made by using an otherwise identical template that contained dT (sequence 13) instead of the modified nucleoside (Figure 7). As expected, KF exo- led to fully extended 40mer products when experiments were conducted on the natural template (template: sequence 13, primer: sequence 12) (Figure 7, lane 2). Employing identical enzyme concentrations and dNTP quantities as used for the unmodified duplex, KF exo- synthesized full-length DNA starting from both modified duplexes containing either d(7-Ni) or d(5-Ni) in the template (Figure 7, lanes 4 and 6). However, extension was more efficient with template containing d(7-Ni). The additional major band seen in lanes 4 and 6 results from single nucleotide extension of the primer through incorporation of a native triphosphate opposite the modified base. The accumulation of this intermediate implies that the continued synthesis after 1 nt incorporation is slow.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23891,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Incorporation of d(7-Ni) triphosphate",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23929,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Efficiency of insertion of the triphosphate of d(7-Ni) against each of the natural bases in the template has been characterized. Experiments were run using the 18mer primer (sequence 12) hybridized successively to the four templates (sequences 13-16) varying by the nature of the base N at the initiation site of the polymerization. The kinetic parameters for insertion of the unnatural triphosphate opposite each natural base are reported in Table 4. Incorporation appeared to be more efficient opposite adenine (kcat/Km = 1.22 x 10-2 min-1 mM-1). However, the kcat/Km value was only two times higher than observed for incorporation opposite the three other bases that in addition showed quite remarkably comparable values. Furthermore, efficiency of incorporation opposite each natural base was of the same order of magnitude as incorporation of natural dAMP opposite thymine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24817,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Extension of the primer terminated by d(7-Ni)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24863,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "The ability of KF exo- to extend a primer terminated by the unnatural 7-Ni base opposite the different natural bases N in the template was studied (Figure 8). Reactions were conducted on the 18mer primer (sequence 12) annealed to the 40mer templates in which base N19 was successively a thymine (sequence 13), an adenine (sequence 16), a cytosine (sequence 14) or a guanine (sequence 15). In a first step, primer extension was run in the presence of the triphosphate d(7-Ni)TP (Figure 8, lanes 2, 6, 10 and 14). Incorporation of one d(7-Ni) nucleoside was observed for all duplexes, permitting to obtain all possible unnatural base pairs 7-Ni:N. In a second step, polymerization was continued on these extended primers in the presence either of dATP (the next complementary base in the template) (Figure 8, lanes 3, 7, 11 and 15) or in the presence of the four dNTPs (Figure 8, lanes 4, 8, 12 and 16). No extension could be observed for the duplexes in which d(7-Ni) was facing adenine, cytosine or guanine, neither in the presence of dATP (Figure 8, lanes 7, 11 and 15) nor in the presence of the mixed dNTPs (Figure 8, lanes 8, 12 and 16). Only the 7-Ni:T base pair was substrate for extension of the modified primer. Moreover, in this case addition of two adenines was detected in the presence of dATP (Figure 8, lane 3) and formation of a full-length product was observed in the presence of the four natural triphosphates (Figure 8, lane 4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26311,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_3"
+          },
+          "text": "Influence of the downstream base on the extension of a primer terminated by the unnatural 7-Ni base",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26411,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "In order to interpret the previous results, we investigated the possible influence of the nature of the downstream template base (N20) on the extension of the primer terminated by the 7-Ni unnatural base. Experiments were conducted on the same 18mer primer (sequence 12) hybridized successively to 40mer templates (sequences 13, 20-22) varying only by the nature of base N20 (Figure 9). The primers elongated by one 7-Ni base were prepared as described in the previous experiment (Figure 9, lanes 2, 6, 10 and 14). It should be noted that the 18mer primer annealed to template in which N20 was a guanine was only partially converted in the conditions used. In a second step, elongation was continued either in the presence of the triphosphate complementary to base N20 located 5' to thymine in the template (Figure 9, dATP: lane 3, dTTP: lane 7, dGTP: lane 11, dCTP: lane 12) or in the presence of the four dNTPs (Figure 9, lanes 4, 8, 12 and 16). For each duplex, primers terminated by 7-Ni were extended in the presence of a unique triphosphate. When dATP was added (duplex in which N20 is thymine) the 7-Ni primer was elongated by one or two units (Figure 9, lane 3). In the presence of dTTP or dCTP, the 7-Ni primer was extended by 1 nt (Figure 9, lanes 7 and 15). However, primer extension in the presence of dCTP only led to small amounts of reaction product. Incorporation of three guanines was observed for the duplex in which the template base N was a cytosine. Full-length extension (40mer) was observed in the presence of the mixture of the four dNTPs for all duplexes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27996,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_1"
+          },
+          "text": "DISCUSSION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28007,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "We have studied the impact on DNA duplex stability of the presence of the d(7-Ni) unnatural base opposite each native base. For comparison, we also measured the stability of duplexes containing the 5-Ni analog that is generally considered as a universal base. Thermal denaturation experiments showed that the two unnatural bases lead to strong decrease in duplex stability comparable to that caused by the presence of a mismatch. Destabilization is slightly more important for the duplex containing the 7-Ni base as compared to the 5-Ni isomer. Another criterion required for a universal base concerns absence of discrimination when the unnatural base in one strand faces any of the four natural bases in the complementary strand. The two nitroindole bases have comparable behavior, exhibiting slight discrimination, the 7-Ni base being slightly more discriminating. From a structural point of view, the CD spectra of the various duplexes containing the 7-Ni base showed the typical shape of B-DNA, indicating the absence of major distortions induced by the unnatural base. It can thus be concluded that as far as hybridization properties are concerned, the 7-Ni base exhibits behavior comparable to that of the 5-isomer although it cannot be considered as a true universal base according to this criterion.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29315,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Replication was next examined involving the unnatural nucleobase 7-Ni both in template DNA and as triphosphate. For comparison, recognition by KF exo- of d(5-Ni) present in the template was also studied. In the sequence context examined, we observed that dAMP was preferentially inserted opposite both 7-Ni and 5-Ni, with rates varying by a factor close to 10. The frequency for incorporation opposite both unnatural bases followed the order: dAMP >> dGMP = dTMP > dCMP. However, dAMP, dGMP and dTMP were more efficiently incorporated when facing d(7-Ni) than d(5-Ni). dCMP was almost not inserted by the enzyme opposite each of the unnatural bases. These results suggest that d(7-Ni) is recognized by KF exo- more efficiently than d(5-Ni). We also investigated the effect of the sequence on nucleoside incorporation opposite d(7-Ni). We observed that the nature of the downstream template base was without effect on the selectivity of the reaction: insertion of dAMP opposite the unnatural base was favored over dGMP, dTMP and dCMP. The effect of 7-Ni on KF exo- seems similar to that exhibited by a large spectrum of DNA lesions, such as the abasic site for which the 'A-rule' has been defined, or the 2'-deoxyribonolactone damage. Consequently, 7-Ni, as well as 5-Ni cannot be considered as a true universal base when present in the template, since the four natural triphosphates are not incorporated equally well in front of these unnatural bases. Primer extension experiments investigated in the presence of the four natural triphosphates showed that d(7-Ni) like d(5-Ni) when present in the template led to a decrease of the polymerase activity. Indeed, after addition of 1 nt, primer extension was very slow although full-length primers were obtained.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31087,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "We also examined incorporation of the d(7-Ni) triphosphate opposite each natural base in the template. Quite remarkably, the kinetic parameters determined do not reveal significant differences for insertion in front of the four natural bases, behaving in this aspect as a universal nucleotide. The triphosphate was inserted opposite each natural base with at least the same efficiency as dAMP opposite thymine. In addition, the d(7-Ni) triphosphate was also inserted efficiently opposite itself in the template. Indeed, Romesberg reported that several hydrophobic aromatic nucleosides were preferentially incorporated opposite themselves, or similar structures rather than opposite natural nucleosides.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31790,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "We also studied the extension of primers terminated by the unnatural base 7-Ni. We found that 7-Ni behaves as chain terminator when facing adenine, guanine or cytosine in the template. On the other hand, when facing thymine the 7-Ni primer was elongated by two adenines in the presence of dAMP and full-length elongation occurred in the presence of the four triphosphates. This elongation was not dependent on the nature of the base downstream to thymine in the template. The fact that extension of the primer terminated by 7-Ni is possible when opposed to thymine suggests recognition of 7-Ni by KF exo- as an adenine. It thus appears that the d(7-Ni) triphosphate behaves differently from the d(5-Ni) triphosphate. Indeed, Brown reported that once incorporated opposite natural bases, 5-nitroindole (like 3-nitropyrrole, also considered as universal base) caused chain termination.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32676,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "All those hybridization and enzymatic data indicate that this newly introduced 7-nitroindole nucleoside can be considered as a photochemically cleavable nucleoside analog. It was first designed as a precursor to prepare DNA fragments containing the highly labile deoxyribonolactone lesion. Further work showed that it furnishes a highly efficient approach to generate DNA backbone cleavage at preselected position in the sequence. The present work shows that 7-Ni presents some of the biophysical and enzymatic recognition properties required for a universal base analog as it shares many common features with its 5-nitroindole isomer. It can thus be considered as a cleavable base analog, although not fulfilling strictly all requirements for a 'universal' base analog. Indeed as pointed out in a recent review, none of the analogs reported so far does fulfill all criteria and it may be that a single analog cannot.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33598,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "title_1"
+          },
+          "text": "SUPPLEMENTARY MATERIAL",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33621,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "paragraph"
+          },
+          "text": "Supplementary Material is available at NAR Online.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33672,
+          "infons": {
+            "section_type": "SUPPL",
+            "type": "title_1"
+          },
+          "text": "Supplementary Material",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33695,
+          "infons": {
+            "section_type": "REF",
+            "type": "title"
+          },
+          "text": "REFERENCES",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33706,
+          "infons": {
+            "fpage": "9097",
+            "lpage": "9105",
+            "name_0": "surname:Sigman;given-names:D.S.",
+            "pub-id_pmid": "2176843",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "29",
+            "year": "1990"
+          },
+          "text": "Chemical nucleases",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33725,
+          "infons": {
+            "fpage": "2935",
+            "lpage": "2936",
+            "name_0": "surname:Pitie;given-names:M.",
+            "name_1": "surname:Bernadou;given-names:J.",
+            "name_2": "surname:Meunier;given-names:B.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1995"
+          },
+          "text": "Oxidation at carbon-1' of DNA deoxyriboses by the Mn-TMPyP/KHSO5 system results from a cytochrome P-450-type hydroxylation reaction",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33859,
+          "infons": {
+            "fpage": "746",
+            "lpage": "769",
+            "name_0": "surname:Pratviel;given-names:G.",
+            "name_1": "surname:Bernadou;given-names:J.",
+            "name_2": "surname:Meunier;given-names:B.",
+            "section_type": "REF",
+            "source": "Angew. Chem. Int. Ed. Engl.",
+            "type": "ref",
+            "volume": "34",
+            "year": "1995"
+          },
+          "text": "Carbon-hydrogen bonds of DNA sugar units as targets for chemical nucleases and drugs",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33946,
+          "infons": {
+            "fpage": "1135",
+            "lpage": "1136",
+            "name_0": "surname:Meijler;given-names:M.M.",
+            "name_1": "surname:Zelenko;given-names:O.",
+            "name_2": "surname:Sigman;given-names:D.S.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1997"
+          },
+          "text": "Chemical mechanism of DNA scission by (1,10-phenantroline) copper. Carbonyl oxygen of 5-methylenefuranone is derived from water",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34074,
+          "infons": {
+            "fpage": "251",
+            "lpage": "312",
+            "name_0": "surname:Pratviel;given-names:G.",
+            "name_1": "surname:Bernadou;given-names:J.",
+            "name_2": "surname:Meunier;given-names:B.",
+            "section_type": "REF",
+            "source": "Adv. Inorg. Chem.",
+            "type": "ref",
+            "volume": "45",
+            "year": "1998"
+          },
+          "text": "DNA and RNA cleavage by metal complexes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34114,
+          "infons": {
+            "fpage": "1171",
+            "lpage": "1200",
+            "name_0": "surname:Armitage;given-names:B.",
+            "pub-id_pmid": "11848929",
+            "section_type": "REF",
+            "source": "Chem. Rev.",
+            "type": "ref",
+            "volume": "98",
+            "year": "1998"
+          },
+          "text": "Photocleavage of nucleic acids",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34145,
+          "infons": {
+            "fpage": "207",
+            "lpage": "210",
+            "name_0": "surname:Peoc'h;given-names:D.",
+            "name_1": "surname:Meyer;given-names:A.",
+            "name_2": "surname:Imbach;given-names:J.-L.",
+            "name_3": "surname:Rayner;given-names:B.",
+            "section_type": "REF",
+            "source": "Tetrahedron Lett.",
+            "type": "ref",
+            "volume": "32",
+            "year": "1991"
+          },
+          "text": "Efficient chemical synthesis of oligodeoxynucleotides containing a true abasic site",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34229,
+          "infons": {
+            "fpage": "9570",
+            "lpage": "9571",
+            "name_0": "surname:Ordoukhanian;given-names:P.",
+            "name_1": "surname:Taylor;given-names:J.-S.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "117",
+            "year": "1995"
+          },
+          "text": "Design and synthesis of a versatile photocleavable DNA building block. Application to phototriggered hybridization",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34344,
+          "infons": {
+            "fpage": "11579",
+            "lpage": "11580",
+            "name_0": "surname:Zhang;given-names:K.",
+            "name_1": "surname:Taylor;given-names:J.-S.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "121",
+            "year": "1999"
+          },
+          "text": "A caged ligatable DNA strand break",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34379,
+          "infons": {
+            "fpage": "94",
+            "lpage": "103",
+            "name_0": "surname:Ordoukhanian;given-names:P.",
+            "name_1": "surname:Taylor;given-names:J.-S.",
+            "pub-id_pmid": "10639091",
+            "section_type": "REF",
+            "source": "Bioconjug. Chem.",
+            "type": "ref",
+            "volume": "11",
+            "year": "2000"
+          },
+          "text": "Caged single and double strand breaks",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34417,
+          "infons": {
+            "fpage": "153",
+            "lpage": "159",
+            "name_0": "surname:Zhang;given-names:K.",
+            "name_1": "surname:Taylor;given-names:J.-S.",
+            "pub-id_pmid": "11141065",
+            "section_type": "REF",
+            "source": "Biochemistry",
+            "type": "ref",
+            "volume": "40",
+            "year": "2001"
+          },
+          "text": "Phototriggered formation and repair of DNA containing a site specific single strand break of the type produced by ionizing radiation or AP-lyase activity",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34571,
+          "infons": {
+            "fpage": "2415",
+            "lpage": "2418",
+            "name_0": "surname:Lenox;given-names:H.J.",
+            "name_1": "surname:McCoy;given-names:C.P.",
+            "name_2": "surname:Sheppard;given-names:T.L.",
+            "pub-id_pmid": "11463330",
+            "section_type": "REF",
+            "source": "Org. Lett.",
+            "type": "ref",
+            "volume": "3",
+            "year": "2001"
+          },
+          "text": "Site-specific generation of deoxyribonolactone lesions in DNA oligonucleotides",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34650,
+          "infons": {
+            "fpage": "54",
+            "lpage": "60",
+            "name_0": "surname:Dussy;given-names:A.",
+            "name_1": "surname:Meyer;given-names:C.",
+            "name_2": "surname:Quennet;given-names:E.",
+            "name_3": "surname:Bickle;given-names:T.A.",
+            "name_4": "surname:Giese;given-names:B.",
+            "section_type": "REF",
+            "source": "Chembiochem",
+            "type": "ref",
+            "volume": "3",
+            "year": "2002"
+          },
+          "text": "New light-sensitive nucleosides for caged DNA strand breaks",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34710,
+          "infons": {
+            "fpage": "11810",
+            "lpage": "11811",
+            "name_0": "surname:Kotera;given-names:M.",
+            "name_1": "surname:Bourdat;given-names:A.-G.",
+            "name_2": "surname:Defrancq;given-names:E.",
+            "name_3": "surname:Lhomme;given-names:J.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "120",
+            "year": "1998"
+          },
+          "text": "A highly efficient synthesis of oligodeoxyribonucleotides containing the 2'-deoxyribonolactone lesion",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34814,
+          "infons": {
+            "fpage": "181",
+            "lpage": "182",
+            "name_0": "surname:Averbuch-Pichot;given-names:M.T.",
+            "name_1": "surname:Bourdat;given-names:A.G.",
+            "name_2": "surname:Defrancq;given-names:E.",
+            "name_3": "surname:Durif;given-names:A.",
+            "name_4": "surname:Kotera;given-names:M.",
+            "name_5": "surname:Lhomme;given-names:J.",
+            "section_type": "REF",
+            "source": "Zeitschrift fur Kristallographie",
+            "type": "ref",
+            "volume": "213",
+            "year": "1998"
+          },
+          "text": "Crystal structure of 7-nitro-1(2'-deoxy-beta-D-ribofuranosyl)-indole",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34883,
+          "infons": {
+            "fpage": "4163",
+            "lpage": "4169",
+            "name_0": "surname:Kotera;given-names:M.",
+            "name_1": "surname:Roupioz;given-names:Y.",
+            "name_2": "surname:Defrancq;given-names:E.",
+            "name_3": "surname:Bourdat;given-names:A.-G.",
+            "name_4": "surname:Garcia;given-names:J.",
+            "name_5": "surname:Coulombeau;given-names:C.",
+            "name_6": "surname:Lhomme;given-names:J.",
+            "section_type": "REF",
+            "source": "Chem. Eur. J.",
+            "type": "ref",
+            "volume": "6",
+            "year": "2000"
+          },
+          "text": "The 7-nitroindole nucleoside as a photochemical precursor of 2'-deoxyribonolactone: access to DNA fragments containing this oxydative abasic lesion",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35033,
+          "infons": {
+            "fpage": "4039",
+            "lpage": "4043",
+            "name_0": "surname:Loakes;given-names:D.",
+            "name_1": "surname:Brown;given-names:D.M.",
+            "pub-id_pmid": "7937128",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "22",
+            "year": "1994"
+          },
+          "text": "5-Nitroindole as an universal base analogue",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35077,
+          "infons": {
+            "fpage": "2361",
+            "lpage": "2366",
+            "name_0": "surname:Loakes;given-names:D.",
+            "name_1": "surname:Brown;given-names:D.M.",
+            "name_2": "surname:Linde;given-names:S.",
+            "name_3": "surname:Hill;given-names:F.",
+            "pub-id_pmid": "7630712",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "23",
+            "year": "1995"
+          },
+          "text": "3-Nitropyrrole and 5-nitrindole as universal bases in primers for DNA sequencing and PCR",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35166,
+          "infons": {
+            "fpage": "1001",
+            "lpage": "1003",
+            "name_0": "surname:Loakes;given-names:D.",
+            "name_1": "surname:Hill;given-names:F.",
+            "name_2": "surname:Linde;given-names:S.",
+            "name_3": "surname:Brown;given-names:D.M.",
+            "section_type": "REF",
+            "source": "Nucleosides Nucleotides",
+            "type": "ref",
+            "volume": "14",
+            "year": "1995"
+          },
+          "text": "Nitroindoles as universal bases",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35198,
+          "infons": {
+            "fpage": "3224",
+            "lpage": "3232",
+            "name_0": "surname:Seela;given-names:F.",
+            "name_1": "surname:Debelak;given-names:H.",
+            "pub-id_pmid": "10954589",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "28",
+            "year": "2000"
+          },
+          "text": "The N8-(2'-deoxyribofuranoside) of 8-aza-7-deazaadenine: a universal nucleoside forming specific hydrogen bonds with the four canonical DNA constituents",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35353,
+          "infons": {
+            "fpage": "1340",
+            "lpage": "1355",
+            "name_0": "surname:He;given-names:J.",
+            "name_1": "surname:Seela;given-names:F.",
+            "section_type": "REF",
+            "source": "Helv. Chim. Acta",
+            "type": "ref",
+            "volume": "85",
+            "year": "2002"
+          },
+          "text": "Base pairing of 8-aza-7-deazapurine-2,6-diamine linked via the N(8)-position to the DNA backbone: universal base-pairing properties and formation of highly stable duplexes when alternating with dT",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35550,
+          "infons": {
+            "fpage": "11585",
+            "lpage": "11586",
+            "name_0": "surname:McMinn;given-names:D.L.",
+            "name_1": "surname:Ogawa;given-names:A.K.",
+            "name_2": "surname:Wu;given-names:Y.",
+            "name_3": "surname:Liu;given-names:J.",
+            "name_4": "surname:Schultz;given-names:P.G.",
+            "name_5": "surname:Romesberg;given-names:F.E.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "121",
+            "year": "1999"
+          },
+          "text": "Efforts toward the expansion of the genetic alphabet: DNA polymerase recognition of a highly stable, self-pairing hydrophobic base",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35681,
+          "infons": {
+            "fpage": "2940",
+            "lpage": "2942",
+            "name_0": "surname:Berger;given-names:M.",
+            "name_1": "surname:Ogawa;given-names:A.K.",
+            "name_2": "surname:McMinn;given-names:D.L.",
+            "name_3": "surname:Schultz;given-names:P.G.",
+            "name_4": "surname:Romesberg;given-names:F.E.",
+            "pub-id_pmid": "11028017",
+            "section_type": "REF",
+            "source": "Angew. Chem. Int. Ed. Engl.",
+            "type": "ref",
+            "volume": "39",
+            "year": "2000"
+          },
+          "text": "Stable and selective hybridization of oligonucleotides with unnatural hydrophobic bases",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35769,
+          "infons": {
+            "fpage": "2911",
+            "lpage": "2914",
+            "name_0": "surname:Berger;given-names:M.",
+            "name_1": "surname:Wu;given-names:Y.",
+            "name_2": "surname:Ogawa;given-names:A.K.",
+            "name_3": "surname:McMinn;given-names:D.L.",
+            "name_4": "surname:Schultz;given-names:P.G.",
+            "name_5": "surname:Romesberg;given-names:F.E.",
+            "pub-id_pmid": "10908353",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "28",
+            "year": "2000"
+          },
+          "text": "Universal bases for hybridization, replication and chain termination",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35838,
+          "infons": {
+            "fpage": "7621",
+            "lpage": "7632",
+            "name_0": "surname:Wu;given-names:Y.",
+            "name_1": "surname:Ogawa;given-names:A.K.",
+            "name_2": "surname:Berger;given-names:M.",
+            "name_3": "surname:McMinn;given-names:D.L.",
+            "name_4": "surname:Schultz;given-names:P.G.",
+            "name_5": "surname:Romesberg;given-names:F.E.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "122",
+            "year": "2000"
+          },
+          "text": "Efforts toward the expansion of the genetic alphabet: optimization of interbase hydrophobic interactions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35943,
+          "infons": {
+            "fpage": "3274",
+            "lpage": "3287",
+            "name_0": "surname:Ogawa;given-names:A.K.",
+            "name_1": "surname:Wu;given-names:Y.",
+            "name_2": "surname:McMinn;given-names:D.L.",
+            "name_3": "surname:Liu;given-names:J.",
+            "name_4": "surname:Schultz;given-names:P.G.",
+            "name_5": "surname:Romesberg;given-names:F.E.",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "122",
+            "year": "2000"
+          },
+          "text": "Efforts toward the expansion of the genetic alphabet: information storage and replication with unnatural hydrophobic base pairs",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36071,
+          "infons": {
+            "fpage": "9638",
+            "lpage": "9646",
+            "name_0": "surname:Henry;given-names:A.A.",
+            "name_1": "surname:Yu;given-names:C.",
+            "name_2": "surname:Romesberg;given-names:F.E.",
+            "pub-id_pmid": "12904030",
+            "section_type": "REF",
+            "source": "J. Am. Chem. Soc.",
+            "type": "ref",
+            "volume": "125",
+            "year": "2003"
+          },
+          "text": "Determinants of unnatural nucleobase stability and polymerase recognition",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36145,
+          "infons": {
+            "fpage": "2067",
+            "lpage": "2071",
+            "name_0": "surname:Pirrung;given-names:M.C.",
+            "name_1": "surname:Zhao;given-names:X.",
+            "name_2": "surname:Harris;given-names:S.V.",
+            "pub-id_pmid": "11300902",
+            "section_type": "REF",
+            "source": "J. Org. Chem.",
+            "type": "ref",
+            "volume": "66",
+            "year": "2001"
+          },
+          "text": "A universal, photocleavable DNA base: nitropiperonyl 2'-deoxyriboside",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36217,
+          "infons": {
+            "fpage": "631",
+            "lpage": "635",
+            "name_0": "surname:Ludwig;given-names:J.",
+            "name_1": "surname:Eckstein;given-names:F.J.",
+            "section_type": "REF",
+            "source": "J. Org. Chem.",
+            "type": "ref",
+            "volume": "54",
+            "year": "1989"
+          },
+          "text": "Rapid and efficient synthesis of nucleoside 5'-0-(1-thiotriphosphates), 5'-triphosphates and 2',3'-cyclophosphorothioates using 2-chloro-4H-1,3,2-benzodioxaphosphorin-4-one",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36398,
+          "infons": {
+            "fpage": "83",
+            "lpage": "126",
+            "name_0": "surname:Goodman;given-names:M.F.",
+            "name_1": "surname:Creighton;given-names:S.",
+            "name_2": "surname:Bloom;given-names:L.B.",
+            "name_3": "surname:Petruska;given-names:J.",
+            "pub-id_pmid": "8485987",
+            "section_type": "REF",
+            "source": "Crit. Rev. Biochem. Mol. Biol.",
+            "type": "ref",
+            "volume": "28",
+            "year": "1993"
+          },
+          "text": "Biochemical basis of DNA replication fidelity",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36444,
+          "infons": {
+            "fpage": "541",
+            "lpage": "554",
+            "name_0": "surname:Smith;given-names:C.L.",
+            "name_1": "surname:Simmonds;given-names:A.C.",
+            "name_2": "surname:Felix;given-names:I.R.",
+            "name_3": "surname:Hamilton;given-names:A.L.",
+            "name_4": "surname:Kumar;given-names:S.",
+            "name_5": "surname:Nampalli;given-names:S.",
+            "name_6": "surname:Loakes;given-names:D.",
+            "name_7": "surname:Hill;given-names:F.",
+            "name_8": "surname:Brown;given-names:D.M.",
+            "section_type": "REF",
+            "source": "Nucleosides Nucleotides",
+            "type": "ref",
+            "volume": "17",
+            "year": "1998"
+          },
+          "text": "DNA polymerase incorporation of universal base triphosphates",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36505,
+          "infons": {
+            "fpage": "2437",
+            "lpage": "2447",
+            "name_0": "surname:Loakes;given-names:D.",
+            "pub-id_pmid": "11410649",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "29",
+            "year": "2001"
+          },
+          "text": "The applications of universal DNA base analogues",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36554,
+          "infons": {
+            "section_type": "FIG",
+            "type": "title_1"
+          },
+          "text": "Figures and Tables",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36573,
+          "infons": {
+            "file": "gki293f1.jpg",
+            "id": "fig1",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Irradiation of DNA containing the 7-nitroindole nucleoside results in the formation of the alkali labile deoxyribonolactone lesion followed by backbone cleavage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36735,
+          "infons": {
+            "file": "gki293f2.jpg",
+            "id": "fig2",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Structure of the deoxynucleosides derived from 7-nitroindole [d(7-Ni)] and 5-nitroindole [d(5-Ni)].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36835,
+          "infons": {
+            "file": "gki293f3.jpg",
+            "id": "fig3",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "DNA-modified duplexes used for melting temperature studies. The four natural bases were located successively opposite the unnatural base X (X = 7-Ni or 5-Ni). The four variants of unnatural base pair have been indicated in box region.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37070,
+          "infons": {
+            "file": "gki293f4.jpg",
+            "id": "fig4",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Synthesis of the unnatural triphosphate [d(7-Ni)TP].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37123,
+          "infons": {
+            "file": "gki293f5.jpg",
+            "id": "fig5",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Nucleotide incorporation opposite 7-Ni or 5-Ni in the presence of one single dNTP. Reactions were investigated on 40mer templates containing the unnatural base X (X = 7-Ni), sequence 10 (lanes 1-4) or 5-Ni, sequence 11 (lanes 5-8); 100 nM primed with 32P-labeled 18mer (sequence 12, 50 nM) in the presence of one single dNTP (20 muM) and KF exo- (0.1 U). Reactions were incubated for 20 min at 30 C before processing as described in Materials and Methods.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37586,
+          "infons": {
+            "file": "gki293f6.jpg",
+            "id": "fig6",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Influence of the nature of the downstream template base N20 on nucleotide incorporation opposite 7-Ni. Reactions were performed on modified templates containing 7-Ni, but varying by the nature of the natural base N20 in 5' side of 7-Ni, (N20 = T, sequence 10; N20 = A, sequence 17; N20 = C, sequence 18 and N20 = G, sequence 19G; 100 nM) hybridized to 18mer primer (sequence 12, 50 nM). Polymerization reactions were conducted in the presence of one single dNTP (20 muM) and KF exo- (0.1 U) for 20 min at 30 C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38102,
+          "infons": {
+            "file": "gki293f7.jpg",
+            "id": "fig7",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Full-length extension of primer hybridized to modified templates. Reactions were carried out at 30 C for 20 min using a natural template (X = T) (lanes 1 and 2) or modified templates containing one unnatural base X (X = 7-Ni), sequence 10 [lanes 3 and 4) or 5-Ni, sequence 11 (lanes 5 and 6); 100 nM] primed with 32P-labeled 18mer (sequence 12, 50 nM) in the presence of the four dNTPs (at a final concentration of 20 muM each). Reactions were catalyzed by KF exo- (0.1 U).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38579,
+          "infons": {
+            "file": "gki293f8.jpg",
+            "id": "fig8",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Chain extension reaction catalyzed by KF exo- in the presence of the modified triphosphate d(7-Ni)TP. Experiments were investigated on different natural templates (100 nM) varying by the nature of the base N19 (N = T, sequence 13; N = C, sequence 14; N = G, sequence 15; N = A, sequence 16) hybridized to 18mer primer (sequence 12, 50 nM). In a first step, chain extension reactions were conducted in the presence of d(7-Ni)TP (1 mM) and KF exo- (0.0625 U/mul) for 5 min at 30 C (lanes 2, 6, 10 and 14). In the second step, reactions were carried out using KF exo- (0.0125 U/mul) in the presence of dATP (lanes 3, 7, 11 and 15) or in the presence of a mixture of the four dNTPs (lanes 4, 8, 12 and 16) for 20 min at 30 C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39309,
+          "infons": {
+            "file": "gki293f9.jpg",
+            "id": "fig9",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Effect of the downstream template base N20 on chain extension reaction catalyzed by KF exo- starting from the unnatural base pair 7-Ni(in primer):T(in template). Experiments were investigated on different natural templates (100 nM) varying by the nature of the base N20 (N = T, sequence 13; N = A, sequence 20; N = C, sequence 21; N = G, sequence 22) hybridized to 18mer primer (sequence 12, 50 nM). Addition of one d(7-Ni) to the primer was carried out using KF exo- (0.0625 U/mul) in presence of d(7-Ni)TP (1 mM) for 5 min at 30 C (lanes 2, 6, 10 and 14). The second step of reaction was performed using KF exo- (0.0125 U/mul) in the presence of one single dNTP (lanes 3, 7, 11 and 15) or in the presence of the mixture of the four dNTPs (lanes 4, 8, 12 and 16) for 20 min at 30 C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40101,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "Oligonucleotide sequences",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40127,
+          "infons": {
+            "file": "tbl1.xml",
+            "id": "tbl1",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th align=\"left\" colspan=\"1\" rowspan=\"1\">Number</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Sequence (5' 3')</th></tr></thead><tbody><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">1</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CGCAC <bold>7-Ni C</bold>ACGC</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">2</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CGCAC <bold>5-Ni C</bold>ACGC</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">3</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">GCGTGAGTGCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">4</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">GCGTGCGTGCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">5</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">GCGTGGGTGCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">6</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">GCGTGTGTGCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">7</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CGCACACACGC</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">8</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CGCACGCACGC</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">9</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">GCGTG <bold>7-Ni</bold> GTGCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">10</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCT <bold>7-Ni G</bold>AGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">11</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCT <bold>5-Ni G</bold>AGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">12</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CGGTACCAGCGATTCCTC</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">13</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCTTGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">14</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCTCGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">15</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCTGGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">16</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCTAGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">17</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCA <bold>7-Ni G</bold>AGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">18</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCC <bold>7-Ni G</bold>AGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">19</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCG <bold>7-Ni G</bold>AGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">20</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCATGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">21</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCCTGAGGAATCGCTGGTACCG</td></tr><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">22</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">CATGCTGATGAATTCAGGCCGTGAGGAATCGCTGGTACCG</td></tr></tbody></table>\n"
+          },
+          "text": "Number\tSequence (5' 3')\t \t1\tCGCAC 7-Ni CACGC\t \t2\tCGCAC 5-Ni CACGC\t \t3\tGCGTGAGTGCG\t \t4\tGCGTGCGTGCG\t \t5\tGCGTGGGTGCG\t \t6\tGCGTGTGTGCG\t \t7\tCGCACACACGC\t \t8\tCGCACGCACGC\t \t9\tGCGTG 7-Ni GTGCG\t \t10\tCATGCTGATGAATTCAGGCCT 7-Ni GAGGAATCGCTGGTACCG\t \t11\tCATGCTGATGAATTCAGGCCT 5-Ni GAGGAATCGCTGGTACCG\t \t12\tCGGTACCAGCGATTCCTC\t \t13\tCATGCTGATGAATTCAGGCCTTGAGGAATCGCTGGTACCG\t \t14\tCATGCTGATGAATTCAGGCCTCGAGGAATCGCTGGTACCG\t \t15\tCATGCTGATGAATTCAGGCCTGGAGGAATCGCTGGTACCG\t \t16\tCATGCTGATGAATTCAGGCCTAGAGGAATCGCTGGTACCG\t \t17\tCATGCTGATGAATTCAGGCCA 7-Ni GAGGAATCGCTGGTACCG\t \t18\tCATGCTGATGAATTCAGGCCC 7-Ni GAGGAATCGCTGGTACCG\t \t19\tCATGCTGATGAATTCAGGCCG 7-Ni GAGGAATCGCTGGTACCG\t \t20\tCATGCTGATGAATTCAGGCCATGAGGAATCGCTGGTACCG\t \t21\tCATGCTGATGAATTCAGGCCCTGAGGAATCGCTGGTACCG\t \t22\tCATGCTGATGAATTCAGGCCGTGAGGAATCGCTGGTACCG\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40920,
+          "infons": {
+            "file": "tbl2.xml",
+            "id": "tbl2",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "Melting temperatures and thermodynamic parameters of 11mer duplexes containing natural or unnatural base pairs (X:Y) in the middle of the sequence",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41067,
+          "infons": {
+            "file": "tbl2.xml",
+            "id": "tbl2",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th align=\"left\" colspan=\"1\" rowspan=\"1\">Duplex</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">X</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Y</th><th align=\"left\" colspan=\"1\" rowspan=\"1\"><italic>T</italic><sub>m</sub> ( C)</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Delta<italic>S</italic>  (cal/mol/K)</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Delta<italic>H</italic>  (kcal/mol)</th><th align=\"left\" colspan=\"1\" rowspan=\"1\">Delta<italic>G</italic>  (kcal/mol)</th></tr></thead><tbody><tr><td align=\"left\" colspan=\"1\" rowspan=\"1\">3'-CGCAC<bold>XC</bold>ACGC-5'</td><td colspan=\"6\" align=\"left\" rowspan=\"1\">Unnatural base pair</td></tr><tr><td colspan=\"7\" align=\"left\" rowspan=\"1\">5'-GCGTG<bold>Y</bold>GTGCG-3'</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">A</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">49</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">91</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">37</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">10</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">T</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">46</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">170</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">62</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">G</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">51</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">194</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">71</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">13</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">C</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">46</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">127</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">48</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">A</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">48</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">170</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">62</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">G</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">45</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">159</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">58</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">11</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">7-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">51</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">157</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">59</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">12</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">5-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">A</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">50</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">178</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">66</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">13</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">5-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">T</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">49</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">211</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">76</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">13</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">5-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">G</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">52</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">227</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">82</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">14</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">5-Ni</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">C</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">50</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">182</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">67</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">13</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td colspan=\"6\" align=\"left\" rowspan=\"1\">Natural base pair</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">A</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">T</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">59</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">231</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">85</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">16</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">G</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">C</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">61</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">240</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">89</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">17</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td colspan=\"6\" align=\"left\" rowspan=\"1\">Mismatch</td></tr><tr><td colspan=\"1\" rowspan=\"1\"/><td align=\"left\" colspan=\"1\" rowspan=\"1\">A</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">C</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">46</td><td align=\"right\" colspan=\"1\" rowspan=\"1\">185</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">67</td><td align=\"left\" colspan=\"1\" rowspan=\"1\">12</td></tr></tbody></table>\n"
+          },
+          "text": "Duplex\tX\tY\tTm ( C)\tDeltaS  (cal/mol/K)\tDeltaH  (kcal/mol)\tDeltaG  (kcal/mol)\t \t3'-CGCACXCACGC-5'\tUnnatural base pair\t \t5'-GCGTGYGTGCG-3'\t \t\t7-Ni\tA\t49\t91\t37\t10\t \t\t7-Ni\tT\t46\t170\t62\t11\t \t\t7-Ni\tG\t51\t194\t71\t13\t \t\t7-Ni\tC\t46\t127\t48\t11\t \t\tA\t7-Ni\t48\t170\t62\t11\t \t\tG\t7-Ni\t45\t159\t58\t11\t \t\t7-Ni\t7-Ni\t51\t157\t59\t12\t \t\t5-Ni\tA\t50\t178\t66\t13\t \t\t5-Ni\tT\t49\t211\t76\t13\t \t\t5-Ni\tG\t52\t227\t82\t14\t \t\t5-Ni\tC\t50\t182\t67\t13\t \t\tNatural base pair\t \t\tA\tT\t59\t231\t85\t16\t \t\tG\tC\t61\t240\t89\t17\t \t\tMismatch\t \t\tA\tC\t46\t185\t67\t12\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41558,
+          "infons": {
+            "file": "tbl2.xml",
+            "id": "tbl2",
+            "section_type": "TABLE",
+            "type": "table_footnote"
+          },
+          "text": "Experiments were run in triplicate. See Materials and Methods for details.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41633,
+          "infons": {
+            "file": "tbl3.xml",
+            "id": "tbl3",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "Efficiency of KF exo- incorporation of the triphosphates opposite natural or unnatural bases (X) in the template",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41748,
+          "infons": {
+            "file": "tbl3.xml",
+            "id": "tbl3",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table xmlns:xlink=\"http://www.w3.org/1999/xlink\" frame=\"hsides\" rules=\"groups\"><tbody><tr><td align=\"center\" colspan=\"1\" rowspan=\"1\"><graphic xlink:href=\"gki293t3\"/></td></tr></tbody></table>\n"
+          },
+          "text": "\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41752,
+          "infons": {
+            "file": "tbl4.xml",
+            "id": "tbl4",
+            "section_type": "TABLE",
+            "type": "table_caption"
+          },
+          "text": "Efficiency of KF exo- incorporation of unnatural triphospate [d(7-Ni)TP] opposite natural bases in the template",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41866,
+          "infons": {
+            "file": "tbl4.xml",
+            "id": "tbl4",
+            "section_type": "TABLE",
+            "type": "table",
+            "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table xmlns:xlink=\"http://www.w3.org/1999/xlink\" frame=\"hsides\" rules=\"groups\"><tbody><tr><td align=\"center\" colspan=\"1\" rowspan=\"1\"><graphic xlink:href=\"gki293t4\"/></td></tr></tbody></table>\n"
+          },
+          "text": "\t \t",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

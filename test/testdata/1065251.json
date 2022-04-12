@@ -1,0 +1,1936 @@
+{
+  "source": "PMC",
+  "date": "20201214",
+  "key": "pmc.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "1065251",
+      "infons": {
+        "license": "NO-CC CODE"
+      },
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "article-id_doi": "10.1093/nar/gki283",
+            "article-id_pmc": "1065251",
+            "article-id_pmid": "15767283",
+            "fpage": "1581",
+            "issue": "5",
+            "journal-title": "Nucleic Acids Research",
+            "license": "The online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial re-use, please contact journals.permissions@oupjournals.org",
+            "lpage": "1592",
+            "name_0": "surname:Bosco;given-names:Emily E.",
+            "name_1": "surname:Knudsen;given-names:Erik S.",
+            "section_type": "TITLE",
+            "type": "front",
+            "volume": "33",
+            "year": "2005"
+          },
+          "text": "Differential role of RB in response to UV and IR damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56,
+          "infons": {
+            "section_type": "ABSTRACT",
+            "type": "abstract"
+          },
+          "text": "The retinoblastoma tumor suppressor (RB) is functionally inactivated in the majority of cancers and is a critical mediator of DNA damage checkpoints. Despite the critical importance of RB function in tumor suppression, the coordinate impact of RB loss on the response to environmental and therapeutic sources of damage has remained largely unexplored. Here, we utilized a conditional knockout system to ablate RB in adult fibroblasts. This model system enabled us to investigate the temporal role of RB loss on cell cycle checkpoints and DNA damage repair following ultraviolet (UV) and ionizing radiation (IR) damage. We demonstrate that RB loss compromises rapid cell cycle arrest following UV and IR exposure in adult primary cells. Detailed kinetic analysis of the checkpoint response revealed that disruption of the checkpoint is concomitant with RB target gene deregulation, and is not simply a manifestation of chronic RB loss. RB loss had a differential effect upon repair of the major DNA lesions induced by IR and UV. Whereas RB did not affect resolution of DNA double-strand breaks, RB-deficient cells exhibited accelerated repair of pyrimidine pyrimidone photoproducts (6-4 PP). In parallel, this repair was coupled with enhanced expression of specific factors and the behavior of proliferating cell nuclear antigen (PCNA) recruitment to replication and repair foci. Thus, RB loss and target gene deregulation hastens the repair of specific lesions distinct from its ubiquitous role in checkpoint abrogation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1577,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "title_1"
+          },
+          "text": "INTRODUCTION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1590,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "Cells have evolved complex mechanisms of genome surveillance and DNA repair to maintain genetic stability in the face of bombardment by exogenous insult. Cell cycle checkpoint pathways are examples of evolutionarily conserved responses to DNA damage. Following recognition of DNA lesions, such as those induced by ultraviolet radiation (UV) and ionizing radiation (IR), cell cycle checkpoints are elicited to limit the propagation of deleterious mutations to daughter cells. Several checkpoint proteins play essential roles in the maintenance of appropriate DNA damage response. A critical mediator of cell cycle control involved in the DNA damage checkpoint is the retinoblastoma tumor suppressor protein (RB). During early G1 phase of the cell cycle, hypophosphorylated RB is active and binds to members of the E2F transcription factor family to antagonize their function. The RB-E2F complex forms on the promoters of a multitude of E2F target genes to repress transcription. E2F is known to regulate many downstream targets that are involved in cell cycle progression (e.g. cyclin A, cyclin E, cdc2 and cdk2) and DNA replication [e.g. proliferating cell nuclear antigen (PCNA), mini-chromosome maintenance-7 (MCM-7), topoisomerase IIalpha, thymidine kinase]. Due to the requisite nature of these target genes, RB-mediated transcriptional repression inhibits progression into S-phase. Control of RB binding to E2Fs is exerted in mid-G1 by the activation of cdk4/cyclin D1 and cdk2/cyclin E, which phosphorylate and inactivate RB thereby allowing S-phase entry. DNA damage has the general influence of activating RB by promoting dephosphorylation. Following DNA damage, the presence of RB is required for cell cycle inhibition. This response has typically been assessed using mouse embryonic fibroblasts, wherein RB is believed to facilitate arrest by transcriptional repression of key targets. However, prior studies have been limited to analysis of the effect of chronic RB loss, rather than the acute inactivation evident in cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3627,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "It has been reported that RB function is impaired in the majority of cancers as the activities of several disparate mechanisms result in its functional inactivation. Presumably, RB loss contributes to genetic instability by allowing cells to evade cell cycle regulation and facilitating DNA damage checkpoint bypass. Consistent with this idea, it has been shown that RB suppresses the development of aneuploidy following damage. While RB is implicated in gross chromosome instability, its effect on DNA repair remains unexplored. However, a role for RB in repair has recently been suggested by the finding that several RB/E2F regulated genes are involved in the repair of UV and IR damage. Therefore, it can be envisioned that RB loss and downstream target deregulation could have distinct effects upon the cellular response to genotoxic insult, including both checkpoint deregulation and aberrant repair.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4533,
+          "infons": {
+            "section_type": "INTRO",
+            "type": "paragraph"
+          },
+          "text": "To probe these responses, we investigated the role of RB in UV and IR damage signaling, checkpoint activation and lesion repair in adult primary cells containing acute RB loss. Here, we report that RB function is critical for induction of a rapid cell cycle checkpoint in response to these agents. Additionally, we find that the DNA damage checkpoint bypass is concomitant with RB deletion and downstream target deregulation. Abrogation of the DNA damage checkpoint was associated with accelerated pyrimidine pyrimidone photoproduct (6-4 PP) repair and rapid engagement of DNA damage repair factors. Taken together, our data demonstrate that RB loss facilitates abrogation of transient cell cycle arrest following environmentally and therapeutically relevant doses of UV and IR, while contributing specifically to the acceleration of UV lesion repair.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5385,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_1"
+          },
+          "text": "MATERIALS AND METHODS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5407,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Isolation of primary RbloxP/loxP murine adult fibroblasts",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5465,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Floxed Rb mice (RbloxP/loxP) of mixed 129/FVBN background, at least five weeks of age, were sacrificed by CO2 anesthetization followed by cervical dislocation. Fibroblasts were isolated from the peritoneal fascia by excision, mincing of the peritoneum and constant agitation for 40 min at 37 C in 0.2 mg/ml collagenase (Type I, Sigma) supplemented with 100 U Dnase I (Roche). The dissociated tissue was washed with PBS and subsequently incubated for 20 min at 37 C in 0.25% trypsin (Gibco) with constant agitation. After two PBS washes, the isolated cells were plated in tissue culture dishes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6061,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Cell culture, recombinant adenoviral infections",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6109,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "RbloxP/loxP murine adult fibroblasts (MAFs) were subcultured in DMEM containing 10% fetal bovine serum supplemented with 100 U/ml penicillin/streptomycin and 2 mM L-glutamine at 37 C in air containing 5% CO2. In this study, all primary cells were between passages 2 and 4. Replication defective recombinant adenovirus expressing green fluorescent protein (Ad-GFP) or GFP in addition to Cre recombinase (Ad-GFP-Cre) were obtained from G. Leone (Department of Molecular Genetics, Ohio State University). The conditional RB knockout in primary RbloxP/loxP MAFs were attained by infecting cells with adenovirus at approximately 2 x 107 virus particles per dish to achieve an infection efficiency of 90-95% as determined by GFP fluorescence. Cells were cultured for at least four days post-adenoviral infection prior to use while the passage number and length of time post-infection remained consistent throughout all experiments unless otherwise stated.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7063,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Immunoblotting",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7078,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Cells infected with Ad-GFP or Ad-GFP-Cre were harvested by trypsinization and lysed in RIPA buffer. Equal amounts of protein, as determined by Bio-RAD DC assay, were resolved by SDS-PAGE. Specific proteins were detected by standard immunoblotting procedures using the following primary antibodies: (Santa Cruz, 1:500 dilution) PCNA (pc10), Cyclin E (HE12), Cyclin A (C-19), MCM-7 (141.2), Cyclin B1 (GNS1), Lamin B (sc-6217), anti-RB (G3-245, Becton Dickson, 1:100 dilution), total p53 Ab-3 (Oncogene OP29, 1:250 dilution) and phospho-p53 ser-18 (Cell Signaling 9284S, 1:500 dilution).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7666,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "RT-PCR analysis of recombination",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7701,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "RT-PCR analysis was performed to verify adenoviral-Cre-mediated recombination in primary MAFs. Total RNA was extracted using Trizol (Gibco) and cDNA was synthesized from 1 mug of RNA with the SuperScript RT-PCR system (Gibco) according to the manufacturer's protocol. cDNAs were amplified using PCR and the following primers: (sense) 5'-CCTTGAACCTGCTTGTCCTC-3' and (antisense) 5'-GAAGGCGTGCACAGAGTGTA-3'. PCR conditions consisted of initial denaturation for 2 min at 94 C, followed by 30 cycles of 30 s at 94 C, 30 s at 52 C and 1 min at 72 C, followed by a final extension for 5 min at 72 C. Ten microliters of PCR product was run on a 2% agarose gel and visualized by ethidium bromide staining.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8415,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "DNA damage, PCNA extraction and immunofluorescence",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8466,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "Primary MAFs infected with Ad-GFP or Ad-GFP-Cre were seeded on coverslips in 6-well dishes and allowed to adhere. Cells were treated at room temperature either with ionizing radiation through exposure to 137Cs (dose rate: 0.67 Gy/min) in tissue culture media or with ultraviolet irradiation (UVC) (low pressure mercury lamp; Mineralight lamp model UVG-11; UVP, Inc. San Gabriel, CA) following removal of DMEM and washing the cells twice with PBS. Treated cells were labeled with BrdU (Amersham Pharmacia Biotech) to detect DNA synthesis, then washed, fixed in 3.7% formaldehyde, and processed to detect and quantitate BrdU incorporation by immunofluorescence and cell scoring as previously described. All BrdU results are expressed as a percentage of untreated control cells set to 100%. PCNA extraction and immunofluorescence was performed as previously described using the monoclonal pc10 PCNA antibody (Santa Cruz). gammaH2AX immunofluorescence was performed as previously described using an anti-phospho-H2AX ser-139 mouse primary antibody (Upstate Biotechnology). CPD and 6-4 photoproduct (6-4 PP) staining was performed as described in Wang et al. using antibodies generously contributed by Dr Tsukasa Matsunaga (Kanazawa University, Japan). Relative staining intensities of gammaH2AX, CPD lesions and 6-4 PP were quantified by capturing images of equal exposure using microscopy and performing densitomery using Metamorph. All data are from 10 nuclei captured on random fields.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9951,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "title_2"
+          },
+          "text": "Immunoassay for repair of CPD and 6-4 PP",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9992,
+          "infons": {
+            "section_type": "METHODS",
+            "type": "paragraph"
+          },
+          "text": "CPD and 6-4 PP present in cellular DNA were detected and quantified by slot blot. Total genomic DNA was extracted using the DNEasy tissue kit (Qiagen) according to manufacturer's instructions. DNA was quantified through spectrophotometry and gel electrophoresis prior to denaturation through boiling and sonication. Increasing concentrations of DNA were loaded for slot blot transfer using a vacuum blotter and hybridization onto a Nytran membrane. The membrane was blocked in 10% milk/1x saline-tween and probed with either 1:1000 primary monoclonal antibody specific for CPD or 6-4 PP DNA lesions (T. Matsunaga). Filters were then processed according to standard western blot protocol and lesion abundance was quantified using densitometry following the subtraction of background. To control for equal loading, experiments were done in triplicate and percent reduction was calculated between equal DNA concentrations from different time points within the same cell type.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10966,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_1"
+          },
+          "text": "RESULTS",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10974,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Acute downregulation of RB protein abrogates the DNA damage checkpoint response to UV and IR",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11067,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Studies of RB function have historically utilized mouse embryo fibroblasts (MEFs) harboring loss of RB throughout development or extensively cultured tumor lines. There is a caveat in these models, in that RB loss is compensated by RB related pocket proteins (i.e. p107 and p130) during development. In contrast, RB is acutely lost in the majority of cancer cases. Thus, we utilized an knockout system involving mice harboring a conditional Rb allele in which loxP sites flank Rb exon 19 (RbloxP/loxP mice). Through adenoviral expression of Cre recombinase, acute RB loss can be achieved in genetically stable MAFs. To examine the action of RB in cells, MAFs were initially infected with recombinant adenoviruses expressing both GFP and Cre recombinase (Ad-GFP-Cre) or GFP alone (Ad-GFP) as a control. Efficient infection of cells was evident following 16-24 h, as >90% of Ad-GFP-Cre infected cells demonstrated high levels of GFP fluorescence (data not shown). Confirmation of Cre-mediated recombination was performed by RT-PCR analysis using primers in exons 18 and 20 of the Rb gene. RNA was prepared from uninfected MAFs or those infected with Ad-GFP-Cre at 72 h post-infection. RT-PCR analysis revealed loss of Rb RNA and accumulation of the Deltaexon19 transcript in the infected cells relative to the control (Figure 1A). Immunoblotting with anti-RB monoclonal antibody revealed that the Cre-mediated recombination resulted in acute downregulation of RB protein in Ad-GFP-Cre infected MAFs (Figure 1B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12580,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "To delineate the consequence of conditional RB ablation on the RB/E2F signaling axis, MAFs infected with either Ad-GFP or Ad-GFP-Cre were harvested five days post-infection and levels of specific RB target proteins were analyzed by immunoblot. Relative to control (Figure 1C, lane 1), the Ad-GFP-Cre infected MAFs exhibited increased levels of proteins downstream of RB signaling including, PCNA, cyclin E and cyclin A (lane 2). No changes were detected in lamin B protein levels, which served as a loading control. Therefore, RB deletion in primary adult cells results in target gene deregulation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13179,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "To evaluate the role of RB in the DNA damage response of adult fibroblasts, asynchronously proliferating Ad-GFP or Ad-GFP-Cre infected MAFs were exposed to 0, 10 or 20 J/m2 UV and subsequently cultured for 10 h to elicit the checkpoint response. Cells were pulse labeled with bromodeoxyuridine (BrdU) for 2 h and the replicative fraction of treated cells was determined by immunofluorescent detection of BrdU incorporation. MAFs containing functional RB exhibited a dose-dependent cell cycle inhibition (relative to untreated control), whereas cells lacking RB exhibited minimal responses at each dose (Figure 1D, top panel). Similar results were evident when the response to therapeutic doses of IR was investigated in the same manner. Following exposure to 0, 2.5 or 5 Gy IR, Ad-GFP infected MAFs exhibited a robust dose-dependent inhibition of cell cycle in which BrdU incorporation was reduced by greater than 75%, while Ad-GFP-Cre infected cells were largely unaffected (Figure 1D, bottom panel). Taken together, these data demonstrate that acute deletion of RB in primary adult cells results in abrogation of the DNA damage checkpoint response to both IR and UV irradiation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14360,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "RB loss compromises the rapid checkpoint response to IR/UV",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14419,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Traditionally, RB has been characterized as participating in checkpoint responses with delayed kinetics. In part, this is due to the use of chemotherapeutic agents wherein the induction of DNA damage is delayed due to drug action. Thus, one of the advantages of studying the cellular response to UV or IR is the immediate induction of DNA damage. To understand the kinetics of cell cycle attenuation following exposure to UV and IR, Ad-GFP and Ad-GFP-Cre infected MAFs were exposed to either 0, 10 or 20 J/m2 UV or 0, 2.5 or 5 Gy IR and cultured. Following damage, cells were pulsed with BrdU for the final 2 h in culture prior to harvesting at 2, 4 and 6 h. The DNA damage checkpoint was evident as early as 2 h following exposure to either UV or IR as determined by immunofluorescent detection of BrdU incorporation (Figure 2A). Additionally, this response was maintained for at least 6 h following damage. Surprisingly, this rapid response to UV and IR damage was compromised in RB-deficient cells, as Ad-GFP-Cre infected MAFs largely bypassed cell cycle inhibition at each time point. These data indicate that RB loss is sufficient to bypass the rapid checkpoint response to DNA damage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15610,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Since it is postulated that RB signals via repression of target genes, we investigated the rapid action of DNA damage on RB target genes. In response to IR or UV damage, ser-18 of p53 (homologous to human ser-15) is known to be rapidly phosphorylated by ATM family kinases. Therefore, as a control for upstream signaling, immunoblotting for total p53 and phospho-p53 ser-18 was performed. To analyze rapid DNA damage signaling, MAFs infected with either Ad-GFP or Ad-GFP-Cre were treated with 10 J/m2 UV or 2.5 Gy IR and harvested 2 h following treatment and analyzed for total p53 expression by immunoblot (Figure 2B, top panel). Lamin B serves as a control for equal loading. As expected, both cultures exhibited similar inductions of p53 following either UV or IR damage. To further probe the induction kinetics of p53, phospho-p53 expression was analyzed at 0, 1, 3 and 5 h post-treatment (Figure 2B, bottom panel). Not surprisingly, both cultures exhibited relatively equal kinetics of phospho-p53 induction. However, phospho-p53 induction was slightly faster in response to IR than UV and its response to UV persisted longer than that from IR exposure. To subsequently characterize expression levels of downstream RB targets, Ad-GFP and Ad-GFP-Cre infected MAFs were analyzed at 0, 3 and 5 h following 10 J/m2 UV (Figure 2C, top panel) or 2.5 Gy IR (Figure 2C, bottom panel) exposure. Interestingly, expression levels of PCNA, MCM-7 and cyclin A remained relatively constant during the rapid response to UV and IR indicating that RB action did not affect levels of these downstream targets during checkpoint induction. Equal loading was verified by lamin B immunoblot. These data argue that the rapid function of RB in cell cycle arrest following DNA damage does not apparently involve attenuation of target genes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17431,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "RB loss is directly coupled with target gene deregulation to promote abrogation of the DNA damage checkpoint response",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17549,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Although it is understood that RB function is necessary for proper regulation of downstream targets and the DNA damage checkpoint response, the kinetic ordering of these events has not been established. Specifically, the data shown above suggests that while RB may not actively cause the checkpoint, RB loss could enable checkpoint bypass through the accumulation of RB target gene products. To determine whether loss of RB protein or target gene deregulation is more closely coupled to loss of checkpoint function, we examined the discrete kinetics of this pathway. Asynchronous MAFs were infected (T = 0 h) and harvested for immunoblot every 12 h for 48 h. Immunoblot analysis revealed complete loss of RB protein by 24 h post-Ad-GFP-Cre infection (Figure 3A). Analysis of RB target genes showed that the expression of several downstream targets including, MCM-7, PCNA, cyclin B1 and cyclin E, all became deregulated concurrent with RB loss.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18493,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Since disruption of checkpoint function could simply be a manifestation of chronic RB loss, we examined the nature of checkpoint function throughout the RB knockout time course. In parallel with the previously outlined experiments, Ad-GFP-Cre infected MAFs were treated with UV or IR every 12 h post-infection for 96 h. Following damage, the cells were pulsed with BrdU for 4 h and harvested for checkpoint analysis (Figure 3B). Scoring of the populations of DNA damaged cells throughout the time course of RB knockout revealed that DNA damage checkpoint function remained intact in response to 0, 10 or 20 J/m2 UV irradiation through 28 h post-infection. However, by 40 h post-infection the checkpoint response became impaired (Figure 3C, top panel), concurrent with maximal deregulation of target genes following RB protein loss (Figure 3A). Similarly, the equivalent experimental setup was employed to investigate checkpoint function in response to IR damage signaling. Abrogation of proper checkpoint function occurred slightly more rapidly in response to 0, 2.5 or 5 Gy IR, such that cells were able to incorporate BrdU in the presence of DNA damage by 28 h post-infection (Figure 3C, bottom panel). Together, these data reveal that the kinetics of RB loss are concomitant with target gene deregulation and impaired DNA damage checkpoint response. Therefore, the closely coupled dynamics of these events suggest that RB functional inactivation coincident with downstream target deregulation is required for the loss of proper cell cycle arrest in response to DNA damage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20069,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Acute RB loss differentially influences UV- and IR-induced DNA lesion removal",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20147,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Checkpoint responses are by definition reversible, presumably due to DNA damage repair. Consistent with this notion, Ad-GFP infected cells were able to recover from the UV- and IR-induced checkpoints and re-enter the cell cycle. As before, following 0, 2.5 or 5 Gy IR, Ad-GFP infected cells were labeled with BrdU for the final 4 h prior to harvest at 4 or 24 h post-damage. The results demonstrated a significant increase in BrdU incorporation compared with untreated controls (set to 100%) in RB-proficient MAFs 24 h following damage, suggesting that the doses of IR used in these experiments are repairable (Figure 4A). Since IR directly elicits DNA double-strand breaks, we next investigated the influence of RB loss upon the accumulation and relative repair of these lesions. Here, we employed immunofluorescence with antibodies recognizing gammaH2AX, an efficient measure of double-strand break accumulation, to demonstrate the extent to which these lesions are repaired in the 24 h following damage (Figure 4B, top panel). Interestingly, RB loss had no significant effects upon gammaH2AX foci intensity among images of the cell population taken at equal exposures following IR damage. Both Ad-GFP and Ad-GFP-Cre infected MAFs displayed a similar increase in staining intensity during the first 5 h post-damage and a similar kinetic decrease in intensity from 5 to 24 h (Figure 4B, bottom panel).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21550,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "In order to determine the corresponding impact of UV repair on the cell cycle, the ability of the RB-proficient cells to recover from the checkpoint and re-enter cell cycle was investigated. Ad-GFP infected MAFs were treated with 0, 10, 20 J/m2 UV and propagated in culture while being pulse labeled with BrdU prior to harvest at 4 and 24 h. Detection of BrdU incorporation revealed the ability of RB-proficient cells to significantly recover from the UV-induced DNA damage checkpoint and resume cell cycle progression. The percentage of BrdU positive cells significantly increased from 4 to 24 h following each dose of UV damage as compared with untreated controls (set to 100%) (Figure 4C). To monitor the induction of UV lesions in the single-cell, the abundance of 6-4 PPs was examined by immunofluorescence immediately following damage (T = 0 h) and after 24 h of recovery (T = 24 h) (Figure 4D). These lesions are clearly induced in MAFs by 10 J/m2 UV at T = 0 h and are largely resolved by 24 h. To more closely examine the kinetics of 6-4 PP repair, Ad-GFP and Ad-GFP-Cre infected cells were treated with 0, 10 or 20 J/m2 UV and harvested for 6-4 PP analysis at 0, 2, 5 and 24 h following damage. The average pixel intensities of images taken at equal exposures were compared using Metamorph software and displayed graphically to reveal that RB-deficient cells exhibit a kinetic difference in the loss of 6-4 PP staining intensities, as compared with RB-proficient cells (Figure 4E, top panel). To ensure that acceleration of 6-4 PP resolution was not due to infection with Ad-GFP-Cre, wild-type MAF control cells retaining Rb were cultured and infected with Ad-GFP or Ad-GFP-Cre as before. Wild-type cells were treated with UV and monitored for 6-4 PP repair as in the top panel of Figure 4E, to reveal that it is indeed RB loss which enhances 6-4 PP repair rather than Ad-GFP-Cre infection (Figure 4E, bottom panel). Together, these data indicate that while RB loss plays no apparent role in the repair of IR lesions (e.g. DNA double-strand breaks), the loss of RB accelerates the repair of UV-induced 6-4 PPs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23671,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "Acute RB loss accelerates UV-induced DNA damage repair",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23726,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "Since the role of RB in UV-induced damage repair has been largely unexplored, we dissected the consequence of RB loss on cyclobutane pyrimidine dimmers (CPD) and 6-4 PP repair kinetics in greater detail using a more quantitative analysis. Ad-GFP and Ad-GFP-Cre infected MAFs exposed to 0 or 10 J/m2 UV were harvested at 0, 5 and 10 h post-UV treatment and lysates were used to purify genomic DNA. Increasing amounts of DNA were spotted onto Nytran membranes and immunoblotted for the abundance of both CPD and 6-4 PP lesions. In confirmation with other studies, we reveal that MAFs are compromised for CPD repair and RB had no apparent effect upon lesion repair during the time course examined (Figure 5A, top panel). However, the murine system has competent 6-4 PP repair pathways. Clearly, 6-4 PP repair is functional in both RB-proficient and RB-deficient MAFs. However, Ad-GFP-Cre infected MAFs exhibited a greater reduction in 6-4 PP lesions (~68%) as compared with cells infected with Ad-GFP control (~25%) at 5 and 10 h post-treatment (Figure 5A, bottom panel), indicating that RB loss contributes to the increased kinetics of UV damage-induced lesion repair. Despite the early differential in repair kinetics, both RB-proficient and -deficient MAFs demonstrated largely complete repair of 6-4 PPs induced by 10 J/m2 UV by 24 h (Figure 5B). Thus, RB loss accelerates 6-4 PP repair kinetics.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25128,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "title_2"
+          },
+          "text": "RB modifies repair factor dynamics",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25163,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "There are two possible explanations for the differential 6-4 PP repair kinetics among RB-proficient and -deficient cells. First, RB has recently been implicated in the negative regulation of a wide array of repair factors (e.g. PCNA, RAD50, RAD51, MLH1, MSH2 and FEN1), thus it is possible that the elevated levels of these factors in RB-deficient cells may allow for accelerated repair of DNA damage. Second, loss of RB-dependent DNA damage checkpoint function and resulting ongoing replication in RB-deficient cells may more quickly initiate repair factor engagement with the DNA lesion, thereby enhancing repair.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25779,
+          "infons": {
+            "section_type": "RESULTS",
+            "type": "paragraph"
+          },
+          "text": "In order to examine these possibilities, we investigated the role of RB loss on the kinetics of PCNA engagement with chromatin following UV damage. PCNA is an interesting repair factor, not only because it is regulated by RB, but also because it performs dual activities upon recruitment to chromatin in DNA replication and DNA repair. Therefore, to dissect the significance of PCNA involvement in UV damage repair, chromatin extractions were performed on Ad-GFP and Ad-GFP-Cre infected MAFs at 0, 3 and 5 h following UV treatment. Next, PCNA immunofluorescence was used to determine the percent of cells in the population that exhibited chromatin tethered PCNA with respect to unextracted controls. RB-proficient cell populations exhibited a slight decrease in PCNA chromatin tethering from 0 to 3 h followed by a marked increase by 5 h following damage (Figure 6A). In contrast, PCNA engagement with chromatin was accelerated in the RB-deficient populations, peaking at 3 h and becoming similar to Ad-GFP infected controls by 5 h post-damage. In confirmation with previous studies, these results reveal an increase in PCNA tethering following UV exposure, indicating the involvement of PCNA in nucleotide excision repair. In addition, this involvement in repair is accelerated in RB-deficient cells. These experiments also revealed differential PCNA chromatin tethering patterns within the nuclei of cells following UV damage, which indicated that a shift in PCNA function was occurring during UV damage repair (Figure 6B). Approximately 90% of tethered PCNA staining appeared in large foci in undamaged cells, indicative of replication foci (Figure 6C). However, 3 h after exposure to 10 J/m2 UV, nearly 100% of both RB-proficient and -deficient populations of cells exhibited diffuse small punctate patterns of PCNA tethering within the nucleus. The global nature of this PCNA staining pattern suggests that PCNA function has shifted to repair foci at this time point. Strikingly, 5 h post-UV damage, nearly 100% of Ad-GFP infected cells continue to exhibit diffuse punctate PCNA chromatin tethering while more than 75% of Ad-GFP-Cre infected cells demonstrate localized focal patterning, as observed in the undamaged state. These data indicate that the RB-deficient cells are able to initiate UV-induced damage repair with enhanced kinetics and that in these cells the PCNA distribution more rapidly shifted its association with repair foci to replication foci following damage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28263,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "title_1"
+          },
+          "text": "DISCUSSION",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28274,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "Consistent with previous studies in MEFs, here we observed impairment of the DNA damage checkpoint and deregulated cell cycle progression following IR and UV damage in adult primary cells harboring acute RB loss (Figure 1). Several models have been proposed which aim to describe how RB could be functioning to inhibit cell cycle progression following DNA damage. One model places RB in direct contact with replication machinery to inhibit replication, while another suggests that RB inhibits replication indirectly, via repression of downstream targets. Kinetic analysis of the DNA damage response in MAFs allowed us to probe the nature of RB function in checkpoint activation. Our data indicates that downstream targets such as PCNA, cyclin A and MCM-7 are not repressed by RB during the induction of the rapid cell cycle checkpoint (Figure 2). This data a priori supports the first model, wherein RB acts directly to inhibit replication and arrest cell cycle following recognition of DNA damage. However, it is equally possible that the vast target gene deregulation, which occurs concomitant with RB loss, facilitates checkpoint bypass. In an attempt to differentiate these possibilities, we closely examined the kinetics of RB deletion and DNA damage response in adult cells. Results presented indicate that RB loss is intimately coupled with target deregulation, together facilitating checkpoint abrogation (Figure 3). Thus, either model of RB function in checkpoint induction could be appropriate, in that RB loss prevents its direct action in replication inhibition while concurrently disrupting its function in control of downstream transcriptional targets.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29941,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "The ability of cells to recognize damaged DNA and elicit cell cycle checkpoints following genotoxic insult depends upon complex signaling pathways. Although many of the downstream pathway components in the G1/S checkpoint are involved in signaling from both UV and IR induced lesions, many of the initial upstream components vary. In the case of IR-induced DNA double-strand break signaling, ATM kinase activity is immediately stimulated to phosphorylate a number of downstream effectors including histone H2AX, p53 and chk2. Similarly, ATM and the rad 3 related (ATR) protein senses UV damage and participates in signal transduction via phosphorylation of many of the same effectors as ATM, such as chk2 and p53. Our studies reveal that rapid phosphorylation of H2AX and p53 following IR and UV (p53 only) are not compromised by acute RB loss, despite the observed impairment of DNA damage checkpoint function (Figure 2). As such, these results are consistent with literature that places RB downstream of H2AX and p53 phosphorylation in the DNA damage signaling and repair pathway.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31024,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "As the function of DNA damage signaling effectors were unaffected by RB loss, we sought to understand the consequence of the differential DNA damage checkpoint function on the cellular response to DNA damage. Because control cells exhibiting a functional checkpoint were able to resume cell cycle progression 24 h following damage, we assumed that these cells must have been able to repair a significant portion of the DNA lesions. Thus, we sought to monitor the actual induction and removal of these lesions imparted by IR and UV damage. Although monitoring the reduction in gammaH2AX to analyze DNA double-strand break repair following IR damage is rather qualitative, our studies revealed that RB did not play a dramatic role in IR-induced damage repair (Figure 4). This may suggest that participants in the DNA double-strand break repair pathway are upstream of the RB/E2F axis or that those repair factors deregulated via RB loss are not rate-limiting for repair. Next, we explored the role of RB in repair of UV-induced 6-4 PPs. Our investigations revealed that RB loss significantly accelerated removal of 6-4 PPs during the first 10 h following exposure to UV. However, by 24 h post-damage, the RB-proficient cells exhibited equal levels of lesion removal with the RB-deficient cells (Figures 4 and 5). This is the first evidence indicating that RB inactivation modifies DNA damage repair. The underlying mechanisms for this change could be multiple. First, recent evidence suggests that RB regulates the expression of several DNA damage repair factors involved in UV damage repair processes including: FEN1, XPC, RPA2-3, RFC4 and PCNA. As we found that the rate of repair of UV-induced damage was modified by RB loss, we investigated its effect upon the function of an RB-regulated UV damage repair factor, PCNA. We presume that high basal levels of proteins such as PCNA enable the RB-deficient cells to complete repair processes more quickly, as we found that PCNA protein expression rapidly shifted from diffuse punctate patterning (indicative of its function in repair) to focal expression (evident in normal replication) (Figure 6). Therefore, the observed UV repair factor dynamics are consistent with the kinetics of 6-4 PP lesion removal for each cell type. Second, the loss of cell cycle arrest following damage may initiate faster repair, modifying the conventional view of checkpoint function being necessary for efficient lesion resolution. Traditionally, DNA damage checkpoints are viewed as providing necessary time for recruitment of repair or apoptotic factors. However, due to the fact that RB-deficient cells demonstrate elevated basal levels of a variety of repair factors, recruitment time may inevitably be shortened, thereby eliminating the necessity for cell cycle arrest.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33829,
+          "infons": {
+            "section_type": "DISCUSS",
+            "type": "paragraph"
+          },
+          "text": "In summary, the data presented indicate that RB participates in the response to UV and IR damage signaling in a differential manner. Although RB loss abrogates the checkpoint in response to both forms of DNA damage, the consequence of this loss in each instance differs. Following IR, the loss of checkpoint function did not affect lesion repair. This suggests that RB-deficient cells were replicating in the presence of DNA damage for a prolonged period of time, possibly inducing secondary lesions which contribute to genomic instability and activation of apoptotic pathways. However, following UV, RB-deficient cells rapidly repaired 6-4 PPs, potentially limiting the accumulation of detrimental replication-mediated lesions. Although the consequences of checkpoint bypass have not been fully elucidated, there exist several possible influences of the observed rapid repair of UV lesions in RB-deficient cells. First, accelerated 6-4 PP repair kinetics may facilitate secondary lesion development, which would explain the clinical observations that RB-deficient tumor cells are more sensitive to death upon challenge and that hereditary retinoblastoma survivors are at an increased risk for melanoma. Second, loss of cell cycle arrest coupled with rapid 6-4 PP lesion repair may prevent proper activation of apoptotic cascades in cells harboring other UV-induced lesions (e.g. CPD), facilitating the propagation of mutations. Because all cells are assaulted by damaging environmental signals and a high proportion of RB-deficient cancers are treated with DNA damaging therapy, understanding the effect of RB inactivation on the response to DNA damage will enhance our perceptions of tumorigenesis and cancer therapeutics. Our results provide the framework for understanding the critical role of RB in the DNA damage response. These data indicate that RB is required for the rapid induction of cell cycle arrest following recognition of both UV and IR damage in adult primary cells. Additionally, RB loss in these cells is closely coupled with target gene deregulation and contributes to abrogation of checkpoint function. Lastly, we demonstrate that although damage signaling remains unaffected, RB loss accelerates UV lesion repair and modifies repair factor dynamics.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36102,
+          "infons": {
+            "section_type": "REF",
+            "type": "title"
+          },
+          "text": "REFERENCES",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36113,
+          "infons": {
+            "fpage": "543",
+            "lpage": "546",
+            "name_0": "surname:Hartwell;given-names:L.",
+            "pub-id_pmid": "1423612",
+            "section_type": "REF",
+            "source": "Cell",
+            "type": "ref",
+            "volume": "71",
+            "year": "1992"
+          },
+          "text": "Defects in a cell cycle checkpoint may be responsible for the genomic instability of cancer cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36211,
+          "infons": {
+            "fpage": "381",
+            "name_0": "surname:Friedberg;given-names:E.C.",
+            "pub-id_pmid": "8533146",
+            "section_type": "REF",
+            "source": "Trends Biochem. Sci.",
+            "type": "ref",
+            "volume": "20",
+            "year": "1995"
+          },
+          "text": "Out of the shadows and into the light: the emergence of DNA repair",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36278,
+          "infons": {
+            "fpage": "366",
+            "lpage": "374",
+            "name_0": "surname:Hoeijmakers;given-names:J.H.",
+            "pub-id_pmid": "11357144",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "411",
+            "year": "2001"
+          },
+          "text": "Genome maintenance mechanisms for preventing cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36330,
+          "infons": {
+            "fpage": "629",
+            "lpage": "634",
+            "name_0": "surname:Hartwell;given-names:L.H.",
+            "name_1": "surname:Weinert;given-names:T.A.",
+            "pub-id_pmid": "2683079",
+            "section_type": "REF",
+            "source": "Science",
+            "type": "ref",
+            "volume": "246",
+            "year": "1989"
+          },
+          "text": "Checkpoints: controls that ensure the order of cell cycle events",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36395,
+          "infons": {
+            "fpage": "1053",
+            "lpage": "1061",
+            "name_0": "surname:Chellappan;given-names:S.P.",
+            "name_1": "surname:Hiebert;given-names:S.",
+            "name_2": "surname:Mudryj;given-names:M.",
+            "name_3": "surname:Horowitz;given-names:J.M.",
+            "name_4": "surname:Nevins;given-names:J.R.",
+            "pub-id_pmid": "1828392",
+            "section_type": "REF",
+            "source": "Cell",
+            "type": "ref",
+            "volume": "65",
+            "year": "1991"
+          },
+          "text": "The E2F transcription factor is a cellular target for the RB protein",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36464,
+          "infons": {
+            "fpage": "684",
+            "lpage": "691",
+            "name_0": "surname:Stevaux;given-names:O.",
+            "name_1": "surname:Dyson;given-names:N.J.",
+            "pub-id_pmid": "12473340",
+            "section_type": "REF",
+            "source": "Curr. Opin. Cell Biol.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2002"
+          },
+          "text": "A revised picture of the E2F transcriptional network and RB function",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36533,
+          "infons": {
+            "fpage": "1672",
+            "lpage": "1677",
+            "name_0": "surname:Sherr;given-names:C.J.",
+            "pub-id_pmid": "8939849",
+            "section_type": "REF",
+            "source": "Science",
+            "type": "ref",
+            "volume": "274",
+            "year": "1996"
+          },
+          "text": "Cancer cell cycles",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36552,
+          "infons": {
+            "fpage": "859",
+            "lpage": "869",
+            "name_0": "surname:Harbour;given-names:J.W.",
+            "name_1": "surname:Luo;given-names:R.X.",
+            "name_2": "surname:Dei Santi;given-names:A.",
+            "name_3": "surname:Postigo;given-names:A.A.",
+            "name_4": "surname:Dean;given-names:D.C.",
+            "pub-id_pmid": "10499802",
+            "section_type": "REF",
+            "source": "Cell",
+            "type": "ref",
+            "volume": "98",
+            "year": "1999"
+          },
+          "text": "Cdk phosphorylation triggers sequential intramolecular interactions that progressively block Rb functions as cells move through G1",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36683,
+          "infons": {
+            "fpage": "1",
+            "lpage": "6",
+            "name_0": "surname:Bartek;given-names:J.",
+            "name_1": "surname:Bartkova;given-names:J.",
+            "name_2": "surname:Lukas;given-names:J.",
+            "pub-id_pmid": "9417859",
+            "section_type": "REF",
+            "source": "Exp. Cell Res.",
+            "type": "ref",
+            "volume": "237",
+            "year": "1997"
+          },
+          "text": "The retinoblastoma protein pathway in cell cycle control and cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36751,
+          "infons": {
+            "fpage": "11945",
+            "lpage": "11950",
+            "name_0": "surname:Harrington;given-names:E.A.",
+            "name_1": "surname:Bruce;given-names:J.L.",
+            "name_2": "surname:Harlow;given-names:E.",
+            "name_3": "surname:Dyson;given-names:N.",
+            "pub-id_pmid": "9751770",
+            "section_type": "REF",
+            "source": "Proc. Natl Acad. Sci. USA",
+            "type": "ref",
+            "volume": "95",
+            "year": "1998"
+          },
+          "text": "pRB plays an essential role in cell cycle arrest induced by DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36822,
+          "infons": {
+            "fpage": "2278",
+            "lpage": "2292",
+            "name_0": "surname:Knudsen;given-names:E.S.",
+            "name_1": "surname:Buckmaster;given-names:C.",
+            "name_2": "surname:Chen;given-names:T.T.",
+            "name_3": "surname:Feramisco;given-names:J.R.",
+            "name_4": "surname:Wang;given-names:J.Y.",
+            "pub-id_pmid": "9694794",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "12",
+            "year": "1998"
+          },
+          "text": "Inhibition of DNA synthesis by RB: effects on G1/S transition and S-phase progression",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36908,
+          "infons": {
+            "fpage": "2402",
+            "lpage": "2407",
+            "name_0": "surname:Herrera;given-names:R.E.",
+            "name_1": "surname:Sah;given-names:V.P.",
+            "name_2": "surname:Williams;given-names:B.O.",
+            "name_3": "surname:Makela;given-names:T.P.",
+            "name_4": "surname:Weinberg;given-names:R.A.",
+            "name_5": "surname:Jacks;given-names:T.",
+            "pub-id_pmid": "8628308",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "16",
+            "year": "1996"
+          },
+          "text": "Altered cell cycle kinetics, gene expression, and G1 restriction point regulation in Rb-deficient fibroblasts",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37018,
+          "infons": {
+            "fpage": "4107",
+            "lpage": "4120",
+            "name_0": "surname:Mayhew;given-names:C.N.",
+            "name_1": "surname:Perkin;given-names:L.M.",
+            "name_2": "surname:Zhang;given-names:X.",
+            "name_3": "surname:Sage;given-names:J.",
+            "name_4": "surname:Jacks;given-names:T.",
+            "name_5": "surname:Knudsen;given-names:E.S.",
+            "pub-id_pmid": "15064736",
+            "section_type": "REF",
+            "source": "Oncogene",
+            "type": "ref",
+            "volume": "23",
+            "year": "2004"
+          },
+          "text": "Discrete signaling pathways participate in RB-dependent responses to chemotherapeutic agents",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37111,
+          "infons": {
+            "fpage": "209",
+            "lpage": "239",
+            "name_0": "surname:Yamasaki;given-names:L.",
+            "pub-id_pmid": "12613199",
+            "section_type": "REF",
+            "source": "Cancer Treat Res.",
+            "type": "ref",
+            "volume": "115",
+            "year": "2003"
+          },
+          "text": "Role of the RB tumor suppressor in cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37153,
+          "infons": {
+            "fpage": "353",
+            "lpage": "357",
+            "name_0": "surname:Harbour;given-names:J.W.",
+            "name_1": "surname:Lai;given-names:S.L.",
+            "name_2": "surname:Whang-Peng;given-names:J.",
+            "name_3": "surname:Gazdar;given-names:A.F.",
+            "name_4": "surname:Minna;given-names:J.D.",
+            "name_5": "surname:Kaye;given-names:F.J.",
+            "pub-id_pmid": "2838909",
+            "section_type": "REF",
+            "source": "Science",
+            "type": "ref",
+            "volume": "241",
+            "year": "1988"
+          },
+          "text": "Abnormalities in structure and expression of the human retinoblastoma gene in SCLC",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37236,
+          "infons": {
+            "fpage": "213",
+            "lpage": "227",
+            "name_0": "surname:Lee;given-names:W.H.",
+            "name_1": "surname:Bookstein;given-names:R.",
+            "name_2": "surname:Lee;given-names:E.Y.",
+            "pub-id_pmid": "3068232",
+            "section_type": "REF",
+            "source": "J. Cell. Biochem.",
+            "type": "ref",
+            "volume": "38",
+            "year": "1988"
+          },
+          "text": "Studies on the human retinoblastoma susceptibility gene",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37292,
+          "infons": {
+            "fpage": "735",
+            "lpage": "737",
+            "name_0": "surname:Knudson;given-names:A.;suffix:Jr.",
+            "pub-id_pmid": "8391274",
+            "section_type": "REF",
+            "source": "Arch. Otolaryngol. Head Neck Surg.",
+            "type": "ref",
+            "volume": "119",
+            "year": "1993"
+          },
+          "text": "Genetics of tumors of the head and neck",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37332,
+          "infons": {
+            "fpage": "217",
+            "lpage": "223",
+            "name_0": "surname:Bookstein;given-names:R.",
+            "pub-id_pmid": "7823594",
+            "section_type": "REF",
+            "source": "J. Cell. Biochem. Suppl.",
+            "type": "ref",
+            "volume": "19",
+            "year": "1994"
+          },
+          "text": "Tumor suppressor genes in prostatic oncogenesis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37380,
+          "infons": {
+            "fpage": "8372",
+            "lpage": "8381",
+            "name_0": "surname:Lan;given-names:Z.",
+            "name_1": "surname:Sever-Chroneos;given-names:Z.",
+            "name_2": "surname:Strobeck;given-names:M.W.",
+            "name_3": "surname:Park;given-names:C.H.",
+            "name_4": "surname:Baskaran;given-names:R.",
+            "name_5": "surname:Edelmann;given-names:W.",
+            "name_6": "surname:Leone;given-names:G.",
+            "name_7": "surname:Knudsen;given-names:E.S.",
+            "pub-id_pmid": "11726663",
+            "section_type": "REF",
+            "source": "J. Biol. Chem.",
+            "type": "ref",
+            "volume": "277",
+            "year": "2002"
+          },
+          "text": "DNA damage invokes mismatch repair-dependent cyclin D1 attenuation and retinoblastoma signaling pathways to inhibit CDK2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37501,
+          "infons": {
+            "fpage": "399",
+            "lpage": "411",
+            "name_0": "surname:Cam;given-names:H.",
+            "name_1": "surname:Balciunaite;given-names:E.",
+            "name_2": "surname:Blais;given-names:A.",
+            "name_3": "surname:Spektor;given-names:A.",
+            "name_4": "surname:Scarpulla;given-names:R.C.",
+            "name_5": "surname:Young;given-names:R.",
+            "name_6": "surname:Kluger;given-names:Y.",
+            "name_7": "surname:Dynlacht;given-names:B.D.",
+            "pub-id_pmid": "15525513",
+            "section_type": "REF",
+            "source": "Mol. Cell",
+            "type": "ref",
+            "volume": "16",
+            "year": "2004"
+          },
+          "text": "A common set of gene regulatory networks links metabolism and growth inhibition",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37581,
+          "infons": {
+            "fpage": "4684",
+            "lpage": "4699",
+            "name_0": "surname:Ishida;given-names:S.",
+            "name_1": "surname:Huang;given-names:E.",
+            "name_2": "surname:Zuzan;given-names:H.",
+            "name_3": "surname:Spang;given-names:R.",
+            "name_4": "surname:Leone;given-names:G.",
+            "name_5": "surname:West;given-names:M.",
+            "name_6": "surname:Nevins;given-names:J.R.",
+            "pub-id_pmid": "11416145",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "21",
+            "year": "2001"
+          },
+          "text": "Role for E2F in control of both DNA replication and mitotic functions as revealed from DNA microarray analysis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37692,
+          "infons": {
+            "fpage": "437",
+            "lpage": "446",
+            "name_0": "surname:Polager;given-names:S.",
+            "name_1": "surname:Kalma;given-names:Y.",
+            "name_2": "surname:Berkovich;given-names:E.",
+            "name_3": "surname:Ginsberg;given-names:D.",
+            "pub-id_pmid": "11821956",
+            "section_type": "REF",
+            "source": "Oncogene",
+            "type": "ref",
+            "volume": "21",
+            "year": "2002"
+          },
+          "text": "E2Fs up-regulate expression of genes involved in DNA replication, DNA repair and mitosis",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37781,
+          "infons": {
+            "fpage": "6587",
+            "lpage": "6597",
+            "name_0": "surname:Markey;given-names:M.P.",
+            "name_1": "surname:Angus;given-names:S.P.",
+            "name_2": "surname:Strobeck;given-names:M.W.",
+            "name_3": "surname:Williams;given-names:S.L.",
+            "name_4": "surname:Gunawardena;given-names:R.W.",
+            "name_5": "surname:Aronow;given-names:B.J.",
+            "name_6": "surname:Knudsen;given-names:E.S.",
+            "pub-id_pmid": "12438254",
+            "section_type": "REF",
+            "source": "Cancer Res.",
+            "type": "ref",
+            "volume": "62",
+            "year": "2002"
+          },
+          "text": "Unbiased analysis of RB-mediated transcriptional repression identifies novel targets and distinctions from E2F action",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37899,
+          "infons": {
+            "fpage": "910",
+            "lpage": "917",
+            "name_0": "surname:Classon;given-names:M.",
+            "name_1": "surname:Harlow;given-names:E.",
+            "pub-id_pmid": "12459729",
+            "section_type": "REF",
+            "source": "Nature Rev. Cancer",
+            "type": "ref",
+            "volume": "2",
+            "year": "2002"
+          },
+          "text": "The retinoblastoma tumour suppressor in development and cancer",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37962,
+          "infons": {
+            "fpage": "994",
+            "lpage": "1004",
+            "name_0": "surname:Marino;given-names:S.",
+            "name_1": "surname:Vooijs;given-names:M.",
+            "name_2": "surname:van Der Gulden;given-names:H.",
+            "name_3": "surname:Jonkers;given-names:J.",
+            "name_4": "surname:Berns;given-names:A.",
+            "pub-id_pmid": "10783170",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2000"
+          },
+          "text": "Induction of medulloblastomas in p53-null mutant mice by somatic inactivation of Rb in the external granular layer cells of the cerebellum",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38101,
+          "infons": {
+            "fpage": "7751",
+            "lpage": "7763",
+            "name_0": "surname:Knudsen;given-names:K.E.",
+            "name_1": "surname:Booth;given-names:D.",
+            "name_2": "surname:Naderi;given-names:S.",
+            "name_3": "surname:Sever-Chroneos;given-names:Z.",
+            "name_4": "surname:Fribourg;given-names:A.F.",
+            "name_5": "surname:Hunton;given-names:I.C.",
+            "name_6": "surname:Feramisco;given-names:J.R.",
+            "name_7": "surname:Wang;given-names:J.Y.",
+            "name_8": "surname:Knudsen;given-names:E.S.",
+            "pub-id_pmid": "11003670",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "20",
+            "year": "2000"
+          },
+          "text": "RB-dependent S-phase response to DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38145,
+          "infons": {
+            "fpage": "4032",
+            "lpage": "4045",
+            "name_0": "surname:Sever-Chroneos;given-names:Z.",
+            "name_1": "surname:Angus;given-names:S.P.",
+            "name_2": "surname:Fribourg;given-names:A.F.",
+            "name_3": "surname:Wan;given-names:H.",
+            "name_4": "surname:Todorov;given-names:I.",
+            "name_5": "surname:Knudsen;given-names:K.E.",
+            "name_6": "surname:Knudsen;given-names:E.S.",
+            "pub-id_pmid": "11359910",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "21",
+            "year": "2001"
+          },
+          "text": "Retinoblastoma tumor suppressor protein signals through inhibition of cyclin-dependent kinase 2 activity to disrupt PCNA function in S phase",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38286,
+          "infons": {
+            "fpage": "886",
+            "lpage": "895",
+            "name_0": "surname:Paull;given-names:T.T.",
+            "name_1": "surname:Rogakou;given-names:E.P.",
+            "name_2": "surname:Yamazaki;given-names:V.",
+            "name_3": "surname:Kirchgessner;given-names:C.U.",
+            "name_4": "surname:Gellert;given-names:M.",
+            "name_5": "surname:Bonner;given-names:W.M.",
+            "pub-id_pmid": "10959836",
+            "section_type": "REF",
+            "source": "Curr. Biol.",
+            "type": "ref",
+            "volume": "10",
+            "year": "2000"
+          },
+          "text": "A critical role for histone H2AX in recruitment of repair factors to nuclear foci after DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38385,
+          "infons": {
+            "fpage": "483",
+            "lpage": "499",
+            "name_0": "surname:Wang;given-names:Q.E.",
+            "name_1": "surname:Zhu;given-names:Q.",
+            "name_2": "surname:Wani;given-names:M.A.",
+            "name_3": "surname:Wani;given-names:G.",
+            "name_4": "surname:Chen;given-names:J.",
+            "name_5": "surname:Wani;given-names:A.A.",
+            "pub-id_pmid": "12713809",
+            "section_type": "REF",
+            "source": "DNA Repair (Amst.)",
+            "type": "ref",
+            "volume": "2",
+            "year": "2003"
+          },
+          "text": "Tumor suppressor p53 dependent recruitment of nucleotide excision repair factors XPC and TFIIH to DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38494,
+          "infons": {
+            "fpage": "223",
+            "lpage": "228",
+            "name_0": "surname:Sage;given-names:J.",
+            "name_1": "surname:Miller;given-names:A.L.",
+            "name_2": "surname:Perez-Mancera;given-names:P.A.",
+            "name_3": "surname:Wysocki;given-names:J.M.",
+            "name_4": "surname:Jacks;given-names:T.",
+            "pub-id_pmid": "12853964",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "424",
+            "year": "2003"
+          },
+          "text": "Acute mutation of retinoblastoma gene function is sufficient for cell cycle re-entry",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38579,
+          "infons": {
+            "fpage": "2245",
+            "lpage": "2262",
+            "name_0": "surname:Dyson;given-names:N.",
+            "pub-id_pmid": "9694791",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "12",
+            "year": "1998"
+          },
+          "text": "The regulation of E2F by pRB-family proteins",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38624,
+          "infons": {
+            "fpage": "7265",
+            "lpage": "7279",
+            "name_0": "surname:Siddik;given-names:Z.H.",
+            "pub-id_pmid": "14576837",
+            "section_type": "REF",
+            "source": "Oncogene",
+            "type": "ref",
+            "volume": "22",
+            "year": "2003"
+          },
+          "text": "Cisplatin: mode of cytotoxic action and molecular basis of resistance",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38694,
+          "infons": {
+            "fpage": "385",
+            "lpage": "391",
+            "name_0": "surname:Van Triest;given-names:B.",
+            "name_1": "surname:Pinedo;given-names:H.M.",
+            "name_2": "surname:Giaccone;given-names:G.",
+            "name_3": "surname:Peters;given-names:G.J.",
+            "pub-id_pmid": "10847455",
+            "section_type": "REF",
+            "source": "Ann. Oncol.",
+            "type": "ref",
+            "volume": "11",
+            "year": "2000"
+          },
+          "text": "Downstream molecular determinants of response to 5-fluorouracil and antifolate thymidylate synthase inhibitors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38805,
+          "infons": {
+            "fpage": "13",
+            "lpage": "21",
+            "name_0": "surname:Lawrence;given-names:T.S.",
+            "name_1": "surname:Blackstock;given-names:A.W.",
+            "name_2": "surname:McGinn;given-names:C.",
+            "pub-id_pmid": "12520460",
+            "section_type": "REF",
+            "source": "Semin. Radiat. Oncol.",
+            "type": "ref",
+            "volume": "13",
+            "year": "2003"
+          },
+          "text": "The mechanism of action of radiosensitization of conventional chemotherapeutic agents",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38891,
+          "infons": {
+            "fpage": "4967",
+            "lpage": "4975",
+            "name_0": "surname:Chao;given-names:C.",
+            "name_1": "surname:Saito;given-names:S.",
+            "name_2": "surname:Kang;given-names:J.",
+            "name_3": "surname:Anderson;given-names:C.W.",
+            "name_4": "surname:Appella;given-names:E.",
+            "name_5": "surname:Xu;given-names:Y.",
+            "pub-id_pmid": "10990460",
+            "section_type": "REF",
+            "source": "EMBO J.",
+            "type": "ref",
+            "volume": "19",
+            "year": "2000"
+          },
+          "text": "p53 transcriptional activity is essential for p53-dependent apoptosis following DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38982,
+          "infons": {
+            "fpage": "117",
+            "lpage": "122",
+            "name_0": "surname:Bartek;given-names:J.",
+            "name_1": "surname:Lukas;given-names:J.",
+            "pub-id_pmid": "11223026",
+            "section_type": "REF",
+            "source": "FEBS Lett.",
+            "type": "ref",
+            "volume": "490",
+            "year": "2001"
+          },
+          "text": "Pathways governing G1/S transition and their response to DNA damage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39050,
+          "infons": {
+            "fpage": "4391",
+            "lpage": "4399",
+            "name_0": "surname:Hwang;given-names:B.J.",
+            "name_1": "surname:Toering;given-names:S.",
+            "name_2": "surname:Francke;given-names:U.",
+            "name_3": "surname:Chu;given-names:G.",
+            "pub-id_pmid": "9632823",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "18",
+            "year": "1998"
+          },
+          "text": "p48 activates a UV-damaged-DNA binding factor and is defective in xeroderma pigmentosum group E cells that lack binding activity",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39179,
+          "infons": {
+            "fpage": "359",
+            "lpage": "369",
+            "name_0": "surname:Bohr;given-names:V.A.",
+            "name_1": "surname:Smith;given-names:C.A.",
+            "name_2": "surname:Okumoto;given-names:D.S.",
+            "name_3": "surname:Hanawalt;given-names:P.C.",
+            "pub-id_pmid": "3838150",
+            "section_type": "REF",
+            "source": "Cell",
+            "type": "ref",
+            "volume": "40",
+            "year": "1985"
+          },
+          "text": "DNA repair in an active gene: removal of pyrimidine dimers from the DHFR gene of CHO cells is much more efficient than in the genome overall",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39320,
+          "infons": {
+            "fpage": "425",
+            "lpage": "435",
+            "name_0": "surname:van der Horst;given-names:G.T.",
+            "name_1": "surname:van Steeg;given-names:H.",
+            "name_2": "surname:Berg;given-names:R.J.",
+            "name_3": "surname:van Gool;given-names:A.J.",
+            "name_4": "surname:de Wit;given-names:J.",
+            "name_5": "surname:Weeda;given-names:G.",
+            "name_6": "surname:Morreau;given-names:H.",
+            "name_7": "surname:Beems;given-names:R.B.",
+            "name_8": "surname:van Kreijl;given-names:C.F.",
+            "name_9": "surname:de Gruijl;given-names:F.R.",
+            "pub-id_pmid": "9150142",
+            "section_type": "REF",
+            "source": "Cell",
+            "type": "ref",
+            "volume": "89",
+            "year": "1997"
+          },
+          "text": "Defective transcription-coupled repair in Cockayne syndrome B mice is associated with skin cancer predisposition",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39433,
+          "infons": {
+            "fpage": "4719",
+            "lpage": "4729",
+            "name_0": "surname:Schul;given-names:W.",
+            "name_1": "surname:Jans;given-names:J.",
+            "name_2": "surname:Rijksen;given-names:Y.M.",
+            "name_3": "surname:Klemann;given-names:K.H.",
+            "name_4": "surname:Eker;given-names:A.P.",
+            "name_5": "surname:de Wit;given-names:J.",
+            "name_6": "surname:Nikaido;given-names:O.",
+            "name_7": "surname:Nakajima;given-names:S.",
+            "name_8": "surname:Yasui;given-names:A.",
+            "name_9": "surname:Hoeijmakers;given-names:J.H.",
+            "pub-id_pmid": "12198174",
+            "section_type": "REF",
+            "source": "EMBO J.",
+            "type": "ref",
+            "volume": "21",
+            "year": "2002"
+          },
+          "text": "Enhanced repair of cyclobutane pyrimidine dimers and improved UV resistance in photolyase transgenic mice",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39539,
+          "infons": {
+            "fpage": "51",
+            "lpage": "57",
+            "name_0": "surname:Mitchell;given-names:D.L.",
+            "pub-id_pmid": "3217442",
+            "section_type": "REF",
+            "source": "Photochem. Photobiol.",
+            "type": "ref",
+            "volume": "48",
+            "year": "1988"
+          },
+          "text": "The relative cytotoxicity of (6-4) photoproducts and cyclobutane dimers in mammalian cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39630,
+          "infons": {
+            "fpage": "4786",
+            "lpage": "4803",
+            "name_0": "surname:Rieger;given-names:K.E.",
+            "name_1": "surname:Chu;given-names:G.",
+            "pub-id_pmid": "15356296",
+            "section_type": "REF",
+            "source": "Nucleic Acids Res.",
+            "type": "ref",
+            "volume": "32",
+            "year": "2004"
+          },
+          "text": "Portrait of transcriptional responses to ultraviolet and ionizing radiation in human cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39721,
+          "infons": {
+            "fpage": "1007",
+            "lpage": "1021",
+            "name_0": "surname:Paunesku;given-names:T.",
+            "name_1": "surname:Mittal;given-names:S.",
+            "name_2": "surname:Protic;given-names:M.",
+            "name_3": "surname:Oryhon;given-names:J.",
+            "name_4": "surname:Korolev;given-names:S.V.",
+            "name_5": "surname:Joachimiak;given-names:A.",
+            "name_6": "surname:Woloschak;given-names:G.E.",
+            "pub-id_pmid": "11682006",
+            "section_type": "REF",
+            "source": "Int. J. Radiat. Biol.",
+            "type": "ref",
+            "volume": "77",
+            "year": "2001"
+          },
+          "text": "Proliferating cell nuclear antigen (PCNA): ringmaster of the genome",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39789,
+          "infons": {
+            "fpage": "23",
+            "lpage": "36",
+            "name_0": "surname:Cleaver;given-names:J.E.",
+            "name_1": "surname:Karplus;given-names:K.",
+            "name_2": "surname:Kashani-Sabet;given-names:M.",
+            "name_3": "surname:Limoli;given-names:C.L.",
+            "pub-id_pmid": "11341991",
+            "section_type": "REF",
+            "source": "Mutat. Res.",
+            "type": "ref",
+            "volume": "485",
+            "year": "2001"
+          },
+          "text": "Nucleotide excision repair 'a legacy of creativity'",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39845,
+          "infons": {
+            "fpage": "2483",
+            "lpage": "2492",
+            "name_0": "surname:Takemura;given-names:M.",
+            "name_1": "surname:Kitagawa;given-names:T.",
+            "name_2": "surname:Izuta;given-names:S.",
+            "name_3": "surname:Wasa;given-names:J.",
+            "name_4": "surname:Takai;given-names:A.",
+            "name_5": "surname:Akiyama;given-names:T.",
+            "name_6": "surname:Yoshida;given-names:S.",
+            "pub-id_pmid": "9395244",
+            "section_type": "REF",
+            "source": "Oncogene",
+            "type": "ref",
+            "volume": "15",
+            "year": "1997"
+          },
+          "text": "Phosphorylated retinoblastoma protein stimulates DNA polymerase alpha",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39915,
+          "infons": {
+            "fpage": "2748",
+            "lpage": "2757",
+            "name_0": "surname:Sterner;given-names:J.M.",
+            "name_1": "surname:Dew-Knight;given-names:S.",
+            "name_2": "surname:Musahl;given-names:C.",
+            "name_3": "surname:Kornbluth;given-names:S.",
+            "name_4": "surname:Horowitz;given-names:J.M.",
+            "pub-id_pmid": "9566894",
+            "section_type": "REF",
+            "source": "Mol. Cell. Biol.",
+            "type": "ref",
+            "volume": "18",
+            "year": "1998"
+          },
+          "text": "Negative regulation of DNA replication by the retinoblastoma protein is mediated by its association with MCM7",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40025,
+          "infons": {
+            "fpage": "715",
+            "lpage": "727",
+            "name_0": "surname:Pennaneach;given-names:V.",
+            "name_1": "surname:Salles-Passador;given-names:I.",
+            "name_2": "surname:Munshi;given-names:A.",
+            "name_3": "surname:Brickner;given-names:H.",
+            "name_4": "surname:Regazzoni;given-names:K.",
+            "name_5": "surname:Dick;given-names:F.",
+            "name_6": "surname:Dyson;given-names:N.",
+            "name_7": "surname:Chen;given-names:T.T.",
+            "name_8": "surname:Wang;given-names:J.Y.",
+            "name_9": "surname:Fotedar;given-names:R.",
+            "pub-id_pmid": "11336696",
+            "section_type": "REF",
+            "source": "Mol. Cell",
+            "type": "ref",
+            "volume": "7",
+            "year": "2001"
+          },
+          "text": "The large subunit of replication factor C promotes cell survival after DNA damage in an LxCxE motif- and Rb-dependent manner",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40150,
+          "infons": {
+            "fpage": "9754",
+            "lpage": "9760",
+            "name_0": "surname:Gladden;given-names:A.B.",
+            "name_1": "surname:Diehl;given-names:J.A.",
+            "pub-id_pmid": "12519773",
+            "section_type": "REF",
+            "source": "J. Biol. Chem.",
+            "type": "ref",
+            "volume": "278",
+            "year": "2003"
+          },
+          "text": "The cyclin D1-dependent kinase associates with the pre-replication complex and modulates RB.MCM7 binding",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40255,
+          "infons": {
+            "fpage": "2855",
+            "lpage": "2868",
+            "name_0": "surname:Kennedy;given-names:B.K.",
+            "name_1": "surname:Barbie;given-names:D.A.",
+            "name_2": "surname:Classon;given-names:M.",
+            "name_3": "surname:Dyson;given-names:N.",
+            "name_4": "surname:Harlow;given-names:E.",
+            "pub-id_pmid": "11090133",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2000"
+          },
+          "text": "Nuclear organization of DNA replication in primary mammalian cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40322,
+          "infons": {
+            "fpage": "4037",
+            "lpage": "4051",
+            "name_0": "surname:Dimitrova;given-names:D.S.",
+            "name_1": "surname:Berezney;given-names:R.",
+            "pub-id_pmid": "12356909",
+            "section_type": "REF",
+            "source": "J. Cell. Sci.",
+            "type": "ref",
+            "volume": "115",
+            "year": "2002"
+          },
+          "text": "The spatio-temporal organization of DNA replication sites is identical in primary, immortalized and transformed mammalian cells",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40450,
+          "infons": {
+            "fpage": "289",
+            "lpage": "295",
+            "name_0": "surname:Bosco;given-names:G.",
+            "name_1": "surname:Du;given-names:W.",
+            "name_2": "surname:Orr-Weaver;given-names:T.L.",
+            "pub-id_pmid": "11231579",
+            "section_type": "REF",
+            "source": "Nature Cell Biol.",
+            "type": "ref",
+            "volume": "3",
+            "year": "2001"
+          },
+          "text": "DNA replication control through interaction of E2F-RB and the origin recognition complex",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40539,
+          "infons": {
+            "fpage": "2393",
+            "lpage": "2409",
+            "name_0": "surname:Harbour;given-names:J.W.",
+            "name_1": "surname:Dean;given-names:D.C.",
+            "pub-id_pmid": "11018009",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2000"
+          },
+          "text": "The Rb/E2F pathway: expanding roles and emerging paradigms",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40598,
+          "infons": {
+            "fpage": "499",
+            "lpage": "506",
+            "name_0": "surname:Bakkenist;given-names:C.J.",
+            "name_1": "surname:Kastan;given-names:M.B.",
+            "pub-id_pmid": "12556884",
+            "section_type": "REF",
+            "source": "Nature",
+            "type": "ref",
+            "volume": "421",
+            "year": "2003"
+          },
+          "text": "DNA damage activates ATM through intermolecular autophosphorylation and dimer dissociation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40689,
+          "infons": {
+            "fpage": "398",
+            "lpage": "400",
+            "name_0": "surname:Khanna;given-names:K.K.",
+            "name_1": "surname:Keating;given-names:K.E.",
+            "name_2": "surname:Kozlov;given-names:S.",
+            "name_3": "surname:Scott;given-names:S.",
+            "name_4": "surname:Gatei;given-names:M.",
+            "name_5": "surname:Hobson;given-names:K.",
+            "name_6": "surname:Taya;given-names:Y.",
+            "name_7": "surname:Gabrielli;given-names:B.",
+            "name_8": "surname:Chan;given-names:D.",
+            "name_9": "surname:Lees-Miller;given-names:S.P.",
+            "pub-id_pmid": "9843217",
+            "section_type": "REF",
+            "source": "Nature Genet.",
+            "type": "ref",
+            "volume": "20",
+            "year": "1998"
+          },
+          "text": "ATM associates with and phosphorylates p53: mapping the region of interaction",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40767,
+          "infons": {
+            "fpage": "3471",
+            "lpage": "3481",
+            "name_0": "surname:Siliciano;given-names:J.D.",
+            "name_1": "surname:Canman;given-names:C.E.",
+            "name_2": "surname:Taya;given-names:Y.",
+            "name_3": "surname:Sakaguchi;given-names:K.",
+            "name_4": "surname:Appella;given-names:E.",
+            "name_5": "surname:Kastan;given-names:M.B.",
+            "pub-id_pmid": "9407038",
+            "section_type": "REF",
+            "source": "Genes Dev.",
+            "type": "ref",
+            "volume": "11",
+            "year": "1997"
+          },
+          "text": "DNA damage induces phosphorylation of the amino terminus of p53",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40831,
+          "infons": {
+            "fpage": "1824",
+            "lpage": "1827",
+            "name_0": "surname:Hirao;given-names:A.",
+            "name_1": "surname:Kong;given-names:Y.Y.",
+            "name_2": "surname:Matsuoka;given-names:S.",
+            "name_3": "surname:Wakeham;given-names:A.",
+            "name_4": "surname:Ruland;given-names:J.",
+            "name_5": "surname:Yoshida;given-names:H.",
+            "name_6": "surname:Liu;given-names:D.",
+            "name_7": "surname:Elledge;given-names:S.J.",
+            "name_8": "surname:Mak;given-names:T.W.",
+            "pub-id_pmid": "10710310",
+            "section_type": "REF",
+            "source": "Science",
+            "type": "ref",
+            "volume": "287",
+            "year": "2000"
+          },
+          "text": "DNA damage-induced activation of p53 by the checkpoint kinase Chk2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40898,
+          "infons": {
+            "fpage": "2390",
+            "lpage": "2396",
+            "name_0": "surname:Stiff;given-names:T.",
+            "name_1": "surname:O'Driscoll;given-names:M.",
+            "name_2": "surname:Rief;given-names:N.",
+            "name_3": "surname:Iwabuchi;given-names:K.",
+            "name_4": "surname:Lobrich;given-names:M.",
+            "name_5": "surname:Jeggo;given-names:P.A.",
+            "pub-id_pmid": "15059890",
+            "section_type": "REF",
+            "source": "Cancer Res.",
+            "type": "ref",
+            "volume": "64",
+            "year": "2004"
+          },
+          "text": "ATM and DNA-PK function redundantly to phosphorylate H2AX after exposure to ionizing radiation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40993,
+          "infons": {
+            "fpage": "11",
+            "lpage": "16",
+            "name_0": "surname:Motoyama;given-names:N.",
+            "name_1": "surname:Naka;given-names:K.",
+            "pub-id_pmid": "15108799",
+            "section_type": "REF",
+            "source": "Curr. Opin. Genet. Dev.",
+            "type": "ref",
+            "volume": "14",
+            "year": "2004"
+          },
+          "text": "DNA damage tumor suppressor genes and genomic instability",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41051,
+          "infons": {
+            "fpage": "859",
+            "lpage": "864",
+            "name_0": "surname:Nahle;given-names:Z.",
+            "name_1": "surname:Polakoff;given-names:J.",
+            "name_2": "surname:Davuluri;given-names:R.V.",
+            "name_3": "surname:McCurrach;given-names:M.E.",
+            "name_4": "surname:Jacobson;given-names:M.D.",
+            "name_5": "surname:Narita;given-names:M.",
+            "name_6": "surname:Zhang;given-names:M.Q.",
+            "name_7": "surname:Lazebnik;given-names:Y.",
+            "name_8": "surname:Bar-Sagi;given-names:D.",
+            "name_9": "surname:Lowe;given-names:S.W.",
+            "pub-id_pmid": "12389032",
+            "section_type": "REF",
+            "source": "Nature Cell. Biol.",
+            "type": "ref",
+            "volume": "4",
+            "year": "2002"
+          },
+          "text": "Direct coupling of the cell cycle and cell death machinery by E2F",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41117,
+          "infons": {
+            "fpage": "12094",
+            "lpage": "12099",
+            "name_0": "surname:Samuelson;given-names:A.V.",
+            "name_1": "surname:Lowe;given-names:S.W.",
+            "pub-id_pmid": "9342368",
+            "section_type": "REF",
+            "source": "Proc. Natl Acad. Sci. USA",
+            "type": "ref",
+            "volume": "94",
+            "year": "1997"
+          },
+          "text": "Selective induction of p53 and chemosensitivity in RB-deficient cells by E1A mutants unable to bind the RB-related proteins",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41241,
+          "infons": {
+            "fpage": "27",
+            "lpage": "34",
+            "name_0": "surname:Moll;given-names:A.C.",
+            "name_1": "surname:Imhof;given-names:S.M.",
+            "name_2": "surname:Bouter;given-names:L.M.",
+            "name_3": "surname:Tan;given-names:K.E.",
+            "pub-id_pmid": "9134547",
+            "section_type": "REF",
+            "source": "Ophthalmic Genet.",
+            "type": "ref",
+            "volume": "18",
+            "year": "1997"
+          },
+          "text": "Second primary tumors in patients with retinoblastoma. A review of the literature",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41323,
+          "infons": {
+            "fpage": "357",
+            "lpage": "363",
+            "name_0": "surname:Fletcher;given-names:O.",
+            "name_1": "surname:Easton;given-names:D.",
+            "name_2": "surname:Anderson;given-names:K.",
+            "name_3": "surname:Gilham;given-names:C.",
+            "name_4": "surname:Jay;given-names:M.",
+            "name_5": "surname:Peto;given-names:J.",
+            "pub-id_pmid": "14996857",
+            "section_type": "REF",
+            "source": "J. Natl Cancer Inst.",
+            "type": "ref",
+            "volume": "96",
+            "year": "2004"
+          },
+          "text": "Lifetime risks of common cancers among retinoblastoma survivors",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41387,
+          "infons": {
+            "section_type": "FIG",
+            "type": "title_1"
+          },
+          "text": "Figures and Tables",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41406,
+          "infons": {
+            "file": "gki283f1.jpg",
+            "id": "fig1",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Acute downregulation of RB protein abrogates the DNA damage checkpoint response to UV and IR. (A) Asynchronously proliferating primary RbloxP/loxP MAFs were infected with Ad-GFP or Ad-GFP-Cre adenovirus. RNA was isolated at 0 and 72 h post-infection and RT-PCR was performed employing primers specific for regions flanking the loxP sites in the murine RB gene. The appearance of the smaller transcript post-infection indicates recombination at the floxed RB locus. (B) MAFs infected with adenoviruses encoding either GFP (lane 1) or GFP-Cre (lane 2) were harvested five days post-infection in RIPA buffer. Equal amounts of protein were separated by SDS-PAGE and immunoblotted with an anti-RB monoclonal antibody. Lysates were immunoblotted with the polyclonal Lamin B antibody to control for equal loading. (C) MAFs infected with Ad-GFP (lane 1) or Ad-GFP-Cre (lane 2) were harvested five days post-infection and equal concentrations of each protein were separated by electrophoresis. The effect of acute RB loss on downstream target expression was analyzed by immunoblotting for PCNA, cyclin E and cyclin A. Lamin B serves as a loading control. (D) Top panel: asynchronously proliferating primary RbloxP/loxP MAFs infected with either Ad-GFP control or Ad-GFP-Cre adenoviruses were irradiated with 0, 10 or 20 J/m2 UV. Treated cells were cultured for 12 h and labeled with BrdU for the final 2 h prior to harvest. The proliferative fraction of treated cells was determined with respect to untreated control through immunofluorescence using an anti-BrdU antibody. Bottom panel: Ad-GFP and Ad-GFP-Cre infected MAFs were exposed to 0, 2.5 or 5 Gy gamma irradiation and were cultured for 12 h while in the presence of BrdU for the final 2 h prior to harvest. Immunofluorescence for BrdU was performed to determine the percent of cells that progressed through S-phase during the labeling period.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43302,
+          "infons": {
+            "file": "gki283f2.jpg",
+            "id": "fig2",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Acute RB loss compromises the rapid checkpoint response to UV and IR. (A) Top panel: Ad-GFP and Ad-GFP-Cre infected MAFs were exposed to 0, 10 or 20 J/m2 UV and cultured for 2, 4 or 6 h in the presence of BrdU for the final 2 h. Immunofluorescence was utilized to detect BrdU labeled nuclei, which were then scored and represented as percent untreated control. Bottom panel: the aforementioned experiment was repeated following treatment with 0, 2.5 or 5 Gy IR. (B) To assess the role of RB in rapid DNA damage signaling, asynchronously growing MAFs infected with either Ad-GFP or Ad-GFP-Cre were exposed to 2.5 Gy IR or 10 J/m2 UV, and harvested at various time points in RIPA buffer. Equal amounts of protein were separated by electrophoresis and immunoblotting for total p53 (top panel) and phosphorylated p53 (ser-18) (bottom panel) (C) To analyze the role of RB in DNA damage signaling to downstream targets, cells were treated and harvested as in (B) and immunoblotting for PCNA, cyclin A and MCM-7 (top and bottom panels) was performed. Lamin B serves as a control for equal loading.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44393,
+          "infons": {
+            "file": "gki283f3.jpg",
+            "id": "fig3",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Kinetics of RB loss is concomitant with target gene deregulation to promote abrogation of the DNA damage checkpoint response. (A) Asynchronously proliferating primary MAFs were infected with Ad-GFP-Cre and harvested every 12 h for a period of 48 h. Equal protein concentrations from each lysate were separated by electrophoresis and immunoblotted for the expression of RB, cyclin E, cyclin B1, MCM-7 and PCNA. Immunoblot for lamin B was used to control for equal loading. (B) This schematic illustrates the experimental approach used to determine whether acute RB loss or target gene deregulation more directly influence the kinetics of DNA damage checkpoint bypass. Asynchronously proliferating MAFs were infected with Ad-GFP-Cre and irradiated at various timepoints. Following irradiation, cells were cultured with BrdU for 4 h prior to harvesting at their indicated times post-infection. Immunofluorescence was performed to determine the proliferative fraction of treated cells as compared with the untreated controls. (C) As illustrated in (B), MAFs were infected with Ad-GFP-Cre and the temporal cell cycle response to 0, 10 or 20 J/m2 UV during the RB knockout was examined and represented as a percent of BrdU positive untreated controls (top panel). Cells were treated with 0, 2.5 or 5 Gy IR and analyzed for BrdU incorporation as described in (B) (bottom panel).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45765,
+          "infons": {
+            "file": "gki283f4.jpg",
+            "id": "fig4",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Differential effects of acute RB loss on UV- and IR-induced DNA lesion removal. (A) Ad-GFP or Ad-GFP-Cre infected MAFs were exposed to 0, 2.5 or 5 Gy IR and cultured for 4 or 24 h in the presence of BrdU for the final 4 h prior to harvest. Immunofluorescent detection was employed and BrdU positive cells were scored and represented as percent untreated control. (B) Asynchronously growing MAFs infected with either Ad-GFP or Ad-GFP-Cre were exposed to 0 or 2.5 Gy IR. At 0, 2, 5, 12 and 24 h after cell irradiation, samples were fixed and analyzed for gammaH2AX foci formation by immunofluorescence using an anti-gammaH2AX monoclonal antibody (top panel). The relative abundance of gammaH2AX foci was determined through quantification of staining intensity in images taken at equal exposures using Metamorph software (bottom panel). These data are represented graphically as the relative increase in gammaH2AX intensity. (C) Adenovirally infected MAFs were treated with 0, 10, 20 J/m2 UV and cultured for 4 or 24 h in the presence of BrdU for the final 4 h. Scoring of BrdU immunofluorescence revealed the percent of treated cells that were BrdU positive with respect to untreated controls. (D) Ad-GFP and Ad-GFP-Cre infected MAFs were treated with 0 or 10 J/m2 UV and harvested at 0 and 24 h post-treatment for 6-4 PP immunofluorescence. Images of equal exposure were taken. (E) MAFs from (D) were treated with 0, 10 or 20 J/m2 UV and cultured for 0, 2, 5 or 10 h post-UV. Cells were then harvested and immunofluorescence for 6-4 PP was performed. Microscopic images of equal exposures were obtained and the relative abundance of 6-4 PPs were quantified using Metamorph software. The data are represented graphically as fold 6-4 PP intensity increase (top panel). Wild-type MAF control cells lacking loxP sites were cultured and infected with Ad-GFP or Ad-GFP-Cre. Five days post-infection, wild-type cells were treated with UV and analyzed for 6-4 PP repair as in top panel (bottom panel).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47758,
+          "infons": {
+            "file": "gki283f5.jpg",
+            "id": "fig5",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "Acute RB loss accelerates UV-induced DNA damage repair. (A) To examine the role of RB in the kinetics of UV-induced CPD and 6-4 PP lesion repair, Ad-GFP and Ad-GFP-Cre infected MAFs were treated with 0 or 10 J/m2 UV and harvested for genomic DNA purification at 0, 5 and 10 h. Increasing concentrations of denatured genomic DNA were vacuum blotted onto a membrane and probed with anti-CPD and anti-6-4 PP antibodies (top panel). The lesion intensities in the top panel were quantified using Metmorph and plotted as percent reduction in lesion intensity from cells treated with 10 J/m2 UV and harvested at T = 0 to those harvested at the indicated timepoint (bottom panel). (B) As performed in (A), cells were treated with UV and cultured prior to harvesting at 0 and 24 h. Dot blot analysis was performed as previously described to confirm previous reports of impaired repair of CPD lesions in murine cells and to reveal the effect of acute RB loss on acceleration of 6-4 PP repair.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48741,
+          "infons": {
+            "file": "gki283f6.jpg",
+            "id": "fig6",
+            "section_type": "FIG",
+            "type": "fig_caption"
+          },
+          "text": "RB modifies repair factor dynamics following DNA damage. (A) Ad-GFP and Ad-GFP-Cre infected MAFs treated with 0 or 10 J/m2 UV were harvested for chromatin extraction at 3 and 5 h post-treatment. Immunofluorescence for PCNA abundance was performed on extracted cells in parallel with unextracted controls. PCNA positive cells in each sample were counted and set as a percent of their respective unextracted control. These data were graphed as percent chromatin tethered PCNA of the unirradiated control. (B) Images of cells from (A) were taken at equal exposures to display the differential PCNA chromatin tethering patterns throughout the UV damage repair time course. (C) The PCNA tethering patterns of the irradiated chromatin extracted populations of MAFs from (A) were analyzed as displaying discrete 'foci' colocalized with heterochromatin, indicating PCNA is involved in replication, or diffuse 'punctate' staining throughout the nucleus, suggesting PCNA is engaged in global repair. The chromatin tethered PCNA positive cells were scored with respect to their staining pattern and represented as a percent of the total chromatin tethered PCNA positive cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}
