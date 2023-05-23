@@ -24,7 +24,7 @@ preshed==3.0.6
 pydantic==1.8.2
 pymed==0.8.9
 pyparsing==3.0.7
-requests==2.27.1
+requests==2.31.0
 smart-open==5.2.1
 spacy==3.2.3
 spacy-legacy==3.0.9
